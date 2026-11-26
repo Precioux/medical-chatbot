@@ -1,0 +1,651 @@
+{
+ "256": {
+  "chunks": 1652,
+  "numbers_symbols": {
+   "chunks_plus_excluded_all_pages": {
+    "numbers": "6362/6362",
+    "numbers_exact": "6361/6362",
+    "symbols": "245/245",
+    "pages_missing_numbers": [],
+    "word_coverage": 1.0
+   },
+   "index_only_pages_17_474": {
+    "numbers": "4430/4430",
+    "numbers_exact": "4429/4430",
+    "symbols": "240/240",
+    "pages_missing_numbers": [],
+    "missing": {},
+    "symbols_missing": {}
+   },
+   "pass": true
+  },
+  "orphans": {
+   "blocks_not_in_chunks_or_excluded": [],
+   "sentences_not_found": [],
+   "sentences_not_found_count": 0,
+   "pass": true
+  },
+  "sections": {
+   "chunks_crossing_a_section": [],
+   "table_parts_without_header": [],
+   "tables_split": 38,
+   "pass": true
+  },
+  "citations": {
+   "bad": [],
+   "pass": true
+  },
+  "tokens": {
+   "histogram": {
+    "body_text": {
+     "0-39": 9,
+     "40-63": 14,
+     "64-127": 98,
+     "128-191": 199,
+     "192-255": 604,
+     "256-383": 24,
+     "384-511": 0,
+     "512-767": 0,
+     "768-1023": 0,
+     "1024-": 0
+    },
+    "figure": {
+     "0-39": 14,
+     "40-63": 18,
+     "64-127": 38,
+     "128-191": 84,
+     "192-255": 176,
+     "256-383": 28,
+     "384-511": 0,
+     "512-767": 0,
+     "768-1023": 0,
+     "1024-": 0
+    },
+    "flowchart": {
+     "0-39": 5,
+     "40-63": 0,
+     "64-127": 7,
+     "128-191": 8,
+     "192-255": 8,
+     "256-383": 11,
+     "384-511": 11,
+     "512-767": 8,
+     "768-1023": 2,
+     "1024-": 0
+    },
+    "table": {
+     "0-39": 0,
+     "40-63": 1,
+     "64-127": 35,
+     "128-191": 66,
+     "192-255": 146,
+     "256-383": 35,
+     "384-511": 3,
+     "512-767": 0,
+     "768-1023": 0,
+     "1024-": 0
+    }
+   },
+   "under_min": [
+    [
+     "s06_stroke_syndrome_in_emergency_0033",
+     "flowchart",
+     26,
+     "7. Decision tree, (algorithm)\n\nMANAGEMENT OF PATIENT WITH STROKE SYNDROME"
+    ],
+    [
+     "s14_cardiopulmonary_arrest_basic_and_advance_0012",
+     "body_text",
+     22,
+     "## 5- First-line treatment of n hospital cardiac arrest (IHCA)\n## Adult chain of"
+    ],
+    [
+     "s14_cardiopulmonary_arrest_basic_and_advance_0016",
+     "figure",
+     19,
+     "Advance cardiac life support (ACLS) for adult (A-B-C-D)"
+    ],
+    [
+     "s14_cardiopulmonary_arrest_basic_and_advance_0018",
+     "flowchart",
+     9,
+     "### Airway management\n\n6- Treatment adjustment"
+    ],
+    [
+     "s14_cardiopulmonary_arrest_basic_and_advance_0025",
+     "figure",
+     8,
+     "C\nD\n6-  Treatment adj\nustment"
+    ],
+    [
+     "s14_cardiopulmonary_arrest_basic_and_advance_0050",
+     "body_text",
+     7,
+     "## Adult ACLS Algorithm"
+    ],
+    [
+     "s14_cardiopulmonary_arrest_basic_and_advance_0061",
+     "figure",
+     13,
+     "Algorithm for VF/ pulseless VT management"
+    ],
+    [
+     "s14_cardiopulmonary_arrest_basic_and_advance_0062",
+     "body_text",
+     8,
+     "## Algorithm for PEA management"
+    ],
+    [
+     "s18_initial_management_of_chest_trauma_0017",
+     "flowchart",
+     4,
+     "Flail Chest"
+    ],
+    [
+     "s18_initial_management_of_chest_trauma_0019",
+     "figure",
+     4,
+     "Flail Chest"
+    ],
+    [
+     "s18_initial_management_of_chest_trauma_0021",
+     "figure",
+     4,
+     "Rib Fracture"
+    ],
+    [
+     "s18_initial_management_of_chest_trauma_0025",
+     "figure",
+     6,
+     "Pulmonary Contusion"
+    ],
+    [
+     "s21_hypokalemia_0021",
+     "flowchart",
+     35,
+     "Algorithm for treatment of hypokalemia\n\nK – potassium; Mg – magnesium; IV – intr"
+    ],
+    [
+     "s26_snake_bites_0005",
+     "figure",
+     29,
+     "King cobra\nMonocellate cobra\nIndo-Chinese spitting cobra\nRed headed krait\nBanded"
+    ],
+    [
+     "s27_massive_blood_transfusion_0004",
+     "body_text",
+     14,
+     "## III. BLOOD PRODUCTS IN CLINICAL USE"
+    ],
+    [
+     "s29_acute_coronary_syndrome_acs_non_st_eleva_0005",
+     "flowchart",
+     29,
+     "M. Smit et al. / Journal of Cardiothoracic and Vascular Anesthesia 00 (2019) 1–1"
+    ],
+    [
+     "s31_emergency_tachy_arrhythmia_0004",
+     "body_text",
+     8,
+     "## IV. PIDERMIOLOGY"
+    ],
+    [
+     "s31_emergency_tachy_arrhythmia_0019",
+     "figure",
+     10,
+     "I.  MANAGEMENT\nII. MANAGEMENT"
+    ],
+    [
+     "s31_emergency_tachy_arrhythmia_0038",
+     "figure",
+     34,
+     "Note: The ECG does not show clear signs of acute ischemia or infarction, but the"
+    ],
+    [
+     "s31_emergency_tachy_arrhythmia_0046",
+     "body_text",
+     33,
+     "## IX. OMPLICATIONS\nThe common complications include sudden cardiac death, synco"
+    ],
+    [
+     "s32_emergency_bradycardia_0016",
+     "figure",
+     17,
+     "No abnormalities detected. Patient likely has a normal cardiac electrical system"
+    ],
+    [
+     "s32_emergency_bradycardia_0019",
+     "figure",
+     34,
+     "This is a 12-lead electrocardiogram (ECG) tracing, specifically lead II, showing"
+    ],
+    [
+     "s35_hypertension_0015",
+     "body_text",
+     20,
+     "## Antihypertensive recommendations based on patient co-morbidities and\n## chara"
+    ],
+    [
+     "s38_aortic_stenosis_as_0006",
+     "figure",
+     30,
+     "No drug names, dosages, or specific clinical decision points are included — this"
+    ],
+    [
+     "s40_mitral_regurgitation_mr_0017",
+     "figure",
+     28,
+     "This classification is essential for guiding surgical planning and understanding"
+    ],
+    [
+     "s44_prevention_of_deep_venous_thrombosis_0003",
+     "body_text",
+     39,
+     "## II. RISK   ASSESSMENT   AND PROPHYLACTIC RECOMMENDATION FOR\n## MEDICAL PATIEN"
+    ],
+    [
+     "s45_infectious_endocarditis_0047",
+     "figure",
+     37,
+     "| Gentamicinc | 3 mg/kg/day i.v. or i.m. in 3 equally divided doses |  |  |"
+    ],
+    [
+     "s48_constrictive_pericarditis_0019",
+     "body_text",
+     32,
+     "## Diagnosis and therapeutic approach for relapsing pericarditis\n## Therapeutic "
+    ]
+   ],
+   "under_min_count": 28,
+   "under_min_by_type": {
+    "flowchart": 5,
+    "body_text": 9,
+    "figure": 14
+   },
+   "over_max": [
+    [
+     "s02_oxygen_therapy_and_respiratory_supports_0024",
+     "flowchart",
+     677
+    ],
+    [
+     "s04_shock_0034",
+     "flowchart",
+     484
+    ],
+    [
+     "s04_shock_0035",
+     "flowchart",
+     466
+    ],
+    [
+     "s05_hemorrhagic_shock_0021",
+     "flowchart",
+     483
+    ],
+    [
+     "s08_allergic_reaction_0020",
+     "flowchart",
+     480
+    ],
+    [
+     "s12_organophosphate_and_carbamate_insecticid_0017",
+     "flowchart",
+     510
+    ],
+    [
+     "s13_methanol_and_ethylene_glycol_intoxicatio_0022",
+     "flowchart",
+     469
+    ],
+    [
+     "s14_cardiopulmonary_arrest_basic_and_advance_0051",
+     "flowchart",
+     436
+    ],
+    [
+     "s14_cardiopulmonary_arrest_basic_and_advance_0060",
+     "flowchart",
+     533
+    ],
+    [
+     "s15_acute_metabolic_complication_of_diabetes_0017",
+     "flowchart",
+     922
+    ],
+    [
+     "s20_hyperkalemia_0018",
+     "flowchart",
+     521
+    ],
+    [
+     "s25_severe_acute_respiratory_infection_sari__0021",
+     "flowchart",
+     454
+    ],
+    [
+     "s29_acute_coronary_syndrome_acs_non_st_eleva_0031",
+     "flowchart",
+     430
+    ],
+    [
+     "s31_emergency_tachy_arrhythmia_0027",
+     "flowchart",
+     500
+    ],
+    [
+     "s34_acute_pulmonary_edema_0020",
+     "flowchart",
+     934
+    ],
+    [
+     "s35_hypertension_0013",
+     "flowchart",
+     663
+    ],
+    [
+     "s37_aortic_regurgitation_ar_0017",
+     "flowchart",
+     606
+    ],
+    [
+     "s45_infectious_endocarditis_0013",
+     "flowchart",
+     540
+    ],
+    [
+     "s46_infectious_endocarditis_0012",
+     "flowchart",
+     636
+    ],
+    [
+     "s46_infectious_endocarditis_0044",
+     "table",
+     447
+    ],
+    [
+     "s46_infectious_endocarditis_0045",
+     "table",
+     434
+    ],
+    [
+     "s46_infectious_endocarditis_0046",
+     "table",
+     447
+    ],
+    [
+     "s49_management_of_cardiovascular_diseases_du_0017",
+     "flowchart",
+     402
+    ],
+    [
+     "s49_management_of_cardiovascular_diseases_du_0048",
+     "flowchart",
+     667
+    ]
+   ],
+   "over_max_by_type": {
+    "flowchart": 21,
+    "table": 3
+   },
+   "numbers_verified": {
+    "body_text:True": 940,
+    "table:False": 124,
+    "flowchart:False": 60,
+    "figure:False": 335,
+    "table:True": 162,
+    "figure:True": 23,
+    "body_text:False": 8
+   }
+  }
+ },
+ "512": {
+  "chunks": 926,
+  "numbers_symbols": {
+   "chunks_plus_excluded_all_pages": {
+    "numbers": "6362/6362",
+    "numbers_exact": "6361/6362",
+    "symbols": "245/245",
+    "pages_missing_numbers": [],
+    "word_coverage": 1.0
+   },
+   "index_only_pages_17_474": {
+    "numbers": "4430/4430",
+    "numbers_exact": "4429/4430",
+    "symbols": "240/240",
+    "pages_missing_numbers": [],
+    "missing": {},
+    "symbols_missing": {}
+   },
+   "pass": true
+  },
+  "orphans": {
+   "blocks_not_in_chunks_or_excluded": [],
+   "sentences_not_found": [],
+   "sentences_not_found_count": 0,
+   "pass": true
+  },
+  "sections": {
+   "chunks_crossing_a_section": [],
+   "table_parts_without_header": [],
+   "tables_split": 12,
+   "pass": true
+  },
+  "citations": {
+   "bad": [],
+   "pass": true
+  },
+  "tokens": {
+   "histogram": {
+    "body_text": {
+     "0-39": 8,
+     "40-63": 4,
+     "64-127": 22,
+     "128-191": 28,
+     "192-255": 74,
+     "256-383": 119,
+     "384-511": 246,
+     "512-767": 10,
+     "768-1023": 0,
+     "1024-": 0
+    },
+    "figure": {
+     "0-39": 8,
+     "40-63": 2,
+     "64-127": 8,
+     "128-191": 8,
+     "192-255": 8,
+     "256-383": 34,
+     "384-511": 63,
+     "512-767": 39,
+     "768-1023": 0,
+     "1024-": 0
+    },
+    "flowchart": {
+     "0-39": 5,
+     "40-63": 0,
+     "64-127": 7,
+     "128-191": 8,
+     "192-255": 8,
+     "256-383": 11,
+     "384-511": 11,
+     "512-767": 8,
+     "768-1023": 2,
+     "1024-": 0
+    },
+    "table": {
+     "0-39": 0,
+     "40-63": 1,
+     "64-127": 28,
+     "128-191": 42,
+     "192-255": 23,
+     "256-383": 33,
+     "384-511": 44,
+     "512-767": 14,
+     "768-1023": 0,
+     "1024-": 0
+    }
+   },
+   "under_min": [
+    [
+     "s06_stroke_syndrome_in_emergency_0018",
+     "flowchart",
+     26,
+     "7. Decision tree, (algorithm)\n\nMANAGEMENT OF PATIENT WITH STROKE SYNDROME"
+    ],
+    [
+     "s14_cardiopulmonary_arrest_basic_and_advance_0008",
+     "body_text",
+     22,
+     "## 5- First-line treatment of n hospital cardiac arrest (IHCA)\n## Adult chain of"
+    ],
+    [
+     "s14_cardiopulmonary_arrest_basic_and_advance_0010",
+     "figure",
+     19,
+     "Advance cardiac life support (ACLS) for adult (A-B-C-D)"
+    ],
+    [
+     "s14_cardiopulmonary_arrest_basic_and_advance_0012",
+     "flowchart",
+     9,
+     "### Airway management\n\n6- Treatment adjustment"
+    ],
+    [
+     "s14_cardiopulmonary_arrest_basic_and_advance_0017",
+     "figure",
+     8,
+     "C\nD\n6-  Treatment adj\nustment"
+    ],
+    [
+     "s14_cardiopulmonary_arrest_basic_and_advance_0031",
+     "body_text",
+     7,
+     "## Adult ACLS Algorithm"
+    ],
+    [
+     "s14_cardiopulmonary_arrest_basic_and_advance_0038",
+     "figure",
+     13,
+     "Algorithm for VF/ pulseless VT management"
+    ],
+    [
+     "s14_cardiopulmonary_arrest_basic_and_advance_0039",
+     "body_text",
+     8,
+     "## Algorithm for PEA management"
+    ],
+    [
+     "s18_initial_management_of_chest_trauma_0010",
+     "flowchart",
+     4,
+     "Flail Chest"
+    ],
+    [
+     "s18_initial_management_of_chest_trauma_0012",
+     "figure",
+     4,
+     "Flail Chest"
+    ],
+    [
+     "s18_initial_management_of_chest_trauma_0014",
+     "figure",
+     4,
+     "Rib Fracture"
+    ],
+    [
+     "s18_initial_management_of_chest_trauma_0016",
+     "figure",
+     6,
+     "Pulmonary Contusion"
+    ],
+    [
+     "s21_hypokalemia_0011",
+     "flowchart",
+     35,
+     "Algorithm for treatment of hypokalemia\n\nK – potassium; Mg – magnesium; IV – intr"
+    ],
+    [
+     "s26_snake_bites_0003",
+     "figure",
+     29,
+     "King cobra\nMonocellate cobra\nIndo-Chinese spitting cobra\nRed headed krait\nBanded"
+    ],
+    [
+     "s29_acute_coronary_syndrome_acs_non_st_eleva_0004",
+     "flowchart",
+     29,
+     "M. Smit et al. / Journal of Cardiothoracic and Vascular Anesthesia 00 (2019) 1–1"
+    ],
+    [
+     "s31_emergency_tachy_arrhythmia_0010",
+     "figure",
+     10,
+     "I.  MANAGEMENT\nII. MANAGEMENT"
+    ],
+    [
+     "s35_hypertension_0012",
+     "body_text",
+     20,
+     "## Antihypertensive recommendations based on patient co-morbidities and\n## chara"
+    ],
+    [
+     "s44_prevention_of_deep_venous_thrombosis_0002",
+     "body_text",
+     39,
+     "## II. RISK   ASSESSMENT   AND PROPHYLACTIC RECOMMENDATION FOR\n## MEDICAL PATIEN"
+    ],
+    [
+     "s47_pericarditis_0002",
+     "body_text",
+     10,
+     "## IV. PATHOPHYSIOLOGY"
+    ],
+    [
+     "s48_constrictive_pericarditis_0011",
+     "body_text",
+     32,
+     "## Diagnosis and therapeutic approach for relapsing pericarditis\n## Therapeutic "
+    ],
+    [
+     "s51_cardiac_evaluation_before_non_cardiac_su_0005",
+     "body_text",
+     18,
+     "## IV. APPROACH TO PERIOPERATIVE CARDIAC TESTING"
+    ]
+   ],
+   "under_min_count": 21,
+   "under_min_by_type": {
+    "flowchart": 5,
+    "body_text": 8,
+    "figure": 8
+   },
+   "over_max": [
+    [
+     "s15_acute_metabolic_complication_of_diabetes_0009",
+     "flowchart",
+     922
+    ],
+    [
+     "s34_acute_pulmonary_edema_0011",
+     "flowchart",
+     934
+    ]
+   ],
+   "over_max_by_type": {
+    "flowchart": 2
+   },
+   "numbers_verified": {
+    "body_text:True": 507,
+    "table:False": 60,
+    "flowchart:False": 60,
+    "figure:False": 147,
+    "table:True": 125,
+    "figure:True": 23,
+    "body_text:False": 4
+   }
+  }
+ },
+ "seconds": 34.5,
+ "failures": []
+}

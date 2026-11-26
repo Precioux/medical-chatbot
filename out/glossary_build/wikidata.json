@@ -1,0 +1,1120 @@
+{
+"chosen": {
+"intubation": null,
+"tracheal intubation": null,
+"intramuscular injection": {
+"item": "Q432083",
+"km": null,
+"lo": null,
+"vi": "Tiêm bắp",
+"medical": true
+},
+"intravenous therapy": null,
+"saline": null,
+"infusion": {
+"item": "Q61951",
+"km": null,
+"lo": null,
+"vi": "Nước hãm",
+"medical": false
+},
+"bolus": null,
+"hypotension": {
+"item": "Q275419",
+"km": null,
+"lo": null,
+"vi": "huyết áp thấp",
+"medical": true
+},
+"hypoglycemia": {
+"item": "Q202758",
+"km": null,
+"lo": null,
+"vi": "hạ đường huyết",
+"medical": true
+},
+"hyperglycemia": {
+"item": "Q271993",
+"km": null,
+"lo": null,
+"vi": "đường huyết cao",
+"medical": true
+},
+"contraindication": {
+"item": "Q1848900",
+"km": null,
+"lo": null,
+"vi": "chống chỉ định",
+"medical": true
+},
+"dialysis": null,
+"hemodialysis": {
+"item": "Q391744",
+"km": null,
+"lo": null,
+"vi": "Thẩm phân máu",
+"medical": false
+},
+"mechanical ventilation": {
+"item": "Q3766250",
+"km": null,
+"lo": null,
+"vi": "Thở máy",
+"medical": false
+},
+"blood transfusion": {
+"item": "Q183605",
+"km": null,
+"lo": null,
+"vi": "Truyền máu",
+"medical": true
+},
+"infant": {
+"item": "Q998",
+"km": null,
+"lo": null,
+"vi": "trẻ sơ sinh",
+"medical": true
+},
+"neonate": null,
+"oral administration": null,
+"weaning": {
+"item": "Q333203",
+"km": null,
+"lo": null,
+"vi": "ăn dặm",
+"medical": true
+},
+"thigh": {
+"item": "Q129757",
+"km": null,
+"lo": null,
+"vi": "đùi",
+"medical": true
+},
+"epileptic seizure": null,
+"coma": {
+"item": "Q159557",
+"km": null,
+"lo": null,
+"vi": "hôn mê",
+"medical": true
+},
+"nausea": {
+"item": "Q186889",
+"km": null,
+"lo": null,
+"vi": "buồn nôn",
+"medical": true
+},
+"vomiting": {
+"item": "Q127076",
+"km": null,
+"lo": null,
+"vi": "ói",
+"medical": true
+},
+"pregnancy": {
+"item": "Q11995",
+"km": null,
+"lo": null,
+"vi": "thai nghén",
+"medical": true
+},
+"bleeding": {
+"item": "Q166019",
+"km": null,
+"lo": null,
+"vi": "xuất huyết",
+"medical": true
+},
+"hypertension": null,
+"heart failure": {
+"item": "Q181754",
+"km": null,
+"lo": "ໃຈວາຍ",
+"vi": "suy tim",
+"medical": true
+},
+"anemia": {
+"item": "Q5445",
+"km": null,
+"lo": null,
+"vi": "thiếu máu",
+"medical": true
+},
+"fever": {
+"item": "Q38933",
+"km": null,
+"lo": "ໄຂ້",
+"vi": "sốt",
+"medical": true
+},
+"antidote": {
+"item": "Q194168",
+"km": null,
+"lo": null,
+"vi": "Chất giải độc",
+"medical": true
+},
+"sedation": null,
+"catheter": null,
+"amenorrhea": {
+"item": "Q334655",
+"km": null,
+"lo": null,
+"vi": "Vô kinh",
+"medical": true
+},
+"antibiotic": {
+"item": "Q12187",
+"km": null,
+"lo": "ຢາຕ້ານເຊື້ອ",
+"vi": "kháng sinh",
+"medical": true
+},
+"asthma": {
+"item": "Q35869",
+"km": null,
+"lo": "ຫອບຫືດ",
+"vi": "hen phế quản",
+"medical": true
+},
+"dizziness": null,
+"atrial fibrillation": {
+"item": "Q815819",
+"km": null,
+"lo": null,
+"vi": "rung nhĩ",
+"medical": true
+},
+"infection": {
+"item": "Q166231",
+"km": null,
+"lo": null,
+"vi": "nhiễm trùng",
+"medical": true
+},
+"pallor": null,
+"blood plasma": {
+"item": "Q79749",
+"km": null,
+"lo": null,
+"vi": "huyết tương",
+"medical": true
+},
+"platelet": {
+"item": "Q101026",
+"km": null,
+"lo": null,
+"vi": "tiểu cầu",
+"medical": true
+},
+"blood serum": {
+"item": "Q110084",
+"km": null,
+"lo": null,
+"vi": "huyết thanh",
+"medical": true
+},
+"urine": {
+"item": "Q40924",
+"km": null,
+"lo": null,
+"vi": "nước tiểu",
+"medical": true
+},
+"hyperkalemia": {
+"item": "Q605259",
+"km": null,
+"lo": null,
+"vi": "Tăng kali máu",
+"medical": true
+},
+"hyponatremia": {
+"item": "Q824292",
+"km": null,
+"lo": null,
+"vi": "Hạ natri huyết",
+"medical": true
+},
+"tachycardia": {
+"item": "Q209583",
+"km": null,
+"lo": null,
+"vi": "hội chứng tim đập nhanh",
+"medical": true
+},
+"anaphylaxis": {
+"item": "Q168800",
+"km": null,
+"lo": null,
+"vi": "phản vệ",
+"medical": true
+},
+"sepsis": {
+"item": "Q183134",
+"km": null,
+"lo": null,
+"vi": "nhiễm trùng huyết",
+"medical": true
+},
+"intracranial pressure": null,
+"pulmonary embolism": {
+"item": "Q220570",
+"km": null,
+"lo": null,
+"vi": "thuyên tắc phổi",
+"medical": true
+},
+"ectopic pregnancy": {
+"item": "Q207087",
+"km": null,
+"lo": null,
+"vi": "thai ngoài tử cung",
+"medical": true
+},
+"respiratory failure": {
+"item": "Q767485",
+"km": null,
+"lo": null,
+"vi": "suy hô hấp",
+"medical": true
+},
+"cardiac arrest": {
+"item": "Q202837",
+"km": null,
+"lo": null,
+"vi": "ngừng tim",
+"medical": true
+},
+"ventricular fibrillation": {
+"item": "Q848662",
+"km": null,
+"lo": null,
+"vi": "Rung tâm thất",
+"medical": true
+},
+"ventricular tachycardia": null,
+"status epilepticus": null,
+"anticoagulant": {
+"item": "Q215118",
+"km": null,
+"lo": null,
+"vi": "thuốc chống đông",
+"medical": true
+},
+"diuretic": {
+"item": "Q200656",
+"km": null,
+"lo": "ຢາຂັບປັດສະວະ",
+"vi": "thuốc lợi tiểu",
+"medical": true
+},
+"benzodiazepine": null,
+"activated charcoal": {
+"item": "Q2957662",
+"km": null,
+"lo": null,
+"vi": "Than hoạt tính (dược phẩm)",
+"medical": false
+},
+"glomerular filtration rate": {
+"item": "Q1542839",
+"km": null,
+"lo": "ການເຮັດວຽກຂອງໃຕ",
+"vi": "Chức năng thận",
+"medical": true
+},
+"oxygen saturation": {
+"item": "Q6294669",
+"km": null,
+"lo": null,
+"vi": "Oxy hoà tan",
+"medical": false
+},
+"blood glucose": {
+"item": "Q275157",
+"km": null,
+"lo": null,
+"vi": "Đường huyết",
+"medical": true
+},
+"perioperative": null,
+"infective endocarditis": {
+"item": "Q2450598",
+"km": null,
+"lo": null,
+"vi": "viêm nội tâm mạc nhiễm khuẩn",
+"medical": true
+},
+"vaginal bleeding": {
+"item": "Q244913",
+"km": null,
+"lo": null,
+"vi": "chảy máu âm đạo",
+"medical": true
+},
+"agitation": null,
+"hypercapnia": {
+"item": "Q615759",
+"km": null,
+"lo": null,
+"vi": "Tăng CO2 máu",
+"medical": true
+},
+"blood pressure": {
+"item": "Q82642",
+"km": null,
+"lo": "ຄວາມດັນເລືອດ",
+"vi": "huyết áp",
+"medical": true
+},
+"oxygen therapy": {
+"item": "Q1988216",
+"km": null,
+"lo": null,
+"vi": "liệu pháp oxy",
+"medical": true
+},
+"hypertonic saline": null
+},
+"all": {
+"infusion": [
+{
+"item": "Q61951",
+"km": null,
+"lo": null,
+"vi": "Nước hãm",
+"medical": false
+},
+{
+"item": "Q139453914",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": false
+}
+],
+"intramuscular injection": [
+{
+"item": "Q432083",
+"km": null,
+"lo": null,
+"vi": "Tiêm bắp",
+"medical": true
+}
+],
+"hyperglycemia": [
+{
+"item": "Q271993",
+"km": null,
+"lo": null,
+"vi": "đường huyết cao",
+"medical": true
+}
+],
+"contraindication": [
+{
+"item": "Q1848900",
+"km": null,
+"lo": null,
+"vi": "chống chỉ định",
+"medical": true
+}
+],
+"mechanical ventilation": [
+{
+"item": "Q3766250",
+"km": null,
+"lo": null,
+"vi": "Thở máy",
+"medical": false
+},
+{
+"item": "Q1326371",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": false
+}
+],
+"bolus": [
+{
+"item": "Q607561",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": false
+},
+{
+"item": "Q4940283",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": false
+},
+{
+"item": "Q6580786",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": false
+},
+{
+"item": "Q86732805",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": false
+}
+],
+"intubation": [
+{
+"item": "Q939018",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": true
+}
+],
+"dialysis": [
+{
+"item": "Q15043671",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": true
+}
+],
+"blood transfusion": [
+{
+"item": "Q61057500",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": false
+},
+{
+"item": "Q183605",
+"km": null,
+"lo": null,
+"vi": "Truyền máu",
+"medical": true
+}
+],
+"hypotension": [
+{
+"item": "Q275419",
+"km": null,
+"lo": null,
+"vi": "huyết áp thấp",
+"medical": true
+}
+],
+"hemodialysis": [
+{
+"item": "Q391744",
+"km": null,
+"lo": null,
+"vi": "Thẩm phân máu",
+"medical": false
+}
+],
+"hypoglycemia": [
+{
+"item": "Q202758",
+"km": null,
+"lo": null,
+"vi": "hạ đường huyết",
+"medical": true
+}
+],
+"infant": [
+{
+"item": "Q998",
+"km": null,
+"lo": null,
+"vi": "trẻ sơ sinh",
+"medical": true
+},
+{
+"item": "Q140406893",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": false
+}
+],
+"anemia": [
+{
+"item": "Q5445",
+"km": null,
+"lo": null,
+"vi": "thiếu máu",
+"medical": true
+}
+],
+"pregnancy": [
+{
+"item": "Q11995",
+"km": null,
+"lo": null,
+"vi": "thai nghén",
+"medical": true
+},
+{
+"item": "Q1490716",
+"km": null,
+"lo": null,
+"vi": "thai nghén",
+"medical": true
+},
+{
+"item": "Q125459240",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": false
+},
+{
+"item": "Q130616331",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": false
+}
+],
+"fever": [
+{
+"item": "Q38933",
+"km": null,
+"lo": "ໄຂ້",
+"vi": "sốt",
+"medical": true
+}
+],
+"vomiting": [
+{
+"item": "Q127076",
+"km": null,
+"lo": null,
+"vi": "ói",
+"medical": true
+}
+],
+"thigh": [
+{
+"item": "Q129757",
+"km": null,
+"lo": null,
+"vi": "đùi",
+"medical": true
+}
+],
+"coma": [
+{
+"item": "Q159557",
+"km": null,
+"lo": null,
+"vi": "hôn mê",
+"medical": true
+},
+{
+"item": "Q259854",
+"km": null,
+"lo": null,
+"vi": "đầu sao chổi",
+"medical": false
+},
+{
+"item": "Q1772448",
+"km": null,
+"lo": null,
+"vi": "Coma (quang học)",
+"medical": false
+}
+],
+"bleeding": [
+{
+"item": "Q166019",
+"km": null,
+"lo": null,
+"vi": "xuất huyết",
+"medical": true
+},
+{
+"item": "Q14914893",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": false
+},
+{
+"item": "Q98074111",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": false
+}
+],
+"heart failure": [
+{
+"item": "Q181754",
+"km": null,
+"lo": "ໃຈວາຍ",
+"vi": "suy tim",
+"medical": true
+}
+],
+"nausea": [
+{
+"item": "Q186889",
+"km": null,
+"lo": null,
+"vi": "buồn nôn",
+"medical": true
+}
+],
+"weaning": [
+{
+"item": "Q333203",
+"km": null,
+"lo": null,
+"vi": "ăn dặm",
+"medical": true
+}
+],
+"oral administration": [
+{
+"item": "Q285166",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": true
+}
+],
+"neonate": [
+{
+"item": "Q576104",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": true
+}
+],
+"hypertension": [
+{
+"item": "Q95566669",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": false
+}
+],
+"antibiotic": [
+{
+"item": "Q12187",
+"km": null,
+"lo": "ຢາຕ້ານເຊື້ອ",
+"vi": "kháng sinh",
+"medical": true
+}
+],
+"asthma": [
+{
+"item": "Q35869",
+"km": null,
+"lo": "ຫອບຫືດ",
+"vi": "hen phế quản",
+"medical": true
+}
+],
+"urine": [
+{
+"item": "Q40924",
+"km": null,
+"lo": null,
+"vi": "nước tiểu",
+"medical": true
+},
+{
+"item": "Q135968436",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": false
+}
+],
+"blood plasma": [
+{
+"item": "Q79749",
+"km": null,
+"lo": null,
+"vi": "huyết tương",
+"medical": true
+}
+],
+"platelet": [
+{
+"item": "Q101026",
+"km": null,
+"lo": null,
+"vi": "tiểu cầu",
+"medical": true
+}
+],
+"blood serum": [
+{
+"item": "Q110084",
+"km": null,
+"lo": null,
+"vi": "huyết thanh",
+"medical": true
+}
+],
+"infection": [
+{
+"item": "Q166231",
+"km": null,
+"lo": null,
+"vi": "nhiễm trùng",
+"medical": true
+}
+],
+"hyperkalemia": [
+{
+"item": "Q605259",
+"km": null,
+"lo": null,
+"vi": "Tăng kali máu",
+"medical": true
+}
+],
+"antidote": [
+{
+"item": "Q194168",
+"km": null,
+"lo": null,
+"vi": "Chất giải độc",
+"medical": true
+}
+],
+"amenorrhea": [
+{
+"item": "Q334655",
+"km": null,
+"lo": null,
+"vi": "Vô kinh",
+"medical": true
+}
+],
+"atrial fibrillation": [
+{
+"item": "Q815819",
+"km": null,
+"lo": null,
+"vi": "rung nhĩ",
+"medical": true
+}
+],
+"sedation": [
+{
+"item": "Q574801",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": false
+}
+],
+"catheter": [
+{
+"item": "Q652297",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": true
+}
+],
+"pallor": [
+{
+"item": "Q2336398",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": true
+}
+],
+"dizziness": [
+{
+"item": "Q10916362",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": true
+},
+{
+"item": "Q96023297",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": false
+}
+],
+"sepsis": [
+{
+"item": "Q183134",
+"km": null,
+"lo": null,
+"vi": "nhiễm trùng huyết",
+"medical": true
+}
+],
+"diuretic": [
+{
+"item": "Q200656",
+"km": null,
+"lo": "ຢາຂັບປັດສະວະ",
+"vi": "thuốc lợi tiểu",
+"medical": true
+}
+],
+"anaphylaxis": [
+{
+"item": "Q168800",
+"km": null,
+"lo": null,
+"vi": "phản vệ",
+"medical": true
+}
+],
+"ectopic pregnancy": [
+{
+"item": "Q207087",
+"km": null,
+"lo": null,
+"vi": "thai ngoài tử cung",
+"medical": true
+}
+],
+"tachycardia": [
+{
+"item": "Q209583",
+"km": null,
+"lo": null,
+"vi": "hội chứng tim đập nhanh",
+"medical": true
+}
+],
+"cardiac arrest": [
+{
+"item": "Q202837",
+"km": null,
+"lo": null,
+"vi": "ngừng tim",
+"medical": true
+}
+],
+"anticoagulant": [
+{
+"item": "Q215118",
+"km": null,
+"lo": null,
+"vi": "thuốc chống đông",
+"medical": true
+},
+{
+"item": "Q10413462",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": false
+}
+],
+"pulmonary embolism": [
+{
+"item": "Q220570",
+"km": null,
+"lo": null,
+"vi": "thuyên tắc phổi",
+"medical": true
+}
+],
+"hyponatremia": [
+{
+"item": "Q824292",
+"km": null,
+"lo": null,
+"vi": "Hạ natri huyết",
+"medical": true
+}
+],
+"ventricular fibrillation": [
+{
+"item": "Q848662",
+"km": null,
+"lo": null,
+"vi": "Rung tâm thất",
+"medical": true
+}
+],
+"respiratory failure": [
+{
+"item": "Q767485",
+"km": null,
+"lo": null,
+"vi": "suy hô hấp",
+"medical": true
+}
+],
+"status epilepticus": [
+{
+"item": "Q980709",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": true
+}
+],
+"intracranial pressure": [
+{
+"item": "Q1416096",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": true
+}
+],
+"benzodiazepine": [
+{
+"item": "Q9168929",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": false
+}
+],
+"ventricular tachycardia": [
+{
+"item": "Q56002",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": true
+}
+],
+"blood pressure": [
+{
+"item": "Q82642",
+"km": null,
+"lo": "ຄວາມດັນເລືອດ",
+"vi": "huyết áp",
+"medical": true
+}
+],
+"vaginal bleeding": [
+{
+"item": "Q244913",
+"km": null,
+"lo": null,
+"vi": "chảy máu âm đạo",
+"medical": true
+}
+],
+"blood glucose": [
+{
+"item": "Q275157",
+"km": null,
+"lo": null,
+"vi": "Đường huyết",
+"medical": true
+}
+],
+"hypercapnia": [
+{
+"item": "Q615759",
+"km": null,
+"lo": null,
+"vi": "Tăng CO2 máu",
+"medical": true
+}
+],
+"glomerular filtration rate": [
+{
+"item": "Q1542839",
+"km": null,
+"lo": "ການເຮັດວຽກຂອງໃຕ",
+"vi": "Chức năng thận",
+"medical": true
+}
+],
+"oxygen therapy": [
+{
+"item": "Q1988216",
+"km": null,
+"lo": null,
+"vi": "liệu pháp oxy",
+"medical": true
+}
+],
+"infective endocarditis": [
+{
+"item": "Q2450598",
+"km": null,
+"lo": null,
+"vi": "viêm nội tâm mạc nhiễm khuẩn",
+"medical": true
+}
+],
+"activated charcoal": [
+{
+"item": "Q2957662",
+"km": null,
+"lo": null,
+"vi": "Than hoạt tính (dược phẩm)",
+"medical": false
+}
+],
+"oxygen saturation": [
+{
+"item": "Q6294669",
+"km": null,
+"lo": null,
+"vi": "Oxy hoà tan",
+"medical": false
+}
+],
+"agitation": [
+{
+"item": "Q3680680",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": false
+},
+{
+"item": "Q134937064",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": false
+},
+{
+"item": "Q141806979",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": false
+}
+],
+"hypertonic saline": [
+{
+"item": "Q29898399",
+"km": null,
+"lo": null,
+"vi": null,
+"medical": true
+}
+]
+}
+}

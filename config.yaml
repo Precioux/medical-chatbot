@@ -1,0 +1,66 @@
+# Settings for run_pipeline.py. Paths are relative to the project root (this file's folder), so the same
+# file works on the login node (/mnt/upschrimpf2/scratch/mahdipou/ml) and in runai (/mnt/mahdipou/ml).
+
+output_root: out/pipeline          # stage folders are created under here
+
+# Frozen upstream artifacts (made earlier by GPU/OCR jobs; the pipeline reads them, never rewrites them)
+inputs:
+  pdf: data/source.pdf
+  page_images: pages               # page_NNNN.png, 200 DPI
+  docling_json: ocr/output.json
+  mmore_json: out/mmore/mmore_output.json
+  chandra_pages: out/chandra_pages.jsonl
+  image_descriptions: out/image_descriptions.jsonl
+  image_descriptions_skipped: out/image_descriptions_skipped.jsonl
+  mmore_build: out/unified_output.mmore.jsonl      # source of the Chandra algorithm blocks
+
+hf_home: ../hf_cache               # shared HF cache (models are loaded offline from here)
+
+translate:
+  model: facebook/nllb-200-1.3B
+  target: eng_Latn
+  device: cuda                     # stage 1 refuses to run on CPU unless allow_cpu (login-node rule)
+  allow_cpu: false
+  batch_size: 16
+  num_beams: 4
+  max_input_tokens: 200            # longer sentences are cut into windows at spaces before translation
+  # script detection on the text layer (pages without one: Chandra)
+  scripts:
+    khm: {name: Khmer, nllb: khm_Khmr, ranges: [[0x1780, 0x17FF], [0x19E0, 0x19FF]]}
+    lao: {name: Lao, nllb: lao_Laoo, ranges: [[0x0E80, 0x0EFF]]}
+  vietnamese:
+    nllb: vie_Latn
+    chars: "ăâđêôơưĂÂĐÊÔƠƯ"         # plus U+1EA0-U+1EF9 (precomposed tone marks)
+    min_words_per_line: 3          # a line is Vietnamese only if >= 3 words carry these letters (avoids 'Lazăr', 'VSĐT')
+  no_text_layer_pages: [4, 5, 6, 7, 8, 165]
+
+extract:
+  # Stage-1 quality estimate = chrF of the back-translation (EN -> source) against the source. A translation is used
+  # only if qe_chrf >= mt_min_chrf and no number was lost. Otherwise `placeholder` writes an English note that keeps
+  # the source's numbers (Khmer original + raw MT stay in metadata.machine_translation); `keep` uses the raw MT.
+  # 60 is deliberately strict: NLLB invents whole sentences for short names (p266: 'The snake fell.' scores 33).
+  mt_min_chrf: 60
+  mt_unreliable: placeholder
+
+verify:
+  expected_numbers: 6362
+  expected_symbols: 245
+
+chunk:
+  tokenizer: BAAI/bge-m3
+  variants:
+    - {name: "256", target: 256, max: 384}
+    - {name: "512", target: 512, max: 768}
+  overlap: 0.15                    # text chunks only, whole sentences
+  min_tokens_flag: 40
+  toc_pages: [9, 10]               # PDF pages of the printed table of contents
+  page_offset: 13                  # PDF page = printed page + 13 (checked per section against the text layer)
+  excluded_pages: [1, 16]          # front matter, inclusive range -> excluded.jsonl
+  reference_heading: REFERENCES    # fuzzy-matched (EFERENCES, REFERRENCES, REFERECES occur)
+  flowchart_match_min: 0.35        # word overlap Chandra algorithm vs Qwen3 description to call them the same figure
+  flowchart_min_chars: 150         # shorter Chandra algorithm blocks are not treated as the figure's transcription
+
+validate:
+  random_chunks: 20
+  seed: 0
+  preview_pages: [43, 59, 96, 253, 273, 287]

@@ -1,0 +1,474 @@
+{
+ "total_blocks": 2143,
+ "blocks_per_type": {
+  "text": 1723,
+  "algorithm": 61,
+  "table": 194,
+  "image": 165
+ },
+ "blocks_per_source": {
+  "mmore": 1761,
+  "chandra": 61,
+  "mmore+docling": 150,
+  "docling": 6,
+  "qwen3": 165
+ },
+ "blocks_per_section": {
+  "1 Assessment the Patients in Emergency Room": 61,
+  "2 Oxygen Therapy and Respiratory Supports": 51,
+  "3 Early Warning Score in Hospital": 23,
+  "4 Shock": 67,
+  "5 Hemorrhagic Shock": 43,
+  "6 Stroke Syndrome in Emergency": 67,
+  "7 Coma": 40,
+  "8 Allergic Reaction": 44,
+  "9 General Management of Poisoning": 52,
+  "10 Paracetamol Poisoning": 45,
+  "11 Methamphetamines Poisoning": 28,
+  "12 Organophosphate and Carbamate Insecticides Poisoning": 38,
+  "13 Methanol and Ethylene Glycol Intoxication": 31,
+  "14 Cardiopulmonary Arrest Basic and Advance Cardiac Life Support": 99,
+  "15 Acute Metabolic Complication of Diabetes Mellitus, Hyperosmolar Hyperglycemia State": 35,
+  "16 Traumatism in Adult": 50,
+  "17 Initial Management of Head Trauma": 31,
+  "18 Initial Management of Chest Trauma": 51,
+  "19 Acute Abdominal Syndrome": 44,
+  "20 Hyperkalemia": 33,
+  "21 Hypokalemia": 48,
+  "22 Hypernatremia": 26,
+  "23 Hyponatremia": 23,
+  "24 Sepsis and Septic Shock, Empirical Antibiotherapy": 25,
+  "25 Severe Acute Respiratory Infection (SARI) and Influenza": 39,
+  "26 Snake Bites": 52,
+  "27 Massive Blood Transfusion": 29,
+  "28 Acute Coronary Syndrome ST-Elevation Myocardial Infarction (STEMI)": 50,
+  "29 Acute Coronary Syndrome Non-ST Elevation Myocardial Infarction (NSTEMI)": 44,
+  "30 Chronic Coronary Syndrome": 24,
+  "31 Emergency Tachy-Arrhythmia": 42,
+  "32 Emergency Bradycardia": 33,
+  "33 Pulmonary Embolism": 35,
+  "34 Acute Pulmonary Edema": 36,
+  "35 Hypertension": 43,
+  "36 Chronic Heart Failure": 55,
+  "37 Aortic Regurgitation (AR)": 33,
+  "38 Aortic Stenosis (AS)": 25,
+  "39 Management of Aortic Aneurysm": 19,
+  "40 Mitral Regurgitation (MR)": 43,
+  "41 Mitral Stenosis (MS)": 35,
+  "42 Management and Surveillance of Prosthetic Valves": 22,
+  "43 Deep Venous Thrombosis": 27,
+  "44 Prevention of Deep Venous Thrombosis": 28,
+  "45 Infectious Endocarditis": 45,
+  "46 Infectious Endocarditis": 42,
+  "47 Pericarditis": 24,
+  "48 Constrictive Pericarditis": 44,
+  "49 Management of Cardiovascular Diseases During Pregnancy": 141,
+  "50 Cardiovascular Drugs and Pregnancy": 11,
+  "51 Cardiac Evaluation before Non-Cardiac Surgery (NCS)": 30,
+  "- Front matter": 35,
+  "- Chapter I introduction": 1,
+  "- Chapter II introduction": 1
+ },
+ "pages_total": 474,
+ "pages_with_no_content": [],
+ "sections_covered": "51/51",
+ "sections_missing": [],
+ "section_starts": [
+  {
+   "pdf_page": 16,
+   "chapter": "I - Emergency",
+   "number": null,
+   "title": null,
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 17,
+   "chapter": "I - Emergency",
+   "number": 1,
+   "title": "Assessment the Patients in Emergency Room",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 30,
+   "chapter": "I - Emergency",
+   "number": 2,
+   "title": "Oxygen Therapy and Respiratory Supports",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 42,
+   "chapter": "I - Emergency",
+   "number": 3,
+   "title": "Early Warning Score in Hospital",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 49,
+   "chapter": "I - Emergency",
+   "number": 4,
+   "title": "Shock",
+   "verified_by_docling_header": false
+  },
+  {
+   "pdf_page": 63,
+   "chapter": "I - Emergency",
+   "number": 5,
+   "title": "Hemorrhagic Shock",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 76,
+   "chapter": "I - Emergency",
+   "number": 6,
+   "title": "Stroke Syndrome in Emergency",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 89,
+   "chapter": "I - Emergency",
+   "number": 7,
+   "title": "Coma",
+   "verified_by_docling_header": false
+  },
+  {
+   "pdf_page": 99,
+   "chapter": "I - Emergency",
+   "number": 8,
+   "title": "Allergic Reaction",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 108,
+   "chapter": "I - Emergency",
+   "number": 9,
+   "title": "General Management of Poisoning",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 120,
+   "chapter": "I - Emergency",
+   "number": 10,
+   "title": "Paracetamol Poisoning",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 129,
+   "chapter": "I - Emergency",
+   "number": 11,
+   "title": "Methamphetamines Poisoning",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 136,
+   "chapter": "I - Emergency",
+   "number": 12,
+   "title": "Organophosphate and Carbamate Insecticides Poisoning",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 145,
+   "chapter": "I - Emergency",
+   "number": 13,
+   "title": "Methanol and Ethylene Glycol Intoxication",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 154,
+   "chapter": "I - Emergency",
+   "number": 14,
+   "title": "Cardiopulmonary Arrest Basic and Advance Cardiac Life Support",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 172,
+   "chapter": "I - Emergency",
+   "number": 15,
+   "title": "Acute Metabolic Complication of Diabetes Mellitus, Hyperosmolar Hyperglycemia State",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 180,
+   "chapter": "I - Emergency",
+   "number": 16,
+   "title": "Traumatism in Adult",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 190,
+   "chapter": "I - Emergency",
+   "number": 17,
+   "title": "Initial Management of Head Trauma",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 197,
+   "chapter": "I - Emergency",
+   "number": 18,
+   "title": "Initial Management of Chest Trauma",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 206,
+   "chapter": "I - Emergency",
+   "number": 19,
+   "title": "Acute Abdominal Syndrome",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 215,
+   "chapter": "I - Emergency",
+   "number": 20,
+   "title": "Hyperkalemia",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 223,
+   "chapter": "I - Emergency",
+   "number": 21,
+   "title": "Hypokalemia",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 232,
+   "chapter": "I - Emergency",
+   "number": 22,
+   "title": "Hypernatremia",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 241,
+   "chapter": "I - Emergency",
+   "number": 23,
+   "title": "Hyponatremia",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 249,
+   "chapter": "I - Emergency",
+   "number": 24,
+   "title": "Sepsis and Septic Shock, Empirical Antibiotherapy",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 257,
+   "chapter": "I - Emergency",
+   "number": 25,
+   "title": "Severe Acute Respiratory Infection (SARI) and Influenza",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 266,
+   "chapter": "I - Emergency",
+   "number": 26,
+   "title": "Snake Bites",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 276,
+   "chapter": "I - Emergency",
+   "number": 27,
+   "title": "Massive Blood Transfusion",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 284,
+   "chapter": "II - Cardiology",
+   "number": null,
+   "title": null,
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 285,
+   "chapter": "II - Cardiology",
+   "number": 28,
+   "title": "Acute Coronary Syndrome ST-Elevation Myocardial Infarction (STEMI)",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 293,
+   "chapter": "II - Cardiology",
+   "number": 29,
+   "title": "Acute Coronary Syndrome Non-ST Elevation Myocardial Infarction (NSTEMI)",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 302,
+   "chapter": "II - Cardiology",
+   "number": 30,
+   "title": "Chronic Coronary Syndrome",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 306,
+   "chapter": "II - Cardiology",
+   "number": 31,
+   "title": "Emergency Tachy-Arrhythmia",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 315,
+   "chapter": "II - Cardiology",
+   "number": 32,
+   "title": "Emergency Bradycardia",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 319,
+   "chapter": "II - Cardiology",
+   "number": 33,
+   "title": "Pulmonary Embolism",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 326,
+   "chapter": "II - Cardiology",
+   "number": 34,
+   "title": "Acute Pulmonary Edema",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 333,
+   "chapter": "II - Cardiology",
+   "number": 35,
+   "title": "Hypertension",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 345,
+   "chapter": "II - Cardiology",
+   "number": 36,
+   "title": "Chronic Heart Failure",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 359,
+   "chapter": "II - Cardiology",
+   "number": 37,
+   "title": "Aortic Regurgitation (AR)",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 366,
+   "chapter": "II - Cardiology",
+   "number": 38,
+   "title": "Aortic Stenosis (AS)",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 372,
+   "chapter": "II - Cardiology",
+   "number": 39,
+   "title": "Management of Aortic Aneurysm",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 377,
+   "chapter": "II - Cardiology",
+   "number": 40,
+   "title": "Mitral Regurgitation (MR)",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 384,
+   "chapter": "II - Cardiology",
+   "number": 41,
+   "title": "Mitral Stenosis (MS)",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 392,
+   "chapter": "II - Cardiology",
+   "number": 42,
+   "title": "Management and Surveillance of Prosthetic Valves",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 397,
+   "chapter": "II - Cardiology",
+   "number": 43,
+   "title": "Deep Venous Thrombosis",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 403,
+   "chapter": "II - Cardiology",
+   "number": 44,
+   "title": "Prevention of Deep Venous Thrombosis",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 407,
+   "chapter": "II - Cardiology",
+   "number": 45,
+   "title": "Infectious Endocarditis",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 417,
+   "chapter": "II - Cardiology",
+   "number": 46,
+   "title": "Infectious Endocarditis",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 428,
+   "chapter": "II - Cardiology",
+   "number": 47,
+   "title": "Pericarditis",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 432,
+   "chapter": "II - Cardiology",
+   "number": 48,
+   "title": "Constrictive Pericarditis",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 441,
+   "chapter": "II - Cardiology",
+   "number": 49,
+   "title": "Management of Cardiovascular Diseases During Pregnancy",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 464,
+   "chapter": "II - Cardiology",
+   "number": 50,
+   "title": "Cardiovascular Drugs and Pregnancy",
+   "verified_by_docling_header": true
+  },
+  {
+   "pdf_page": 469,
+   "chapter": "II - Cardiology",
+   "number": 51,
+   "title": "Cardiac Evaluation before Non-Cardiac Surgery (NCS)",
+   "verified_by_docling_header": true
+  }
+ ],
+ "images_described": 165,
+ "images_skipped": {
+  "small": 9,
+  "model said DECORATIVE": 10
+ },
+ "images_without_attachment_marker": [
+  "#/pictures/32",
+  "#/pictures/50",
+  "#/pictures/55",
+  "#/pictures/90",
+  "#/pictures/117",
+  "#/pictures/128",
+  "#/pictures/129",
+  "#/pictures/130",
+  "#/pictures/163",
+  "#/pictures/164",
+  "#/pictures/167"
+ ],
+ "notes": {
+  "attachment_pages_chandra_nothing_new": 71,
+  "docling_only_tables": 6,
+  "comparator_restored": 6,
+  "exponent_restored": 1,
+  "range_dash_restored": 11
+ }
+}

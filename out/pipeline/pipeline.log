@@ -1,0 +1,713 @@
+2026-11-26 12:54:16 [pipeline] run ['translate'] force=False cwd=/mnt/upschrimpf2/scratch/mahdipou/ml
+2026-11-26 12:54:20 [translate] found 44 non-English segments on pages [1, 4, 5, 6, 266]
+2026-11-26 12:54:27 [translate] FAILED: stage 1 needs a GPU (CLAUDE.md: no model code on the login node). Run it on runai:
+  bash ../config/submit_H.sh h200 pipeline-translate "/mnt/mahdipou/ml/run_pipeline.py --to translate" 1 8
+or set translate.allow_cpu: true in config.yaml.
+2026-11-26 12:54:27 [pipeline] report: /mnt/upschrimpf2/scratch/mahdipou/ml/out/pipeline/pipeline_report.md
+2026-11-26 11:54:44 [pipeline] run ['translate'] force=False cwd=/mnt/mahdipou/ml
+2026-11-26 11:54:48 [translate] found 44 non-English segments on pages [1, 4, 5, 6, 266]
+2026-11-26 11:55:06 [translate] CRASHED:
+Traceback (most recent call last):
+  File "/mnt/mahdipou/ml/run_pipeline.py", line 109, in main
+    summary = importlib.import_module(f"pipeline.{stage}").run(cfg, L)
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 172, in run
+    stats = translate_segments(cfg, segs) if segs else {}
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 102, in translate_segments
+    from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/modeling_auto.py", line 23, in <module>
+    from .auto_factory import (
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 43, in <module>
+    from ...generation import GenerationMixin
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/generation/utils.py", line 43, in <module>
+    from ..masking_utils import create_masks_for_generate
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/masking_utils.py", line 29, in <module>
+    from torch.nn.attention.flex_attention import _DEFAULT_SPARSE_BLOCK_SIZE as flex_default_block_size
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/nn/attention/flex_attention.py", line 16, in <module>
+    from torch._dynamo._trace_wrapped_higher_order_op import TransformGetItemToIndex
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 3, in <module>
+    from . import convert_frame, eval_frame, resume_execution
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 33, in <module>
+    from torch._dynamo.symbolic_convert import TensorifyState
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 30, in <module>
+    from . import config, exc, logging as torchdynamo_logging, trace_rules, variables
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 45, in <module>
+    from .utils import getfile, hashable, NP_SUPPORTED_MODULES, unwrap_if_wrapper
+ImportError: cannot import name 'NP_SUPPORTED_MODULES' from 'torch._dynamo.utils' (/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/utils.py)
+
+2026-11-26 11:55:06 [pipeline] report: /mnt/mahdipou/ml/out/pipeline/pipeline_report.md
+2026-11-26 11:55:19 [pipeline] run ['translate'] force=False cwd=/mnt/mahdipou/ml
+2026-11-26 11:55:23 [translate] found 44 non-English segments on pages [1, 4, 5, 6, 266]
+2026-11-26 11:55:35 [translate] CRASHED:
+Traceback (most recent call last):
+  File "/mnt/mahdipou/ml/run_pipeline.py", line 109, in main
+    summary = importlib.import_module(f"pipeline.{stage}").run(cfg, L)
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 172, in run
+    stats = translate_segments(cfg, segs) if segs else {}
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 102, in translate_segments
+    from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/modeling_auto.py", line 23, in <module>
+    from .auto_factory import (
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 43, in <module>
+    from ...generation import GenerationMixin
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/generation/utils.py", line 43, in <module>
+    from ..masking_utils import create_masks_for_generate
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/masking_utils.py", line 29, in <module>
+    from torch.nn.attention.flex_attention import _DEFAULT_SPARSE_BLOCK_SIZE as flex_default_block_size
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/nn/attention/flex_attention.py", line 16, in <module>
+    from torch._dynamo._trace_wrapped_higher_order_op import TransformGetItemToIndex
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 3, in <module>
+    from . import convert_frame, eval_frame, resume_execution
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 33, in <module>
+    from torch._dynamo.symbolic_convert import TensorifyState
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 30, in <module>
+    from . import config, exc, logging as torchdynamo_logging, trace_rules, variables
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 45, in <module>
+    from .utils import getfile, hashable, NP_SUPPORTED_MODULES, unwrap_if_wrapper
+ImportError: cannot import name 'NP_SUPPORTED_MODULES' from 'torch._dynamo.utils' (/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/utils.py)
+
+2026-11-26 11:55:35 [pipeline] report: /mnt/mahdipou/ml/out/pipeline/pipeline_report.md
+2026-11-26 11:55:48 [pipeline] run ['translate'] force=False cwd=/mnt/mahdipou/ml
+2026-11-26 11:55:52 [translate] found 44 non-English segments on pages [1, 4, 5, 6, 266]
+2026-11-26 11:56:04 [translate] CRASHED:
+Traceback (most recent call last):
+  File "/mnt/mahdipou/ml/run_pipeline.py", line 109, in main
+    summary = importlib.import_module(f"pipeline.{stage}").run(cfg, L)
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 172, in run
+    stats = translate_segments(cfg, segs) if segs else {}
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 102, in translate_segments
+    from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/modeling_auto.py", line 23, in <module>
+    from .auto_factory import (
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 43, in <module>
+    from ...generation import GenerationMixin
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/generation/utils.py", line 43, in <module>
+    from ..masking_utils import create_masks_for_generate
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/masking_utils.py", line 29, in <module>
+    from torch.nn.attention.flex_attention import _DEFAULT_SPARSE_BLOCK_SIZE as flex_default_block_size
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/nn/attention/flex_attention.py", line 16, in <module>
+    from torch._dynamo._trace_wrapped_higher_order_op import TransformGetItemToIndex
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 3, in <module>
+    from . import convert_frame, eval_frame, resume_execution
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 33, in <module>
+    from torch._dynamo.symbolic_convert import TensorifyState
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 30, in <module>
+    from . import config, exc, logging as torchdynamo_logging, trace_rules, variables
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 45, in <module>
+    from .utils import getfile, hashable, NP_SUPPORTED_MODULES, unwrap_if_wrapper
+ImportError: cannot import name 'NP_SUPPORTED_MODULES' from 'torch._dynamo.utils' (/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/utils.py)
+
+2026-11-26 11:56:04 [pipeline] report: /mnt/mahdipou/ml/out/pipeline/pipeline_report.md
+2026-11-26 11:56:17 [pipeline] run ['translate'] force=False cwd=/mnt/mahdipou/ml
+2026-11-26 11:56:20 [translate] found 44 non-English segments on pages [1, 4, 5, 6, 266]
+2026-11-26 11:56:31 [translate] CRASHED:
+Traceback (most recent call last):
+  File "/mnt/mahdipou/ml/run_pipeline.py", line 109, in main
+    summary = importlib.import_module(f"pipeline.{stage}").run(cfg, L)
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 172, in run
+    stats = translate_segments(cfg, segs) if segs else {}
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 102, in translate_segments
+    from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/modeling_auto.py", line 23, in <module>
+    from .auto_factory import (
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 43, in <module>
+    from ...generation import GenerationMixin
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/generation/utils.py", line 43, in <module>
+    from ..masking_utils import create_masks_for_generate
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/masking_utils.py", line 29, in <module>
+    from torch.nn.attention.flex_attention import _DEFAULT_SPARSE_BLOCK_SIZE as flex_default_block_size
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/nn/attention/flex_attention.py", line 16, in <module>
+    from torch._dynamo._trace_wrapped_higher_order_op import TransformGetItemToIndex
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 3, in <module>
+    from . import convert_frame, eval_frame, resume_execution
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 33, in <module>
+    from torch._dynamo.symbolic_convert import TensorifyState
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 30, in <module>
+    from . import config, exc, logging as torchdynamo_logging, trace_rules, variables
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 45, in <module>
+    from .utils import getfile, hashable, NP_SUPPORTED_MODULES, unwrap_if_wrapper
+ImportError: cannot import name 'NP_SUPPORTED_MODULES' from 'torch._dynamo.utils' (/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/utils.py)
+
+2026-11-26 11:56:31 [pipeline] report: /mnt/mahdipou/ml/out/pipeline/pipeline_report.md
+2026-11-26 11:56:45 [pipeline] run ['translate'] force=False cwd=/mnt/mahdipou/ml
+2026-11-26 11:56:48 [translate] found 44 non-English segments on pages [1, 4, 5, 6, 266]
+2026-11-26 11:57:02 [translate] CRASHED:
+Traceback (most recent call last):
+  File "/mnt/mahdipou/ml/run_pipeline.py", line 109, in main
+    summary = importlib.import_module(f"pipeline.{stage}").run(cfg, L)
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 172, in run
+    stats = translate_segments(cfg, segs) if segs else {}
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 102, in translate_segments
+    from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/modeling_auto.py", line 23, in <module>
+    from .auto_factory import (
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 43, in <module>
+    from ...generation import GenerationMixin
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/generation/utils.py", line 43, in <module>
+    from ..masking_utils import create_masks_for_generate
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/masking_utils.py", line 29, in <module>
+    from torch.nn.attention.flex_attention import _DEFAULT_SPARSE_BLOCK_SIZE as flex_default_block_size
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/nn/attention/flex_attention.py", line 16, in <module>
+    from torch._dynamo._trace_wrapped_higher_order_op import TransformGetItemToIndex
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 3, in <module>
+    from . import convert_frame, eval_frame, resume_execution
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 33, in <module>
+    from torch._dynamo.symbolic_convert import TensorifyState
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 30, in <module>
+    from . import config, exc, logging as torchdynamo_logging, trace_rules, variables
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 45, in <module>
+    from .utils import getfile, hashable, NP_SUPPORTED_MODULES, unwrap_if_wrapper
+ImportError: cannot import name 'NP_SUPPORTED_MODULES' from 'torch._dynamo.utils' (/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/utils.py)
+
+2026-11-26 11:57:02 [pipeline] report: /mnt/mahdipou/ml/out/pipeline/pipeline_report.md
+2026-11-26 11:57:14 [pipeline] run ['translate'] force=False cwd=/mnt/mahdipou/ml
+2026-11-26 11:57:18 [translate] found 44 non-English segments on pages [1, 4, 5, 6, 266]
+2026-11-26 11:57:32 [translate] CRASHED:
+Traceback (most recent call last):
+  File "/mnt/mahdipou/ml/run_pipeline.py", line 109, in main
+    summary = importlib.import_module(f"pipeline.{stage}").run(cfg, L)
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 172, in run
+    stats = translate_segments(cfg, segs) if segs else {}
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 102, in translate_segments
+    from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/modeling_auto.py", line 23, in <module>
+    from .auto_factory import (
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 43, in <module>
+    from ...generation import GenerationMixin
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/generation/utils.py", line 43, in <module>
+    from ..masking_utils import create_masks_for_generate
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/masking_utils.py", line 29, in <module>
+    from torch.nn.attention.flex_attention import _DEFAULT_SPARSE_BLOCK_SIZE as flex_default_block_size
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/nn/attention/flex_attention.py", line 16, in <module>
+    from torch._dynamo._trace_wrapped_higher_order_op import TransformGetItemToIndex
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 3, in <module>
+    from . import convert_frame, eval_frame, resume_execution
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 33, in <module>
+    from torch._dynamo.symbolic_convert import TensorifyState
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 30, in <module>
+    from . import config, exc, logging as torchdynamo_logging, trace_rules, variables
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 45, in <module>
+    from .utils import getfile, hashable, NP_SUPPORTED_MODULES, unwrap_if_wrapper
+ImportError: cannot import name 'NP_SUPPORTED_MODULES' from 'torch._dynamo.utils' (/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/utils.py)
+
+2026-11-26 11:57:32 [pipeline] report: /mnt/mahdipou/ml/out/pipeline/pipeline_report.md
+2026-11-26 11:57:44 [pipeline] run ['translate'] force=False cwd=/mnt/mahdipou/ml
+2026-11-26 11:57:47 [translate] found 44 non-English segments on pages [1, 4, 5, 6, 266]
+2026-11-26 11:58:01 [translate] CRASHED:
+Traceback (most recent call last):
+  File "/mnt/mahdipou/ml/run_pipeline.py", line 109, in main
+    summary = importlib.import_module(f"pipeline.{stage}").run(cfg, L)
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 172, in run
+    stats = translate_segments(cfg, segs) if segs else {}
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 102, in translate_segments
+    from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/modeling_auto.py", line 23, in <module>
+    from .auto_factory import (
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 43, in <module>
+    from ...generation import GenerationMixin
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/generation/utils.py", line 43, in <module>
+    from ..masking_utils import create_masks_for_generate
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/masking_utils.py", line 29, in <module>
+    from torch.nn.attention.flex_attention import _DEFAULT_SPARSE_BLOCK_SIZE as flex_default_block_size
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/nn/attention/flex_attention.py", line 16, in <module>
+    from torch._dynamo._trace_wrapped_higher_order_op import TransformGetItemToIndex
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 3, in <module>
+    from . import convert_frame, eval_frame, resume_execution
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 33, in <module>
+    from torch._dynamo.symbolic_convert import TensorifyState
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 30, in <module>
+    from . import config, exc, logging as torchdynamo_logging, trace_rules, variables
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 45, in <module>
+    from .utils import getfile, hashable, NP_SUPPORTED_MODULES, unwrap_if_wrapper
+ImportError: cannot import name 'NP_SUPPORTED_MODULES' from 'torch._dynamo.utils' (/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/utils.py)
+
+2026-11-26 11:58:01 [pipeline] report: /mnt/mahdipou/ml/out/pipeline/pipeline_report.md
+2026-11-26 12:00:58 [pipeline] run ['translate'] force=False cwd=/mnt/mahdipou/ml
+2026-11-26 12:01:01 [translate] found 44 non-English segments on pages [1, 4, 5, 6, 266]
+2026-11-26 12:01:15 [translate] CRASHED:
+Traceback (most recent call last):
+  File "/mnt/mahdipou/ml/run_pipeline.py", line 109, in main
+    summary = importlib.import_module(f"pipeline.{stage}").run(cfg, L)
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 174, in run
+    stats = translate_segments(cfg, segs) if segs else {}
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 103, in translate_segments
+    from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/modeling_auto.py", line 23, in <module>
+    from .auto_factory import (
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 43, in <module>
+    from ...generation import GenerationMixin
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/generation/utils.py", line 43, in <module>
+    from ..masking_utils import create_masks_for_generate
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/masking_utils.py", line 29, in <module>
+    from torch.nn.attention.flex_attention import _DEFAULT_SPARSE_BLOCK_SIZE as flex_default_block_size
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/nn/attention/flex_attention.py", line 16, in <module>
+    from torch._dynamo._trace_wrapped_higher_order_op import TransformGetItemToIndex
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 3, in <module>
+    from . import convert_frame, eval_frame, resume_execution
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 33, in <module>
+    from torch._dynamo.symbolic_convert import TensorifyState
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 30, in <module>
+    from . import config, exc, logging as torchdynamo_logging, trace_rules, variables
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 45, in <module>
+    from .utils import getfile, hashable, NP_SUPPORTED_MODULES, unwrap_if_wrapper
+ImportError: cannot import name 'NP_SUPPORTED_MODULES' from 'torch._dynamo.utils' (/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/utils.py)
+
+2026-11-26 12:01:15 [pipeline] report: /mnt/mahdipou/ml/out/pipeline/pipeline_report.md
+2026-11-26 12:01:27 [pipeline] run ['translate'] force=False cwd=/mnt/mahdipou/ml
+2026-11-26 12:01:30 [translate] found 44 non-English segments on pages [1, 4, 5, 6, 266]
+2026-11-26 12:01:42 [translate] CRASHED:
+Traceback (most recent call last):
+  File "/mnt/mahdipou/ml/run_pipeline.py", line 109, in main
+    summary = importlib.import_module(f"pipeline.{stage}").run(cfg, L)
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 174, in run
+    stats = translate_segments(cfg, segs) if segs else {}
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 103, in translate_segments
+    from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/modeling_auto.py", line 23, in <module>
+    from .auto_factory import (
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 43, in <module>
+    from ...generation import GenerationMixin
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/generation/utils.py", line 43, in <module>
+    from ..masking_utils import create_masks_for_generate
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/masking_utils.py", line 29, in <module>
+    from torch.nn.attention.flex_attention import _DEFAULT_SPARSE_BLOCK_SIZE as flex_default_block_size
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/nn/attention/flex_attention.py", line 16, in <module>
+    from torch._dynamo._trace_wrapped_higher_order_op import TransformGetItemToIndex
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 3, in <module>
+    from . import convert_frame, eval_frame, resume_execution
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 33, in <module>
+    from torch._dynamo.symbolic_convert import TensorifyState
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 30, in <module>
+    from . import config, exc, logging as torchdynamo_logging, trace_rules, variables
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 45, in <module>
+    from .utils import getfile, hashable, NP_SUPPORTED_MODULES, unwrap_if_wrapper
+ImportError: cannot import name 'NP_SUPPORTED_MODULES' from 'torch._dynamo.utils' (/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/utils.py)
+
+2026-11-26 12:01:42 [pipeline] report: /mnt/mahdipou/ml/out/pipeline/pipeline_report.md
+2026-11-26 12:01:57 [pipeline] run ['translate'] force=False cwd=/mnt/mahdipou/ml
+2026-11-26 12:02:01 [translate] found 44 non-English segments on pages [1, 4, 5, 6, 266]
+2026-11-26 12:02:13 [translate] CRASHED:
+Traceback (most recent call last):
+  File "/mnt/mahdipou/ml/run_pipeline.py", line 109, in main
+    summary = importlib.import_module(f"pipeline.{stage}").run(cfg, L)
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 174, in run
+    stats = translate_segments(cfg, segs) if segs else {}
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 103, in translate_segments
+    from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/modeling_auto.py", line 23, in <module>
+    from .auto_factory import (
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 43, in <module>
+    from ...generation import GenerationMixin
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/generation/utils.py", line 43, in <module>
+    from ..masking_utils import create_masks_for_generate
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/masking_utils.py", line 29, in <module>
+    from torch.nn.attention.flex_attention import _DEFAULT_SPARSE_BLOCK_SIZE as flex_default_block_size
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/nn/attention/flex_attention.py", line 16, in <module>
+    from torch._dynamo._trace_wrapped_higher_order_op import TransformGetItemToIndex
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 3, in <module>
+    from . import convert_frame, eval_frame, resume_execution
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 33, in <module>
+    from torch._dynamo.symbolic_convert import TensorifyState
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 30, in <module>
+    from . import config, exc, logging as torchdynamo_logging, trace_rules, variables
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 45, in <module>
+    from .utils import getfile, hashable, NP_SUPPORTED_MODULES, unwrap_if_wrapper
+ImportError: cannot import name 'NP_SUPPORTED_MODULES' from 'torch._dynamo.utils' (/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/utils.py)
+
+2026-11-26 12:02:13 [pipeline] report: /mnt/mahdipou/ml/out/pipeline/pipeline_report.md
+2026-11-26 12:02:27 [pipeline] run ['translate'] force=False cwd=/mnt/mahdipou/ml
+2026-11-26 12:02:30 [translate] found 44 non-English segments on pages [1, 4, 5, 6, 266]
+2026-11-26 12:02:47 [translate] CRASHED:
+Traceback (most recent call last):
+  File "/mnt/mahdipou/ml/run_pipeline.py", line 109, in main
+    summary = importlib.import_module(f"pipeline.{stage}").run(cfg, L)
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 174, in run
+    stats = translate_segments(cfg, segs) if segs else {}
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 103, in translate_segments
+    from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/modeling_auto.py", line 23, in <module>
+    from .auto_factory import (
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 43, in <module>
+    from ...generation import GenerationMixin
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/generation/utils.py", line 43, in <module>
+    from ..masking_utils import create_masks_for_generate
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/masking_utils.py", line 29, in <module>
+    from torch.nn.attention.flex_attention import _DEFAULT_SPARSE_BLOCK_SIZE as flex_default_block_size
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/nn/attention/flex_attention.py", line 16, in <module>
+    from torch._dynamo._trace_wrapped_higher_order_op import TransformGetItemToIndex
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 3, in <module>
+    from . import convert_frame, eval_frame, resume_execution
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 33, in <module>
+    from torch._dynamo.symbolic_convert import TensorifyState
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 30, in <module>
+    from . import config, exc, logging as torchdynamo_logging, trace_rules, variables
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 45, in <module>
+    from .utils import getfile, hashable, NP_SUPPORTED_MODULES, unwrap_if_wrapper
+ImportError: cannot import name 'NP_SUPPORTED_MODULES' from 'torch._dynamo.utils' (/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/utils.py)
+
+2026-11-26 12:02:47 [pipeline] report: /mnt/mahdipou/ml/out/pipeline/pipeline_report.md
+2026-11-26 12:03:03 [pipeline] run ['translate'] force=False cwd=/mnt/mahdipou/ml
+2026-11-26 12:03:07 [translate] found 44 non-English segments on pages [1, 4, 5, 6, 266]
+2026-11-26 12:03:24 [translate] CRASHED:
+Traceback (most recent call last):
+  File "/mnt/mahdipou/ml/run_pipeline.py", line 109, in main
+    summary = importlib.import_module(f"pipeline.{stage}").run(cfg, L)
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 174, in run
+    stats = translate_segments(cfg, segs) if segs else {}
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 103, in translate_segments
+    from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/modeling_auto.py", line 23, in <module>
+    from .auto_factory import (
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 43, in <module>
+    from ...generation import GenerationMixin
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/generation/utils.py", line 43, in <module>
+    from ..masking_utils import create_masks_for_generate
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/masking_utils.py", line 29, in <module>
+    from torch.nn.attention.flex_attention import _DEFAULT_SPARSE_BLOCK_SIZE as flex_default_block_size
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/nn/attention/flex_attention.py", line 16, in <module>
+    from torch._dynamo._trace_wrapped_higher_order_op import TransformGetItemToIndex
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 3, in <module>
+    from . import convert_frame, eval_frame, resume_execution
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 33, in <module>
+    from torch._dynamo.symbolic_convert import TensorifyState
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 30, in <module>
+    from . import config, exc, logging as torchdynamo_logging, trace_rules, variables
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 45, in <module>
+    from .utils import getfile, hashable, NP_SUPPORTED_MODULES, unwrap_if_wrapper
+ImportError: cannot import name 'NP_SUPPORTED_MODULES' from 'torch._dynamo.utils' (/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/utils.py)
+
+2026-11-26 12:03:24 [pipeline] report: /mnt/mahdipou/ml/out/pipeline/pipeline_report.md
+2026-11-26 12:03:53 [pipeline] run ['translate'] force=False cwd=/mnt/mahdipou/ml
+2026-11-26 12:03:56 [translate] found 44 non-English segments on pages [1, 4, 5, 6, 266]
+2026-11-26 12:04:09 [translate] CRASHED:
+Traceback (most recent call last):
+  File "/mnt/mahdipou/ml/run_pipeline.py", line 109, in main
+    summary = importlib.import_module(f"pipeline.{stage}").run(cfg, L)
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 174, in run
+    stats = translate_segments(cfg, segs) if segs else {}
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 103, in translate_segments
+    from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/modeling_auto.py", line 23, in <module>
+    from .auto_factory import (
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 43, in <module>
+    from ...generation import GenerationMixin
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/generation/utils.py", line 43, in <module>
+    from ..masking_utils import create_masks_for_generate
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/masking_utils.py", line 29, in <module>
+    from torch.nn.attention.flex_attention import _DEFAULT_SPARSE_BLOCK_SIZE as flex_default_block_size
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/nn/attention/flex_attention.py", line 16, in <module>
+    from torch._dynamo._trace_wrapped_higher_order_op import TransformGetItemToIndex
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 3, in <module>
+    from . import convert_frame, eval_frame, resume_execution
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 33, in <module>
+    from torch._dynamo.symbolic_convert import TensorifyState
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 30, in <module>
+    from . import config, exc, logging as torchdynamo_logging, trace_rules, variables
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 45, in <module>
+    from .utils import getfile, hashable, NP_SUPPORTED_MODULES, unwrap_if_wrapper
+ImportError: cannot import name 'NP_SUPPORTED_MODULES' from 'torch._dynamo.utils' (/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/utils.py)
+
+2026-11-26 12:04:09 [pipeline] report: /mnt/mahdipou/ml/out/pipeline/pipeline_report.md
+2026-11-26 12:04:24 [pipeline] run ['translate'] force=False cwd=/mnt/mahdipou/ml
+2026-11-26 12:04:28 [translate] found 44 non-English segments on pages [1, 4, 5, 6, 266]
+2026-11-26 12:04:40 [translate] CRASHED:
+Traceback (most recent call last):
+  File "/mnt/mahdipou/ml/run_pipeline.py", line 109, in main
+    summary = importlib.import_module(f"pipeline.{stage}").run(cfg, L)
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 174, in run
+    write_json(job, {"cfg": cfg, "segments": segs})
+  File "/mnt/mahdipou/ml/pipeline/translate.py", line 103, in translate_segments
+    from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/modeling_auto.py", line 23, in <module>
+    from .auto_factory import (
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 43, in <module>
+    from ...generation import GenerationMixin
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2347, in _get_module
+    raise e
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/generation/utils.py", line 43, in <module>
+    from ..masking_utils import create_masks_for_generate
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/transformers/masking_utils.py", line 29, in <module>
+    from torch.nn.attention.flex_attention import _DEFAULT_SPARSE_BLOCK_SIZE as flex_default_block_size
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/nn/attention/flex_attention.py", line 16, in <module>
+    from torch._dynamo._trace_wrapped_higher_order_op import TransformGetItemToIndex
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 3, in <module>
+    from . import convert_frame, eval_frame, resume_execution
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 33, in <module>
+    from torch._dynamo.symbolic_convert import TensorifyState
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 30, in <module>
+    from . import config, exc, logging as torchdynamo_logging, trace_rules, variables
+  File "/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 45, in <module>
+    from .utils import getfile, hashable, NP_SUPPORTED_MODULES, unwrap_if_wrapper
+ImportError: cannot import name 'NP_SUPPORTED_MODULES' from 'torch._dynamo.utils' (/mnt/mahdipou/miniconda3/envs/senv/lib/python3.10/site-packages/torch/_dynamo/utils.py)
+
+2026-11-26 12:04:40 [pipeline] report: /mnt/mahdipou/ml/out/pipeline/pipeline_report.md
+2026-11-26 12:04:45 [pipeline] run ['translate'] force=False cwd=/mnt/mahdipou/ml
+2026-11-26 12:04:49 [translate] found 44 non-English segments on pages [1, 4, 5, 6, 266]
+2026-11-26 12:05:39 [translate] translated 44 segments; pages [1, 4, 5, 6, 266]
+2026-11-26 12:05:39 [translate] done in 53.2 s
+2026-11-26 12:05:39 [pipeline] report: /mnt/mahdipou/ml/out/pipeline/pipeline_report.md
+2026-11-26 12:07:05 [pipeline] run ['translate'] force=False cwd=/mnt/mahdipou/ml
+2026-11-26 12:07:05 [translate] inputs, code or config changed since the last run: rerunning
+2026-11-26 12:07:08 [translate] found 44 non-English segments on pages [1, 4, 5, 6, 266]
+2026-11-26 12:08:03 [translate] translated 44 segments; pages [1, 4, 5, 6, 266]
+2026-11-26 12:08:03 [translate] done in 58.6 s
+2026-11-26 12:08:03 [pipeline] report: /mnt/mahdipou/ml/out/pipeline/pipeline_report.md
+2026-11-26 12:08:55 [pipeline] run ['translate'] force=False cwd=/mnt/mahdipou/ml
+2026-11-26 12:08:55 [translate] inputs, code or config changed since the last run: rerunning
+2026-11-26 12:08:58 [translate] found 44 non-English segments on pages [1, 4, 5, 6, 266]
+2026-11-26 12:09:52 [translate] translated 44 segments; pages [1, 4, 5, 6, 266]
+2026-11-26 12:09:52 [translate] done in 57.1 s
+2026-11-26 12:09:52 [pipeline] report: /mnt/mahdipou/ml/out/pipeline/pipeline_report.md
+2026-11-26 13:10:05 [pipeline] run ['translate', 'extract', 'verify', 'chunk', 'validate'] force=False cwd=/mnt/upschrimpf2/scratch/mahdipou/ml
+2026-11-26 13:10:05 [translate] skip: already done 2026-11-26 12:09:52 (57.1 s)
+2026-11-26 13:10:39 [extract] 1335 blocks; 11 translated: [('chunk_00000', 1, 'text'), ('chunk_00004', 4, 'text'), ('chunk_00005', 4, 'text'), ('chunk_00006', 4, 'text'), ('chunk_00007', 4, 'text'), ('chunk_00008', 4, 'text'), ('chunk_00009', 4, 'text'), ('chunk_00010', 4, 'algorithm'), ('chunk_00011', 5, 'text'), ('chunk_00012', 6, 'text'), ('chunk_00706', 266, 'table')]
+2026-11-26 13:10:39 [extract] done in 33.6 s
+2026-11-26 13:10:49 [verify] numbers 6362/6362 (expected 6362), symbols 245/245 (expected 245), words 100.00%
+2026-11-26 13:10:49 [verify] done in 10.0 s
+2026-11-26 13:11:07 [chunk] variant 256: 1652 chunks {'body_text': 948, 'table': 286, 'flowchart': 60, 'figure': 358} tokens {'min': 4, 'median': 221.0, 'max': 934}
+2026-11-26 13:11:07 [chunk] variant 512: 926 chunks {'body_text': 511, 'table': 185, 'flowchart': 60, 'figure': 170} tokens {'min': 4, 'median': 371.0, 'max': 934}
+2026-11-26 13:11:07 [chunk] TOC: 51 sections in 2 chapters; excluded {'front_matter': 33, 'reference_list': 95, 'chapter_title_page': 1}
+2026-11-26 13:11:08 [chunk] done in 19.1 s
+2026-11-26 13:11:24 [validate] variant 256: 1652 chunks; numbers 6362/6362 symbols 245/245 | index 4430/4430 240/240; orphans 0/0; crossing 0; bad tables 0; bad citations 0; <40 tok 28
+2026-11-26 13:11:39 [validate] variant 512: 926 chunks; numbers 6362/6362 symbols 245/245 | index 4430/4430 240/240; orphans 0/0; crossing 0; bad tables 0; bad citations 0; <40 tok 21
+2026-11-26 13:11:42 [validate] done in 34.4 s
+2026-11-26 13:11:42 [pipeline] report: /mnt/upschrimpf2/scratch/mahdipou/ml/out/pipeline/pipeline_report.md
+2026-11-26 13:11:50 [pipeline] run ['translate', 'extract', 'verify', 'chunk', 'validate'] force=False cwd=/mnt/upschrimpf2/scratch/mahdipou/ml
+2026-11-26 13:11:50 [translate] skip: already done 2026-11-26 12:09:52 (57.1 s)
+2026-11-26 13:11:50 [extract] skip: already done 2026-11-26 13:10:39 (33.6 s)
+2026-11-26 13:11:50 [verify] skip: already done 2026-11-26 13:10:49 (10.0 s)
+2026-11-26 13:11:50 [chunk] skip: already done 2026-11-26 13:11:08 (19.1 s)
+2026-11-26 13:11:50 [validate] skip: already done 2026-11-26 13:11:42 (34.4 s)
+2026-11-26 13:11:50 [pipeline] report: /mnt/upschrimpf2/scratch/mahdipou/ml/out/pipeline/pipeline_report.md
+2026-11-26 13:11:55 [pipeline] run ['chunk', 'validate'] force=False cwd=/mnt/upschrimpf2/scratch/mahdipou/ml
+2026-11-26 13:11:55 [chunk] inputs, code or config changed since the last run: rerunning
+2026-11-26 13:12:15 [chunk] variant 256: 1652 chunks {'body_text': 948, 'table': 286, 'flowchart': 60, 'figure': 358} tokens {'min': 4, 'median': 221.0, 'max': 934}
+2026-11-26 13:12:15 [chunk] variant 512: 926 chunks {'body_text': 511, 'table': 185, 'flowchart': 60, 'figure': 170} tokens {'min': 4, 'median': 371.0, 'max': 934}
+2026-11-26 13:12:15 [chunk] TOC: 51 sections in 2 chapters; excluded {'front_matter': 33, 'reference_list': 95, 'chapter_title_page': 1}
+2026-11-26 13:12:15 [chunk] done in 20.5 s
+2026-11-26 13:12:15 [validate] inputs, code or config changed since the last run: rerunning
+2026-11-26 13:12:32 [validate] variant 256: 1652 chunks; numbers 6362/6362 symbols 245/245 | index 4430/4430 240/240; orphans 0/0; crossing 0; bad tables 0; bad citations 0; <40 tok 28
+2026-11-26 13:12:47 [validate] variant 512: 926 chunks; numbers 6362/6362 symbols 245/245 | index 4430/4430 240/240; orphans 0/0; crossing 0; bad tables 0; bad citations 0; <40 tok 21
+2026-11-26 13:12:50 [validate] done in 34.5 s
+2026-11-26 13:12:50 [pipeline] report: /mnt/upschrimpf2/scratch/mahdipou/ml/out/pipeline/pipeline_report.md

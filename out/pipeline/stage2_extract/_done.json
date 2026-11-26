@@ -1,0 +1,297 @@
+{
+ "stage": "extract",
+ "folder": "stage2_extract",
+ "fingerprint": "83cbb20f2a4d33b7",
+ "inputs": {
+  "code": {
+   "pipeline/extract.py": "0598a1c8eddf0195",
+   "build_unified.py": "a240f68cd4f1e1d5",
+   "merge_sources.py": "074350a5ca89307e"
+  },
+  "inputs": {
+   "pdf": "622cf276350a6d64",
+   "docling_json": "fbc28ee2ef3e1853",
+   "mmore_json": "54590057e2a58c26",
+   "chandra_pages": "7f874d9d2d7aab0f",
+   "image_descriptions": "4f0b5bdfe7a7b17b",
+   "mmore_build": "1062a1a657079145"
+  },
+  "prev": {
+   "translate/translations.jsonl": "05a015d03a54002f"
+  },
+  "cfg": {
+   "translate": {
+    "model": "facebook/nllb-200-1.3B",
+    "target": "eng_Latn",
+    "device": "cuda",
+    "allow_cpu": false,
+    "batch_size": 16,
+    "num_beams": 4,
+    "max_input_tokens": 200,
+    "scripts": {
+     "khm": {
+      "name": "Khmer",
+      "nllb": "khm_Khmr",
+      "ranges": [
+       [
+        6016,
+        6143
+       ],
+       [
+        6624,
+        6655
+       ]
+      ]
+     },
+     "lao": {
+      "name": "Lao",
+      "nllb": "lao_Laoo",
+      "ranges": [
+       [
+        3712,
+        3839
+       ]
+      ]
+     }
+    },
+    "vietnamese": {
+     "nllb": "vie_Latn",
+     "chars": "ăâđêôơưĂÂĐÊÔƠƯ",
+     "min_words_per_line": 3
+    },
+    "no_text_layer_pages": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     165
+    ]
+   },
+   "extract": {
+    "mt_min_chrf": 60,
+    "mt_unreliable": "placeholder"
+   }
+  }
+ },
+ "seconds": 33.6,
+ "finished": "2026-11-26 13:10:39",
+ "host": "haas034.ds-a3-r02.cct.rcp.epfl.ch",
+ "summary": {
+  "blocks": 1335,
+  "translated_blocks": [
+   {
+    "id": "chunk_00000",
+    "page": 1,
+    "type": "text",
+    "language": "khm",
+    "source_before": "pdf_text",
+    "segments": [
+     "seg_0000",
+     "seg_0001",
+     "seg_0002",
+     "seg_0003",
+     "seg_0004",
+     "seg_0005",
+     "seg_0006",
+     "seg_0007"
+    ],
+    "flags": [
+     "withheld_unreliable"
+    ],
+    "original": "## ព្រះរាជាណាចព្ររម្ពុជា\nជាតិ សាសនា ព្រះម្ហារសព្ត\n## 3 ភាគ ១\n## នាយរដ្ឋានសសវាសុខភារ\nធ្នូ ២០២៥\n## ម្គគុសទេសរ៍រាបាលគលីនិរ\n## CLINICAL  PRACTICE GUIDELINES\n## សេជ្ជសាស្រសតទូសៅ\n## MEDICINE\n## ផ្ននរ\n## FOR",
+    "english": "## The Kingdom of Cambodia\nThe nation, the religion, the temple\n## 3 [Khmer text, machine translation withheld (unreliable); numbers in it: 1]\n## [Khmer text, machine translation withheld (unreliable)]\n[Khmer text, machine translation withheld (unreliable); numbers in it: 2025]\n## [Khmer text, machi"
+   },
+   {
+    "id": "chunk_00004",
+    "page": 4,
+    "type": "text",
+    "language": "khm",
+    "source_before": "chandra",
+    "segments": [
+     "seg_0008",
+     "seg_0009",
+     "seg_0010",
+     "seg_0011",
+     "seg_0012",
+     "seg_0013",
+     "seg_0014"
+    ],
+    "flags": [
+     "withheld_unreliable"
+    ],
+    "original": "ព្រះរាជាណាចក្រភាពជា\n\nជាតិ សាធារណៈ ព្រះរាជាណាចក្រភាព\n\nព្រះមហាក្សត្របារាំង\n\nថ្ងែ 04 ខែ ឧសភា | ឆ្នាំ 2017\n\nព្រះរាជា\n\nគ្រូ\n\nសាមគ្គីរដ្ឋបាលសុខាភិបាល និងអង្គការសុខាភិបាល",
+    "english": "The Kingdom of God is the Kingdom of the heavens and the earth.\n\n[Khmer text, machine translation withheld (unreliable)]\n\nThe King of France\n\n[Khmer text, machine translation withheld (unreliable); numbers in it: 4] 2017\n\nThe Kingdom\n\nTeacher\n\nHealth authorities and health organizations"
+   },
+   {
+    "id": "chunk_00005",
+    "page": 4,
+    "type": "text",
+    "language": "khm",
+    "source_before": "chandra",
+    "segments": [
+     "seg_0015",
+     "seg_0016",
+     "seg_0017",
+     "seg_0018",
+     "seg_0019"
+    ],
+    "flags": [
+     "numbers_lost",
+     "withheld_unreliable"
+    ],
+    "original": "### ផ្អែកទី១ លទ្ធផល និង ការវាយតម្លៃ\n\n- ប្រព័ន្ធប្រមូលទិន្នន័យ: ការណាត្រប្រមូលទិន្នន័យ\n\n- ប្រព័ន្ធប្រមូលទិន្នន័យ: ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\n- ប្រព័ន្ធប្រមូលទិន្នន័យ: ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\n- ប្រព័ន្ធប្រមូលទិន្នន័យ: ក",
+    "english": "### [Khmer text, machine translation withheld (unreliable); numbers in it: 1]\n\n- The data collection system: the data collection interface\n\n- Data collection systems: data collection and evaluation and data collection and evaluation\n\n- Data collection systems: data collection and evaluation and data"
+   },
+   {
+    "id": "chunk_00006",
+    "page": 4,
+    "type": "text",
+    "language": "khm",
+    "source_before": "chandra",
+    "segments": [
+     "seg_0019"
+    ],
+    "flags": [],
+    "original": "ទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្ន",
+    "english": "Location: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Pa"
+   },
+   {
+    "id": "chunk_00007",
+    "page": 4,
+    "type": "text",
+    "language": "khm",
+    "source_before": "chandra",
+    "segments": [
+     "seg_0019"
+    ],
+    "flags": [],
+    "original": "ទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្ន",
+    "english": "Location: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Pa"
+   },
+   {
+    "id": "chunk_00008",
+    "page": 4,
+    "type": "text",
+    "language": "khm",
+    "source_before": "chandra",
+    "segments": [
+     "seg_0019"
+    ],
+    "flags": [],
+    "original": "ទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្ន",
+    "english": "Location: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Pa"
+   },
+   {
+    "id": "chunk_00009",
+    "page": 4,
+    "type": "text",
+    "language": "khm",
+    "source_before": "chandra",
+    "segments": [
+     "seg_0019",
+     "seg_0020"
+    ],
+    "flags": [],
+    "original": "ទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្ន",
+    "english": "Location: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Pa"
+   },
+   {
+    "id": "chunk_00010",
+    "page": 4,
+    "type": "algorithm",
+    "language": "khm",
+    "source_before": "chandra",
+    "segments": [
+     "seg_0008",
+     "seg_0009",
+     "seg_0010",
+     "seg_0011",
+     "seg_0012",
+     "seg_0013",
+     "seg_0014",
+     "seg_0015",
+     "seg_0016",
+     "seg_0017",
+     "seg_0018",
+     "seg_0019",
+     "seg_0020"
+    ],
+    "flags": [
+     "numbers_lost",
+     "withheld_unreliable"
+    ],
+    "original": "ព្រះរាជាណាចក្រភាពជា\n\nជាតិ សាធារណៈ ព្រះរាជាណាចក្រភាព\n\nព្រះមហាក្សត្របារាំង\n\nថ្ងែ 04 ខែ ឧសភា | ឆ្នាំ 2017\n\nព្រះរាជា\n\nគ្រូ\n\nសាមគ្គីរដ្ឋបាលសុខាភិបាល និងអង្គការសុខាភិបាល\n\n### ផ្អែកទី១ លទ្ធផល និង ការវាយតម្លៃ\n\n- ប្រព័ន្ធប្រមូលទិន្នន័យ: ការណាត្រប្រមូលទិន្នន័យ\n\n- ប្រព័ន្ធប្រមូលទិន្នន័យ: ការណាត្រប្រមូលទិន្នន័យ",
+    "english": "The Kingdom of God is the Kingdom of the heavens and the earth.\n\n[Khmer text, machine translation withheld (unreliable)]\n\nThe King of France\n\n[Khmer text, machine translation withheld (unreliable); numbers in it: 4] 2017\n\nThe Kingdom\n\nTeacher\n\nHealth authorities and health organizations\n\n### [Khmer "
+   },
+   {
+    "id": "chunk_00011",
+    "page": 5,
+    "type": "text",
+    "language": "khm",
+    "source_before": "chandra",
+    "segments": [
+     "seg_0021",
+     "seg_0022",
+     "seg_0023",
+     "seg_0024",
+     "seg_0025",
+     "seg_0026",
+     "seg_0027",
+     "seg_0028",
+     "seg_0029"
+    ],
+    "flags": [
+     "withheld_unreliable"
+    ],
+    "original": "ស្រាវជ្រាវ\n\nរូបភាព 1.\n\nក្រុមហ៊ុនផលិតថ្នាំ ដែលបានបង្កើតឡើងដើម្បីផ្តល់ជំនួយដល់អ្នកជំងឺ (Clinical Practice Guidelines For Medicine) ដែលជាមូលដ្ឋានសម្រាប់ការស្រាវជ្រាវ:\n\nរូបភាព 2.\n\nការស្រាវជ្រាវ: មានការស្រាវជ្រាវដែលបានបង្កើតឡើងដើម្បីផ្តល់ជំនួយដល់អ្នកជំងឺ ដែលបានបង្កើតឡើងដើម្បីផ្តល់ជំនួយដល់អ្នកជំងឺ:\n\nរូបភា",
+    "english": "[Khmer text, machine translation withheld (unreliable)]\n\nThe picture 1.\n\n[Khmer text, machine translation withheld (unreliable)] (Clinical Practice Guidelines For Medicine) It's the foundation for research.:\n\nThe picture 2.\n\n[Khmer text, machine translation withheld (unreliable)]:\n\nThe picture 3.\n\nM"
+   },
+   {
+    "id": "chunk_00012",
+    "page": 6,
+    "type": "text",
+    "language": "khm",
+    "source_before": "chandra",
+    "segments": [
+     "seg_0030",
+     "seg_0031"
+    ],
+    "flags": [
+     "source_repetitive",
+     "withheld_unreliable"
+    ],
+    "original": "## សាលារាជធានីភ្នែក\n\nវាយបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស",
+    "english": "## [Khmer text, machine translation withheld (unreliable)]\n\n[Khmer text, machine translation withheld (unreliable)]"
+   },
+   {
+    "id": "chunk_00706",
+    "page": 266,
+    "type": "table",
+    "language": "khm",
+    "source_before": "mmore_table+pdf_text",
+    "segments": [
+     "seg_0032",
+     "seg_0033",
+     "seg_0034",
+     "seg_0035",
+     "seg_0036",
+     "seg_0037",
+     "seg_0038",
+     "seg_0039",
+     "seg_0040",
+     "seg_0041",
+     "seg_0042",
+     "seg_0043"
+    ],
+    "flags": [
+     "withheld_unreliable"
+    ],
+    "original": "| Latin name | English name | Cambodian name |\n|---|---|---|\n| Ophiophagus hannah | King cobra | ពស់វែករន ៀម |\n| Naja<br>kaouthia | Monocellate<br>cobra | ពស់វែកប្ររី |\n| Naja<br>siamensis | Indo-Chinese spitting cobra | ពស់វែកដំរូក |\n| Bungarus flaviceps | Red headed krait | ពស់ប្ាយកាលប្កហម |\n| Bun",
+    "english": "| Latin name | English name | Cambodian name |\n|---|---|---|\n| Ophiophagus hannah | King cobra | [Khmer text, machine translation withheld (unreliable)] |\n| Naja<br>kaouthia | Monocellate<br>cobra | [Khmer text, machine translation withheld (unreliable)] |\n| Naja<br>siamensis | Indo-Chinese spitting"
+   }
+  ],
+  "unused_segments": 0,
+  "seconds": 33.5
+ }
+}

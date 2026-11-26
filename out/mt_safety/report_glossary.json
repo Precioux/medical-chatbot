@@ -1,0 +1,163 @@
+{
+ "model": "facebook/nllb-200-1.3B",
+ "variant": "glossary",
+ "n_chunks": 50,
+ "langs": {
+  "khm": {
+   "name": "Khmer",
+   "counts": {
+    "num_total": 144,
+    "num_strict": 141,
+    "num_locale": 142,
+    "num_back": 135,
+    "num_spurious": 4,
+    "neg_chunks": 25,
+    "neg_cues_en": 30,
+    "neg_present": 24,
+    "neg_count_ok": 23,
+    "neg_back_present": 23,
+    "neg_back_count_ok": 21,
+    "drug_total": 58,
+    "drug_exact": 58,
+    "drug_latin": 58,
+    "drug_back": 58,
+    "drug_ok": 58,
+    "unit_total": 65,
+    "unit_ok": 59,
+    "unit_back": 60,
+    "clin_total": 69,
+    "clin_back": 50,
+    "chunks_all_ok": 45
+   },
+   "bt_BLEU": 41.50504881887466,
+   "bt_chrF++": 59.98824003574471,
+   "failed_ids": {
+    "numbers": [
+     1
+    ],
+    "clinical_term": [
+     "1:infusion",
+     "3:contraindicat",
+     "7:hypoglycemia",
+     "8:orally/PO",
+     "11:contraindicat",
+     "12:contraindicat",
+     "13:IV/intravenous",
+     "13:hypotension",
+     "18:intubation",
+     "18:ventilation",
+     "25:infusion",
+     "27:intubation",
+     "27:ventilation",
+     "28:contraindicat",
+     "29:infusion",
+     "30:saline",
+     "30:ventilation",
+     "41:ventilation",
+     "43:anticoag/antiplatelet"
+    ],
+    "units": [
+     6,
+     15,
+     21
+    ],
+    "negation": [
+     12
+    ]
+   }
+  },
+  "lao": {
+   "name": "Lao",
+   "counts": {
+    "num_total": 144,
+    "num_strict": 142,
+    "num_locale": 144,
+    "num_back": 140,
+    "num_spurious": 2,
+    "neg_chunks": 25,
+    "neg_cues_en": 30,
+    "neg_present": 24,
+    "neg_count_ok": 24,
+    "neg_back_present": 22,
+    "neg_back_count_ok": 21,
+    "drug_total": 58,
+    "drug_exact": 58,
+    "drug_latin": 58,
+    "drug_back": 58,
+    "drug_ok": 58,
+    "unit_total": 65,
+    "unit_ok": 65,
+    "unit_back": 65,
+    "clin_total": 69,
+    "clin_back": 60,
+    "chunks_all_ok": 49
+   },
+   "bt_BLEU": 51.95232396603907,
+   "bt_chrF++": 69.42536491523185,
+   "failed_ids": {
+    "clinical_term": [
+     "1:infusion",
+     "9:IM/intramuscular",
+     "18:intubation",
+     "22:infusion",
+     "26:bolus",
+     "27:intubation",
+     "28:contraindicat",
+     "29:infusion",
+     "43:anticoag/antiplatelet"
+    ],
+    "negation": [
+     12
+    ]
+   }
+  },
+  "vie": {
+   "name": "Vietnamese",
+   "counts": {
+    "num_total": 144,
+    "num_strict": 122,
+    "num_locale": 144,
+    "num_back": 137,
+    "num_spurious": 22,
+    "neg_chunks": 25,
+    "neg_cues_en": 30,
+    "neg_present": 25,
+    "neg_count_ok": 25,
+    "neg_back_present": 25,
+    "neg_back_count_ok": 25,
+    "drug_total": 58,
+    "drug_exact": 58,
+    "drug_latin": 58,
+    "drug_back": 58,
+    "drug_ok": 58,
+    "unit_total": 65,
+    "unit_ok": 65,
+    "unit_back": 65,
+    "clin_total": 69,
+    "clin_back": 50,
+    "chunks_all_ok": 50
+   },
+   "bt_BLEU": 52.25554151809516,
+   "bt_chrF++": 70.33728548267182,
+   "failed_ids": {
+    "clinical_term": [
+     "0:orally/PO",
+     "1:infusion",
+     "2:orally/PO",
+     "5:IV/intravenous",
+     "6:orally/PO",
+     "8:orally/PO",
+     "9:IM/intramuscular",
+     "13:hypotension",
+     "18:intubation",
+     "21:orally/PO",
+     "23:saline",
+     "25:infusion",
+     "27:intubation",
+     "29:infusion",
+     "30:saline"
+    ]
+   }
+  }
+ }
+}

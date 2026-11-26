@@ -1,0 +1,119 @@
+{
+ "stage": "translate",
+ "folder": "stage1_translate",
+ "fingerprint": "c730c5594ed3c1ac",
+ "inputs": {
+  "code": {
+   "pipeline/translate.py": "647ffedbde3b6d95",
+   "pipeline/common.py": "9ba7e4ed5fcdaa77",
+   "mt_safety_test.py": "94e703c41ad61fd1",
+   "build_unified.py": "a240f68cd4f1e1d5"
+  },
+  "inputs": {
+   "pdf": "622cf276350a6d64",
+   "chandra_pages": "7f874d9d2d7aab0f",
+   "mmore_build": "1062a1a657079145"
+  },
+  "prev": {},
+  "cfg": {
+   "translate": {
+    "model": "facebook/nllb-200-1.3B",
+    "target": "eng_Latn",
+    "device": "cuda",
+    "allow_cpu": false,
+    "batch_size": 16,
+    "num_beams": 4,
+    "max_input_tokens": 200,
+    "scripts": {
+     "khm": {
+      "name": "Khmer",
+      "nllb": "khm_Khmr",
+      "ranges": [
+       [
+        6016,
+        6143
+       ],
+       [
+        6624,
+        6655
+       ]
+      ]
+     },
+     "lao": {
+      "name": "Lao",
+      "nllb": "lao_Laoo",
+      "ranges": [
+       [
+        3712,
+        3839
+       ]
+      ]
+     }
+    },
+    "vietnamese": {
+     "nllb": "vie_Latn",
+     "chars": "ăâđêôơưĂÂĐÊÔƠƯ",
+     "min_words_per_line": 3
+    },
+    "no_text_layer_pages": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     165
+    ]
+   }
+  }
+ },
+ "seconds": 57.1,
+ "finished": "2026-11-26 12:09:52",
+ "host": "pipeline-translate-0-0",
+ "summary": {
+  "model": "facebook/nllb-200-1.3B",
+  "pages_translated": [
+   1,
+   4,
+   5,
+   6,
+   266
+  ],
+  "segments_per_page": {
+   "1": {
+    "khm/pdf_text": 8
+   },
+   "4": {
+    "khm/chandra": 13
+   },
+   "5": {
+    "khm/chandra": 9
+   },
+   "6": {
+    "khm/chandra": 2
+   },
+   "266": {
+    "khm/pdf_text": 12
+   }
+  },
+  "segments_total": 44,
+  "stats": {
+   "number_retry": 1,
+   "segments_khm": 44,
+   "sentences_khm": 45
+  },
+  "segments_with_numbers_lost": [
+   [
+    "seg_0015",
+    4,
+    [
+     "1"
+    ]
+   ]
+  ],
+  "segments_with_repetitive_source": [
+   "seg_0031"
+  ],
+  "vietnamese_candidates_rejected": [],
+  "seconds": 57.1
+ }
+}

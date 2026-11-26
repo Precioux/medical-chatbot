@@ -1,0 +1,189 @@
+{
+  "page": 43,
+  "table": "NATIONAL EARLY WARNING SCORE 2 (NEWS-2)",
+  "ground_truth": [
+    {
+      "check": "Respiratory rate, Score 3",
+      "expected": "≤8"
+    },
+    {
+      "check": "SpO2 scale 1, Score 3",
+      "expected": "≤91"
+    },
+    {
+      "check": "Systolic BP, Score 3",
+      "expected": "≤90"
+    },
+    {
+      "check": "Temperature, Score 3",
+      "expected": "≤35.0"
+    },
+    {
+      "check": "Respiratory rate, Score 1",
+      "expected": "9-11"
+    },
+    {
+      "check": "Pulse, Score 3 (left)",
+      "expected": "≤40"
+    }
+  ],
+  "normalization": "whitespace removed, <=/>= -> ≤/≥, en/em dash -> '-', lowercase",
+  "results": [
+    {
+      "model": "Docling",
+      "key_values_correct": 3,
+      "key_values_total": 6,
+      "notes": "rows found 5/5, wrong: SpO2 scale 1, Score 3: got '165'; Systolic BP, Score 3: got '06>'; Respiratory rate, Score 1: got '9--1'",
+      "source": "ocr/output.md (NEWS-2 table found by row label)",
+      "rows_found": [
+        "pulse",
+        "respiratory rate",
+        "spo2 scale 1",
+        "systolic",
+        "temperature"
+      ],
+      "checks": [
+        {
+          "check": "Respiratory rate, Score 3",
+          "expected": "≤8",
+          "got": "≤ 8",
+          "ok": true
+        },
+        {
+          "check": "SpO2 scale 1, Score 3",
+          "expected": "≤91",
+          "got": "165",
+          "ok": false
+        },
+        {
+          "check": "Systolic BP, Score 3",
+          "expected": "≤90",
+          "got": "06>",
+          "ok": false
+        },
+        {
+          "check": "Temperature, Score 3",
+          "expected": "≤35.0",
+          "got": "≤35.0",
+          "ok": true
+        },
+        {
+          "check": "Respiratory rate, Score 1",
+          "expected": "9-11",
+          "got": "9--1",
+          "ok": false
+        },
+        {
+          "check": "Pulse, Score 3 (left)",
+          "expected": "≤40",
+          "got": "≤40",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "model": "mmore",
+      "key_values_correct": 6,
+      "key_values_total": 6,
+      "notes": "rows found 5/5, all 6 correct",
+      "source": "out/mmore/mmore_output.md (NEWS-2 table found by row label); paragraph_starts puts it on page 43",
+      "rows_found": [
+        "pulse",
+        "respiratory rate",
+        "spo2 scale 1",
+        "systolic",
+        "temperature"
+      ],
+      "checks": [
+        {
+          "check": "Respiratory rate, Score 3",
+          "expected": "≤8",
+          "got": "≤8",
+          "ok": true
+        },
+        {
+          "check": "SpO2 scale 1, Score 3",
+          "expected": "≤91",
+          "got": "≤91",
+          "ok": true
+        },
+        {
+          "check": "Systolic BP, Score 3",
+          "expected": "≤90",
+          "got": "≤90",
+          "ok": true
+        },
+        {
+          "check": "Temperature, Score 3",
+          "expected": "≤35.0",
+          "got": "≤ 35.0",
+          "ok": true
+        },
+        {
+          "check": "Respiratory rate, Score 1",
+          "expected": "9-11",
+          "got": "9 - 11",
+          "ok": true
+        },
+        {
+          "check": "Pulse, Score 3 (left)",
+          "expected": "≤40",
+          "got": "≤ 40",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "model": "Chandra",
+      "key_values_correct": 6,
+      "key_values_total": 6,
+      "notes": "rows found 5/5, all 6 correct",
+      "source": "out/chandra_pages.jsonl page 43",
+      "rows_found": [
+        "pulse",
+        "respiratory rate",
+        "spo2 scale 1",
+        "systolic",
+        "temperature"
+      ],
+      "checks": [
+        {
+          "check": "Respiratory rate, Score 3",
+          "expected": "≤8",
+          "got": "≤8",
+          "ok": true
+        },
+        {
+          "check": "SpO2 scale 1, Score 3",
+          "expected": "≤91",
+          "got": "≤91",
+          "ok": true
+        },
+        {
+          "check": "Systolic BP, Score 3",
+          "expected": "≤90",
+          "got": "≤90",
+          "ok": true
+        },
+        {
+          "check": "Temperature, Score 3",
+          "expected": "≤35.0",
+          "got": "≤35.0",
+          "ok": true
+        },
+        {
+          "check": "Respiratory rate, Score 1",
+          "expected": "9-11",
+          "got": "9 - 11",
+          "ok": true
+        },
+        {
+          "check": "Pulse, Score 3 (left)",
+          "expected": "≤40",
+          "got": "≤40",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

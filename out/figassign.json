@@ -1,0 +1,337 @@
+[
+ {
+  "gap": 23,
+  "gap_page": 28,
+  "context": "t) and Chin-Life Maneuver (Right) Figure 6: Jaw-Thrust Maneuver Figure 7: Nasopharyngeal Airway and Oropharyngeal Airway || ## 2. B = Breathing Management - If unconscious with abnormal breathing, start bag-valve-mask ventilation and follow rel"
+ },
+ {
+  "gap": 26,
+  "gap_page": 34,
+  "context": "a 2) - c. Titration of oxygen therapy in children\\_ (Schema 3) - d. Titration of oxygen therapy in neonates\\_ (Schema 4) || ## Titrate oxygen i in adult If continued respiratory distress or SpO2&lt; 90% on 15L/min consider intubation and mechan",
+  "fig_page": 36,
+  "fig_title": "Titrate oxygen in adult",
+  "title_score": 1.0,
+  "novelty": 0.16,
+  "preview": "- Start oxygen at 1-5L/min\n- Use nasal prongs\n- Assess response\nFiO₂ 0.23-0.4\n\nIf continued distress or SpO₂<90% (or <94% if emergency signs)\n\n- Use venturi mask or (face mask)\n- Titrate oxygen 2-15L/"
+ },
+ {
+  "gap": 33,
+  "gap_page": 51,
+  "context": "tamponade, or tension pneumothorax). Figure 1: Schematic Representations of the four main types of shock (From NEJM.org) || ## V. DIAGNOSIS A diagnosis of shock is based upon a constellation of clinical suspicion, biochemical, and hemodynamic f"
+ },
+ {
+  "gap": 34,
+  "gap_page": 58,
+  "context": " fragmented and aspirated through percutaneous mechanical thrombectomy. ## 7. Algorithm Algorithm 1: Management of shock || Algorithm 2: Management of anaphylaxis ## VIII. SPECIAL CASES Patients often present with combined forms of shock. Examp",
+  "fig_page": 59,
+  "fig_title": "Algorithm 1: Management of shock",
+  "title_score": 1.0,
+  "novelty": 0.48,
+  "preview": "- Shock State\n  - SBP < 90 mmHg\n    - Tachycardia\n    - Polypnea\n    - Cyanosis\n  - Mottle Skin\n  - Cold extremities\n  - Pale\n  - Confuse\n  - Monitoring: Blood pressure, pulse, SpO2\n    - 2 large bore"
+ },
+ {
+  "gap": 35,
+  "gap_page": 61,
+  "context": "taneous mechanical thrombectomy. ## 7. Algorithm Algorithm 1: Management of shock Algorithm 2: Management of anaphylaxis || ## VIII. SPECIAL CASES Patients often present with combined forms of shock. Examples include: - Patients with shock from",
+  "fig_page": 60,
+  "fig_title": "Algorithm 2: Management of anaphylaxis",
+  "title_score": 1.0,
+  "novelty": 0.57,
+  "preview": "- SUSPECTED ANAPHYLAXIS\n  - Diagnosis - look for:\n    - Acute onset of illness\n    - Life-threatening Airway +/- Breathing\n    - +/- Circulation problem\n    - And usually skin/mucosal changes\n    - De"
+ },
+ {
+  "gap": 36,
+  "gap_page": 72,
+  "context": "t is likely to require massive transfusion (≥ 10 units pRBCs) [sensitivity: 75-90%, specificity: 67-88%] ## g. Algorithm || ## VIII. SPECIAL CASES ## 1. Pediatric Considerations -  Children often have greater physiologic reserve than adults an",
+  "fig_page": 71,
+  "fig_title": "Hospital management of hemorrhagic shock",
+  "title_score": 0.0,
+  "novelty": 0.52,
+  "preview": "- Patient with hemorrhagic shock being managed in a hospital setting\n  - Institute early mechanical thromboprophylaxis\n  - Provide reversal for any patient receiving antithrombotic therapy\n    - Is bl"
+ },
+ {
+  "gap": 40,
+  "gap_page": 86,
+  "context": "ctors of secondary aggravating brain damage. ## 7. Decision tree, (algorithm) MANAGEMENT OF PATIENT WITH STROKE SYNDROME || SAH: subarachnoid hemorrhage, ICH: intracerebral hemorrhage, r-TPA: recombinant- tissue plasminogen activator, w/wo: wit",
+  "fig_page": 85,
+  "fig_title": "MANAGEMENT OF PATIENT WITH STROKE SYNDROME",
+  "title_score": 1.0,
+  "novelty": 0.34,
+  "preview": "- Suspect Stroke\n  - A.B.C is OK?\n    - No\n      - Oxygen\n      - Fluids\n      - Intubation\n      - Vasopressor\n    - Yes\n      - Non-contrast brain CT\n        - Stroke mimic conditions?\n          - Y"
+ },
+ {
+  "gap": 41,
+  "gap_page": 96,
+  "context": "s epilepticus. Obtain neurologic consultation and electroencephalography. Fig. 3\\_ Decisional tree of initial management || * Signs &amp; sym ptomes of elevated ICP: severe headache, nausea-vom iting, blur vision, altered consciousness, pupilla",
+  "fig_page": 97,
+  "fig_title": "Fig. 3_ Decisional tree of initial management",
+  "title_score": 1.0,
+  "novelty": 0.2,
+  "preview": "- Coma\n  - Airway\n  - Breathing\n  - Circulation\n    - Suspect ICP Elevated*\n      - Yes\n        - Head of bed elevated 30°\n          - Head in neutral position.\n          - Minnitol: 0.5-1.0g/kg IV or"
+ },
+ {
+  "gap": 42,
+  "gap_page": 106,
+  "context": "output should be monitored in patients receiving IV fluid resuscitation for severe hypotension or shock. ## 7. Algorithm || ## VIII. SPECIAL CASE ## 1. Urticarial and Angioedema Urticarial is commonly encountered in the ED. It is characterized ",
+  "fig_page": 105,
+  "fig_title": "Algorithm",
+  "title_score": 1.0,
+  "novelty": 0.52,
+  "preview": "- SUSPECTED ANAPHYLAXIS\n  - Diagnosis - look for:\n    - Acute onset of illness\n    - Life-threatening Airway +/- Breathing\n    - +/- Circulation problem\n    - And usually skin/mucosal changes\n    - De"
+ },
+ {
+  "gap": 43,
+  "gap_page": 118,
+  "context": "otes. Additionally, some poisonings and overdoses only require supportive care. Graphic 1: Management step for poisoning || ## VIII. SPECIAL CASE ## 1. Poisoning during pregnancy Intoxication during pregnancy can be a serious health concern for",
+  "fig_page": 117,
+  "fig_title": "Graphic 1: Management step for poisoning",
+  "title_score": 1.0,
+  "novelty": 0.54,
+  "preview": "- HISTORY PHISICAL EXAM\n  - Airway_need intubation?\n  - Breathing_ventilation support?\n  - Circulation_shock? Dysrhythmia? HTN ?\n  - Coma / agitation / seizure ?\n  - Hypo / hyperthermia, Hypoglycemia "
+ },
+ {
+  "gap": 50,
+  "gap_page": 152,
+  "context": "protocol-EMACC-WG / MSF Norway / Oslo University Hospital - 2023 ## Diagnosis algorithm for methanol poisoning with ABGs || * Always consider other causes of metabolic acidosis - Diabetic ketoacidosis: known diabetic? Check blood glucose - Rena",
+  "fig_page": 152,
+  "fig_title": "Diagnosis algorithm for methanol poisoning with ABGs",
+  "title_score": 1.0,
+  "novelty": 0.18,
+  "preview": "- Suspect methanol poisoning (based on history and/or clinical features)\n  - Arterial blood gas (ABG)*\n    - Normal ABG No Symptoms\n      - Observe min 24h If suspect of drinking methanol re-assess ev"
+ },
+ {
+  "gap": 60,
+  "gap_page": 162,
+  "context": " and patient movement (e.g., during transport) before initiating rhythm analysis. ## A. Algorithm ## Adult BLS Algorithm || ## Adult ACLS Algorithm ## H: HYPOVOLEMIA OR HEMORRHAGE History of fluid or blood loss may be available. Rectal examinat",
+  "fig_page": 163,
+  "fig_title": "Adult BLS Algorithm",
+  "title_score": 1.0,
+  "novelty": 0.38,
+  "preview": "- UNRESPONSIVE WITHOUT NORMAL RESPIRATIONS\n  - CALL 119 GET AN AED\n    - Assess pulse: DEFINITE PULSE WITHIN 10 SECONDS\n      - NO NORMAL BREATHING, HAS PULSE\n        - • Administer one breath every 5"
+ },
+ {
+  "gap": 61,
+  "gap_page": 165,
+  "context": ".g., during transport) before initiating rhythm analysis. ## A. Algorithm ## Adult BLS Algorithm ## Adult ACLS Algorithm || ## H: HYPOVOLEMIA OR HEMORRHAGE History of fluid or blood loss may be available. Rectal examination can identify massive",
+  "fig_page": 166,
+  "fig_title": "Algorithm for VF/pulseless VT management",
+  "title_score": 0.33,
+  "novelty": 0.48,
+  "preview": "- Primary Survey and compressions\n  - Assess rhythm\n    - VF/pulseless VT\n      - Defibrillate: 1st shock 360 J monophasic, 200 J biphasic\n      - CPR after shock, maximize compressions\n      - Consid"
+ },
+ {
+  "gap": 62,
+  "gap_page": 165,
+  "context": " on chest auscultation after verifying correct endotracheal tube placement. Treatment is immediate needle decompression. || ## Algorithm for PEA management *PEA Evaluation ## VIII. Special case ## 1- BLS for children (Age 1 to puberty) and Infa",
+  "fig_page": 166,
+  "fig_title": "Algorithm for PEA management",
+  "title_score": 1.0,
+  "novelty": 0.54,
+  "preview": "- Patient Unresponsive Begin Primary Survey\n  - Assess rhythm\n    - PEA\n      - Assess ECG for QRS width and US if able*\n        - Compressions\n          - Continue Secondary Survey\n            - Epin"
+ },
+ {
+  "gap": 63,
+  "gap_page": 167,
+  "context": "ndotracheal tube placement. Treatment is immediate needle decompression. ## Algorithm for PEA management *PEA Evaluation || ## VIII. Special case ## 1- BLS for children (Age 1 to puberty) and Infant (Newborn to age of 12 months ## Children/ Inf",
+  "fig_page": 166,
+  "fig_title": "PEA Evaluation",
+  "title_score": 1.0,
+  "novelty": 0.36,
+  "preview": "NARROW-COMPLEX PEA\n- Consider mechanical cause:\n  - Tamponade\n  - PE\n  - Hypovolemia/bleeding (IVC)\n  - Tension PTX\n  - Acute MI with cardiac rupture\n- Bedside US: Hyperdynamic LV\n- Management: IV flu"
+ },
+ {
+  "gap": 64,
+  "gap_page": 167,
+  "context": "ndotracheal tube placement. Treatment is immediate needle decompression. ## Algorithm for PEA management *PEA Evaluation || ## VIII. Special case ## 1- BLS for children (Age 1 to puberty) and Infant (Newborn to age of 12 months ## Children/ Inf"
+ },
+ {
+  "gap": 69,
+  "gap_page": 179,
+  "context": " replacement increases the risk of shock. ## 7) Algorithm: Management of hyperosmolar hyperglycemic state (HHS) in adult || ## VIII. SPECIAL CASES - Geriatric Considerations: Most commonly seen in elderly type II diabetics who experience a stre",
+  "fig_page": 178,
+  "fig_title": "Treatment hyperosmolar hyperglycemic state (HHS) in adult",
+  "title_score": 1.0,
+  "novelty": 0.57,
+  "preview": "- Complete initial evaluation check capillary glucose to confirm hyperglycemia\n  - Start IV fluids 1.0L of 0.9% NaCl per hour*\n    - IV fluids\n      - Determine volume status\n        - Severe hypovole"
+ },
+ {
+  "gap": 70,
+  "gap_page": 186,
+  "context": "the field. ED thoracotomy for this group is not indicated (including in the presence of myocardial electrical activity). || ## Decision making algorithm, peri-arrest situation and trauma ALS= advanced life support Adapted from Truhlar AJ, Deaki",
+  "fig_page": 187,
+  "fig_title": "Decision making algorithm, peri-arrest situation and trauma",
+  "title_score": 1.0,
+  "novelty": 0.5,
+  "preview": "ALS= advanced life support\n\n- Trauma patient\n  - Cardiac arrest / periarrest situation?\n    - Consider Non-traumatic cause\n      - likely → Universal ALS algorithm\n      - Unlikely → Simultaneously ad"
+ },
+ {
+  "gap": 77,
+  "gap_page": 202,
+  "context": "y (2 nd intercostal space of midclavicular line) or tube thoracostomy (5 th intercostal space of anterior-axillary line) || ## Algorithm TEE: Transesophageal echocardiography, TTE: Transthoracic echocardiogram (Blunt chest trauma algorithm from",
+  "fig_page": 203,
+  "fig_title": "Algorithm",
+  "title_score": 1.0,
+  "novelty": 0.47,
+  "preview": "- BLUNT CHEST TRAUMA\n  - Patient transported to emergency/trauma centre\n    - Mechanism of injury: blunt chest trauma or cardiac trauma\n      - Patients haemodynamically unstable\n        - YES\n       "
+ },
+ {
+  "gap": 78,
+  "gap_page": 202,
+  "context": "y (2 nd intercostal space of midclavicular line) or tube thoracostomy (5 th intercostal space of anterior-axillary line) || ## Algorithm TEE: Transesophageal echocardiography, TTE: Transthoracic echocardiogram (Blunt chest trauma algorithm from"
+ },
+ {
+  "gap": 81,
+  "gap_page": 212,
+  "context": "Inflammatory bowel disease, PID: Pelvic inflammatory disease UA: Urine analysis, BHCG: Beta Human Chorionic Gonadotropin || ## VIII. SPECIAL CASES ## 1. Mesenteric Ischemia Patient has Severe, sudden-onset diffuse abdominal pain with Nausea, vo"
+ },
+ {
+  "gap": 85,
+  "gap_page": 230,
+  "context": " ## Algorithm for treatment of hypokalemia K – potassium; Mg - magnesium; IV– intravenous; min – minute; ml – milliliter || ## VIII-SPECIAL CASES ## 1. Hypokalemia in Diabetic Ketoacidosis (DKA) In diabetic ketoacidosis, potassium shifts from t",
+  "fig_page": 229,
+  "fig_title": "Algorithm for treatment of hypokalemia",
+  "title_score": 1.0,
+  "novelty": 0.51,
+  "preview": "- Check K\n  - Serum K ≤ 3.0 mmol/l\n    - URGENT ECG\n      - CHECK Mg\n        - No Symptoms\n          - ECG may show: U waves, T wave flattening, ST segment changes\n            - Replace K\n            "
+ },
+ {
+  "gap": 86,
+  "gap_page": 238,
+  "context": " TID, or amiloride hydrochloride 5 to 10 mg PO BID ## 7. Algorithm VIII. ## Algorithm for the treatment of hypernatremia || ## SPECIAL CASES - Geriatric Considerations - o Most commonly affected group due to impaired renal concentrating ability",
+  "fig_page": 237,
+  "fig_title": "Algorithm for the treatment of hypernatremia",
+  "title_score": 1.0,
+  "novelty": 0.44,
+  "preview": "- Hypernatrtemia\n  - Onset ?\n    - Acute (<48h)\n      - Rapid correction\n        - Decrease in (Na⁺) 1-2 mmol/L/h\n        - Target goal of sodium: 145 mmol/l/ within 24h\n    - Chronic (>48h or unknown"
+ },
+ {
+  "gap": 88,
+  "gap_page": 247,
+  "context": "frequently as every 1 to 2 hours. 7. Algorithm Figure 2. Algorithm for the treatment of severe symptomatic hyponatremia. || ## VIII. SPECIAL CASES Geriatric Considerations Elderly patients have a decreased renal mass placing them at risk for de",
+  "fig_page": 246,
+  "fig_title": "Figure 2. Algorithm for the treatment of severe symptomatic hyponatremia.",
+  "title_score": 1.0,
+  "novelty": 0.4,
+  "preview": "- Serum sodium < 125 mEq per L with severe symptoms (e.g., seizures, mental status changes)\n  - Infuse 3% saline (1 to 2 mL per kg per hour) with goal of increasing serum sodium level by 6 to 8 mEq pe"
+ },
+ {
+  "gap": 91,
+  "gap_page": 264,
+  "context": "fective ventilation. ## 7. Algorithm (adapted from: Textbook of Critical Care, 8TH EDITION, Jean-Louis Vincent, MD, PhD) || * A longer course may be needed if CAP is complicated by meningitis, endocarditis, or other deep-seated infection; suspe",
+  "fig_page": 263,
+  "fig_title": "Management of a patient with suspected influenza pneumonia in the ICU",
+  "title_score": 0.33,
+  "novelty": 0.36,
+  "preview": "- Clinician suspects influenza\n  - ILL w/w.o fever\n  - Exacerbation of chronic illness\n  - Immunocompromised host\n  - Respiratory failure and/or pneumonia\n- Initiate work up\n  - NP swab + tracheal asp"
+ },
+ {
+  "gap": 101,
+  "gap_page": 274,
+  "context": "es have been corrected, otherwise the patient may bleed to death. 7. Algorithm: Recognize species via clinicals/symptoms || ## VIII. SPECIAL CASES In case antivenom reaction - Epinephrine (Adrenaline) is given intramuscularly in an initial dose"
+ },
+ {
+  "gap": 103,
+  "gap_page": 285,
+  "context": "rombotic occlusion and longer duration of a coronary artery. Fig. 2 Mechanism physiopathology of acute coronary syndrome || ## V. DIAGNOSIS ## 1. Clinical - Symptom: - o Chest pain Ischemic-type (Angina): retro-sternal, intense, at rest, longer"
+ },
+ {
+  "gap": 104,
+  "gap_page": 289,
+  "context": " Reperfusion strategies: - a. Timing to determine choice of reperfusion: Fig. 3 Timing of choosing reperfusion treatment || - b. Indication Primary PCI: ## \"Every STEMI &lt;12h patients need emergency transfer to be performed primary PCI\" - STE",
+  "fig_page": 288,
+  "fig_title": "Fig. 3 Timing of choosing reperfusion treatment",
+  "title_score": 1.0,
+  "novelty": 0.47,
+  "preview": "- Onset of symptoms\n  - Patient with symptoms of ACS and ECG consistent with STEMI\n    - FMC Location\n      - Determine therapeutic strategy\n    - PCI Centre\n      - PPCI strategy\n        - Aim: < 90m"
+ },
+ {
+  "gap": 112,
+  "gap_page": 308,
+  "context": "ch as wide QRS complex tachycardia or regular, narrow-QRS tachycardias. Figure 1. Differential diagnosis for tachycardia || - 1- Narrow QRS tachycardia [1] - A. Haemodynamically unstable patients: Synchronized DC cardioversion - B. Haemodynamic"
+ },
+ {
+  "gap": 116,
+  "gap_page": 312,
+  "context": " was referred for catheter ablation of her SVT. [4] Figure 5. Regular narrow QRS complex tachycardia with short RP'. [5] || Figure 6. After 6mg of adenosine IV, her ECG is converted to sinus rhythm and the patient was diagnosed with 'Slow-Fast "
+ },
+ {
+  "gap": 117,
+  "gap_page": 312,
+  "context": "ricular Nodal Reentrant Tachycardia) by electrophysiological study and successfully treated by RF catheter ablation. [5] || Case 2: The patient was a 28-year-old woman referred for management of palpitations for the last 2 years. Episodes began"
+ },
+ {
+  "gap": 118,
+  "gap_page": 312,
+  "context": " study and ablation. [4] Figure 7. Sustained ventricular tachycardia originated from right ventricular outflow tract [5] || Figure 8. After catheter ablation by radio-frequency, ECG showed sinus rhythm without ventricular tachycardia. [4] ## IX"
+ },
+ {
+  "gap": 119,
+  "gap_page": 313,
+  "context": "t [5] Figure 8. After catheter ablation by radio-frequency, ECG showed sinus rhythm without ventricular tachycardia. [4] || ## IX. OMPLICATIONS The common complications include sudden cardiac death, syncope, stroke, heart failure, hypotension a"
+ },
+ {
+  "gap": 122,
+  "gap_page": 318,
+  "context": " AV conduction after permanent pacemaker implantation. Pacing spike preceded each QRS complexes following normal P wave. || ## Bradycardia Case #2: A 53-year-old female with history of diabetes, hypertension and chronic kidney disease presented"
+ },
+ {
+  "gap": 123,
+  "gap_page": 318,
+  "context": "radycardia (Fig. 4). Figure (3). Escape junctional rhythm, peaked T wave and shortened QTc consistent with hyperkalemia. || Figure (4). ECG normalized after potassium level correction. ## VIII. COMPLICATIONS The common complications include sud"
+ },
+ {
+  "gap": 124,
+  "gap_page": 318,
+  "context": "aked T wave and shortened QTc consistent with hyperkalemia. Figure (4). ECG normalized after potassium level correction. || ## VIII. COMPLICATIONS The common complications include sudden cardiac death, syncope, trauma secondary to fall after sy"
+ },
+ {
+  "gap": 129,
+  "gap_page": 332,
+  "context": "- Low-dose dopamine= 3µg/kg/min - Dialysis/ultrafiltration ## 7.Algorithm Fig. 2 Dyspnea work-out algorithms || Fig. 3 Acute Pulmonary Edema Management Algorithms ## VIII. SPECIAL CASES - Acute right heart failure: secondary to pulm",
+  "fig_page": 330,
+  "fig_title": "7.Algorithm",
+  "title_score": 1.0,
+  "novelty": 0.63,
+  "preview": "- Dyspnea\n  - Severity Criteria*\n    - Basic measures:\n      - Immediate: BP, HR, SpO2, T°, RR,\n      - Start O2 to target SpO2 94-98%\n      - Start i.v. line & monitoring\n        - Work-up\n          "
+ },
+ {
+  "gap": 170,
+  "gap_page": 389,
+  "context": "rin, Sintrom. Heart rate controle: Digoxine, Betablocker (propranolol, atenolol, bisoprolol, meteprolol) ## 4. Algorithm || ## VIII. SPECIAL CASES - Pregnancy: - o Mild to moderate MS, MSA≥ 1.5cm2: can keep pregnancy, have child bird, systemic "
+ },
+ {
+  "gap": 173,
+  "gap_page": 417,
+  "context": "implantable electronic device Congenital heart disease | · Recent hospitalization Haemodialysis | ## IV. PATHOPHYSIOLOGY || ## V. DIAGNOSIS 1. Clinical Manifestations - Symptoms: Fever is the most common symptom of IE - It is often associated w"
+ },
+ {
+  "gap": 178,
+  "gap_page": 417,
+  "context": "implantable electronic device Congenital heart disease | · Recent hospitalization Haemodialysis | ## IV. PATHOPHYSIOLOGY || ## V. DIAGNOSIS 1. Clinical Manifestations - Symptoms: Fever is the most common symptom of IE - It is often associated w"
+ },
+ {
+  "gap": 192,
+  "gap_page": 457,
+  "context": "l cases, even after recovery of LV function. Figure 5. Rapid interdisciplinary workup and treatment of mother and foetus || In this case bromocriptine treatment may be considered to stop lactation and enhance recovery (LV function). Due to the ",
+  "fig_page": 456,
+  "fig_title": "Figure 5. Rapid interdisciplinary workup and treatment of mother and foetus",
+  "title_score": 1.0,
+  "novelty": 0.55,
+  "preview": "- AHF during pregnancy\n  - Induction of lung maturation >23 + 5 weeks initiated without delaying patient transfer to tertiary center\n    - Meeting of the task force for AHF in pregnancy (goal: 15≤ min"
+ },
+ {
+  "gap": 193,
+  "gap_page": 457,
+  "context": "ted by imaging or with evidence of systemic embolism. Figure 6. Management of acute heart failure during/after pregnancy || ## VII. RRTHMIAS 1. SVT and AF - Acute management - Stable hemodynamic =&gt; vagal maneuvers followed by adenosine if th",
+  "fig_page": 457,
+  "fig_title": "Figure 6. Management of acute heart failure during/after pregnancy",
+  "title_score": 1.0,
+  "novelty": 0.71,
+  "preview": "- Initial evaluation\n  - Assess heart failure severity\n    - SBP <90 mmHg; HR >130/min or <45/min\n    - RR <25/min; SpO₂ <90%\n    - Lactate >2.0 mmol/L; ScvO₂ <60%\n    - Altered mental state; cold ski"
+ },
+ {
+  "gap": 195,
+  "gap_page": 471,
+  "context": "n alternative to invasive angiography. - INVASIVE CORONARY ANGIOGRAPHY: ## IV. APPROACH TO PERIOPERATIVE CARDIAC TESTING || ## V. CARDIOVASCULAR COMOBIDITIES AND PERIOPERATIVE MANAGEMENT - CORONARY ARTERY DISEASE: In patients with ACS being con"
+ }
+]

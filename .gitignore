@@ -1,0 +1,33 @@
+# --- large or regenerable files (kept on the cluster, not in git) ---
+# 200-DPI page renders (239 MB)
+pages/
+# source PDF, FLORES-200, Khmer medical QA parquet, raw glossary PDFs (third-party data, 200 MB)
+data/*
+!data/medical_glossary.json
+# Docling raw JSON (16 MB)
+ocr/output.json
+# bulky generated outputs
+out/glossary_ocr/
+out/images/
+out/mmore/
+out/nllb_bench/
+out/translation_agent/
+out/pipeline/stage2_extract/unified_output.jsonl
+out/pipeline/stage3_verify/
+out/pipeline/stage4_chunk/chunks_*.jsonl
+out/pipeline/stage5_validate/chunks_preview.html
+out/*.html
+out/*_shard*.jsonl
+out/chandra_pages.jsonl
+*.bak
+pages_extracted.jsonl
+output.md
+
+# --- python / tooling ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+profiling_output/
+test_out/
+test_logs/
+logs/

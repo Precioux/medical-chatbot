@@ -1,0 +1,443 @@
+{
+ "config": {
+  "nllb_models": {
+   "600M": "facebook/nllb-200-distilled-600M",
+   "1.3B": "facebook/nllb-200-1.3B"
+  },
+  "langs": {
+   "khm": "khm_Khmr",
+   "lao": "lao_Laoo",
+   "vie": "vie_Latn"
+  },
+  "retriever": "BAAI/bge-m3",
+  "decoding": "beam=4, fp16, sentence-by-sentence",
+  "outputs_hit_max_len_600M": 103,
+  "outputs_hit_max_len_1.3B": 76
+ },
+ "test1_flores": [
+  {
+   "model": "600M",
+   "lang": "Khmer",
+   "split": "dev",
+   "n": 997,
+   "BLEU": 30.908389244660523,
+   "chrF++": 54.89762843539214,
+   "spBLEU": 33.23957196877269
+  },
+  {
+   "model": "600M",
+   "lang": "Khmer",
+   "split": "devtest",
+   "n": 1012,
+   "BLEU": 28.63710368302381,
+   "chrF++": 53.061485116417785,
+   "spBLEU": 31.260842868539314
+  },
+  {
+   "model": "600M",
+   "lang": "Lao",
+   "split": "dev",
+   "n": 997,
+   "BLEU": 34.096260545704354,
+   "chrF++": 57.27210705465326,
+   "spBLEU": 36.71222343019477
+  },
+  {
+   "model": "600M",
+   "lang": "Lao",
+   "split": "devtest",
+   "n": 1012,
+   "BLEU": 32.1639199804076,
+   "chrF++": 56.136673175392446,
+   "spBLEU": 34.711152702613724
+  },
+  {
+   "model": "600M",
+   "lang": "Vietnamese",
+   "split": "dev",
+   "n": 997,
+   "BLEU": 35.904416812790004,
+   "chrF++": 59.132483553533945,
+   "spBLEU": 39.01184364508934
+  },
+  {
+   "model": "600M",
+   "lang": "Vietnamese",
+   "split": "devtest",
+   "n": 1012,
+   "BLEU": 34.47743988762326,
+   "chrF++": 58.05531018870095,
+   "spBLEU": 37.674166270933085
+  },
+  {
+   "model": "1.3B",
+   "lang": "Khmer",
+   "split": "dev",
+   "n": 997,
+   "BLEU": 33.34053643452296,
+   "chrF++": 56.603659480767156,
+   "spBLEU": 35.63189137706103
+  },
+  {
+   "model": "1.3B",
+   "lang": "Khmer",
+   "split": "devtest",
+   "n": 1012,
+   "BLEU": 31.299492711415397,
+   "chrF++": 55.37030262024621,
+   "spBLEU": 34.19457021281995
+  },
+  {
+   "model": "1.3B",
+   "lang": "Lao",
+   "split": "dev",
+   "n": 997,
+   "BLEU": 36.9581827816157,
+   "chrF++": 59.30214239104146,
+   "spBLEU": 39.47358978475496
+  },
+  {
+   "model": "1.3B",
+   "lang": "Lao",
+   "split": "devtest",
+   "n": 1012,
+   "BLEU": 34.250556273622045,
+   "chrF++": 58.10284252996938,
+   "spBLEU": 37.09998290924186
+  },
+  {
+   "model": "1.3B",
+   "lang": "Vietnamese",
+   "split": "dev",
+   "n": 997,
+   "BLEU": 37.62739353855957,
+   "chrF++": 60.51048256930617,
+   "spBLEU": 40.945262547928415
+  },
+  {
+   "model": "1.3B",
+   "lang": "Vietnamese",
+   "split": "devtest",
+   "n": 1012,
+   "BLEU": 36.57714439996132,
+   "chrF++": 59.738917524818625,
+   "spBLEU": 39.92873619644843
+  }
+ ],
+ "test2_queries": [
+  {
+   "model": "600M",
+   "lang": "Khmer",
+   "mode": "real Khmer → EN",
+   "Hit@1": 0.695,
+   "Hit@5": 0.86,
+   "MRR@10": 0.7584722222222223
+  },
+  {
+   "model": "600M",
+   "lang": "Khmer",
+   "mode": "round-trip EN→X→EN",
+   "Hit@1": 0.6,
+   "Hit@5": 0.775,
+   "MRR@10": 0.6746567460317461
+  },
+  {
+   "model": "600M",
+   "lang": "Khmer",
+   "mode": "direct X (no back-translation)",
+   "Hit@1": 0.59,
+   "Hit@5": 0.75,
+   "MRR@10": 0.6610119047619049
+  },
+  {
+   "model": "600M",
+   "lang": "Lao",
+   "mode": "round-trip EN→X→EN",
+   "Hit@1": 0.76,
+   "Hit@5": 0.885,
+   "MRR@10": 0.8183888888888888
+  },
+  {
+   "model": "600M",
+   "lang": "Lao",
+   "mode": "direct X (no back-translation)",
+   "Hit@1": 0.735,
+   "Hit@5": 0.845,
+   "MRR@10": 0.7807063492063492
+  },
+  {
+   "model": "600M",
+   "lang": "Vietnamese",
+   "mode": "round-trip EN→X→EN",
+   "Hit@1": 0.845,
+   "Hit@5": 0.955,
+   "MRR@10": 0.8924365079365079
+  },
+  {
+   "model": "600M",
+   "lang": "Vietnamese",
+   "mode": "direct X (no back-translation)",
+   "Hit@1": 0.79,
+   "Hit@5": 0.925,
+   "MRR@10": 0.8531031746031746
+  },
+  {
+   "model": "1.3B",
+   "lang": "Khmer",
+   "mode": "real Khmer → EN",
+   "Hit@1": 0.695,
+   "Hit@5": 0.835,
+   "MRR@10": 0.7618214285714286
+  },
+  {
+   "model": "1.3B",
+   "lang": "Khmer",
+   "mode": "round-trip EN→X→EN",
+   "Hit@1": 0.695,
+   "Hit@5": 0.835,
+   "MRR@10": 0.7543531746031746
+  },
+  {
+   "model": "1.3B",
+   "lang": "Khmer",
+   "mode": "direct X (no back-translation)",
+   "Hit@1": 0.605,
+   "Hit@5": 0.76,
+   "MRR@10": 0.6782003968253969
+  },
+  {
+   "model": "1.3B",
+   "lang": "Lao",
+   "mode": "round-trip EN→X→EN",
+   "Hit@1": 0.8,
+   "Hit@5": 0.925,
+   "MRR@10": 0.8558472222222222
+  },
+  {
+   "model": "1.3B",
+   "lang": "Lao",
+   "mode": "direct X (no back-translation)",
+   "Hit@1": 0.77,
+   "Hit@5": 0.855,
+   "MRR@10": 0.8070476190476191
+  },
+  {
+   "model": "1.3B",
+   "lang": "Vietnamese",
+   "mode": "round-trip EN→X→EN",
+   "Hit@1": 0.85,
+   "Hit@5": 0.955,
+   "MRR@10": 0.9022142857142856
+  },
+  {
+   "model": "1.3B",
+   "lang": "Vietnamese",
+   "mode": "direct X (no back-translation)",
+   "Hit@1": 0.825,
+   "Hit@5": 0.93,
+   "MRR@10": 0.8732083333333333
+  }
+ ],
+ "test3_documents": [
+  {
+   "model": "600M",
+   "lang": "Khmer",
+   "Hit@1": 0.76,
+   "Hit@5": 0.88,
+   "MRR@10": 0.8245,
+   "chrF++_vs_original": 52.626758728319686
+  },
+  {
+   "model": "600M",
+   "lang": "Lao",
+   "Hit@1": 0.88,
+   "Hit@5": 0.92,
+   "MRR@10": 0.9028571428571428,
+   "chrF++_vs_original": 65.12270404652983
+  },
+  {
+   "model": "600M",
+   "lang": "Vietnamese",
+   "Hit@1": 0.92,
+   "Hit@5": 0.96,
+   "MRR@10": 0.94,
+   "chrF++_vs_original": 70.98550224044003
+  },
+  {
+   "model": "1.3B",
+   "lang": "Khmer",
+   "Hit@1": 0.84,
+   "Hit@5": 0.96,
+   "MRR@10": 0.885,
+   "chrF++_vs_original": 57.037555486731115
+  },
+  {
+   "model": "1.3B",
+   "lang": "Lao",
+   "Hit@1": 0.88,
+   "Hit@5": 0.96,
+   "MRR@10": 0.9166666666666667,
+   "chrF++_vs_original": 69.93880480716822
+  },
+  {
+   "model": "1.3B",
+   "lang": "Vietnamese",
+   "Hit@1": 0.92,
+   "Hit@5": 0.96,
+   "MRR@10": 0.934,
+   "chrF++_vs_original": 73.89337039701329
+  }
+ ],
+ "baselines": {
+  "test2_EN->EN": {
+   "Hit@1": 0.895,
+   "Hit@5": 0.97,
+   "MRR@10": 0.9283611111111111
+  },
+  "test2_KM->EN_direct_no_translation": {
+   "Hit@1": 0.65,
+   "Hit@5": 0.79,
+   "MRR@10": 0.708720238095238
+  },
+  "test3_untranslated_docs": {
+   "Hit@1": 0.94,
+   "Hit@5": 0.96,
+   "MRR@10": 0.95
+  }
+ },
+ "timing_s": {
+  "600M": 628,
+  "1.3B": 981
+ },
+ "summary": [
+  {
+   "model": "600M",
+   "lang": "Khmer",
+   "T1 chrF++ (devtest)": 53.061485116417785,
+   "T1 BLEU (devtest)": 28.63710368302381,
+   "T2 Hit@1 round-trip": 0.6,
+   "T2 Hit@1 real Khmer": 0.695,
+   "T3 Hit@1 docs": 0.76
+  },
+  {
+   "model": "600M",
+   "lang": "Lao",
+   "T1 chrF++ (devtest)": 56.136673175392446,
+   "T1 BLEU (devtest)": 32.1639199804076,
+   "T2 Hit@1 round-trip": 0.76,
+   "T2 Hit@1 real Khmer": null,
+   "T3 Hit@1 docs": 0.88
+  },
+  {
+   "model": "600M",
+   "lang": "Vietnamese",
+   "T1 chrF++ (devtest)": 58.05531018870095,
+   "T1 BLEU (devtest)": 34.47743988762326,
+   "T2 Hit@1 round-trip": 0.845,
+   "T2 Hit@1 real Khmer": null,
+   "T3 Hit@1 docs": 0.92
+  },
+  {
+   "model": "1.3B",
+   "lang": "Khmer",
+   "T1 chrF++ (devtest)": 55.37030262024621,
+   "T1 BLEU (devtest)": 31.299492711415397,
+   "T2 Hit@1 round-trip": 0.695,
+   "T2 Hit@1 real Khmer": 0.695,
+   "T3 Hit@1 docs": 0.84
+  },
+  {
+   "model": "1.3B",
+   "lang": "Lao",
+   "T1 chrF++ (devtest)": 58.10284252996938,
+   "T1 BLEU (devtest)": 34.250556273622045,
+   "T2 Hit@1 round-trip": 0.8,
+   "T2 Hit@1 real Khmer": null,
+   "T3 Hit@1 docs": 0.88
+  },
+  {
+   "model": "1.3B",
+   "lang": "Vietnamese",
+   "T1 chrF++ (devtest)": 59.738917524818625,
+   "T1 BLEU (devtest)": 36.57714439996132,
+   "T2 Hit@1 round-trip": 0.85,
+   "T2 Hit@1 real Khmer": null,
+   "T3 Hit@1 docs": 0.92
+  }
+ ],
+ "repetition_loops": {
+  "definition": "same 1-12 char unit repeated 6+ times in a translated item",
+  "counts": {
+   "t2_khm_real.1.3B": {
+    "n": 200,
+    "fwd_EN_to_X_loops": null,
+    "back_X_to_EN_loops": 0
+   },
+   "t2_khm_real.600M": {
+    "n": 200,
+    "fwd_EN_to_X_loops": null,
+    "back_X_to_EN_loops": 0
+   },
+   "t2_khm_roundtrip.1.3B": {
+    "n": 200,
+    "fwd_EN_to_X_loops": 28,
+    "back_X_to_EN_loops": 8
+   },
+   "t2_khm_roundtrip.600M": {
+    "n": 200,
+    "fwd_EN_to_X_loops": 45,
+    "back_X_to_EN_loops": 12
+   },
+   "t2_lao_roundtrip.1.3B": {
+    "n": 200,
+    "fwd_EN_to_X_loops": 4,
+    "back_X_to_EN_loops": 3
+   },
+   "t2_lao_roundtrip.600M": {
+    "n": 200,
+    "fwd_EN_to_X_loops": 33,
+    "back_X_to_EN_loops": 8
+   },
+   "t2_vie_roundtrip.1.3B": {
+    "n": 200,
+    "fwd_EN_to_X_loops": 0,
+    "back_X_to_EN_loops": 0
+   },
+   "t2_vie_roundtrip.600M": {
+    "n": 200,
+    "fwd_EN_to_X_loops": 1,
+    "back_X_to_EN_loops": 0
+   },
+   "t3_khm_docs.1.3B": {
+    "n": 500,
+    "fwd_EN_to_X_loops": 108,
+    "back_X_to_EN_loops": 41
+   },
+   "t3_khm_docs.600M": {
+    "n": 500,
+    "fwd_EN_to_X_loops": 134,
+    "back_X_to_EN_loops": 47
+   },
+   "t3_lao_docs.1.3B": {
+    "n": 500,
+    "fwd_EN_to_X_loops": 35,
+    "back_X_to_EN_loops": 11
+   },
+   "t3_lao_docs.600M": {
+    "n": 500,
+    "fwd_EN_to_X_loops": 87,
+    "back_X_to_EN_loops": 18
+   },
+   "t3_vie_docs.1.3B": {
+    "n": 500,
+    "fwd_EN_to_X_loops": 0,
+    "back_X_to_EN_loops": 0
+   },
+   "t3_vie_docs.600M": {
+    "n": 500,
+    "fwd_EN_to_X_loops": 0,
+    "back_X_to_EN_loops": 1
+   }
+  }
+ }
+}

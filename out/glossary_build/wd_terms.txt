@@ -1,0 +1,72 @@
+intubation
+tracheal intubation
+intramuscular injection
+intravenous therapy
+saline
+infusion
+bolus
+hypotension
+hypoglycemia
+hyperglycemia
+contraindication
+dialysis
+hemodialysis
+mechanical ventilation
+blood transfusion
+infant
+neonate
+oral administration
+weaning
+thigh
+epileptic seizure
+coma
+nausea
+vomiting
+pregnancy
+bleeding
+hypertension
+heart failure
+anemia
+fever
+antidote
+sedation
+catheter
+amenorrhea
+antibiotic
+asthma
+dizziness
+atrial fibrillation
+infection
+pallor
+blood plasma
+platelet
+blood serum
+urine
+hyperkalemia
+hyponatremia
+tachycardia
+anaphylaxis
+sepsis
+intracranial pressure
+pulmonary embolism
+ectopic pregnancy
+respiratory failure
+cardiac arrest
+ventricular fibrillation
+ventricular tachycardia
+status epilepticus
+anticoagulant
+diuretic
+benzodiazepine
+activated charcoal
+glomerular filtration rate
+oxygen saturation
+blood glucose
+perioperative
+infective endocarditis
+vaginal bleeding
+agitation
+hypercapnia
+blood pressure
+oxygen therapy
+hypertonic saline

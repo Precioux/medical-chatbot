@@ -1,0 +1,1801 @@
+{
+ "toc_pages": [
+  9,
+  10
+ ],
+ "chapters": [
+  {
+   "chapter": "I",
+   "title": "Emergency",
+   "printed_page": 3,
+   "pdf_page": 16
+  },
+  {
+   "chapter": "II",
+   "title": "Cardiology",
+   "printed_page": 271,
+   "pdf_page": 284
+  }
+ ],
+ "sections_in_toc": 51,
+ "sections_per_chapter": {
+  "I": 27,
+  "II": 24
+ },
+ "toc_lines_not_sections": [
+  "v",
+  "LABLE OF CONTENTS",
+  "Decision Letter ........................................................................................................................................................ i",
+  "Preface ..................................................................................................................iii",
+  "Acknowledgment .................................................................................................iv",
+  "Contents ...............................................................................................................v",
+  "Abbreviation ........................................................................................................vii",
+  "Introduction ..........................................................................................................1",
+  "vi"
+ ],
+ "sections": [
+  {
+   "number": 1,
+   "title_toc": "Assessment the Patients in Emergency Room",
+   "title": "Assessment the Patients in Emergency Room",
+   "title_fixes": [],
+   "printed_page": 4,
+   "expected_pdf_page": 17,
+   "start_page": 17,
+   "heading_line": "ASSESSMENT THE PATIENTS IN EMERGENCY ROOM",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00033",
+   "reference_heading_found": true
+  },
+  {
+   "number": 2,
+   "title_toc": "Oxygen Therapy and Respiratory Supports",
+   "title": "Oxygen Therapy and Respiratory Supports",
+   "title_fixes": [],
+   "printed_page": 17,
+   "expected_pdf_page": 30,
+   "start_page": 30,
+   "heading_line": "OXYGEN THERAPY AND RESPIRATORY SUPPORTS",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00070",
+   "reference_heading_found": true
+  },
+  {
+   "number": 3,
+   "title_toc": "Early Warning Score in Hospital",
+   "title": "Early Warning Score in Hospital",
+   "title_fixes": [],
+   "printed_page": 29,
+   "expected_pdf_page": 42,
+   "start_page": 42,
+   "heading_line": "EARLY WARNING SCORE IN HOSPITAL",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00102",
+   "reference_heading_found": true
+  },
+  {
+   "number": 4,
+   "title_toc": "Shock",
+   "title": "Shock",
+   "title_fixes": [],
+   "printed_page": 36,
+   "expected_pdf_page": 49,
+   "start_page": 49,
+   "heading_line": "SHOCK",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00119",
+   "reference_heading_found": true
+  },
+  {
+   "number": 5,
+   "title_toc": "Hemorrhagic Shock",
+   "title": "Hemorrhagic Shock",
+   "title_fixes": [],
+   "printed_page": 50,
+   "expected_pdf_page": 63,
+   "start_page": 63,
+   "heading_line": "HEMORRHAGIC SHOCK",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00158",
+   "reference_heading_found": true
+  },
+  {
+   "number": 6,
+   "title_toc": "Stroke Syndrome in Emergency",
+   "title": "Stroke Syndrome in Emergency",
+   "title_fixes": [],
+   "printed_page": 63,
+   "expected_pdf_page": 76,
+   "start_page": 76,
+   "heading_line": "STROKE SYNDROME IN EMERGENCY",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00189",
+   "reference_heading_found": true
+  },
+  {
+   "number": 7,
+   "title_toc": "Coma",
+   "title": "Coma",
+   "title_fixes": [],
+   "printed_page": 76,
+   "expected_pdf_page": 89,
+   "start_page": 89,
+   "heading_line": "COMA",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00223",
+   "reference_heading_found": true
+  },
+  {
+   "number": 8,
+   "title_toc": "Allergic Reaction",
+   "title": "Allergic Reaction",
+   "title_fixes": [],
+   "printed_page": 86,
+   "expected_pdf_page": 99,
+   "start_page": 99,
+   "heading_line": "ALLERGIC REACTION",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00247",
+   "reference_heading_found": true
+  },
+  {
+   "number": 9,
+   "title_toc": "General Management of Poisoning",
+   "title": "General Management of Poisoning",
+   "title_fixes": [],
+   "printed_page": 95,
+   "expected_pdf_page": 108,
+   "start_page": 108,
+   "heading_line": "GENERAL MANAGEMENT OF POISONING",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00274",
+   "reference_heading_found": true
+  },
+  {
+   "number": 10,
+   "title_toc": "Paracetamol Poisoning",
+   "title": "Paracetamol Poisoning",
+   "title_fixes": [],
+   "printed_page": 107,
+   "expected_pdf_page": 120,
+   "start_page": 120,
+   "heading_line": "PARACETAMOL POISONING",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00304",
+   "reference_heading_found": true
+  },
+  {
+   "number": 11,
+   "title_toc": "Methamphetamines Pisoning",
+   "title": "Methamphetamines Poisoning",
+   "title_fixes": [
+    [
+     "Pisoning",
+     "Poisoning"
+    ]
+   ],
+   "printed_page": 116,
+   "expected_pdf_page": 129,
+   "start_page": 129,
+   "heading_line": "METHAMPHETAMINES POISONING",
+   "heading_ratio": 0.96,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00328",
+   "reference_heading_found": true
+  },
+  {
+   "number": 12,
+   "title_toc": "Organophosphate and Carbamate Insecticides Poisoning",
+   "title": "Organophosphate and Carbamate Insecticides Poisoning",
+   "title_fixes": [],
+   "printed_page": 123,
+   "expected_pdf_page": 136,
+   "start_page": 136,
+   "heading_line": "ORGANOPHOSPHATE AND CARBAMATE INSECTICIDES",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00346",
+   "reference_heading_found": true
+  },
+  {
+   "number": 13,
+   "title_toc": "Methanol And Ethylene Glycol Intoxication",
+   "title": "Methanol And Ethylene Glycol Intoxication",
+   "title_fixes": [],
+   "printed_page": 132,
+   "expected_pdf_page": 145,
+   "start_page": 145,
+   "heading_line": "METHANOL AND ETHYLENE GLYCOL INTOXICATION",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00366",
+   "reference_heading_found": true
+  },
+  {
+   "number": 14,
+   "title_toc": "Cardiopulmonary Arrest Basic and Advance Cardiac Life Support",
+   "title": "Cardiopulmonary Arrest Basic and Advance Cardiac Life Support",
+   "title_fixes": [],
+   "printed_page": 141,
+   "expected_pdf_page": 154,
+   "start_page": 154,
+   "heading_line": "CARDIOPULMONARY ARREST",
+   "heading_ratio": 0.82,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00392",
+   "reference_heading_found": true
+  },
+  {
+   "number": 15,
+   "title_toc": "Acute Metabolic Complication of Diabetes Mellitus, Hyperosmolar Hyperglycemia State",
+   "title": "Acute Metabolic Complication of Diabetes Mellitus, Hyperosmolar Hyperglycemia State",
+   "title_fixes": [],
+   "printed_page": 159,
+   "expected_pdf_page": 172,
+   "start_page": 172,
+   "heading_line": "ACUTE METABOLIC COMPLICATION OF DIABETES",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00454",
+   "reference_heading_found": true
+  },
+  {
+   "number": 16,
+   "title_toc": "Traumatism In Adult",
+   "title": "Traumatism In Adult",
+   "title_fixes": [],
+   "printed_page": 167,
+   "expected_pdf_page": 180,
+   "start_page": 180,
+   "heading_line": "TRAUMATISM IN ADULT",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00475",
+   "reference_heading_found": true
+  },
+  {
+   "number": 17,
+   "title_toc": "Initial Management of Head Trauma",
+   "title": "Initial Management of Head Trauma",
+   "title_fixes": [],
+   "printed_page": 177,
+   "expected_pdf_page": 190,
+   "start_page": 190,
+   "heading_line": "INITIAL MANAGEMENT OF HEAD TRAUMA",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00501",
+   "reference_heading_found": true
+  },
+  {
+   "number": 18,
+   "title_toc": "Initial Management of chest Trauma",
+   "title": "Initial Management of chest Trauma",
+   "title_fixes": [],
+   "printed_page": 184,
+   "expected_pdf_page": 197,
+   "start_page": 197,
+   "heading_line": "INITIAL MANAGEMENT OF CHEST TRAUMA",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00523",
+   "reference_heading_found": true
+  },
+  {
+   "number": 19,
+   "title_toc": "Acute Abdominal Syndrome",
+   "title": "Acute Abdominal Syndrome",
+   "title_fixes": [],
+   "printed_page": 193,
+   "expected_pdf_page": 206,
+   "start_page": 206,
+   "heading_line": "ACUTE ABDOMINAL SYNDROME",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00552",
+   "reference_heading_found": true
+  },
+  {
+   "number": 20,
+   "title_toc": "Hyperkalemia",
+   "title": "Hyperkalemia",
+   "title_fixes": [],
+   "printed_page": 202,
+   "expected_pdf_page": 215,
+   "start_page": 215,
+   "heading_line": "HYPERKALEMIA",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00576",
+   "reference_heading_found": true
+  },
+  {
+   "number": 21,
+   "title_toc": "Hypokalemia",
+   "title": "Hypokalemia",
+   "title_fixes": [],
+   "printed_page": 210,
+   "expected_pdf_page": 223,
+   "start_page": 223,
+   "heading_line": "HYPOKALEMIA",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00595",
+   "reference_heading_found": true
+  },
+  {
+   "number": 22,
+   "title_toc": "Hypernatremia",
+   "title": "Hypernatremia",
+   "title_fixes": [],
+   "printed_page": 219,
+   "expected_pdf_page": 232,
+   "start_page": 232,
+   "heading_line": "HYPERNATREMIA",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00620",
+   "reference_heading_found": true
+  },
+  {
+   "number": 23,
+   "title_toc": "Hyponatremia",
+   "title": "Hyponatremia",
+   "title_fixes": [],
+   "printed_page": 228,
+   "expected_pdf_page": 241,
+   "start_page": 241,
+   "heading_line": "HYPONATREMIA",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00639",
+   "reference_heading_found": true
+  },
+  {
+   "number": 24,
+   "title_toc": "Sepsis and Septic Shock, Empiric Al Antibiotherapy",
+   "title": "Sepsis and Septic Shock, Empirical Antibiotherapy",
+   "title_fixes": [
+    [
+     "Empiric Al",
+     "Empirical"
+    ]
+   ],
+   "printed_page": 236,
+   "expected_pdf_page": 249,
+   "start_page": 249,
+   "heading_line": "SEPSIS AND SEPTIC SHOCK, EMPIRICAL ANTIBIOTHERAPY",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00658",
+   "reference_heading_found": true
+  },
+  {
+   "number": 25,
+   "title_toc": "Severe Acute Respiratonry infection (SARI) And Influenza",
+   "title": "Severe Acute Respiratory infection (SARI) And Influenza",
+   "title_fixes": [
+    [
+     "Respiratonry",
+     "Respiratory"
+    ]
+   ],
+   "printed_page": 244,
+   "expected_pdf_page": 257,
+   "start_page": 257,
+   "heading_line": "SEVERE ACUTE RESPIRATORY INFECTION (SARI) AND",
+   "heading_ratio": 0.97,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00680",
+   "reference_heading_found": true
+  },
+  {
+   "number": 26,
+   "title_toc": "Snake Bites",
+   "title": "Snake Bites",
+   "title_fixes": [],
+   "printed_page": 253,
+   "expected_pdf_page": 266,
+   "start_page": 266,
+   "heading_line": "SNAKE BITES",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00705",
+   "reference_heading_found": true
+  },
+  {
+   "number": 27,
+   "title_toc": "Massive blood Transfusion",
+   "title": "Massive blood Transfusion",
+   "title_fixes": [],
+   "printed_page": 263,
+   "expected_pdf_page": 276,
+   "start_page": 276,
+   "heading_line": "MASSIVE BLOOD TRANSFUSION",
+   "heading_ratio": 1.0,
+   "chapter": "I",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00743",
+   "reference_heading_found": true
+  },
+  {
+   "number": 28,
+   "title_toc": "Acute Coronary Syndrome St-elevation Myocardial Infarction (STEMI)",
+   "title": "Acute Coronary Syndrome St-elevation Myocardial Infarction (STEMI)",
+   "title_fixes": [],
+   "printed_page": 272,
+   "expected_pdf_page": 285,
+   "start_page": 285,
+   "heading_line": "ACUTE CORONARY SYNDROME",
+   "heading_ratio": 0.82,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00764",
+   "reference_heading_found": true
+  },
+  {
+   "number": 29,
+   "title_toc": "Acute Coronary Syndrome (ACS)NON-ST Elevation Myocardial Infarction (NSTEMI)",
+   "title": "Acute Coronary Syndrome (ACS)NON-ST Elevation Myocardial Infarction (NSTEMI)",
+   "title_fixes": [],
+   "printed_page": 280,
+   "expected_pdf_page": 293,
+   "start_page": 293,
+   "heading_line": "ACUTE CORONARY SYNDROME (ACS)",
+   "heading_ratio": 0.89,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00792",
+   "reference_heading_found": true
+  },
+  {
+   "number": 30,
+   "title_toc": "Chronic Coronary Syndrome",
+   "title": "Chronic Coronary Syndrome",
+   "title_fixes": [],
+   "printed_page": 289,
+   "expected_pdf_page": 302,
+   "start_page": 302,
+   "heading_line": "CHRONIC CORONARY SYNDROME",
+   "heading_ratio": 1.0,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00824",
+   "reference_heading_found": true
+  },
+  {
+   "number": 31,
+   "title_toc": "Emergency Tachy-Arrhythmia",
+   "title": "Emergency Tachy-Arrhythmia",
+   "title_fixes": [],
+   "printed_page": 293,
+   "expected_pdf_page": 306,
+   "start_page": 306,
+   "heading_line": "EMERGENCY TACHY-ARRHYTHMIA",
+   "heading_ratio": 1.0,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00837",
+   "reference_heading_found": true
+  },
+  {
+   "number": 32,
+   "title_toc": "Emergency Bradycardia",
+   "title": "Emergency Bradycardia",
+   "title_fixes": [],
+   "printed_page": 302,
+   "expected_pdf_page": 315,
+   "start_page": 315,
+   "heading_line": "EMERGENCY BRADYCARDIA",
+   "heading_ratio": 1.0,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00866",
+   "reference_heading_found": true
+  },
+  {
+   "number": 33,
+   "title_toc": "Pulmonary Embolism",
+   "title": "Pulmonary Embolism",
+   "title_fixes": [],
+   "printed_page": 306,
+   "expected_pdf_page": 319,
+   "start_page": 319,
+   "heading_line": "PULMONARY EMBOLISM",
+   "heading_ratio": 1.0,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00884",
+   "reference_heading_found": true
+  },
+  {
+   "number": 34,
+   "title_toc": "Acute Pulmonary Edema",
+   "title": "Acute Pulmonary Edema",
+   "title_fixes": [],
+   "printed_page": 313,
+   "expected_pdf_page": 326,
+   "start_page": 326,
+   "heading_line": "ACUTE PULMONARY EDEMA",
+   "heading_ratio": 1.0,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00907",
+   "reference_heading_found": true
+  },
+  {
+   "number": 35,
+   "title_toc": "Hypertension",
+   "title": "Hypertension",
+   "title_fixes": [],
+   "printed_page": 320,
+   "expected_pdf_page": 333,
+   "start_page": 333,
+   "heading_line": "HYPERTENSION",
+   "heading_ratio": 1.0,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00927",
+   "reference_heading_found": true
+  },
+  {
+   "number": 36,
+   "title_toc": "Chronic Heart failure",
+   "title": "Chronic Heart failure",
+   "title_fixes": [],
+   "printed_page": 332,
+   "expected_pdf_page": 345,
+   "start_page": 345,
+   "heading_line": "CHRONIC HEART FAILURE",
+   "heading_ratio": 1.0,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00961",
+   "reference_heading_found": true
+  },
+  {
+   "number": 37,
+   "title_toc": "Aortic regurgitation (AR)",
+   "title": "Aortic regurgitation (AR)",
+   "title_fixes": [],
+   "printed_page": 346,
+   "expected_pdf_page": 359,
+   "start_page": 359,
+   "heading_line": "AORTIC REGURGITATION (AR)",
+   "heading_ratio": 1.0,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_00997",
+   "reference_heading_found": true
+  },
+  {
+   "number": 38,
+   "title_toc": "Aortic Stenosis (AS)",
+   "title": "Aortic Stenosis (AS)",
+   "title_fixes": [],
+   "printed_page": 353,
+   "expected_pdf_page": 366,
+   "start_page": 366,
+   "heading_line": "AORTIC STENOSIS (AS)",
+   "heading_ratio": 1.0,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_01019",
+   "reference_heading_found": true
+  },
+  {
+   "number": 39,
+   "title_toc": "Management of Aortic Aneurysm",
+   "title": "Management of Aortic Aneurysm",
+   "title_fixes": [],
+   "printed_page": 359,
+   "expected_pdf_page": 372,
+   "start_page": 372,
+   "heading_line": "MANAGEMENT OF AORTIC ANEURYSM",
+   "heading_ratio": 1.0,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_01035",
+   "reference_heading_found": true
+  },
+  {
+   "number": 40,
+   "title_toc": "Mitral Regurgitation (MR)",
+   "title": "Mitral Regurgitation (MR)",
+   "title_fixes": [],
+   "printed_page": 364,
+   "expected_pdf_page": 377,
+   "start_page": 377,
+   "heading_line": "MITRAL REGURGITATION (MR)",
+   "heading_ratio": 1.0,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_01049",
+   "reference_heading_found": true
+  },
+  {
+   "number": 41,
+   "title_toc": "Mitral Stenosis (MS)",
+   "title": "Mitral Stenosis (MS)",
+   "title_fixes": [],
+   "printed_page": 371,
+   "expected_pdf_page": 384,
+   "start_page": 384,
+   "heading_line": "MITRAL STENOSIS (MS)",
+   "heading_ratio": 1.0,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_01073",
+   "reference_heading_found": true
+  },
+  {
+   "number": 42,
+   "title_toc": "Management And Surveillance of Prosthetic Valves",
+   "title": "Management And Surveillance of Prosthetic Valves",
+   "title_fixes": [],
+   "printed_page": 379,
+   "expected_pdf_page": 392,
+   "start_page": 392,
+   "heading_line": "MANAGEMENT AND SURVEILLANCE OF PROSTHETIC",
+   "heading_ratio": 1.0,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_01093",
+   "reference_heading_found": true
+  },
+  {
+   "number": 43,
+   "title_toc": "Deep Venous Thrombosis",
+   "title": "Deep Venous Thrombosis",
+   "title_fixes": [],
+   "printed_page": 384,
+   "expected_pdf_page": 397,
+   "start_page": 397,
+   "heading_line": "DEEP VENOUS THROMBOSIS",
+   "heading_ratio": 1.0,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_01109",
+   "reference_heading_found": true
+  },
+  {
+   "number": 44,
+   "title_toc": "Prevention Of Deep Venous Thrombosis",
+   "title": "Prevention Of Deep Venous Thrombosis",
+   "title_fixes": [],
+   "printed_page": 390,
+   "expected_pdf_page": 403,
+   "start_page": 403,
+   "heading_line": "PREVENTION OF DEEP VENOUS THROMBOSIS",
+   "heading_ratio": 1.0,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_01129",
+   "reference_heading_found": true
+  },
+  {
+   "number": 45,
+   "title_toc": "Infectious Endocarditis",
+   "title": "Infectious Endocarditis",
+   "title_fixes": [],
+   "printed_page": 394,
+   "expected_pdf_page": 407,
+   "start_page": 407,
+   "heading_line": "INFECTIOUS ENDOCARDITIS",
+   "heading_ratio": 1.0,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_01141",
+   "reference_heading_found": true
+  },
+  {
+   "number": 46,
+   "title_toc": "Infectious Endocarditis",
+   "title": "Infectious Endocarditis",
+   "title_fixes": [],
+   "printed_page": 404,
+   "expected_pdf_page": 417,
+   "start_page": 417,
+   "heading_line": "INFECTIOUS ENDOCARDITIS",
+   "heading_ratio": 1.0,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_01172",
+   "reference_heading_found": true
+  },
+  {
+   "number": 47,
+   "title_toc": "Pericarditis",
+   "title": "Pericarditis",
+   "title_fixes": [],
+   "printed_page": 415,
+   "expected_pdf_page": 428,
+   "start_page": 428,
+   "heading_line": "PERICARDITIS",
+   "heading_ratio": 1.0,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_01199",
+   "reference_heading_found": true
+  },
+  {
+   "number": 48,
+   "title_toc": "Constrictive Pericarditis",
+   "title": "Constrictive Pericarditis",
+   "title_fixes": [],
+   "printed_page": 419,
+   "expected_pdf_page": 432,
+   "start_page": 432,
+   "heading_line": "CONSTRICTIVE PERICARDITIS",
+   "heading_ratio": 1.0,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_01209",
+   "reference_heading_found": true
+  },
+  {
+   "number": 49,
+   "title_toc": "Management of Cardiovascular Diseases During Pregnancy",
+   "title": "Management of Cardiovascular Diseases During Pregnancy",
+   "title_fixes": [],
+   "printed_page": 428,
+   "expected_pdf_page": 441,
+   "start_page": 441,
+   "heading_line": "MANAGEMENT OF CARDIOVASCULAR DISEASES DURING",
+   "heading_ratio": 1.0,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_01236",
+   "reference_heading_found": true
+  },
+  {
+   "number": 50,
+   "title_toc": "Cardiovascular Drugs and Pregnancy",
+   "title": "Cardiovascular Drugs and Pregnancy",
+   "title_fixes": [],
+   "printed_page": 451,
+   "expected_pdf_page": 464,
+   "start_page": 464,
+   "heading_line": "CARDIOVASCULAR DRUGS AND PREGNANCY",
+   "heading_ratio": 1.0,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_01306",
+   "reference_heading_found": true
+  },
+  {
+   "number": 51,
+   "title_toc": "Cardiac Evaluation before NON-Cardiac Surgery (NCS)",
+   "title": "Cardiac Evaluation before NON-Cardiac Surgery (NCS)",
+   "title_fixes": [],
+   "printed_page": 456,
+   "expected_pdf_page": 469,
+   "start_page": 469,
+   "heading_line": "CARDIAC EVALUATION BEFORE NON-CARDIAC",
+   "heading_ratio": 1.0,
+   "chapter": "II",
+   "switch_found_in_blocks": true,
+   "switch_block": "chunk_01318",
+   "reference_heading_found": true
+  }
+ ],
+ "sections_heading_not_found": [],
+ "sections_start_not_at_expected_page": [],
+ "sections_without_reference_heading": [],
+ "title_fixes": {
+  "11": [
+   [
+    "Pisoning",
+    "Poisoning"
+   ]
+  ],
+  "24": [
+   [
+    "Empiric Al",
+    "Empirical"
+   ]
+  ],
+  "25": [
+   [
+    "Respiratonry",
+    "Respiratory"
+   ]
+  ]
+ },
+ "stage2_labels": 54,
+ "stage2_label_mapping": [
+  {
+   "stage2_label": "- Front matter",
+   "toc_section": null,
+   "toc_title": null,
+   "blocks_by_toc_region": {
+    "front": 32
+   },
+   "agrees": false
+  },
+  {
+   "stage2_label": "- Chapter I introduction",
+   "toc_section": null,
+   "toc_title": null,
+   "blocks_by_toc_region": {
+    "front": 1
+   },
+   "agrees": false
+  },
+  {
+   "stage2_label": "- Chapter II introduction",
+   "toc_section": null,
+   "toc_title": null,
+   "blocks_by_toc_region": {
+    "chapter_title:II": 1
+   },
+   "agrees": false
+  },
+  {
+   "stage2_label": "1 Assessment the Patients in Emergency Room",
+   "toc_section": 1,
+   "toc_title": "Assessment the Patients in Emergency Room",
+   "blocks_by_toc_region": {
+    "section:1": 37,
+    "references:1": 1
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "2 Oxygen Therapy and Respiratory Supports",
+   "toc_section": 2,
+   "toc_title": "Oxygen Therapy and Respiratory Supports",
+   "blocks_by_toc_region": {
+    "section:2": 31,
+    "references:2": 1
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "3 Early Warning Score in Hospital",
+   "toc_section": 3,
+   "toc_title": "Early Warning Score in Hospital",
+   "blocks_by_toc_region": {
+    "section:3": 16,
+    "references:3": 1
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "4 Shock",
+   "toc_section": 4,
+   "toc_title": "Shock",
+   "blocks_by_toc_region": {
+    "section:4": 37,
+    "references:4": 2
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "5 Hemorrhagic Shock",
+   "toc_section": 5,
+   "toc_title": "Hemorrhagic Shock",
+   "blocks_by_toc_region": {
+    "section:5": 30,
+    "references:5": 1
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "6 Stroke Syndrome in Emergency",
+   "toc_section": 6,
+   "toc_title": "Stroke Syndrome in Emergency",
+   "blocks_by_toc_region": {
+    "section:6": 34,
+    "references:6": 1
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "7 Coma",
+   "toc_section": 7,
+   "toc_title": "Coma",
+   "blocks_by_toc_region": {
+    "section:7": 24,
+    "references:7": 1
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "8 Allergic Reaction",
+   "toc_section": 8,
+   "toc_title": "Allergic Reaction",
+   "blocks_by_toc_region": {
+    "section:8": 26,
+    "references:8": 2
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "9 General Management of Poisoning",
+   "toc_section": 9,
+   "toc_title": "General Management of Poisoning",
+   "blocks_by_toc_region": {
+    "section:9": 30,
+    "references:9": 1
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "10 Paracetamol Poisoning",
+   "toc_section": 10,
+   "toc_title": "Paracetamol Poisoning",
+   "blocks_by_toc_region": {
+    "section:10": 23,
+    "references:10": 1
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "11 Methamphetamines Poisoning",
+   "toc_section": 11,
+   "toc_title": "Methamphetamines Poisoning",
+   "blocks_by_toc_region": {
+    "section:11": 18,
+    "references:11": 1
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "12 Organophosphate and Carbamate Insecticides Poisoning",
+   "toc_section": 12,
+   "toc_title": "Organophosphate and Carbamate Insecticides Poisoning",
+   "blocks_by_toc_region": {
+    "section:12": 19,
+    "references:12": 1
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "13 Methanol and Ethylene Glycol Intoxication",
+   "toc_section": 13,
+   "toc_title": "Methanol And Ethylene Glycol Intoxication",
+   "blocks_by_toc_region": {
+    "section:13": 25,
+    "references:13": 2
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "14 Cardiopulmonary Arrest Basic and Advance Cardiac Life Support",
+   "toc_section": 14,
+   "toc_title": "Cardiopulmonary Arrest Basic and Advance Cardiac Life Support",
+   "blocks_by_toc_region": {
+    "section:14": 61,
+    "references:14": 2
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "15 Acute Metabolic Complication of Diabetes Mellitus, Hyperosmolar Hyperglycemia State",
+   "toc_section": 15,
+   "toc_title": "Acute Metabolic Complication of Diabetes Mellitus, Hyperosmolar Hyperglycemia State",
+   "blocks_by_toc_region": {
+    "section:15": 20,
+    "references:15": 1
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "16 Traumatism in Adult",
+   "toc_section": 16,
+   "toc_title": "Traumatism In Adult",
+   "blocks_by_toc_region": {
+    "section:16": 26,
+    "references:16": 1
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "17 Initial Management of Head Trauma",
+   "toc_section": 17,
+   "toc_title": "Initial Management of Head Trauma",
+   "blocks_by_toc_region": {
+    "section:17": 21,
+    "references:17": 2
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "18 Initial Management of Chest Trauma",
+   "toc_section": 18,
+   "toc_title": "Initial Management of chest Trauma",
+   "blocks_by_toc_region": {
+    "section:18": 28,
+    "references:18": 2
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "19 Acute Abdominal Syndrome",
+   "toc_section": 19,
+   "toc_title": "Acute Abdominal Syndrome",
+   "blocks_by_toc_region": {
+    "section:19": 21,
+    "references:19": 4
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "20 Hyperkalemia",
+   "toc_section": 20,
+   "toc_title": "Hyperkalemia",
+   "blocks_by_toc_region": {
+    "section:20": 17,
+    "references:20": 2
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "21 Hypokalemia",
+   "toc_section": 21,
+   "toc_title": "Hypokalemia",
+   "blocks_by_toc_region": {
+    "section:21": 24,
+    "references:21": 2
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "22 Hypernatremia",
+   "toc_section": 22,
+   "toc_title": "Hypernatremia",
+   "blocks_by_toc_region": {
+    "section:22": 16,
+    "references:22": 3
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "23 Hyponatremia",
+   "toc_section": 23,
+   "toc_title": "Hyponatremia",
+   "blocks_by_toc_region": {
+    "section:23": 17,
+    "references:23": 3
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "24 Sepsis and Septic Shock, Empirical Antibiotherapy",
+   "toc_section": 24,
+   "toc_title": "Sepsis and Septic Shock, Empirical Antibiotherapy",
+   "blocks_by_toc_region": {
+    "section:24": 21,
+    "references:24": 2
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "25 Severe Acute Respiratory Infection (SARI) and Influenza",
+   "toc_section": 25,
+   "toc_title": "Severe Acute Respiratory infection (SARI) And Influenza",
+   "blocks_by_toc_region": {
+    "section:25": 24,
+    "references:25": 2
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "26 Snake Bites",
+   "toc_section": 26,
+   "toc_title": "Snake Bites",
+   "blocks_by_toc_region": {
+    "section:26": 37,
+    "references:26": 1
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "27 Massive Blood Transfusion",
+   "toc_section": 27,
+   "toc_title": "Massive blood Transfusion",
+   "blocks_by_toc_region": {
+    "section:27": 20,
+    "references:27": 1
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "28 Acute Coronary Syndrome ST-Elevation Myocardial Infarction (STEMI)",
+   "toc_section": 28,
+   "toc_title": "Acute Coronary Syndrome St-elevation Myocardial Infarction (STEMI)",
+   "blocks_by_toc_region": {
+    "section:28": 27,
+    "references:28": 2
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "29 Acute Coronary Syndrome Non-ST Elevation Myocardial Infarction (NSTEMI)",
+   "toc_section": 29,
+   "toc_title": "Acute Coronary Syndrome (ACS)NON-ST Elevation Myocardial Infarction (NSTEMI)",
+   "blocks_by_toc_region": {
+    "section:29": 31,
+    "references:29": 1
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "30 Chronic Coronary Syndrome",
+   "toc_section": 30,
+   "toc_title": "Chronic Coronary Syndrome",
+   "blocks_by_toc_region": {
+    "section:30": 12,
+    "references:30": 2
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "31 Emergency Tachy-Arrhythmia",
+   "toc_section": 31,
+   "toc_title": "Emergency Tachy-Arrhythmia",
+   "blocks_by_toc_region": {
+    "section:31": 28,
+    "references:31": 2
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "32 Emergency Bradycardia",
+   "toc_section": 32,
+   "toc_title": "Emergency Bradycardia",
+   "blocks_by_toc_region": {
+    "section:32": 17,
+    "references:32": 2
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "33 Pulmonary Embolism",
+   "toc_section": 33,
+   "toc_title": "Pulmonary Embolism",
+   "blocks_by_toc_region": {
+    "section:33": 19,
+    "references:33": 5
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "34 Acute Pulmonary Edema",
+   "toc_section": 34,
+   "toc_title": "Acute Pulmonary Edema",
+   "blocks_by_toc_region": {
+    "section:34": 20,
+    "references:34": 1
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "35 Hypertension",
+   "toc_section": 35,
+   "toc_title": "Hypertension",
+   "blocks_by_toc_region": {
+    "section:35": 31,
+    "references:35": 4
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "36 Chronic Heart Failure",
+   "toc_section": 36,
+   "toc_title": "Chronic Heart failure",
+   "blocks_by_toc_region": {
+    "section:36": 32,
+    "references:36": 4
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "37 Aortic Regurgitation (AR)",
+   "toc_section": 37,
+   "toc_title": "Aortic regurgitation (AR)",
+   "blocks_by_toc_region": {
+    "section:37": 21,
+    "references:37": 2
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "38 Aortic Stenosis (AS)",
+   "toc_section": 38,
+   "toc_title": "Aortic Stenosis (AS)",
+   "blocks_by_toc_region": {
+    "section:38": 15,
+    "references:38": 2
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "39 Management of Aortic Aneurysm",
+   "toc_section": 39,
+   "toc_title": "Management of Aortic Aneurysm",
+   "blocks_by_toc_region": {
+    "section:39": 14,
+    "references:39": 1
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "40 Mitral Regurgitation (MR)",
+   "toc_section": 40,
+   "toc_title": "Mitral Regurgitation (MR)",
+   "blocks_by_toc_region": {
+    "section:40": 23,
+    "references:40": 2
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "41 Mitral Stenosis (MS)",
+   "toc_section": 41,
+   "toc_title": "Mitral Stenosis (MS)",
+   "blocks_by_toc_region": {
+    "section:41": 19,
+    "references:41": 2
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "42 Management and Surveillance of Prosthetic Valves",
+   "toc_section": 42,
+   "toc_title": "Management And Surveillance of Prosthetic Valves",
+   "blocks_by_toc_region": {
+    "section:42": 15,
+    "references:42": 1
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "43 Deep Venous Thrombosis",
+   "toc_section": 43,
+   "toc_title": "Deep Venous Thrombosis",
+   "blocks_by_toc_region": {
+    "section:43": 17,
+    "references:43": 3
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "44 Prevention of Deep Venous Thrombosis",
+   "toc_section": 44,
+   "toc_title": "Prevention Of Deep Venous Thrombosis",
+   "blocks_by_toc_region": {
+    "section:44": 10,
+    "references:44": 3
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "45 Infectious Endocarditis",
+   "toc_section": 45,
+   "toc_title": "Infectious Endocarditis",
+   "blocks_by_toc_region": {
+    "section:45": 29,
+    "references:45": 3
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "46 Infectious Endocarditis",
+   "toc_section": 46,
+   "toc_title": "Infectious Endocarditis",
+   "blocks_by_toc_region": {
+    "section:46": 26,
+    "references:46": 1
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "47 Pericarditis",
+   "toc_section": 47,
+   "toc_title": "Pericarditis",
+   "blocks_by_toc_region": {
+    "section:47": 10,
+    "references:47": 1
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "48 Constrictive Pericarditis",
+   "toc_section": 48,
+   "toc_title": "Constrictive Pericarditis",
+   "blocks_by_toc_region": {
+    "section:48": 26,
+    "references:48": 2
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "49 Management of Cardiovascular Diseases During Pregnancy",
+   "toc_section": 49,
+   "toc_title": "Management of Cardiovascular Diseases During Pregnancy",
+   "blocks_by_toc_region": {
+    "section:49": 68,
+    "references:49": 2
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "50 Cardiovascular Drugs and Pregnancy",
+   "toc_section": 50,
+   "toc_title": "Cardiovascular Drugs and Pregnancy",
+   "blocks_by_toc_region": {
+    "section:50": 11,
+    "references:50": 1
+   },
+   "agrees": true
+  },
+  {
+   "stage2_label": "51 Cardiac Evaluation before Non-Cardiac Surgery (NCS)",
+   "toc_section": 51,
+   "toc_title": "Cardiac Evaluation before NON-Cardiac Surgery (NCS)",
+   "blocks_by_toc_region": {
+    "section:51": 16,
+    "references:51": 2
+   },
+   "agrees": true
+  }
+ ],
+ "stage2_labels_not_in_toc": [
+  "- Front matter",
+  "- Chapter I introduction",
+  "- Chapter II introduction"
+ ],
+ "stage2_labels_disagreeing": [],
+ "docling_section_headers": 1303,
+ "docling_headers_matching_a_toc_title": [
+  {
+   "page": 17,
+   "heading": "ASSESSMENT THE PATIENTS IN EMERGENCY ROOM",
+   "toc_section": 1,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 30,
+   "heading": "OXYGEN THERAPY AND RESPIRATORY SUPPORTS",
+   "toc_section": 2,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 42,
+   "heading": "EARLY WARNING SCORE IN HOSPITAL",
+   "toc_section": 3,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 51,
+   "heading": "1. Hypotension:",
+   "toc_section": 35,
+   "ratio": 0.87,
+   "on_start_page": false
+  },
+  {
+   "page": 63,
+   "heading": "HEMORRHAGIC SHOCK",
+   "toc_section": 5,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 76,
+   "heading": "STROKE SYNDROME IN EMERGENCY",
+   "toc_section": 6,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 78,
+   "heading": "b. Hemorrhagic stroke",
+   "toc_section": 5,
+   "ratio": 0.82,
+   "on_start_page": false
+  },
+  {
+   "page": 99,
+   "heading": "ALLERGIC REACTION",
+   "toc_section": 8,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 108,
+   "heading": "GENERAL MANAGEMENT OF POISONING",
+   "toc_section": 9,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 120,
+   "heading": "PARACETAMOL POISONING",
+   "toc_section": 10,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 129,
+   "heading": "METHAMPHETAMINES POISONING",
+   "toc_section": 11,
+   "ratio": 0.98,
+   "on_start_page": true
+  },
+  {
+   "page": 136,
+   "heading": "ORGANOPHOSPHATE AND CARBAMATE INSECTICIDES POISONING",
+   "toc_section": 12,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 142,
+   "heading": "Organophosphate / Carbamate",
+   "toc_section": 12,
+   "ratio": 0.89,
+   "on_start_page": false
+  },
+  {
+   "page": 145,
+   "heading": "METHANOL AND ETHYLENE GLYCOL INTOXICATION",
+   "toc_section": 13,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 154,
+   "heading": "CARDIOPULMONARY ARREST BASIC AND ADVANCE CARDIAC LIFE SUPPORT",
+   "toc_section": 14,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 169,
+   "heading": "Pulmonary embolism (19.6%)",
+   "toc_section": 33,
+   "ratio": 1.0,
+   "on_start_page": false
+  },
+  {
+   "page": 172,
+   "heading": "ACUTE METABOLIC COMPLICATION OF DIABETES MELLITUS, HYPEROSMOLAR HYPERGLYCEMIA STATE",
+   "toc_section": 15,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 180,
+   "heading": "TRAUMATISM IN ADULT",
+   "toc_section": 16,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 190,
+   "heading": "INITIAL MANAGEMENT OF HEAD TRAUMA",
+   "toc_section": 17,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 197,
+   "heading": "INITIAL MANAGEMENT OF CHEST TRAUMA",
+   "toc_section": 18,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 206,
+   "heading": "ACUTE ABDOMINAL SYNDROME",
+   "toc_section": 19,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 215,
+   "heading": "HYPERKALEMIA",
+   "toc_section": 20,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 223,
+   "heading": "HYPOKALEMIA",
+   "toc_section": 21,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 232,
+   "heading": "HYPERNATREMIA",
+   "toc_section": 22,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 241,
+   "heading": "HYPONATREMIA",
+   "toc_section": 23,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 249,
+   "heading": "SEPSIS AND SEPTIC SHOCK, EMPIRICAL ANTIBIOTHERAPY",
+   "toc_section": 24,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 257,
+   "heading": "SEVERE ACUTE RESPIRATORY INFECTION (SARI) AND INFLUENZA",
+   "toc_section": 25,
+   "ratio": 0.97,
+   "on_start_page": true
+  },
+  {
+   "page": 266,
+   "heading": "SNAKE BITES",
+   "toc_section": 26,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 276,
+   "heading": "MASSIVE BLOOD TRANSFUSION",
+   "toc_section": 27,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 280,
+   "heading": "VII. MASSIVE BLOOD TRANSFUSION (MBT) PROTOCOL",
+   "toc_section": 27,
+   "ratio": 0.87,
+   "on_start_page": false
+  },
+  {
+   "page": 285,
+   "heading": "ACUTE CORONARY SYNDROME",
+   "toc_section": 28,
+   "ratio": 0.82,
+   "on_start_page": true
+  },
+  {
+   "page": 293,
+   "heading": "ACUTE CORONARY SYNDROME (ACS)",
+   "toc_section": 29,
+   "ratio": 0.89,
+   "on_start_page": true
+  },
+  {
+   "page": 302,
+   "heading": "CHRONIC CORONARY SYNDROME",
+   "toc_section": 30,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 306,
+   "heading": "EMERGENCY TACHY-ARRHYTHMIA",
+   "toc_section": 31,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 315,
+   "heading": "EMERGENCY BRADYCARDIA",
+   "toc_section": 32,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 319,
+   "heading": "PULMONARY EMBOLISM",
+   "toc_section": 33,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 326,
+   "heading": "ACUTE PULMONARY EDEMA",
+   "toc_section": 34,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 333,
+   "heading": "HYPERTENSION",
+   "toc_section": 35,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 345,
+   "heading": "CHRONIC HEART FAILURE",
+   "toc_section": 36,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 359,
+   "heading": "AORTIC REGURGITATION (AR)",
+   "toc_section": 37,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 360,
+   "heading": "Aortic Regurgitation",
+   "toc_section": 37,
+   "ratio": 0.95,
+   "on_start_page": false
+  },
+  {
+   "page": 366,
+   "heading": "AORTIC STENOSIS (AS)",
+   "toc_section": 38,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 372,
+   "heading": "MANAGEMENT OF AORTIC ANEURYSM",
+   "toc_section": 39,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 377,
+   "heading": "MITRAL REGURGITATION (MR)",
+   "toc_section": 40,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 384,
+   "heading": "MITRAL STENOSIS (MS)",
+   "toc_section": 41,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 392,
+   "heading": "MANAGEMENT AND SURVEILLANCE OF PROSTHETIC VALVES",
+   "toc_section": 42,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 397,
+   "heading": "DEEP VENOUS THROMBOSIS",
+   "toc_section": 43,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 403,
+   "heading": "PREVENTION OF DEEP VENOUS THROMBOSIS",
+   "toc_section": 44,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 407,
+   "heading": "INFECTIOUS ENDOCARDITIS",
+   "toc_section": 45,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 417,
+   "heading": "INFECTIOUS ENDOCARDITIS",
+   "toc_section": 45,
+   "ratio": 1.0,
+   "on_start_page": false
+  },
+  {
+   "page": 428,
+   "heading": "PERICARDITIS",
+   "toc_section": 47,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 428,
+   "heading": "Type of pericarditis",
+   "toc_section": 47,
+   "ratio": 0.8,
+   "on_start_page": true
+  },
+  {
+   "page": 432,
+   "heading": "CONSTRICTIVE PERICARDITIS",
+   "toc_section": 48,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 441,
+   "heading": "MANAGEMENT OF CARDIOVASCULAR DISEASES DURING PREGNANCY",
+   "toc_section": 49,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 453,
+   "heading": "1. Mitral stenosis",
+   "toc_section": 41,
+   "ratio": 0.93,
+   "on_start_page": false
+  },
+  {
+   "page": 464,
+   "heading": "CARDIOVASCULAR DRUGS AND PREGNANCY",
+   "toc_section": 50,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 469,
+   "heading": "CARDIAC EVALUATION BEFORE NON-CARDIAC SURGERY (NCS)",
+   "toc_section": 51,
+   "ratio": 1.0,
+   "on_start_page": true
+  },
+  {
+   "page": 471,
+   "heading": "➢ HYPERTENSION:",
+   "toc_section": 35,
+   "ratio": 1.0,
+   "on_start_page": false
+  }
+ ],
+ "toc_sections_without_docling_header": [
+  4,
+  7,
+  46
+ ]
+}

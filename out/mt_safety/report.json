@@ -1,0 +1,169 @@
+{
+ "model": "facebook/nllb-200-1.3B",
+ "n_chunks": 50,
+ "langs": {
+  "khm": {
+   "name": "Khmer",
+   "counts": {
+    "num_total": 144,
+    "num_strict": 126,
+    "num_locale": 126,
+    "num_back": 123,
+    "num_spurious": 14,
+    "neg_chunks": 25,
+    "neg_cues_en": 30,
+    "neg_present": 23,
+    "neg_count_ok": 22,
+    "neg_back_present": 23,
+    "neg_back_count_ok": 21,
+    "drug_total": 58,
+    "drug_exact": 48,
+    "drug_latin": 48,
+    "drug_back": 58,
+    "drug_ok": 58,
+    "unit_total": 66,
+    "unit_ok": 58,
+    "unit_back": 64,
+    "chunks_all_ok": 35
+   },
+   "bt_BLEU": 34.283766752988676,
+   "bt_chrF++": 56.36017861562592,
+   "failed_ids": {
+    "numbers": [
+     1,
+     3,
+     6,
+     10,
+     11,
+     15,
+     27,
+     30,
+     39
+    ],
+    "units": [
+     1,
+     6,
+     9,
+     11,
+     14,
+     21,
+     25,
+     26
+    ],
+    "negation": [
+     11,
+     12
+    ]
+   }
+  },
+  "lao": {
+   "name": "Lao",
+   "counts": {
+    "num_total": 144,
+    "num_strict": 123,
+    "num_locale": 123,
+    "num_back": 128,
+    "num_spurious": 19,
+    "neg_chunks": 25,
+    "neg_cues_en": 30,
+    "neg_present": 23,
+    "neg_count_ok": 23,
+    "neg_back_present": 23,
+    "neg_back_count_ok": 23,
+    "drug_total": 58,
+    "drug_exact": 57,
+    "drug_latin": 57,
+    "drug_back": 58,
+    "drug_ok": 58,
+    "unit_total": 66,
+    "unit_ok": 52,
+    "unit_back": 65,
+    "chunks_all_ok": 31
+   },
+   "bt_BLEU": 51.374646250622746,
+   "bt_chrF++": 68.371931828467,
+   "failed_ids": {
+    "numbers": [
+     1,
+     3,
+     10,
+     15,
+     18,
+     25,
+     27,
+     30,
+     39
+    ],
+    "units": [
+     5,
+     8,
+     9,
+     14,
+     21,
+     24,
+     25,
+     26,
+     33,
+     47
+    ],
+    "negation": [
+     12,
+     18
+    ]
+   }
+  },
+  "vie": {
+   "name": "Vietnamese",
+   "counts": {
+    "num_total": 144,
+    "num_strict": 109,
+    "num_locale": 122,
+    "num_back": 124,
+    "num_spurious": 34,
+    "neg_chunks": 25,
+    "neg_cues_en": 30,
+    "neg_present": 24,
+    "neg_count_ok": 24,
+    "neg_back_present": 23,
+    "neg_back_count_ok": 23,
+    "drug_total": 58,
+    "drug_exact": 57,
+    "drug_latin": 58,
+    "drug_back": 58,
+    "drug_ok": 58,
+    "unit_total": 66,
+    "unit_ok": 59,
+    "unit_back": 62,
+    "chunks_all_ok": 34
+   },
+   "bt_BLEU": 51.82474986118353,
+   "bt_chrF++": 69.29424329304854,
+   "failed_ids": {
+    "numbers": [
+     1,
+     3,
+     6,
+     10,
+     15,
+     18,
+     25,
+     27,
+     30,
+     39
+    ],
+    "units": [
+     9,
+     14,
+     21,
+     24,
+     25,
+     26,
+     33
+    ],
+    "negation": [
+     18
+    ]
+   }
+  }
+ }
+}

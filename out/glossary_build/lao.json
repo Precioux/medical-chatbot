@@ -1,0 +1,8340 @@
+{
+"entries": [
+{
+"en": "abdomen",
+"lo": "ທ້ອງ",
+"lo_chandra": "ທ້ອງ",
+"ocr_agreement": 1.0,
+"page": 23
+},
+{
+"en": "ability",
+"lo": "ສະມັດຖະພາບ",
+"lo_chandra": "ສະມັດຖະພາບ",
+"ocr_agreement": 1.0,
+"page": 23
+},
+{
+"en": "abortion",
+"lo": "ການທລຸລູກ, ການເຮັດໃຫ້ຫລຸລູກ",
+"lo_chandra": "ການຫລຸກ, ການເຮັດໃຫ້ຫລຸກ",
+"ocr_agreement": 0.88,
+"page": 23
+},
+{
+"en": "abscess",
+"lo": "ອັບແຊ, ຝີ",
+"lo_chandra": "ອັບແຊ, ຝີ",
+"ocr_agreement": 1.0,
+"page": 23
+},
+{
+"en": "abstinence",
+"lo": "ການງົດ, nwo, ການລະເວັນ",
+"lo_chandra": "ການຖິດ, ການອິດ, ການລະເວີນ",
+"ocr_agreement": 0.681,
+"page": 23
+},
+{
+"en": "accident",
+"lo": "ອຸບັດເຫດ",
+"lo_chandra": "ອັບດເຫດ",
+"ocr_agreement": 0.8,
+"page": 23
+},
+{
+"en": "ache",
+"lo": "ເຈັບ, ປວດ",
+"lo_chandra": "ເຈັບ, ປວດ",
+"ocr_agreement": 1.0,
+"page": 23
+},
+{
+"en": "acid",
+"lo": "ນຳກົດ, ອາຊີດ",
+"lo_chandra": "ມັກກິດ, ອາຊິດ",
+"ocr_agreement": 0.64,
+"page": 23
+},
+{
+"en": "acne",
+"lo": "ສິວ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 23
+},
+{
+"en": "acoustic",
+"lo": "ກ່ຽວກັບສຽງ, ກ່ຽວກັບການ ໄດ້ຍິນ",
+"lo_chandra": "ກຸງວັກບສຽງ, ກຸງວັກບການ ໄດ້ຍິນ",
+"ocr_agreement": 0.793,
+"page": 23
+},
+{
+"en": "syndrome",
+"lo": "ພະຍາດເອດ, ພະ ຍາດພູມຕ້ານທານເສືອມ",
+"lo_chandra": "ພະຍາດເອດ, ພະ ຍາດພູມຕ້ານທານເສືອມ",
+"ocr_agreement": 1.0,
+"page": 23
+},
+{
+"en": "actinic",
+"lo": "ລຶກສະນະຂອງແສງທສາ",
+"lo_chandra": "ລັກສະນະຂອງແສງທີສາ ມາດມີຜິດຕິກຳດ້ານເຄມີ",
+"ocr_agreement": 0.556,
+"page": 23
+},
+{
+"en": "am",
+"lo": "ມາດມພດຕກາດານເຄມ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 23
+},
+{
+"en": "acupuncture",
+"lo": "ວິທະຍາການປັກເຂ້ມ, ການປົວດ້ວຍແທງເຂັມ",
+"lo_chandra": "ວິທະຍາການປົກເຂີມ, ການປິວດ້ວຍແຫງເຂີມ",
+"ocr_agreement": 0.857,
+"page": 23
+},
+{
+"en": "acute",
+"lo": "ຮຸນແຮງ, ດວນ, ແທລມ, ປະຈຸ ບັນ, ສາທັດ, ສຽບແຫລມ",
+"lo_chandra": "ຮູບແຮງ, ດ້ວຍ, ແຫລມ, ປະຈຸ ບັນ, ສາທັດ, ສຽບແຫລມ",
+"ocr_agreement": 0.897,
+"page": 23
+},
+{
+"en": "adaptation",
+"lo": "ການປັບຕົວ, ການດັດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 24
+},
+{
+"en": "addiction",
+"lo": "ການຕິດຢາ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 24
+},
+{
+"en": "adenoid",
+"lo": "ມີລັກສະນະຄືຕອມ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 24
+},
+{
+"en": "adenoids",
+"lo": "ຕ່ອມອາເດໂນອິດ, ຕ່ອມງອກຮູດັງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 24
+},
+{
+"en": "adrenalin",
+"lo": "ອາເດຣນາລິນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 24
+},
+{
+"en": "adult na",
+"lo": "ຜູ້ໂຫຍ, ຕົວແກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 24
+},
+{
+"en": "advice",
+"lo": "ຄຳແນະນຳ, ຄຳເຕືອນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 24
+},
+{
+"en": "advise",
+"lo": "ແນະນຳ, ເຕືອນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 24
+},
+{
+"en": "aerobic",
+"lo": "ທຕອງການອກຂ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 24
+},
+{
+"en": "agitated",
+"lo": "ຮູ້ສຶກກະວົນກະວາຍ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 24
+},
+{
+"en": "agitation",
+"lo": "ຄວາມຮູ້ສຶກກະວົນກະ ວາຍ, ຄວາມຮູ້ສຶກຕືນເຕັນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 24
+},
+{
+"en": "agony",
+"lo": "ອາການທຸລົນທຸລາຍກ່ອນ ຕາຍ, ພາວະທີພວມຈະຂາດໃຈຕາຍ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 24
+},
+{
+"en": "aid",
+"lo": "ການຊ່ວຍເຫລືອ, ຄວາມຊ່ວຍ ເທລືອ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 24
+},
+{
+"en": "albinism",
+"lo": "ດ້ອນມາແຕກາ໋ເນີດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 24
+},
+{
+"en": "alcohol",
+"lo": "ເທລົ່າ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 24
+},
+{
+"en": "alcoholism",
+"lo": "ການຕດເທລາ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 24
+},
+{
+"en": "algid",
+"lo": "ເຢັນກະດ້າງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 25
+},
+{
+"en": "alimentary canal",
+"lo": "ທໍ່ອາທານ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 25
+},
+{
+"en": "alkali",
+"lo": "ດັງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 25
+},
+{
+"en": "allergic reaction",
+"lo": "ປະຕິກິລຶຍາແພ້",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 25
+},
+{
+"en": "allergic rhinitis",
+"lo": "ອັກເສບດັງແບບ ແພ້",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 25
+},
+{
+"en": "allergy",
+"lo": "ພູມແພ້, ການແພ້ສານໃດນຶງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 25
+},
+{
+"en": "alveolus",
+"lo": "ຖົງຫລອດປອດ, ຖົງ, ຂຸມ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 25
+},
+{
+"en": "Alzheimer's disease",
+"lo": "ພະຍາດ ອານໄຊເມ໊",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 25
+},
+{
+"en": "ambulance",
+"lo": "ລົດພະຍາບານ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 25
+},
+{
+"en": "ameba",
+"lo": "ອາມີບ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 25
+},
+{
+"en": "amebiasis",
+"lo": "ພະຍາດທີເກີດຈາກອາ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 25
+},
+{
+"en": "amenorrhea",
+"lo": "ຂາດປະຈຳເດືອນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 25
+},
+{
+"en": "ammonia",
+"lo": "ທາດອາໂມນີອັກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 25
+},
+{
+"en": "amnesia",
+"lo": "ພາວະຂາດຄວາມຊົງຈຳ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 25
+},
+{
+"en": "amniotic",
+"lo": "ທີກ່ຽວກັບຖົງນຳ້ຄາວປາ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 25
+},
+{
+"en": "amorphous",
+"lo": "ທປາດສະຈາກຮູບຮາງ ແນນອນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 25
+},
+{
+"en": "amputation",
+"lo": "ການຕັດກຸດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 25
+},
+{
+"en": "anaerobic",
+"lo": "ທບຕອງການອກຂ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 26
+},
+{
+"en": "analgesic",
+"lo": "ຢາ)ທີຕ້ານຄວາມເຈັບ ປວດ, (ຢາ)ແກ້ປວດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 26
+},
+{
+"en": "analysis",
+"lo": "ການວິເຄາະ, ການວິໄຈ, ຜົນຂອງການວິເຄາະວິໃຈ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 26
+},
+{
+"en": "analyze",
+"lo": "ວິເຄາະ, ວິໄຈ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 26
+},
+{
+"en": "anaphylactic",
+"lo": "ທກຽວກບການແພຮຸນ ແຮງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 26
+},
+{
+"en": "anatomy",
+"lo": "ກາຍະວິພາກສາດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 26
+},
+{
+"en": "anemia",
+"lo": "ອາເນມີ, ອາການເລືອດ ຈາງ, ຂາດເລືອດ, ພາວະທີຈຳນວນ ເມັດເລືອດແດງນ້ອຍ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 26
+},
+{
+"en": "anesthesia",
+"lo": "ອາການສູນເສຍຄວາມ ຮູສັກ, ອາການມນ, ສະຫລບ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 26
+},
+{
+"en": "anesthesia",
+"lo": "ການທຳມຶນ , ການທາ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 26
+},
+{
+"en": "anesthetic",
+"lo": "ຢາມຶນ, ຢາສະຫລົບ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 26
+},
+{
+"en": "anesthetize",
+"lo": "ເຮັດໃຫ້ຫມົດຄວາມຮູ້ ສຶກ, ເຮັດໃຫ້ມຶນ, ເຮັດໃຫ້ບໍ່ເຈັບ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 26
+},
+{
+"en": "aneurysm",
+"lo": "ອາການປຸ້ງອອກ (ຕົວ ຢາງ ເສັ້ນເລືອດແດງປຸ້ງອອກ)",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 26
+},
+{
+"en": "angina pectoris",
+"lo": "ອາການເຈັບຮັດ ຫນ້າເອິກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 26
+},
+{
+"en": "ankle",
+"lo": "ຕາຕຸ່ມມ່ອງ, ຄໍຕໍລະທວາງກະ ດູກແຄງແລະຕີນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 26
+},
+{
+"en": "annular",
+"lo": "ທີເປັນຮູບວົງແຫວນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 26
+},
+{
+"en": "anomalous",
+"lo": "ຜິດປົກກະຕິ, ບໍ່ທຳມະ ດາ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 26
+},
+{
+"en": "anomaly",
+"lo": "ສິງທີຜິດປົກກະຕິ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 26
+},
+{
+"en": "Anopheles",
+"lo": "ຍຸງອາໂນແຟນ, ຍຸງກົນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 27
+},
+{
+"en": "antacid",
+"lo": "ຢາແກ້ກົດ, ຢາລົດກົດໃນກະ ເພາະ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 27
+},
+{
+"en": "ante-",
+"lo": "ກ່ອນ, ທາງຫນ້າ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 27
+},
+{
+"en": "anterior",
+"lo": "ເບື້ອງຫນ້າ, ສ່ວນຫນ້າ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 27
+},
+{
+"en": "anthelmintic",
+"lo": "ຢາຂ້າແມ່ທ້ອງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 27
+},
+{
+"en": "anthrax",
+"lo": "ພະຍາດອັນຕຣັກ, ຝີຫລາຍ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 27
+},
+{
+"en": "anti-",
+"lo": "ຕ້ານ, ຕໍ່ຕ້ານ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 27
+},
+{
+"en": "antibiotic",
+"lo": "(ຢາ)ຕ້ານເຊື່ອ, (ຢາ)ປະ ຕິຊີວະນະ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 27
+},
+{
+"en": "antibody",
+"lo": "ທາດຄຸມກົນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 27
+},
+{
+"en": "antidote",
+"lo": "ຢາແກ້ພິດ, ຢາຕ້ານເບືອ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 27
+},
+{
+"en": "antigen",
+"lo": "ປະຕິຂຊານ, ສານທີເຮັດໃຫ້ ເກີດທາດຕ້ານໃນຮາງກາຍ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 27
+},
+{
+"en": "antihistamine",
+"lo": "ຢາທຫລືສານຕ້ານ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 27
+},
+{
+"en": "antiseptic na",
+"lo": "ຢາຂ້າເຊື້ອ, ຢາປາບ ເຊືອ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 27
+},
+{
+"en": "antitoxin",
+"lo": "ຢາຕ້ານພິດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 27
+},
+{
+"en": "anus",
+"lo": "ທະວານຫນັກ, shu",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 27
+},
+{
+"en": "anxiety",
+"lo": "ຄວາມກັງວົນໃຈ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 27
+},
+{
+"en": "aorta",
+"lo": "ເສັ້ນເລືອດອາອ໊ອກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 27
+},
+{
+"en": "apex",
+"lo": "ຈອມ, ຍອດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 27
+},
+{
+"en": "aphthous ulcer",
+"lo": "ພະຍາດປາກ",
+"lo_chandra": "ພະຍາດປາກ ເປືອຍ ຫລື ເປັນຕຸມໃນປາກ",
+"ocr_agreement": 0.41,
+"page": 28
+},
+{
+"en": "appendicitis",
+"lo": "ໄສ້ຕິງອັກເສບ",
+"lo_chandra": "ໄສຕີງອັກເສບ",
+"ocr_agreement": 0.87,
+"page": 28
+},
+{
+"en": "appendix",
+"lo": "ໄສ້ຕິງ, ຕິງ",
+"lo_chandra": "ໄສຕີງ, ຕີງ",
+"ocr_agreement": 0.762,
+"page": 28
+},
+{
+"en": "appetite",
+"lo": "ຄວາມທິວ, ຄວາມຢາກ",
+"lo_chandra": "ຄວາມຫີວ, ຄວາມຢາກ",
+"ocr_agreement": 0.875,
+"page": 28
+},
+{
+"en": "application",
+"lo": "ວິທີໃຊ້, ການນາມາໂຊ້, ການປະຍຸກ",
+"lo_chandra": "ວິທີໃຊ້, ການນຳມາໃຊ້, ການປະຍູກ",
+"ocr_agreement": 0.897,
+"page": 28
+},
+{
+"en": "application",
+"lo": "ການແປະ, ການທາຢາ",
+"lo_chandra": "ການແປະ, ການທາຢາ ໃສ່",
+"ocr_agreement": 0.882,
+"page": 28
+},
+{
+"en": "apply",
+"lo": "ແປະ, ທາໂສ",
+"lo_chandra": "ແປະ, ທາໃສ່",
+"ocr_agreement": 0.842,
+"page": 28
+},
+{
+"en": "apply",
+"lo": "ຂໍ, ເຮັດໃບຄຳຮ້ອງ, ຍືນໃບສະ ຫມັກ",
+"lo_chandra": "ຂໍ, ເຮັດໃບຄຳຮ້ອງ, ຢືນໃບສະ ຫມັກ",
+"ocr_agreement": 0.967,
+"page": 28
+},
+{
+"en": "arch",
+"lo": "ທ່ອນກົງ, (ສ່ວນ)ໂຄ້ງ",
+"lo_chandra": "ທ່ອມກິງ, (ສວມ)ໂຄງ",
+"ocr_agreement": 0.778,
+"page": 28
+},
+{
+"en": "areca",
+"lo": "ຫມາກ (ຄຽວ)",
+"lo_chandra": "ຫມາກ (ຄຸງວ)",
+"ocr_agreement": 0.857,
+"page": 28
+},
+{
+"en": "areola",
+"lo": "ເກີ່ງ, ວົງດາອ້ອມທົວນົມ md ໃນແກ່ນຕາ",
+"lo_chandra": "ເກົງ, ວົງດ້າອອມທີວົມ ຫລື ໃນແກ່ນຕາ",
+"ocr_agreement": 0.806,
+"page": 28
+},
+{
+"en": "arm",
+"lo": "ແຂນ, ກົກແຂນ",
+"lo_chandra": "ແຂນ, ກິກແຂນ",
+"ocr_agreement": 0.909,
+"page": 28
+},
+{
+"en": "armpit",
+"lo": "ຂີ້ແຮ້, ກ້ອງແຂນ",
+"lo_chandra": "ຂໍແຮ້, ກ້ອງແຂນ",
+"ocr_agreement": 0.897,
+"page": 28
+},
+{
+"en": "arteriosclerosis",
+"lo": "ພະຍາດເສັນ ເລືອດແດງແຂງກະດ້າງ",
+"lo_chandra": "ພະຍາດເສີມ ເລືອດແດງແຂງກະດ້າງ",
+"ocr_agreement": 0.926,
+"page": 28
+},
+{
+"en": "artery",
+"lo": "ເສັ້ນເລືອດແດງ, ເສັ້ນເລືອດ ເຕັນ, ເສັນເລືອດຈອນ",
+"lo_chandra": "ເສີມເລືອດແດງ, ເສີມເລືອດ ຕົວ, ເສີມເລືອດຈອມ",
+"ocr_agreement": 0.753,
+"page": 28
+},
+{
+"en": "arthritis",
+"lo": "ອັກເສບຄໍກະດູກ",
+"lo_chandra": "ອັກເສບຄົກຂຸກ",
+"ocr_agreement": 0.72,
+"page": 28
+},
+{
+"en": "artificial",
+"lo": "ທຽມ, ບໍແມ່ນຂອງທຳມະ",
+"lo_chandra": "ທາງມ, ບໍແມ່ນຂອງທຸກມະ ຊາດ",
+"ocr_agreement": 0.762,
+"page": 28
+},
+{
+"en": "artificial respiration",
+"lo": "ການຫາຍໃຈ ທຽມ, ການຊວຍທາຍໃຈ",
+"lo_chandra": "ການຫາຍໃຈ ຫຼຸມ, ການຊ່ວຍຫາຍໃຈ",
+"ocr_agreement": 0.846,
+"page": 29
+},
+{
+"en": "asepsis",
+"lo": "ອະເຊອ, ປອດເຊອ",
+"lo_chandra": "ອະເຊັອ, ປອດເຊັອ",
+"ocr_agreement": 0.929,
+"page": 29
+},
+{
+"en": "aspect",
+"lo": "ໂສມຫນ້າ, ລັກສະນະພາຍ",
+"lo_chandra": "ໂສມຫມັກ, ລັກສະນະພາຍ ນອກ",
+"ocr_agreement": 0.762,
+"page": 29
+},
+{
+"en": "asthma",
+"lo": "ທົດ, ຂໍຂະຍີ",
+"lo_chandra": "ຫືດ, ຂໍ້ຍີ",
+"ocr_agreement": 0.667,
+"page": 29
+},
+{
+"en": "atrophy",
+"lo": "ຄວາມແທ່ວລີບ",
+"lo_chandra": "ຄວາມແຫ້ວລຶບ",
+"ocr_agreement": 0.727,
+"page": 29
+},
+{
+"en": "auto-",
+"lo": "ຕົວເອງ, ດ້ວຍຕົວເອງ",
+"lo_chandra": "ດິວເອງ, ດ້ວຍຕົວເອງ",
+"ocr_agreement": 0.889,
+"page": 29
+},
+{
+"en": "autopsy",
+"lo": "ການຜ່າຕັດຊາກສົບ (ເພືອ ສັນລະສູດ)",
+"lo_chandra": "ການຜາຕັດຊາກສີບ (ເພື່ອ ສັມລະສຸດ)",
+"ocr_agreement": 0.871,
+"page": 29
+},
+{
+"en": "back na",
+"lo": "ຫລັງ, ສັນຫລັງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 29
+},
+{
+"en": "backache",
+"lo": "ອາການເຈັບທລັງເຈັບ ແອວ",
+"lo_chandra": "ອາການເຈັບຫລັງເຈັບ ແອວ",
+"ocr_agreement": 0.952,
+"page": 29
+},
+{
+"en": "bacterium",
+"lo": "ບັກເຕລີ, ເຊື້ອພະຍາດ ຈຳພວກນຶງ",
+"lo_chandra": "ບັກເຕີ, ເຊັອພະຍາດ ຈຳພວກມັງ",
+"ocr_agreement": 0.852,
+"page": 29
+},
+{
+"en": "balance",
+"lo": "ເຄືອງຊັງນຳ້ທນັກ",
+"lo_chandra": "ຊົງຊ່ງ, ເຄືອງຊ່ງມັກຫນັກ",
+"ocr_agreement": 0.526,
+"page": 29
+},
+{
+"en": "baldness",
+"lo": "ຫົວລັານ",
+"lo_chandra": "ຫືວລ້ານ",
+"ocr_agreement": 0.714,
+"page": 29
+},
+{
+"en": "bandage",
+"lo": "ຜ້າພັນແຜ, ເຄືອງພັນ, ການພັນ (ບາດແຜ)",
+"lo_chandra": "ຜ້າພັນແຜ, ເຄືອງພັນ, ການພັນ (ບາດແຜ)",
+"ocr_agreement": 1.0,
+"page": 30
+},
+{
+"en": "base",
+"lo": "ພື້ນຖານ",
+"lo_chandra": "ພັນຖານ",
+"ocr_agreement": 0.769,
+"page": 30
+},
+{
+"en": "bath",
+"lo": "ການອາບ , ການແຊ່, ການອາບ ນຳ, ການລ້າງ",
+"lo_chandra": "ການອາບ, ການແຊ, ການອາບ ມັກ, ການລ້າງ",
+"ocr_agreement": 0.899,
+"page": 30
+},
+{
+"en": "bathe",
+"lo": "ອາບນຳ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 30
+},
+{
+"en": "bedsore",
+"lo": "ແຜຕຽງ",
+"lo_chandra": "ແຜຕຸງ",
+"ocr_agreement": 0.8,
+"page": 30
+},
+{
+"en": "behavior",
+"lo": "ການປະພຶດຕົວ",
+"lo_chandra": "ການປະພຶດຕິວ",
+"ocr_agreement": 0.909,
+"page": 30
+},
+{
+"en": "belch",
+"lo": "ເອອມ, ການເອຍ",
+"lo_chandra": "ເອືອມ, ການເອືຍ",
+"ocr_agreement": 0.923,
+"page": 30
+},
+{
+"en": "belch",
+"lo": "ການເອື້ອມ, ການເອັຍ",
+"lo_chandra": "ການເອືອມ, ການເອືຍ",
+"ocr_agreement": 0.914,
+"page": 30
+},
+{
+"en": "beri-beri",
+"lo": "ພະຍາດເບຣີເບຣີ (ເກີດ ຈາກການຂາດວິຕາມີນ 81)",
+"lo_chandra": "ພະຍາດເບຣເບຣີ (ເກີດຈາກການຂາດວິຕາມິນ B1)",
+"ocr_agreement": 0.923,
+"page": 30
+},
+{
+"en": "betel",
+"lo": "ໃບພູ",
+"lo_chandra": "ໂບ້ມ",
+"ocr_agreement": 0.25,
+"page": 30
+},
+{
+"en": "biochemistry",
+"lo": "ຂີວະເຄມີສາດ",
+"lo_chandra": "ຊີວະເຄມີສາດ",
+"ocr_agreement": 0.909,
+"page": 30
+},
+{
+"en": "biology",
+"lo": "ຊີວະວິທະຍາ",
+"lo_chandra": "ຊີວະວິທະຍາ",
+"ocr_agreement": 1.0,
+"page": 30
+},
+{
+"en": "biopsy",
+"lo": "ບີອົບຊີ, ການຕັດເອົາຕົວຢ່າງ ຈາກອະໄວຍະວະ ຫລື ຈິວະໃດນຶງ",
+"lo_chandra": "ວິອີບຊີ, ການຕັດເອົາຕົວຢ່າງຈາກອະໄວຍະວະ ຫລື ຈວະໂດມັງເພື່ອໄປວິເຄາະ",
+"ocr_agreement": 0.765,
+"page": 30
+},
+{
+"en": "birth",
+"lo": "ການເກີດ",
+"lo_chandra": "ການເກີດ",
+"ocr_agreement": 1.0,
+"page": 30
+},
+{
+"en": "birth control",
+"lo": "ການຄຸມກຳເນີດ",
+"lo_chandra": "ການຄຸມກຳເນີດ",
+"ocr_agreement": 1.0,
+"page": 31
+},
+{
+"en": "birth defect",
+"lo": "ຜິດປົກກະຕິມາແຕກາ ເນີດ",
+"lo_chandra": "ຜິດປົກກະຕິມາແຕ່ກຳເນີດ",
+"ocr_agreement": 0.905,
+"page": 31
+},
+{
+"en": "birthmark",
+"lo": "ປານດຳ (ປານແດງ)",
+"lo_chandra": "ປານດຳ (ປານແດງ)",
+"ocr_agreement": 1.0,
+"page": 31
+},
+{
+"en": "bite (of animal)",
+"lo": "ຕອດ (ງ), ກັດ (ສັດ)",
+"lo_chandra": "ໝອດ (ງ), ກ້ດ (ສດ)",
+"ocr_agreement": 0.857,
+"page": 31
+},
+{
+"en": "bladder",
+"lo": "ພົກຍ່ຽວ",
+"lo_chandra": "ພິກຢູວ",
+"ocr_agreement": 0.462,
+"page": 31
+},
+{
+"en": "bleed",
+"lo": "ເລືອດໄຫລອອກ , ເຮັດໃຫ້ ເລືອດໄທລອອກ",
+"lo_chandra": "ເລືອດໄຫລອອກ, ເຮັດໃຫ້ເລືອດໄຫລອອກ",
+"ocr_agreement": 0.938,
+"page": 31
+},
+{
+"en": "blennorrhea",
+"lo": "ພະຍາດທນອງໃນ, ອາການອັກເສບເຍືອເມືອກຕາ ສວນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 31
+},
+{
+"en": "blind",
+"lo": "ຕາບອດ",
+"lo_chandra": "ຕາບອດ",
+"ocr_agreement": 1.0,
+"page": 31
+},
+{
+"en": "blind",
+"lo": "ເຮັດໃຫ້ຕາບອດ, Folded ເຫັນຊຂົວຄາວ",
+"lo_chandra": "ເຮັດໃຫ້ຕາບອດ, ເຮັດໃຫ້ເບິ່ງບໍ່ເຫັນຊວດາວ",
+"ocr_agreement": 0.629,
+"page": 31
+},
+{
+"en": "aveugler",
+"lo": "« ກຳໂທ້ຄານອຄ, ກຳໂຫ້ນຄຽໂນເຖີ້ນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 31
+},
+{
+"en": "blister",
+"lo": "ຕຸ່ມພອງ, ຫນັງພອງມີນຳ້ຫລື ເລືອດ",
+"lo_chandra": "ຕຸມພອງ, ຫມັງພອງມີນ້ຳຫລືເລືອດ",
+"ocr_agreement": 0.897,
+"page": 31
+},
+{
+"en": "blood",
+"lo": "ເລືອດ, ໂລທິດ",
+"lo_chandra": "ເລືອດ, ໂລຫິດ",
+"ocr_agreement": 0.917,
+"page": 31
+},
+{
+"en": "blood cells",
+"lo": "ເມັດເລືອດ, ຈຸລັງ ເລືອດ",
+"lo_chandra": "ເມດເລືອດ, ຈຸລັງເລືອດ",
+"ocr_agreement": 0.952,
+"page": 31
+},
+{
+"en": "blood group",
+"lo": "ຫມວດເລືອດ, ຊະນິດ ຂອງເລືອດ",
+"lo_chandra": "ຫມວດເລືອດ, ຊະນິດຂອງເລືອດ",
+"ocr_agreement": 0.98,
+"page": 31
+},
+{
+"en": "blood pressure",
+"lo": "ຄວາມດັນຂອງ ເລືອດ",
+"lo_chandra": "ຄວາມດັນຂອງເລືອດ",
+"ocr_agreement": 0.968,
+"page": 31
+},
+{
+"en": "blood sugar",
+"lo": "ທາດນຳຕານໃນເລືອດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 32
+},
+{
+"en": "blood test",
+"lo": "ການກວດເລືອດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 32
+},
+{
+"en": "blood vessel",
+"lo": "ສາຍເລືອດ, ຫລອດ ເລືອດ, ເສັ້ນເລືອດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 32
+},
+{
+"en": "bloody",
+"lo": "ນອງເລືອດ, ມີເລືອດອອກ ຫລາຍ, ເປື້ອນດ້ວຍເລືອດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 32
+},
+{
+"en": "blurred",
+"lo": "ມົວ, ເຫັນບໍ່ຄັກ, ສາຍຕາມົວ",
+"lo_chandra": "ມິວ, ເຫັນບໍ່ຄົງ, ສາຍຕາມິວ",
+"ocr_agreement": 0.84,
+"page": 32
+},
+{
+"en": "blush",
+"lo": "ຫນ້າແດງ",
+"lo_chandra": "ຫຼຸ້ມແດງ",
+"ocr_agreement": 0.667,
+"page": 32
+},
+{
+"en": "body",
+"lo": "ຮາງກາຍ, ຊາກສົບ",
+"lo_chandra": "ຮ່າງກາຍ, ຊາກສີບ",
+"ocr_agreement": 0.897,
+"page": 32
+},
+{
+"en": "body",
+"lo": "ສານ, ວັດຖຸ",
+"lo_chandra": "ສາມ, ວັດຖຸ",
+"ocr_agreement": 0.9,
+"page": 32
+},
+{
+"en": "boil",
+"lo": "ຝີຮູຂົນ, ຝີ",
+"lo_chandra": "ຝູ້ີມ, ຝູ້",
+"ocr_agreement": 0.476,
+"page": 32
+},
+{
+"en": "boil v ow",
+"lo": "ນຳ້), ພົດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 32
+},
+{
+"en": "bone",
+"lo": "ກະດູກ, ກ້າງ",
+"lo_chandra": "ກະບູກ, ກ້າງ",
+"ocr_agreement": 0.909,
+"page": 32
+},
+{
+"en": "booster",
+"lo": "ເພີ່ມຕືມ, ທວນຄືນ (ສັກຢາກັນພະຍາດ)",
+"lo_chandra": "ເພີມຕົມ, ຫວນຄືນ (ສຸກຢາກັນພະຍາດ)",
+"ocr_agreement": 0.889,
+"page": 32
+},
+{
+"en": "born",
+"lo": "ເກີດ",
+"lo_chandra": "ເກີດ",
+"ocr_agreement": 1.0,
+"page": 32
+},
+{
+"en": "botulism",
+"lo": "ພະຍາດຊືມເບືອອາທານທີ",
+"lo_chandra": "ພະຍາດຊຶມເປືອອາຫານທີ່ມີມິດ Botulin",
+"ocr_agreement": 0.615,
+"page": 32
+},
+{
+"en": "brace",
+"lo": "ເຄືອງຄຳຊູ, ຄົງທີ",
+"lo_chandra": "ເຄືອງຄ້າຊູ, ຄິງຄີ",
+"ocr_agreement": 0.788,
+"page": 32
+},
+{
+"en": "brain",
+"lo": "ສະຫມອງ, ອອກປອງ",
+"lo_chandra": "ສະຫມອງ, ອອກປອງ",
+"ocr_agreement": 1.0,
+"page": 32
+},
+{
+"en": "break",
+"lo": "ຫັກ (ກະດູກ), ແຕກ",
+"lo_chandra": "ທັກ (ກະບູກ), ແຕກ",
+"ocr_agreement": 0.875,
+"page": 32
+},
+{
+"en": "breast",
+"lo": "ເຕົ້ານົມ, ນົມ",
+"lo_chandra": "ເຕັມມີມ, ມີມ",
+"ocr_agreement": 0.48,
+"page": 33
+},
+{
+"en": "breastfeed",
+"lo": "ລັຽງດ້ວຍນົມແມ, ກິນ ນົມແມ",
+"lo_chandra": "ລຸງດ້ວຍມີມແມ່, ກິນ ມີມແມ່",
+"ocr_agreement": 0.735,
+"page": 33
+},
+{
+"en": "breath",
+"lo": "ລົມຫາຍໃຈ, ອາຍປາກ",
+"lo_chandra": "ລົມຫາຍໃຈ, ອາຍປາກ",
+"ocr_agreement": 1.0,
+"page": 33
+},
+{
+"en": "breathe",
+"lo": "ຫາຍໃຈ, ເປົາ, ລະບາຍລົມ",
+"lo_chandra": "ຫາຍໃຈ, ເປີາ, ລະບາຍລົມ",
+"ocr_agreement": 0.952,
+"page": 33
+},
+{
+"en": "broken",
+"lo": "ແຕກ, ທັກ, ເພ, ຂາດ",
+"lo_chandra": "ແຕກ, ທ້າກ, ເພ, ຂາດ",
+"ocr_agreement": 0.914,
+"page": 33
+},
+{
+"en": "bronchitis",
+"lo": "ການອັກເສບຫລອດປອດ",
+"lo_chandra": "ການອັກເສບຫລອດປອດ",
+"ocr_agreement": 1.0,
+"page": 33
+},
+{
+"en": "bruise",
+"lo": "ອາການນູມ, ອາການບວມ £5, ບອນຊາ໌ນູມ",
+"lo_chandra": "ອາການມູມ, ອາການບວມ ຂ້າ, ບ່ອນຂ້າມູມ",
+"ocr_agreement": 0.788,
+"page": 33
+},
+{
+"en": "bruised",
+"lo": "ນູມ, voush, ຊາົ",
+"lo_chandra": "ມູມ, ບວມຂ້າ, ຂ້າ",
+"ocr_agreement": 0.452,
+"page": 33
+},
+{
+"en": "bubonic plague",
+"lo": "ກາລະໂລກ",
+"lo_chandra": "ກາລະໂລກ",
+"ocr_agreement": 1.0,
+"page": 33
+},
+{
+"en": "bump",
+"lo": "ໂນ, ສວດອອກມາ",
+"lo_chandra": "ໂມ, ສວດອອກມາ",
+"ocr_agreement": 0.917,
+"page": 33
+},
+{
+"en": "burn",
+"lo": "ເຜົາ, ໄຫມ້, ລວກ",
+"lo_chandra": "ເຜົາ, ໄຫມ້, ລວກ",
+"ocr_agreement": 1.0,
+"page": 33
+},
+{
+"en": "burn",
+"lo": "ແຜໄຫມ້, ແຜລວກ, ແຜພອງ",
+"lo_chandra": "ແຜໄຫມ້, ແຜລວກ, ແຜພອງ",
+"ocr_agreement": 1.0,
+"page": 33
+},
+{
+"en": "bursitis",
+"lo": "ການອັກເສບຖົງຄໍຕໍ",
+"lo_chandra": "ການອັກເສບຖືງຄົ້",
+"ocr_agreement": 0.774,
+"page": 33
+},
+{
+"en": "buttocks",
+"lo": "ກະໂພກ, ກົນ",
+"lo_chandra": "ກະໂພກ, ກັ້ນ",
+"ocr_agreement": 0.857,
+"page": 33
+},
+{
+"en": "cachexia",
+"lo": "ການຜອມແທຫ້ງຢ່າງຮ້າຍ ແຮງ, ແຫ້ງກະແດ້ງ",
+"lo_chandra": "ການຜອມແຫ້ງຢ່າງຮ້າຍ ແຮງ, ແຫ້ງກະແດງ",
+"ocr_agreement": 0.971,
+"page": 34
+},
+{
+"en": "Caesarian",
+"lo": "ການຜ່າຕັດ ເອົາລູກອອກ",
+"lo_chandra": "ການຜາຕັດ ເອົາລາຍອກ",
+"ocr_agreement": 0.842,
+"page": 34
+},
+{
+"en": "calcar",
+"lo": "ງ່ຽງ , ເດືອຍ",
+"lo_chandra": "ງຽງ, ເຄືອຍ",
+"ocr_agreement": 0.818,
+"page": 34
+},
+{
+"en": "callosity",
+"lo": "ຫນັງດ້ານ, ຫນັງຫນາ",
+"lo_chandra": "ຫຼັງດ້ານ, ຫຼັງຫມາ",
+"ocr_agreement": 0.824,
+"page": 34
+},
+{
+"en": "calm",
+"lo": "ສະຫງົບ, ງຽບ, ເສີຍໆ",
+"lo_chandra": "ສະຫງົບ, ງຽບ, ເສຍຫາງ",
+"ocr_agreement": 0.865,
+"page": 34
+},
+{
+"en": "calm",
+"lo": "ລະງັບ, ເຮັດໃຫ້ງ]ບສະຫງົບລົງ",
+"lo_chandra": "ລະງົບ, ເຮັດໃຫ້ງຽບສະຫງົບລົງ",
+"ocr_agreement": 0.923,
+"page": 34
+},
+{
+"en": "calorie",
+"lo": "ກາໂລລີ, ຫົວທນວຍຄວາມ ຮ້ອນ",
+"lo_chandra": "ກາໂລລີ, ກິວຫນວຍຄວາມ ຮ້ອນ",
+"ocr_agreement": 0.875,
+"page": 34
+},
+{
+"en": "cancer",
+"lo": "ມະເຮັງ",
+"lo_chandra": "ມະເຮັງ",
+"ocr_agreement": 1.0,
+"page": 34
+},
+{
+"en": "cancerous",
+"lo": "ອຣແຣ cancer n",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 34
+},
+{
+"en": "capillary na",
+"lo": "ເສັ້ນເລືອດຝອຍ, ຫລອດ ນ້ອຍໆ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 34
+},
+{
+"en": "carcinoma",
+"lo": "ກາກຊີໂນມ, ມະເຮັງຊະ ນິດນຶງ",
+"lo_chandra": "ກາກຊີໂນມ, ມະເຮັງຊະ ນິດມີງ",
+"ocr_agreement": 0.92,
+"page": 34
+},
+{
+"en": "caries npl",
+"lo": "ແຂ້ວແມງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 34
+},
+{
+"en": "carrier",
+"lo": "ຜູ້ຖ້ເຊື່ອ, ຜູນຳສງເຊືອ",
+"lo_chandra": "ຜູ້ຖືເຊື້ອ, ຜູ້ນຳສິ່ງເຊື້ອ",
+"ocr_agreement": 0.833,
+"page": 34
+},
+{
+"en": "cartilage",
+"lo": "ກະດູກອອນ",
+"lo_chandra": "ກະດູກອ່ອນ",
+"ocr_agreement": 0.941,
+"page": 34
+},
+{
+"en": "cast",
+"lo": "ແປ້ງ",
+"lo_chandra": "ແປງ",
+"ocr_agreement": 0.857,
+"page": 34
+},
+{
+"en": "cast",
+"lo": "ໂອບແປ້ງ(ເວລາແຂນຂາຫັກ), ໂທມແປ້ງ",
+"lo_chandra": "ໂອບແປງ(ເວລາແຂມຂາທກ), ໂທມແປງ",
+"ocr_agreement": 0.877,
+"page": 35
+},
+{
+"en": "cataract",
+"lo": "ແກນຕາຂຸ້ນ",
+"lo_chandra": "ແກ່ມຕາຊຸມ",
+"ocr_agreement": 0.556,
+"page": 35
+},
+{
+"en": "catheter",
+"lo": "ຫລອດສວນ ( ເຊັນ ສວນ ຢ່ຽວ), ທໍລະບາຍ",
+"lo_chandra": "ຫລອດສວນ (ເຊັນ ສວນ ຢູງວ), ທຳລະບາຍ",
+"ocr_agreement": 0.892,
+"page": 35
+},
+{
+"en": "caustic a MEI tnd",
+"lo": "ຫລື ກັດຈີວະ, ທີ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 35
+},
+{
+"en": "cecum",
+"lo": "ຊີກອມ , ໄສ້ແກ່ທອນຕົນ",
+"lo_chandra": "ຊຸກອມ, ໄສ້ແກ່ທອນຕົວ",
+"ocr_agreement": 0.872,
+"page": 35
+},
+{
+"en": "cell",
+"lo": "ຈຸລັງ າ",
+"lo_chandra": "ຈຸລັງ",
+"ocr_agreement": 0.833,
+"page": 35
+},
+{
+"en": "cervical",
+"lo": "ທກຽວກບຄ, ທກຽວກບ ປາກມດລູກ",
+"lo_chandra": "ຍືກຸງວກັບຄ້, ຍືກຸງວກັບ ປາກມິດລຸກ",
+"ocr_agreement": 0.679,
+"page": 35
+},
+{
+"en": "cervicitis",
+"lo": "ອັກເສບປາກມົດລູກ",
+"lo_chandra": "ອັກເສບປາກມິດລຸກ",
+"ocr_agreement": 0.867,
+"page": 35
+},
+{
+"en": "cervix",
+"lo": "ຄໍມົດລູກ, ປາກມົດລູກ",
+"lo_chandra": "ຄົມມິດລຸກ, ປາກມິດລຸກ",
+"ocr_agreement": 0.718,
+"page": 35
+},
+{
+"en": "chancre",
+"lo": "ຂັງ, ແຜຕາມະໂລກ",
+"lo_chandra": "ຂຸງ, ແຜກາມະໂລກ",
+"ocr_agreement": 0.857,
+"page": 35
+},
+{
+"en": "characteristic",
+"lo": "ຜແ ລັກສະນະ",
+"lo_chandra": "ລັກສະນະ",
+"ocr_agreement": 0.824,
+"page": 35
+},
+{
+"en": "chart",
+"lo": "ຕາຕະລາງ, ກະດານ, ປື້ມບັນ ທຶກປະຫວັດຄົນເຈັບຢູ່ໂຮງຫມໍ",
+"lo_chandra": "ຕາຕະລາງ, ກະດາມ, ບັນຍັບ",
+"ocr_agreement": 0.563,
+"page": 35
+},
+{
+"en": "check",
+"lo": "ກວດ, ກວດສອບ, ກວດເບິງ",
+"lo_chandra": "ກວດ, ກວດສອບ, ກວດເບິງ",
+"ocr_agreement": 1.0,
+"page": 35
+},
+{
+"en": "oe",
+"lo": "ກັນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 36
+},
+{
+"en": "chew",
+"lo": "meh, ຄ້ຽວ",
+"lo_chandra": "ຫຍຸ, ຄົງວ",
+"ocr_agreement": 0.444,
+"page": 36
+},
+{
+"en": "chicken pox",
+"lo": "ຫມາກໃສ",
+"lo_chandra": "ຫມາກໄສ",
+"ocr_agreement": 0.833,
+"page": 36
+},
+{
+"en": "child(ren)",
+"lo": "ເດັກ",
+"lo_chandra": "ເດັກ",
+"ocr_agreement": 1.0,
+"page": 36
+},
+{
+"en": "child-birth",
+"lo": "ການເກີດລູກ, ການປະ ສຸດລູກ, ການຄອດລູກ",
+"lo_chandra": "ການເກີດລູກ, ການປະ ສູດລູກ, ການຄອດລູກ",
+"ocr_agreement": 0.971,
+"page": 36
+},
+{
+"en": "chin",
+"lo": "ກາບຄາງ",
+"lo_chandra": "ກາຍຄາງ",
+"ocr_agreement": 0.833,
+"page": 36
+},
+{
+"en": "cholera",
+"lo": "ອະທິວາ",
+"lo_chandra": "ອະຫິວາ",
+"ocr_agreement": 0.833,
+"page": 36
+},
+{
+"en": "cholesterol",
+"lo": "ໂກແລສເຕຣອນ , ໄຂ ມັນຊະນິດນິງ",
+"lo_chandra": "ໂກແລສຕຣອນ, ໄຂ ມັນຊະນິດມືງ",
+"ocr_agreement": 0.885,
+"page": 36
+},
+{
+"en": "chronic",
+"lo": "ທີຂາເຮື້ອ, ເຈັບຊຳເຮື້ອຍາວ ນານ",
+"lo_chandra": "ທັຂຸເຮືອ, ເຈັບຂຸເຮືອຍາວ",
+"ocr_agreement": 0.731,
+"page": 36
+},
+{
+"en": "circulation",
+"lo": "ການຫມູນວ]ນ, ການ ເດີນຂອງເລືອດ",
+"lo_chandra": "ການຫມວງ, ການ ເດີນຂອງເລືອດ",
+"ocr_agreement": 0.906,
+"page": 36
+},
+{
+"en": "circumcision",
+"lo": "ການຕັດທນັງທຸ້ມປາຍ ອົງຄະຊາດຊາຍ, ການຕັດຫນັງປົກທົວ ອະໄວຍະວະສີບພັນຂອງຜູ້ຊາຍອອກ",
+"lo_chandra": "ການຕັດຫມັງຫຼມປາຍ ອັງຄະຊາດຊາຍ, ການຕັດຫມັງປີກທີວ ອະໄວຍະວະສິບພັນຂອງຜູຊາຍອອກ",
+"ocr_agreement": 0.863,
+"page": 36
+},
+{
+"en": "cirrhosis",
+"lo": "ພະຍາດຕັບ ແຂງ",
+"lo_chandra": "ພະຍາດຕັບ ແຂງ",
+"ocr_agreement": 1.0,
+"page": 36
+},
+{
+"en": "clavicle",
+"lo": "ກະດູກໄມ້ຄານ",
+"lo_chandra": "ກະດູກໄມ້ຄາມ",
+"ocr_agreement": 0.909,
+"page": 36
+},
+{
+"en": "cleft",
+"lo": "/ ສົບແວ່ງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 36
+},
+{
+"en": "clinic",
+"lo": "ກລີນິກ, ສະຖານທີກວດແລະ ປີິນປົວພະຍາດ",
+"lo_chandra": "ກລິນກ, ສະຖານທີກວດແລະ ຢືນຢວພະຍາດ",
+"ocr_agreement": 0.831,
+"page": 36
+},
+{
+"en": "clinical",
+"lo": "ກຽວກັບອາການ, ກ່ຽວກັບອາການທີສາມາດກວດເທັນ",
+"lo_chandra": "ກລິນກ, ກຸວກັບອາການ, ກຸວກັບອາການທີສາມາດກວດເຫັນໄດ້ໂດຍມາຍແພດເອງ",
+"ocr_agreement": 0.707,
+"page": 36
+},
+{
+"en": "clitoris",
+"lo": "ແຕດ, ປຸ່ມກະສັນ",
+"lo_chandra": "ແຕດ, ປຸມກະສົມ",
+"ocr_agreement": 0.815,
+"page": 37
+},
+{
+"en": "cloudy",
+"lo": "ຂຸ່ນ, ມົວ, ຊຶງບໍ່ແຈ້ງ",
+"lo_chandra": "ຂໍມ, ມິວ, ຊູບ່ແຈ້ງ",
+"ocr_agreement": 0.718,
+"page": 37
+},
+{
+"en": "coagulate",
+"lo": "ກ້າມ",
+"lo_chandra": "ກ້າມ",
+"ocr_agreement": 1.0,
+"page": 37
+},
+{
+"en": "COCCYX",
+"lo": "ກະດູກກົນກົບ, ສົນສຸດຂອງ ກະດູກສັນຫລັງ",
+"lo_chandra": "ກະດູກກົມກີບ, ສົມສຸດຂອງ",
+"ocr_agreement": 0.667,
+"page": 37
+},
+{
+"en": "cochlea",
+"lo": "ສ່ວນນຶ່ງຂອງທຼູໃນ (ເປັນຮູບ",
+"lo_chandra": "ສ່ວນມຸງຂອງຫູໃນ (ເປີນຮູບ",
+"ocr_agreement": 0.792,
+"page": 37
+},
+{
+"en": "cold",
+"lo": "ເຢັນ, ຫນາວ",
+"lo_chandra": "ເຢັນ, ຫນາວ",
+"ocr_agreement": 1.0,
+"page": 37
+},
+{
+"en": "cold",
+"lo": "ເປັນຫວັດ",
+"lo_chandra": "ເປີນຫວັດ",
+"ocr_agreement": 0.875,
+"page": 37
+},
+{
+"en": "colic",
+"lo": "ໂກລິກ, , ອາການເຈັບສ]ຽບທ້ອງ",
+"lo_chandra": "ໂກລິກ, ອາການເຈັບສຸງບ້າອງ",
+"ocr_agreement": 0.84,
+"page": 37
+},
+{
+"en": "collapse",
+"lo": "ອາການທມົດສະຕິ ໃນໄລຍະສັນ, ເປັນລົມ",
+"lo_chandra": "ໂກລິບ, ອາການຫມົດສະຕິ",
+"ocr_agreement": 0.462,
+"page": 37
+},
+{
+"en": "colon",
+"lo": "ລຳໄສ້ໂທຍ",
+"lo_chandra": "ໄສ້ແກ່, ລ່າໄສ້ໃຫຍ່",
+"ocr_agreement": 0.308,
+"page": 37
+},
+{
+"en": "color blindness",
+"lo": "ອາການບອດສີ",
+"lo_chandra": "ອາການບອດສີ",
+"ocr_agreement": 1.0,
+"page": 37
+},
+{
+"en": "colpalgia",
+"lo": "ອາການປວດຊ໋ອງຄອດ",
+"lo_chandra": "ອາການປວດຊອງຄອດ",
+"ocr_agreement": 0.966,
+"page": 37
+},
+{
+"en": "coma",
+"lo": "ໂກມາ, , ການສູນເສຍສະຕິກຽວ ກັບຊີວິດການພົວພັນແຕຍັງມີຊີວິດອັດ ຕະບານ",
+"lo_chandra": "ໂກມາ, ການສຸມເສຍສະຕິກ່ຽວ",
+"ocr_agreement": 0.465,
+"page": 37
+},
+{
+"en": "complexion",
+"lo": "ສີຂອງຜິວຫນັາ, ສີຫນັງ",
+"lo_chandra": "ສີຂອງຜິວຫນັງ, ສີຫນັງ",
+"ocr_agreement": 0.95,
+"page": 37
+},
+{
+"en": "complication",
+"lo": "ອາການສົນ",
+"lo_chandra": "ອາການສົມ",
+"ocr_agreement": 0.875,
+"page": 38
+},
+{
+"en": "compress",
+"lo": "ຜ້າຊັບ, ຜ້າ ເປີປ່ອນເຈັບ, ການເນັ້ນໄວ້",
+"lo_chandra": "ຜ້າຊູບ, ຜ້າເປັບອມເຈັບ, ການເມັນໄວ",
+"ocr_agreement": 0.794,
+"page": 38
+},
+{
+"en": "oe",
+"lo": "ກາງປຽະຄນ, nInall",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 38
+},
+{
+"en": "conception",
+"lo": "ການຕັ້ງທ້ອງ, ການຕັ້ງ ຄັນ",
+"lo_chandra": "ການຕັງຫ້ອງ, ການຕັງຄົມ",
+"ocr_agreement": 0.8,
+"page": 38
+},
+{
+"en": "concussion",
+"lo": "ການກະແທກກະ",
+"lo_chandra": "ການກະແທກກະເທືອນ, ການຖຸກຂອງຕຳເຮັດໃຫ້ຂໍ້ບວມ",
+"ocr_agreement": 0.392,
+"page": 38
+},
+{
+"en": "Ta",
+"lo": "ຜຈ -. - ເທືອນ, ການຖືກຂອງຕຳເຮັດໃຫ້ຊາ໌ ບວມ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 38
+},
+{
+"en": "condition",
+"lo": "ພາວະ, ສະພາບ",
+"lo_chandra": "ພາວະ, ສະພາບ",
+"ocr_agreement": 1.0,
+"page": 38
+},
+{
+"en": "condom",
+"lo": "ຖົງຢາງອະນາໄມ",
+"lo_chandra": "ຖຸງຢາງອະນາໄມ",
+"ocr_agreement": 0.917,
+"page": 38
+},
+{
+"en": "congenital",
+"lo": "ທີເປັນ ຫລື ທີ່ມີມາແຕ ກຳເນີດ",
+"lo_chandra": "ຫ້າເປັນ ຫລື ຫົມມາແຕ່ກ່າເມັດ",
+"ocr_agreement": 0.63,
+"page": 38
+},
+{
+"en": "congestion",
+"lo": "ອາການເລືອດອັງໃນອະ ໄວຍະວະ",
+"lo_chandra": "ອາການເລືອດອັງໃນອະໄວຍະວະ",
+"ocr_agreement": 0.979,
+"page": 38
+},
+{
+"en": "conjunctivitis",
+"lo": "ຕາແດງ, ອັກເສບ ເຍືອເມືອກຕາ",
+"lo_chandra": "ຕາແດງ, ອັກເສບເອອເມືອກຕາ",
+"ocr_agreement": 0.917,
+"page": 38
+},
+{
+"en": "connect",
+"lo": "ຕິດ, ຈຸ, Ola, ເຊືອມ(ຕໍ່)",
+"lo_chandra": "ຕິດ, ຈຸ, ຕ່ໃສ, ເຊືອມ(ຕ່)",
+"ocr_agreement": 0.833,
+"page": 38
+},
+{
+"en": "connection",
+"lo": "ການສຳພັດ, ການຕິດ ດ ການເຂືອມກັບ",
+"lo_chandra": "ການສຳພັດ, ການຕິດຕ່າງ, ການເຊືອມກັບ",
+"ocr_agreement": 0.857,
+"page": 38
+},
+{
+"en": "constipation",
+"lo": "ທ້ອງຜູກ",
+"lo_chandra": "ຫ້ອງຜູກ",
+"ocr_agreement": 0.857,
+"page": 38
+},
+{
+"en": "consultation",
+"lo": "ການປືກສາທາລ໌ (ກ່ຽວກັບຫມໍແມ່ນໃຫ້ຫມໍກວດສຸກຂະ ພາບ)",
+"lo_chandra": "ການປຶກສາຫາລື (ກ່ຽວກັບຫມໍແມ່ນໃຫ້ຫມໍກວດສຸກຂະພາບ)",
+"ocr_agreement": 0.925,
+"page": 38
+},
+{
+"en": "contact",
+"lo": "ສາ໌ພັດ, ຕິດຕໍ່",
+"lo_chandra": "ສຳພັດ, ຕິດຕ່າງ",
+"ocr_agreement": 0.786,
+"page": 38
+},
+{
+"en": "contaminate",
+"lo": "ເຮັດໃຫ້ມີເຊື່ອພະ",
+"lo_chandra": "ເຮັດໃຫ້ມີເຊືອພະຍາດ, ເຮັດໃຫ້ເປັນ",
+"ocr_agreement": 0.638,
+"page": 38
+},
+{
+"en": "contraception",
+"lo": "ການຄຸມກຳເນີດ",
+"lo_chandra": "ການຄຸມກ່າເນິດ",
+"ocr_agreement": 0.8,
+"page": 38
+},
+{
+"en": "contraceptive",
+"lo": "ທຄຸມກຳເນີດ",
+"lo_chandra": "ຄືຄຸມກ່າເນິດ",
+"ocr_agreement": 0.636,
+"page": 38
+},
+{
+"en": "contraction",
+"lo": "ການທົດຕົວ, ການຮັດ ບີບ, ການປັນ",
+"lo_chandra": "ການຫັດຕົວ, ການຮັດບີບ, ການບີມ",
+"ocr_agreement": 0.807,
+"page": 39
+},
+{
+"en": "control",
+"lo": "ຄວບຄຸມ, ກວດກາ",
+"lo_chandra": "ຄວບຄຸມ, ກວດກາ",
+"ocr_agreement": 1.0,
+"page": 39
+},
+{
+"en": "convalesce",
+"lo": "ພັກຟື້ນ ຫລັງຈາກການ ເຈັບເປັນ, ພັກຕ່ອນພາຍຫລັງເປັນພະ ຍາດ",
+"lo_chandra": "ພັກພັນຫລຸງຈາກການເຈັບເປັນ, ພັກຜ່ອນພາຍຫລຸງເປັນພະຍາດ",
+"ocr_agreement": 0.863,
+"page": 39
+},
+{
+"en": "convalescence",
+"lo": "ໄລຍະພັກພື້ນຫລັງ ຈາກການເຈັບເປັນ, ການພັກຟື້ນ",
+"lo_chandra": "ໄລຍະພັກພັນຫລຸງຈາກການເຈັບເປັນ, ການພັກພັນ",
+"ocr_agreement": 0.864,
+"page": 39
+},
+{
+"en": "o rum",
+"lo": "ຄາງາຈັກກີ້ໄເ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 39
+},
+{
+"en": "convulsion",
+"lo": "ການຊັກ",
+"lo_chandra": "ການຊຸກ",
+"ocr_agreement": 0.833,
+"page": 39
+},
+{
+"en": "copulation",
+"lo": "ການຮ່ວມເພດ, ການປະ ສົມພັນ, ການຮ່ວມປະເວນີ",
+"lo_chandra": "ການຮ່ວມເພດ, ການປະສົມພັນ, ການຮ່ວມປະເວນ",
+"ocr_agreement": 0.974,
+"page": 39
+},
+{
+"en": "cornea",
+"lo": "ແກ້ວຕາ",
+"lo_chandra": "ແກ້ວຕາ",
+"ocr_agreement": 1.0,
+"page": 39
+},
+{
+"en": "coronary",
+"lo": "ໂກໂຣແນ, ກ່ຽວກັບເສັ້ນ ເລືອດຫລໍລັຽງທົວໃຈ",
+"lo_chandra": "ໂກໂຣແມ, ກຸງວັກບເສັມເລີດຫລຸງຫັດໃຈ",
+"ocr_agreement": 0.629,
+"page": 39
+},
+{
+"en": "corpuscle",
+"lo": "ອະນຸສານ, ອະນຸວັດຖຸ",
+"lo_chandra": "ອະນຸສາມ, ອະນຸວັດຖຸ",
+"ocr_agreement": 0.944,
+"page": 39
+},
+{
+"en": "cortex",
+"lo": "ເປືອກ, ຂອບນອກຂອງອະໄວ ຍະວະໃດນຶງ",
+"lo_chandra": "ເປືອກ, ຂອບນອກຂອງອະໄວຍະວະໃດໆ",
+"ocr_agreement": 0.912,
+"page": 39
+},
+{
+"en": "cough",
+"lo": "ອາການໄອ",
+"lo_chandra": "ອາການໄອ",
+"ocr_agreement": 1.0,
+"page": 39
+},
+{
+"en": "cradle cap",
+"lo": "ຂີ່ຄວາຍທົວ (ຂີ່ໄຄເປັນ ກາບດຳໆ ຢູ່ຂະຫມອມເດັກນ້ອຍ)",
+"lo_chandra": "ຂໍຄວາຍຫັວ (ຂໍໄຄເປັນກາຍດ້າງ ຢູຂະຫມອມເດັກນ້ອຍ)",
+"ocr_agreement": 0.791,
+"page": 39
+},
+{
+"en": "cramp",
+"lo": "ກ້າມຊີນປັນ",
+"lo_chandra": "ກ້າມຊຸມບີມ",
+"ocr_agreement": 0.6,
+"page": 39
+},
+{
+"en": "crippled",
+"lo": "ລອຍ, ຫ້ານ, ເຄ (ແຂນ",
+"lo_chandra": "ລ້ອຍ, ຫ້າມ, ເຄ (ແຂມ, ຂາ)",
+"ocr_agreement": 0.762,
+"page": 39
+},
+{
+"en": "crisis",
+"lo": "ໄລຍະຮຸນແຮງ, ຮູດຂຶນ, ວິກິດ",
+"lo_chandra": "ໄລຍະຮຸນແຮງ, ຮູດຂຸ, ວິກິດ",
+"ocr_agreement": 0.939,
+"page": 39
+},
+{
+"en": "critical",
+"lo": "ຮ້າຍແຮງ, ເຈັບຫນັກ, ຂັນອັນ ຕະລາຍ",
+"lo_chandra": "ຮ້າຍແຮງ, ເຈັບຫມັກ, ຂໍ້ມົນ",
+"ocr_agreement": 0.714,
+"page": 40
+},
+{
+"en": "crutch",
+"lo": "ໄມ້ຄາ໌ (ສຳລັບຄົນພິການ)",
+"lo_chandra": "ໄມຄຳ (ສຳລັບຄົນພິການ)",
+"ocr_agreement": 0.905,
+"page": 40
+},
+{
+"en": "cubital",
+"lo": "ຊງກຽວກົບແຂນສອກ",
+"lo_chandra": "ຊ້າງກຸງກັບແຂນສອກ",
+"ocr_agreement": 0.733,
+"page": 40
+},
+{
+"en": "culture",
+"lo": "ພມປກ, ການປກເຊອພະ",
+"lo_chandra": "ພະນູກ, ການປູກເຊື້ອພະຍາດເພື່ອວິດໄສພະຍາດ",
+"ocr_agreement": 0.519,
+"page": 40
+},
+{
+"en": "cut",
+"lo": "ຕັດ, ປາດ, ບາດ, ຜາ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 40
+},
+{
+"en": "e INCiSer",
+"lo": "ນູ percer ນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 40
+},
+{
+"en": "cyst",
+"lo": "ກ້ອນເບົາ, ປໍ, ຖົງມີນຳຫລືມີລົມ",
+"lo_chandra": "ກ້ອນເບີກ, ບໍ, ຖົງມິນຖາລີມີລີມ",
+"ocr_agreement": 0.69,
+"page": 40
+},
+{
+"en": "cystitis",
+"lo": "ພົກຍ່ຽວອັກເສບ",
+"lo_chandra": "ພິກຍຸງວັກເສບ",
+"ocr_agreement": 0.72,
+"page": 40
+},
+{
+"en": "damage",
+"lo": "ເສຍຫາຍ",
+"lo_chandra": "ເສຍຫາຍ",
+"ocr_agreement": 1.0,
+"page": 40
+},
+{
+"en": "damage",
+"lo": "ຄວາມເສຍຫາຍ",
+"lo_chandra": "ຄວາມເສຍຫາຍ",
+"ocr_agreement": 1.0,
+"page": 40
+},
+{
+"en": "dandruff",
+"lo": "ຂີ້ທົວ, ຂີ້ຮັງແຄ",
+"lo_chandra": "ຂໍ້ກວ, ຂໍ້ຮຽງແຄ",
+"ocr_agreement": 0.71,
+"page": 40
+},
+{
+"en": "dangerous",
+"lo": "ອັນຕະລາຍ",
+"lo_chandra": "ອັນຕະລາຍ",
+"ocr_agreement": 1.0,
+"page": 40
+},
+{
+"en": "dazed",
+"lo": "99, ບໍ່ຮູ້ເມືອຄັກ",
+"lo_chandra": "ງົງ, ບໍ່ຮູ້ເມືອຄົກ",
+"ocr_agreement": 0.8,
+"page": 40
+},
+{
+"en": "dead",
+"lo": "ຕາຍແລ້ວ",
+"lo_chandra": "ຕາຍແລ້ວ",
+"ocr_agreement": 1.0,
+"page": 40
+},
+{
+"en": "deaf",
+"lo": "ທູຫນວກ",
+"lo_chandra": "ຫູຫາວ",
+"ocr_agreement": 0.545,
+"page": 40
+},
+{
+"en": "death",
+"lo": "ຄວາມຕາຍ",
+"lo_chandra": "ຄວາມຕາຍ",
+"ocr_agreement": 1.0,
+"page": 40
+},
+{
+"en": "decay",
+"lo": "ການເນົາເປືອຍ, ການຜູ, ການ ໂດກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 41
+},
+{
+"en": "decompose",
+"lo": "ແຍກລະລາຍ, ເນົາ ເປືອຍ, ຜູ, ໂດກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 41
+},
+{
+"en": "defecate",
+"lo": "ຖາຍອຸດຈາລະ, ຖ່າຍ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 41
+},
+{
+"en": "deficiency",
+"lo": "ຂາດ, ໄຮ້, ປາດສະຈາກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 41
+},
+{
+"en": "deformity",
+"lo": "ຮູບຮາງຜິດປົກກະຕິ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 41
+},
+{
+"en": "dehydration",
+"lo": "ການເສຍນຳ໋, ການ ຂາດນາົ໌",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 41
+},
+{
+"en": "delirium",
+"lo": "ປ່ວງ, ອາການເພື່ໂທລ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 41
+},
+{
+"en": "dengue",
+"lo": "ໄຂ້ແດັງ, ໄຂ້ຍຸງລາຍ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 41
+},
+{
+"en": "dengue hemorrhagic fever",
+"lo": "ໄຂ້ ເລືອດອອກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 41
+},
+{
+"en": "dental",
+"lo": "ກຽວກບແຂວ, ເລອງແຂວ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 41
+},
+{
+"en": "dentist",
+"lo": "ທັນຕະແພດ, ທ່ານຫມໍປົວ ແຂ້ວ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 41
+},
+{
+"en": "depressed",
+"lo": "ອາການເຮັດຫນ້າທີລົດ ລົງ (ຂອງອະໄວຍະວະ)",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 41
+},
+{
+"en": "depressed",
+"lo": "ງ່ວມເຫງົາ, ອຸກໃຈ, ເສຍ ໃຈ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 41
+},
+{
+"en": "depression",
+"lo": "ບປອນຫລຸບ, ຮອຍເນັນ",
+"lo_chandra": "ບ່ອນຫລູບ, ຮອຍເມັນ",
+"ocr_agreement": 0.824,
+"page": 42
+},
+{
+"en": "depression",
+"lo": "ອາການງ່ວມເຫງາ, ຄວາມອຸກໃຈ",
+"lo_chandra": "ອາການງວມເຫຼົາ, ຄວາມອຸກໃຈ",
+"ocr_agreement": 0.917,
+"page": 42
+},
+{
+"en": "dermatitis",
+"lo": "ຜິວຫນັງອັກເສບ",
+"lo_chandra": "ຜິວຫນັງອັກເສບ",
+"ocr_agreement": 1.0,
+"page": 42
+},
+{
+"en": "dermis",
+"lo": "ຊັນກາງຂອງຜິວຫນັງ",
+"lo_chandra": "ຂຸມກາງຂອງຜິວຫນັງ",
+"ocr_agreement": 0.812,
+"page": 42
+},
+{
+"en": "diabetes",
+"lo": "ພະຍາດເບົາຫວານ, We ຍາດຍ່ຽວທວານ",
+"lo_chandra": "ພະຍາດເບີ່າຫວາມ, ພະຍາດຢູ່ຫວາມ",
+"ocr_agreement": 0.667,
+"page": 42
+},
+{
+"en": "diagnosis",
+"lo": "ການບົງມະຕິພະຍາດ, ການວິນິດໄສພະຍາດ",
+"lo_chandra": "ການຍິງມະຕິພະຍາດ, ການວິນິດໄສພະຍາດ",
+"ocr_agreement": 0.938,
+"page": 42
+},
+{
+"en": "diagnostic",
+"lo": "ກຽວກບການບງມະຕພະ ຍາດ, ກ່ຽວກັບການວິນິດໄ ສພະຍາດ",
+"lo_chandra": "ກຸງວັກການຍິງມະຕິພະຍາດ, ກຸງວັກການວິນິດໄສພະຍາດ",
+"ocr_agreement": 0.795,
+"page": 42
+},
+{
+"en": "diaphoresis",
+"lo": "ການຫລັງນຳເທືອ ຫລາຍ",
+"lo_chandra": "ການຫລຸ່ມຖື່ອຫລາຍ",
+"ocr_agreement": 0.647,
+"page": 42
+},
+{
+"en": "diaphragm",
+"lo": "ດີອາຟຣັກ, ຝາກັນ, ກ້າມຊັນກຳບັງ",
+"lo_chandra": "ດີອາຟຣັກ, ຝາກັນ, ກົມຊຸມກັບ",
+"ocr_agreement": 0.8,
+"page": 42
+},
+{
+"en": "diarrhea",
+"lo": "ອາການຖອກທ້ອງ",
+"lo_chandra": "ອາການຖອກທ້ອງ",
+"ocr_agreement": 1.0,
+"page": 42
+},
+{
+"en": "die",
+"lo": "ຕາຍ, ມໍລະນາ",
+"lo_chandra": "ຕາຍ, ມລະນາ",
+"ocr_agreement": 0.952,
+"page": 42
+},
+{
+"en": "diet",
+"lo": "ລະບອບອາຫານການກິນ",
+"lo_chandra": "ລະບອບອາຫານການກັນ",
+"ocr_agreement": 0.938,
+"page": 42
+},
+{
+"en": "digestion",
+"lo": "ການຍ່ອຍ, ການລະລາຍ ອາທານ",
+"lo_chandra": "ການຍ່ອຍ, ການລະລາຍອາຫານ",
+"ocr_agreement": 0.933,
+"page": 42
+},
+{
+"en": "dilatation and curettage",
+"lo": "ຍະ ກວ້າງອອກແລະຂູດ (ກ່ຽວກັບມົດລູກ)",
+"lo_chandra": "ຍະກວ້າງອອກແລະຊຸດ (ກຸງວັກມິດລູກ)",
+"ocr_agreement": 0.781,
+"page": 42
+},
+{
+"en": "diphtheria",
+"lo": "ດິບເຕລີ, ພະຍາດຄໍຕີບ",
+"lo_chandra": "ດິບເຕີລີ, ພະຍາດຄົ້ນ",
+"ocr_agreement": 0.789,
+"page": 42
+},
+{
+"en": "dirty",
+"lo": "ເປື້ອນ, ສຶກກະປົກ, ໂສໂຄກ",
+"lo_chandra": "ເປັນ, ສິກກະປຶກ, ໂສໂຄກ",
+"ocr_agreement": 0.818,
+"page": 42
+},
+{
+"en": "disability",
+"lo": "ຄວາມພິການ, ອາການໄຮັ ສະມັດຖະພາບ",
+"lo_chandra": "ຄວາມພິການ, ອາການໄຮ້ສະມັດຖະພາບ",
+"ocr_agreement": 0.949,
+"page": 42
+},
+{
+"en": "disc",
+"lo": "ແຜນກົມ , ຈານ, ແຜ່ນຂັ້ນຂໍ້ກະ ດູກສນຫລົງ, ຈານລະຫວາງຂໍກະດູກ ະ. . ນ ສັນຫລັງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 43
+},
+{
+"en": "discharge",
+"lo": "ຂອງແທລວທີໄທລອອກ ເຊັນ ນຳເມືອກ ເລືອດ, ຫນອງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 43
+},
+{
+"en": "discharge",
+"lo": "ໃຫ້ອອກ(ໂຮງຫມໍ), ສິງ ອອກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 43
+},
+{
+"en": "discolored",
+"lo": "ເສຍສີ, ດ່າງ, ປຽນສີ, ຕາຍສື, ຕົກສີ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 43
+},
+{
+"en": "disease",
+"lo": "ພະຍາດ, ໂລກ, ການເຈັບ ປ່ວຍ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 43
+},
+{
+"en": "dislocated",
+"lo": "ຫລຸດ, ກະດູກຫລຸດອອກ ຈາກຄ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 43
+},
+{
+"en": "dispensary",
+"lo": "ສຸກສາລາ, ສະຖານທີ ຈາຍຢາແລະປຸງຢາ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 43
+},
+{
+"en": "dissection",
+"lo": "ການຕັດເພື່ອແຍກອະໄວ ຍະວະຕາງໆ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 43
+},
+{
+"en": "distomiasis",
+"lo": "ພະຍາດໃບໄມ້",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 43
+},
+{
+"en": "diuretic",
+"lo": "ສີ່ງ)ທີ່ຂັບຍ່ຽວ, ຢາລະ ບາຍປັດສາວະ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 43
+},
+{
+"en": "diverticulitis",
+"lo": "ການອັກເສບຖົງເຫລືອ ທີລາໃສ້ໃຫຍ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 43
+},
+{
+"en": "dizzy",
+"lo": "ວິນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 43
+},
+{
+"en": "doctor",
+"lo": "ແພດປຣິນຍາ, ແພດຊັ້ນສູງ, ນາຍແພດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 43
+},
+{
+"en": "dosage",
+"lo": "ອັດຕາສວນຢາທີກຳນົດໃຫ້, ຂະຫນາດຂອງຢາ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 43
+},
+{
+"en": "douche",
+"lo": "ນຳ້ທີ່ພຸ່ງເປັນສາຍ (ໃຊ້ລ້າງ ອະໄວຍະວະພາຍໃນ)",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 43
+},
+{
+"en": "Down's syndrome",
+"lo": "ພະຍາດດາວ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 43
+},
+{
+"en": "drain",
+"lo": "ທໍລະບາຍ",
+"lo_chandra": "ກໍລະບາຍ",
+"ocr_agreement": 0.857,
+"page": 44
+},
+{
+"en": "dress",
+"lo": "ພັນແຜ, ພັນບາດ",
+"lo_chandra": "ພັນແຜ, ພັນບາດ",
+"ocr_agreement": 1.0,
+"page": 44
+},
+{
+"en": "drink",
+"lo": "ເຄອງດມ",
+"lo_chandra": "ເຄືອງດີມ",
+"ocr_agreement": 0.857,
+"page": 44
+},
+{
+"en": "drink",
+"lo": "ດືມ, Ruud ຫລືຂອງແຫລວ, ດູດກິນ",
+"lo_chandra": "ດີມ, ກິນນ້ຳ ຫລືຂອງແຫລວ, ຄຸດກິນ",
+"ocr_agreement": 0.724,
+"page": 44
+},
+{
+"en": "droop",
+"lo": "ຢ່ອນ, ຫຽວລົງ",
+"lo_chandra": "ຢ່ອມ, ທຸງວລີງ",
+"ocr_agreement": 0.64,
+"page": 44
+},
+{
+"en": "drunk",
+"lo": "ເມົາ",
+"lo_chandra": "ເມີດ",
+"ocr_agreement": 0.5,
+"page": 44
+},
+{
+"en": "dung",
+"lo": "ອາຈົມ (2) ຂອງສັດ, ນົກ ຫລື ແມງໄມ້",
+"lo_chandra": "ອາຈີມ (ຂໍ) ຂອງສັດ, ນິກ ຫລືແມງໄມ",
+"ocr_agreement": 0.857,
+"page": 44
+},
+{
+"en": "duodenum",
+"lo": "ລາໃສ້ ອອນທ່ອນຕົນ",
+"lo_chandra": "ລູໂອເດນອມ, ລູໃສ່ອອມທອມຕັມ",
+"ocr_agreement": 0.39,
+"page": 44
+},
+{
+"en": "dysentery",
+"lo": "ພະຍາດທ້ອງບິດ",
+"lo_chandra": "ພະຍາດກ້ອງບິດ",
+"ocr_agreement": 0.917,
+"page": 44
+},
+{
+"en": "dysmenorrhea",
+"lo": "ອາການເຈັບປວດ ເວລາເປັນປະຈຳເດືອນ",
+"lo_chandra": "ອາການເຈັບປວດເວລາເບີນປະຈຳເດືອນ",
+"ocr_agreement": 0.915,
+"page": 44
+},
+{
+"en": "dyspnea",
+"lo": "ການທັນໃຈຝືດ",
+"lo_chandra": "ການຫັມໃຈມີດ",
+"ocr_agreement": 0.636,
+"page": 44
+},
+{
+"en": "earache",
+"lo": "ອາການເຈັບທູ",
+"lo_chandra": "ອາການເຈັບຫູ",
+"ocr_agreement": 0.909,
+"page": 44
+},
+{
+"en": "eat",
+"lo": "ກິນ, ຮັບປະທານ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 45
+},
+{
+"en": "eclampsia",
+"lo": "ເອກະລາມຊີ, ອາການ ຊັກກະຕຸກ (ໃນແມ່ມານ)",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 45
+},
+{
+"en": "ectopic pregnancy",
+"lo": "ລູກນອກພົກ, ມີລູກນອກມົດລູກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 45
+},
+{
+"en": "eczema",
+"lo": "ເອກເຊມາ, (SoU",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 45
+},
+{
+"en": "edema",
+"lo": "ອາການເປັນບວມ , ຊືງມີນຳ້ ຂັງໃນຈີວະຕາງໆ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 45
+},
+{
+"en": "effusion",
+"lo": "ການໄຫລນອງ, ການຊຶມ ອອກ, ຂອງແຫລວທີໄທລ ຫລືຊຶມ ອອກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 45
+},
+{
+"en": "ejaculation",
+"lo": "ການພຸງອອກ, ການ ຫລັງນຳກາມ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 45
+},
+{
+"en": "elbow",
+"lo": "ແຂນສອກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 45
+},
+{
+"en": "electric shock",
+"lo": "ໄຟຟ້າຂ໊ອດ ທລື ໄຟ ຟ້າຈັບ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 45
+},
+{
+"en": "electrocardiogram",
+"lo": "ຄືນໄຟຟ້າທົວ ໃຈ, ເສັນບັນທຶກກະແສໄຟຟ້າທົວໃຈ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 45
+},
+{
+"en": "electrocardiograph",
+"lo": "ເຄືອງວັດແທກ ກະແສໄຟຟ້າທົວໃຈ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 45
+},
+{
+"en": "electrocute",
+"lo": "ຕາຍຍ້ອນໄຟຟ້າຂຶອດ ຫລື ໄຟຟ້າຈັບ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 45
+},
+{
+"en": "elephantiasis",
+"lo": "ພະຍາດຕີນຊ້າງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 45
+},
+{
+"en": "emaciation",
+"lo": "ການຈອຍຜອມລົງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 45
+},
+{
+"en": "embolism",
+"lo": "ການມີກ້ອນເລືອດກ້າມ ຕັນເສັ້ນເລືອດ, ພາວະທີເສັ້ນເລືອດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 45
+},
+{
+"en": "indy",
+"lo": "ຍ້ອນກ້ອນເລືອດກ້າມ ທລ໊ ວັດຖຸໂດນຶງ)",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 45
+},
+{
+"en": "embolus",
+"lo": "ກ້ອນເລືອດກ້າມທລືວັດຖຸ ໃດນຶງທີຕັນເສັ້ນເລືອດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 45
+},
+{
+"en": "embryo",
+"lo": "ອາບຣີອົງ, ລູກຈໍໃທມ່ທີມ໊",
+"lo_chandra": "ອຳບຣີອງ, ລູກຈີໄຫມ້ກິ່ນ ອາຍຸຕົ້ນກວ່າ 3 ເດືອນ",
+"ocr_agreement": 0.424,
+"page": 46
+},
+{
+"en": "emergency",
+"lo": "ເຫດການສຸກເສີນ, ການກະທັນທັນ",
+"lo_chandra": "ເຫດການສຸກເສີນ, ການກະທັນທີ",
+"ocr_agreement": 0.941,
+"page": 46
+},
+{
+"en": "emetic",
+"lo": "ຢາຮາກ, ຢາທີເຮັດໃຫ້ຮາກ",
+"lo_chandra": "ຢາຮາກ, ຢາທີເຮັດໃຫ້ຮາກ",
+"ocr_agreement": 1.0,
+"page": 46
+},
+{
+"en": "emphysema",
+"lo": "ພອງລົມ, ການພອງ ລົມໃນເຍືອຕ່າງໆ",
+"lo_chandra": "ພອງລິມ, ການພອງ ລິມໃນເຄືອຕ່າງໆ",
+"ocr_agreement": 0.897,
+"page": 46
+},
+{
+"en": "encephalitis",
+"lo": "ສະຫມອງອັກເສບ",
+"lo_chandra": "ສະຫມອງອັກເສບ",
+"ocr_agreement": 1.0,
+"page": 46
+},
+{
+"en": "endemic na",
+"lo": "ພະຍາດປະຈຳເຂດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 46
+},
+{
+"en": "endometriosis",
+"lo": "ການມີຈິວະຂອງ ເຍືອ ເມືອກຊັນໃນຂອງມົດລູກເກີດໃນ ບ່ອນອືນນອກມົດລູກ",
+"lo_chandra": "ການມີຈິວຂອງ ເຄືອເມືອກຊຸມໃນຂອງມິດລຸກເກີດໃນ ບ່ອນອື່ນກວ່າມິດລຸກ",
+"ocr_agreement": 0.817,
+"page": 46
+},
+{
+"en": "endometrium",
+"lo": "ເຍືອເມືອກຊັ້ນໃນ ຂອງມົດລູກ",
+"lo_chandra": "ເຄືອເມືອກຊຸມໃນ ຂອງມິດລຸກ",
+"ocr_agreement": 0.776,
+"page": 46
+},
+{
+"en": "enema",
+"lo": "ການສວນ, vheJathgou ເຂົາໄປທາງທະວານ",
+"lo_chandra": "ການສວມ, ນຳຢາທີສວມ ເຂົ້າໄປທາງທະວານ",
+"ocr_agreement": 0.667,
+"page": 46
+},
+{
+"en": "energy",
+"lo": "ພະລັງ, ພະລັງງານ, ແຮງ",
+"lo_chandra": "ພະລັງ, ພະລັງງານ, ແຮງ",
+"ocr_agreement": 1.0,
+"page": 46
+},
+{
+"en": "enteritis",
+"lo": "ລາໄສ້ອອນອັກເສບ",
+"lo_chandra": "ລ້າໄສ່ອອນອັກເສບ",
+"ocr_agreement": 0.897,
+"page": 46
+},
+{
+"en": "enuresis",
+"lo": "ການຂັບຖ່າຍນຳປັດສາວະ ໂດຍບໍ່ຮູ້ສຶກຕົວເວລານອນຫລັບ, ຢ່ຽວ ໃສ່ບ່ອນ",
+"lo_chandra": "ການຂໍຍຖ້າຍນຳບັດສາວະ ໂດຍບັຽສິກຕິວເວລາມອນຫລັບ, ຍຸງວ ໃສ່ບ່ອນ",
+"ocr_agreement": 0.769,
+"page": 46
+},
+{
+"en": "enzyme",
+"lo": "ອັງຊີມ, . ສານກະຕຸ້ນຫລືອາ ນວຍປະຕິກິລິຍາຊີວະເຄມີ",
+"lo_chandra": "ອັງຊີມ, ສາມກະຕຸ້ນຫລືອັ ນວຍປະຕິກິລິຍາຊີວະເຄຼີ",
+"ocr_agreement": 0.911,
+"page": 46
+},
+{
+"en": "epidemic",
+"lo": "ພະຍຸ, ການລະບາດ, ພະ ຍາດຕິດຕໍ່, ໂລກລະບາດ",
+"lo_chandra": "ພະຍາ, ການລະບາດ, ພະ ຍາດຕິດຕໍ່, ໂລກລະບາດ",
+"ocr_agreement": 0.974,
+"page": 46
+},
+{
+"en": "epididymis",
+"lo": "ຕົນທໍ່ສົງອະສຸຈິ, ຫອນ ຫມາກໄຂ່ທຳ, ສາຍນຳເຊື້ອສືບພັນ ຂອງຜູ້ຊາຍ",
+"lo_chandra": "ຕົວທີສຸງອະສິ, ຫອມ ຫມາກໄຂ່ຫ້າ, ສາຍນຳເຂົ້າສຸບພັນ ຂອງຜູ້ຊາຍ",
+"ocr_agreement": 0.789,
+"page": 46
+},
+{
+"en": "epidural",
+"lo": "ເຊິ່ງຢູ່ຂ່າງນອກຂອງເຍືອ ຫຸ້ມສະຫມອງ ແລະໄຂສັນທລັງຂັ້ນ ນອກ",
+"lo_chandra": "ເຂົ້າຢູ່ຂ້າງນອກຂອງເຄືອ ຫຸມສະຫມອງ ແລະໄຂສັນຫລັງຊຸມ ນອກ",
+"ocr_agreement": 0.792,
+"page": 46
+},
+{
+"en": "epiglottis",
+"lo": "ຝາອັດທລອດສຽງ, ຝາ ຫລອດສຽງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 47
+},
+{
+"en": "epilepsy",
+"lo": "ພະຍາດບ້າຫມູ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 47
+},
+{
+"en": "episiotomy",
+"lo": "ການຕັດຕາມອະໄວຍະ ສືບພັນຂອງຜູ້ຍິງເພືອປະສູດລູກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 47
+},
+{
+"en": "equilibrium",
+"lo": "ສະຖຽນລະພາບ, Qu ຍະພາບ, ຄວາມດຸນດຽງ, ຄວາມສມ ດຸນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 47
+},
+{
+"en": "erection",
+"lo": "ການຕັ້ງຂຶ້ນ, ການແຂງຕົວ ຂຶ້ນ, ອະໄວຍະວະສືບພັນຂອງຜູ້ຊາຍ ແຂງໂຕ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 47
+},
+{
+"en": "erythro-",
+"lo": "ແດງ, ກ່ຽວກັບເມັດ ເລືອດແດງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 47
+},
+{
+"en": "erythrocyte",
+"lo": "ເມັດເລືອດແດງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 47
+},
+{
+"en": "esophagus",
+"lo": "ຫລອດອາທຫານ, ທໍ່ສົ່ງ ອາຫານ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 47
+},
+{
+"en": "essential",
+"lo": "ຂຊງເປັນແກນແທ້",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 47
+},
+{
+"en": "essential",
+"lo": "ຈຳເປັນ, ສຳຄັນ, 29290 ບໍ່ໄດ້ ເຊັນ ຄົນຂາດອາກາດບໍ່ໄດ້",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 47
+},
+{
+"en": "etiology",
+"lo": "ສາເຫດວິທະຍາ, ວິທະຍາ ວາດ້ວຍສາຍເທດຂອງພະຍາດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 47
+},
+{
+"en": "examination",
+"lo": "ການກວດຮາງກາຍ, ການກວດສອບ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 47
+},
+{
+"en": "example",
+"lo": "ຢ່າງ, ຕົວຢ່າງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 47
+},
+{
+"en": "excision",
+"lo": "ການຕັດອອກບາງສວນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 47
+},
+{
+"en": "exercise",
+"lo": "ການແອບກາຍ, ທັດກາຍບໍ່ ລິຫານ, ການອອກກຳລັງກາຍ, ການ ຝຶກຊ້ອມ",
+"lo_chandra": "ການແອບກາຍ, ຫັດກາຍບໍລິຫານ, ການອອກກຳລັງກາຍ, ການຝຶກຊອມ",
+"ocr_agreement": 0.943,
+"page": 48
+},
+{
+"en": "exertion",
+"lo": "ການອອກແຮງ",
+"lo_chandra": "ການອອກແຮງ",
+"ocr_agreement": 1.0,
+"page": 48
+},
+{
+"en": "exhale",
+"lo": "ຫາຍໃຈອອກ",
+"lo_chandra": "ຫາຍໃຈອອກ",
+"ocr_agreement": 1.0,
+"page": 48
+},
+{
+"en": "exhausted",
+"lo": "ຫມົດແຮງ",
+"lo_chandra": "ໜົດແຮງ",
+"ocr_agreement": 0.769,
+"page": 48
+},
+{
+"en": "exhaustion",
+"lo": "ພາວະຫມົດກຳລ້າ, ອາ ການຫມົດແຮງ",
+"lo_chandra": "ພາວະຫມົດກຳລັງ, ອາການຫມົດແຮງ",
+"ocr_agreement": 0.909,
+"page": 48
+},
+{
+"en": "expectorant na",
+"lo": "ຢາ)ທີຊ່ວຍຂັບສະ ເຫລດ , ໂຄະຂໍ້ກະເທິ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 48
+},
+{
+"en": "external",
+"lo": "ຂ້າງນອກ, ທີຢູ່ພາຍນອກ",
+"lo_chandra": "ຂ້າງນອກ, ທີ່ຢູ່ພາຍນອກ",
+"ocr_agreement": 0.976,
+"page": 48
+},
+{
+"en": "eye",
+"lo": "ຕາ, ຫນວຍຕາຂ້າງນິງ",
+"lo_chandra": "ຕາ, ຫນ່ວຍຕາຂ້າງມື",
+"ocr_agreement": 0.824,
+"page": 48
+},
+{
+"en": "eyebrow",
+"lo": "ຄິວ",
+"lo_chandra": "ຄ້ວ",
+"ocr_agreement": 0.667,
+"page": 48
+},
+{
+"en": "eyelash",
+"lo": "ຂົນຕາ",
+"lo_chandra": "ຂີມຕາ",
+"ocr_agreement": 0.6,
+"page": 48
+},
+{
+"en": "eyelid",
+"lo": "ຫນັງຕາ, ຫນັງປົກຫນ່ວຍຕາ",
+"lo_chandra": "ຫນັງຕາ, ຫນັງປີກຫນ່ວຍຕາ",
+"ocr_agreement": 0.955,
+"page": 48
+},
+{
+"en": "face",
+"lo": "ຫນ້າ, ໃບຫນ້າ",
+"lo_chandra": "ຫນ້າ, ໃບຫນ້າ",
+"ocr_agreement": 1.0,
+"page": 48
+},
+{
+"en": "faint",
+"lo": "(ສີ)ມ້ານ, ບໍ່ແຈ້ງ, ມົວໆ (ສຽງ, ແສງ)",
+"lo_chandra": "ສີ)ມ້າມ, ບໍແຈ້ງ, ມີວຽງ (ສຽງ, ແສງ)",
+"ocr_agreement": 0.866,
+"page": 48
+},
+{
+"en": "fainting",
+"lo": "ເປັນລົມ",
+"lo_chandra": "ເປັນລົມ",
+"ocr_agreement": 1.0,
+"page": 48
+},
+{
+"en": "Fallopian tubes",
+"lo": "ງວງມົດລູກ, ທໍ ສົງໄຂ",
+"lo_chandra": "ງວງມິດລຸກ, ທີ່ສິງໄຂ",
+"ocr_agreement": 0.737,
+"page": 48
+},
+{
+"en": "farsighted",
+"lo": "ສາຍຕາຍາວ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 48
+},
+{
+"en": "fascia",
+"lo": "ເຍືອທຸ້ມ",
+"lo_chandra": "ເຍື້ອຫຸມ",
+"ocr_agreement": 0.75,
+"page": 49
+},
+{
+"en": "fast",
+"lo": "ງົດອາຫານ , ອົດອາຫານ, Of’",
+"lo_chandra": "ງົດອາຫານ, ອິດອາຫານ, ບັກນີ",
+"ocr_agreement": 0.408,
+"page": 49
+},
+{
+"en": "e rester a jeun",
+"lo": "ນຸ jetner ນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 49
+},
+{
+"en": "fat",
+"lo": "ໄຂມັນ",
+"lo_chandra": "ໄຂມັນ",
+"ocr_agreement": 1.0,
+"page": 49
+},
+{
+"en": "fatal",
+"lo": "ຊຶ່ງເຮັດໃຫ້ຕາຍ",
+"lo_chandra": "ຊ້າງເຮັດໃຫ້ຕາຍ",
+"ocr_agreement": 0.857,
+"page": 49
+},
+{
+"en": "fatigue",
+"lo": "ຄວາມເມອຍ, ຄວາມອດ ເມອຍ",
+"lo_chandra": "ຄວາມເມືອຍ, ຄວາມອຶດເມືອຍ",
+"ocr_agreement": 0.909,
+"page": 49
+},
+{
+"en": "feces",
+"lo": "ຂີ່, ອາຈົມ , ອຸດຈາລະ",
+"lo_chandra": "ຂໍ, ອາຈິມ, ອຸດຈາລະ",
+"ocr_agreement": 0.842,
+"page": 49
+},
+{
+"en": "feed",
+"lo": "ໃຫ້ກິນ, ປ້ອນອາທານ",
+"lo_chandra": "ລ້ຽງ, ໃຫ້ກິນ, ປ່ອນອາຫານ",
+"ocr_agreement": 0.75,
+"page": 49
+},
+{
+"en": "feeding",
+"lo": "ການໃຫ້ອາຫານ",
+"lo_chandra": "ການໃຫ້ອາຫານ",
+"ocr_agreement": 1.0,
+"page": 49
+},
+{
+"en": "feel",
+"lo": "ຮູ້ສຶກ, ຮູ້ສຶກເມືອເວລາສຳຜັດ",
+"lo_chandra": "ຮູສົກ, ຮູສົກເມືອເວລາສັດ",
+"ocr_agreement": 0.84,
+"page": 49
+},
+{
+"en": "feeling",
+"lo": "ຄວາມຮູ້ສຶກ",
+"lo_chandra": "ຄວາມຮູສົກ",
+"ocr_agreement": 0.842,
+"page": 49
+},
+{
+"en": "female",
+"lo": "ກໍ]ວກັບຜູ້ຍິງ, ກໍ]ວກັບຕົວ",
+"lo_chandra": "ກຸງວັກບຜູຍງ, ກຸງວັກບຕົວ",
+"ocr_agreement": 0.708,
+"page": 49
+},
+{
+"en": "femur",
+"lo": "ກະດູກກົກຂາ",
+"lo_chandra": "ກະດູກກິກຂາ",
+"ocr_agreement": 0.9,
+"page": 49
+},
+{
+"en": "fertile",
+"lo": "ສາມາດປະສົມພັນໄດ້, ອຸດົມ ສົມບູນ",
+"lo_chandra": "ສາມາດປະສົມພັນໄດ້, ອຸດົມ",
+"ocr_agreement": 0.868,
+"page": 49
+},
+{
+"en": "fetus",
+"lo": "ລູກໃນທ້ອງທີມີອາຍຸ ແຕ່ສາມເດືອນຂຶ້ນໄປ",
+"lo_chandra": "ເພີຕາດ, ລາກໃນທ້ອງຫຼືມີອາຍຸ",
+"ocr_agreement": 0.459,
+"page": 49
+},
+{
+"en": "fever",
+"lo": "ໄຂ້, ຄີງຮ້ອນ",
+"lo_chandra": "ໄຂ້, ຄຳຮ້ອນ",
+"ocr_agreement": 0.87,
+"page": 49
+},
+{
+"en": "feverish",
+"lo": "ເປັນໄຂ້, ຕົວຮ້ອນ",
+"lo_chandra": "ເປັນໄຂ້, ຕີວຮ້ອນ",
+"ocr_agreement": 0.938,
+"page": 50
+},
+{
+"en": "fibrillation",
+"lo": "ຟີບຣີລາຊີອົງ, ກ້າມຊີ່ນ ທົວໃຈສັນເຊັນ",
+"lo_chandra": "ຟິບຣີລາຊີອງ, ກ້າມຊຸມ",
+"ocr_agreement": 0.618,
+"page": 50
+},
+{
+"en": "fibula",
+"lo": "ກະດູກແຂ່ງອັນນ້ອຍ",
+"lo_chandra": "ກະດູກແຂງອັນນ້ອຍ",
+"ocr_agreement": 0.968,
+"page": 50
+},
+{
+"en": "filariasis",
+"lo": "ພະຍາດຟີລາຣີອາຊິດ, ພະ ຍາດເກີດຈາກເຊືອກາຝາກຟີລາເຣຍ",
+"lo_chandra": "ພະຍາດຟິລາຣີອາຊິດ, ພະຍາດເກີດຈາກເຊື້ອກາຝາກຟິລາເຣຍ",
+"ocr_agreement": 0.936,
+"page": 50
+},
+{
+"en": "finger",
+"lo": "ນິວມື",
+"lo_chandra": "ນ້ວມ",
+"ocr_agreement": 0.667,
+"page": 50
+},
+{
+"en": "fingernail",
+"lo": "ເລັບມື",
+"lo_chandra": "ເລີບມື",
+"ocr_agreement": 0.833,
+"page": 50
+},
+{
+"en": "first aid",
+"lo": "ການປະຖົມພະຍາບານ, ການຊວຍເຫລືອຂ່ນຕນ",
+"lo_chandra": "ການປະຖົມພະຍາບານ, ການຊ່ວຍເຫລືອຂຸນຕົນ",
+"ocr_agreement": 0.941,
+"page": 50
+},
+{
+"en": "flatulence",
+"lo": "ຍງທອງ, ທອງເບງ",
+"lo_chandra": "ຢູ່ກ້ອງ, ກ້ອງເບິງ",
+"ocr_agreement": 0.6,
+"page": 50
+},
+{
+"en": "fluid",
+"lo": "ຂອງໄຫລ",
+"lo_chandra": "ຂອງໄຫລ",
+"ocr_agreement": 1.0,
+"page": 50
+},
+{
+"en": "fluke",
+"lo": "ສານໃບໄມ້, ແມ່ກາຝາກໃບໄມ້",
+"lo_chandra": "ສາມໃບໄມ, ແມ່ກາຝາກໃບໄມ",
+"ocr_agreement": 0.909,
+"page": 50
+},
+{
+"en": "food",
+"lo": "ອາທານ, ເຄືອງບໍລິໂພກ |",
+"lo_chandra": "ອາຫານ, ເຄືອງບົລໄພກ",
+"ocr_agreement": 0.769,
+"page": 50
+},
+{
+"en": "food-poisoning",
+"lo": "ພະຍາດຊືມເບືອ | ອາຫານພິດ",
+"lo_chandra": "ພະຍາດຊຸມເບິ່ງ",
+"ocr_agreement": 0.556,
+"page": 50
+},
+{
+"en": "foot",
+"lo": "ຕີນ",
+"lo_chandra": "ຕົວ",
+"ocr_agreement": 0.333,
+"page": 50
+},
+{
+"en": "forceps",
+"lo": "ຟອກແຊບ, ຄີມການແພດ",
+"lo_chandra": "ຟອກແຊບ, ຄີມການແພດ",
+"ocr_agreement": 1.0,
+"page": 50
+},
+{
+"en": "forearm",
+"lo": "ປາຍແຂນ",
+"lo_chandra": "ປາຍແຂນ",
+"ocr_agreement": 1.0,
+"page": 51
+},
+{
+"en": "forehead",
+"lo": "ຫນ້າຜາກ",
+"lo_chandra": "ຫມ້າຜາກ",
+"ocr_agreement": 0.857,
+"page": 51
+},
+{
+"en": "foreign body",
+"lo": "ສງແປກປອມ",
+"lo_chandra": "ສິງແປກປອມ",
+"ocr_agreement": 0.941,
+"page": 51
+},
+{
+"en": "foreskin",
+"lo": "ຫນັງທຸ້ມປາຍ (ອະໄວຍະ ວະສືບພັນຂອງຜູ້ຊາຍ)",
+"lo_chandra": "ຫມ້ງຫຼມປາຍ (ອະໄວຍະ",
+"ocr_agreement": 0.5,
+"page": 51
+},
+{
+"en": "formula",
+"lo": "ສຸດ, ຕາລາ",
+"lo_chandra": "ສູດ, ຕຳລາ",
+"ocr_agreement": 0.778,
+"page": 51
+},
+{
+"en": "fracture",
+"lo": "ການທັກ (ກະດູກ), ຮອຍ ຫັກ, ຮອຍແຕກ, ກະດູກທັກ",
+"lo_chandra": "ການຫັກ (ກະດູກ), ຮອຍ",
+"ocr_agreement": 0.6,
+"page": 51
+},
+{
+"en": "freckle",
+"lo": "ຈຸດດາງທີຜົວຫນັງ",
+"lo_chandra": "ຈຸດດ່າງຫັດຜິວຫນັງ",
+"ocr_agreement": 0.75,
+"page": 51
+},
+{
+"en": "function",
+"lo": "ເຮັດຫນ້າທີການ",
+"lo_chandra": "ເຮັດຫນ້າທີການ",
+"ocr_agreement": 1.0,
+"page": 51
+},
+{
+"en": "function",
+"lo": "ຫນ້າທີ, ຫນ້າທີການ",
+"lo_chandra": "ຫນ້າທີ, ຫນ້າທີການ",
+"ocr_agreement": 1.0,
+"page": 51
+},
+{
+"en": "fungus",
+"lo": "ເຊື່ອເທັດ, ເຊື່ອລາ, ພະຍາດ ຜິວທນັງຈຳພວກນິງ ເຊັນ ຂີ້ກາກ",
+"lo_chandra": "ເຊື້ອເຫດ, ເຊື້ອລາ, ພະຍາດ",
+"ocr_agreement": 0.545,
+"page": 51
+},
+{
+"en": "gallbladder",
+"lo": "ຖົງບີ",
+"lo_chandra": "ຖຸງຍີ",
+"ocr_agreement": 0.6,
+"page": 51
+},
+{
+"en": "gallstone",
+"lo": "ກ້ອນຫນຶ້ວ (ຢູ່ໃນຖົງນຳ່ບີ ແລະທຶນຳ້ບີ)",
+"lo_chandra": "ກ້ອນຫມັວ (ຢູໂມຖຸງນຳຍີ",
+"ocr_agreement": 0.526,
+"page": 51
+},
+{
+"en": "ganglion",
+"lo": "ຈຸດລວມເສັນປະສາດ",
+"lo_chandra": "ຈຸດລວມເສັ່ນປະສາດ",
+"ocr_agreement": 0.968,
+"page": 51
+},
+{
+"en": "gangrene",
+"lo": "ກງແກຣນ, ເນອຕາຍເນາ",
+"lo_chandra": "ກ້າແກຣນ, ເນື້ອຕາຍເນີ",
+"ocr_agreement": 0.811,
+"page": 51
+},
+{
+"en": "gas",
+"lo": "ແກສ໌, ອາກາດທາດ",
+"lo_chandra": "ແກສ, ອາກາດທາດ",
+"ocr_agreement": 0.963,
+"page": 51
+},
+{
+"en": "gastritis",
+"lo": "ອັກເສບກະເພາະອາທານ",
+"lo_chandra": "ກເສບກະເພາະອາຫານ",
+"ocr_agreement": 0.875,
+"page": 52
+},
+{
+"en": "gastro-enteritis",
+"lo": "ອັກເສບກະເພາະ ອາຫານແລະລຳໄສ້ ຄ",
+"lo_chandra": "ກເສບກະເພາະ ອາຫານແລະລຳໄສ້",
+"ocr_agreement": 0.923,
+"page": 52
+},
+{
+"en": "gene",
+"lo": "ແຊນ, ສິງທີກາຫນົດຮູບລັກສະ ນະຂອງສວນທີຈະເກີດ, ເຊື້ອພັນ",
+"lo_chandra": "ແຊມ, ສຸງທິກຳຫມົດຮູບລັກສະ ນະຂອງສວນທຳຈະເກີດ, ເຊື້ອພຸມ",
+"ocr_agreement": 0.843,
+"page": 52
+},
+{
+"en": "genitals",
+"lo": "ອະໄວຍະວະສີບພັນ",
+"lo_chandra": "ອະໄວຍະວະສິບພັນ",
+"ocr_agreement": 0.929,
+"page": 52
+},
+{
+"en": "germ",
+"lo": "ຈຸລິນຊີ, ເຊື່ອ, ເຊື້ອພະຍາດ, ີ ແມ່ພະຍາດ, ຫນໍ",
+"lo_chandra": "ຈຸລິມຊີ, ເຊື້ອ, ເຊື້ອພະຍາດ, ແມ່ພະຍາດ, ຫມັ",
+"ocr_agreement": 0.881,
+"page": 52
+},
+{
+"en": "giardia",
+"lo": "ອາການຖອກ",
+"lo_chandra": "ອາການຖອກ",
+"ocr_agreement": 1.0,
+"page": 52
+},
+{
+"en": "gland",
+"lo": "ຕອມ",
+"lo_chandra": "ຕ່ອມ",
+"ocr_agreement": 0.857,
+"page": 52
+},
+{
+"en": "glasses npl",
+"lo": "ແວນຕາ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 52
+},
+{
+"en": "glaucoma",
+"lo": "ໂກລໂກມ, ຄວາມດັນໃນ ຫນ່ວຍຕາສູງ, ຕໍ່ຫີນ",
+"lo_chandra": "ໂກລໂກມ, ຄວາມດັນໃນ ຫມວຍຕາສູງ, ຕ່ຍາມ",
+"ocr_agreement": 0.857,
+"page": 52
+},
+{
+"en": "glucose",
+"lo": "nano, ທາດນຳ້ຕານຊະ ນິດນິງ",
+"lo_chandra": "ກຸລໂກດ, ທາດນັ້ນຕາມຊະ ນິດມັງ",
+"ocr_agreement": 0.627,
+"page": 52
+},
+{
+"en": "goiter",
+"lo": "ຄໍຫນຽງ, HBV",
+"lo_chandra": "ຄ້າຍມຸງ, ຄ້າເອີມ",
+"ocr_agreement": 0.296,
+"page": 52
+},
+{
+"en": "gonorrhea",
+"lo": "ພະຍາດຫນອງໃນ, ກາ ມະໂລກຊະນິດນຶ່ງທີເກີດຈາກເຊື້ອ",
+"lo_chandra": "ພະຍາດຫມອງໃນ, ກາ ມະໂລກຊະນິດມັງທີກິດຈາກເຊື້ອ",
+"ocr_agreement": 0.884,
+"page": 52
+},
+{
+"en": "gout",
+"lo": "ພະຍາດກຸ໊ດ, ພະຍາດກ່ຽວກັບຄໍ ກະດູກຊະນິດນຶງ",
+"lo_chandra": "ພະຍາດກິດ, ພະຍາດກຸງວັກຍ້າ ກະດູກຊະນິດມັງ",
+"ocr_agreement": 0.753,
+"page": 52
+},
+{
+"en": "graft",
+"lo": "ແກຣິບ, ການປູກຕໍ່ຈ໊ວະຫລ໊ອະ ໄວຍະວະ",
+"lo_chandra": "ແກົ້ນ, ການປຸກຕັ້ງຈິວະຫລືອະ ໄວຍະວະ",
+"ocr_agreement": 0.738,
+"page": 52
+},
+{
+"en": "graze",
+"lo": "ແຜເລິ່ນ, ຮອຍເຖືອ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 53
+},
+{
+"en": "groin",
+"lo": "ແອບແອຂາ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 53
+},
+{
+"en": "gum",
+"lo": "ຟັນແຂ້ວ, ເຫືອກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 53
+},
+{
+"en": "gynecologist",
+"lo": "ແພດຂະແຫນງພະ £9089, ແພດນາລີເວດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 53
+},
+{
+"en": "habit",
+"lo": "ຄວາມເຄີຍຊິນ, ອາຈີນ, ນິດໄສ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 53
+},
+{
+"en": "hair (on body)",
+"lo": "ຂົນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 53
+},
+{
+"en": "hair (on head)",
+"lo": "ຜົມ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 53
+},
+{
+"en": "handicap",
+"lo": "ຄວາມພິການ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 53
+},
+{
+"en": "handicapped",
+"lo": "ພິການ, ບໍ່ສົມປະ ກອບ, ໄຮັສະມັດຖະພາບ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 53
+},
+{
+"en": "head",
+"lo": "ທົວ, ສວນເທິງ, ສ່ວນຍອດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 53
+},
+{
+"en": "heal",
+"lo": "ປົວພະຍາດ, ປົວບາດແຜ, Jo ໃຫ້ຫາຍ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 53
+},
+{
+"en": "health",
+"lo": "ສຸຂະພາບ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 53
+},
+{
+"en": "hear",
+"lo": "ໄດ້ຍິນ",
+"lo_chandra": "ໄດ້ຍິນ",
+"ocr_agreement": 1.0,
+"page": 54
+},
+{
+"en": "hearing",
+"lo": "ການໄດ້ຍິນ",
+"lo_chandra": "ການໄດ້ຍິນ",
+"ocr_agreement": 1.0,
+"page": 54
+},
+{
+"en": "heart",
+"lo": "ທົວໃຈ, ໃຈກາງ",
+"lo_chandra": "ຫົວໃຈ, ໃຈກາງ",
+"ocr_agreement": 0.917,
+"page": 54
+},
+{
+"en": "heart attack",
+"lo": "ຫົວໃຈວາຍ",
+"lo_chandra": "ຫົວໃຈວາຍ",
+"ocr_agreement": 1.0,
+"page": 54
+},
+{
+"en": "heart-beat",
+"lo": "ການເຕັ້ນຂອງທົວໃຈ",
+"lo_chandra": "ການຕັ້ງຂອງຫົວໃຈ",
+"ocr_agreement": 0.839,
+"page": 54
+},
+{
+"en": "heartburn",
+"lo": "ແສບຫມາກທຫຼດ, ເອື້ອມ ກະເພາະ",
+"lo_chandra": "ແສບຫມາກຫູດ, ເອອມກະເພາະ",
+"ocr_agreement": 0.875,
+"page": 54
+},
+{
+"en": "heat",
+"lo": "ເຮັດໃຫ້ຮ້ອນ",
+"lo_chandra": "ເຮັດໃຫ້ຮ້ອນ",
+"ocr_agreement": 1.0,
+"page": 54
+},
+{
+"en": "heat",
+"lo": "ຄວາມຮ້ອນ",
+"lo_chandra": "ຄວາມຮ້ອນ",
+"ocr_agreement": 1.0,
+"page": 54
+},
+{
+"en": "heatstroke",
+"lo": "ບາດກະທົບຈາກແສງ ຕະເວັນ, ເປັນລົມຍ້ອນຕາກແດດ ຫລາຍໂພດ",
+"lo_chandra": "ບາດກະທັບຈາກແສງຕາເວັນ, ເປັນລີມັອນຕາກແດດຫລາຍໄພດ",
+"ocr_agreement": 0.86,
+"page": 54
+},
+{
+"en": "heel",
+"lo": "ສນນອງ, ສນຕນ",
+"lo_chandra": "ສົມມຸອງ, ສົມຕົມ",
+"ocr_agreement": 0.538,
+"page": 54
+},
+{
+"en": "help",
+"lo": "ຊ່ວຍ, ຊ່ວຍເຫລືອ, gue",
+"lo_chandra": "ຊ່ວຍ, ຊ່ວຍເຫລືອ, ອຸປະຖຳ",
+"ocr_agreement": 0.791,
+"page": 54
+},
+{
+"en": "hemo-",
+"lo": "ເລືອດ",
+"lo_chandra": "ເລືອດ",
+"ocr_agreement": 1.0,
+"page": 54
+},
+{
+"en": "hemophilia",
+"lo": "ພະຍາດເຮໂມທີລີ, ພະ ຍາດເລືອດບໍ່ກ້າມຊະນິດນຶງທີ່ມີລັກ ສະນະສືບເຊື່ອ",
+"lo_chandra": "ພະຍາດເຮໂມຟິລ, ພະຍາດເລືອດບັກາມຊະນິດມີງົບລະກັສະນະສົບເຊືອ",
+"ocr_agreement": 0.776,
+"page": 54
+},
+{
+"en": "hemorrhage",
+"lo": "ອາການເລືອດໄຫລ ອອກ",
+"lo_chandra": "ອາການເລືອດໄຫລອອກ",
+"ocr_agreement": 0.97,
+"page": 54
+},
+{
+"en": "hemorrhoid",
+"lo": "ເຮໂມໂຣອີດ, ລິດສະ ດວງທະວານ",
+"lo_chandra": "ເຮໂມໂຣອິດ, ລິດສະດວງຫະວາມ",
+"ocr_agreement": 0.857,
+"page": 54
+},
+{
+"en": "hepatitis",
+"lo": "ຕັບອັກເສບ",
+"lo_chandra": "ຕັບອັກເສບ",
+"ocr_agreement": 1.0,
+"page": 54
+},
+{
+"en": "hereditary",
+"lo": "ຊຶງເປັນກຳມະພັນ, ຊຶ່ງ ໄດ້ຮັບຖ່າຍທອດມາຕາມເຊື້ອສາຍ",
+"lo_chandra": "ຂໍ້ເປັນການຜູ້, ຂໍ້ໄດ້ຮັບຖາຍທອດມາຕາມເຊືອສາຍ",
+"ocr_agreement": 0.719,
+"page": 54
+},
+{
+"en": "hernia",
+"lo": "ແຮກນີ, ອະໄວຍະວະລອດ ເຊັນ ໄສ້ລົງຫາົ",
+"lo_chandra": "ແຮກມີ, ອະໄວຍະວະລອດ ເຊັ່ນ ໄສລູງຫົ",
+"ocr_agreement": 0.892,
+"page": 55
+},
+{
+"en": "herpes",
+"lo": "ພະຍາດຜົວຫນັງເປັນເມັດ ໂພງນາ໌້ອັນເນືອງຈາກການຕິດເຊື້ອວິ",
+"lo_chandra": "ພະຍາດຜິວຫນັງເປັນເມັດ ໂພງນຳອັນເນື່ອງຈາກການຕິດເຊື້ອວ",
+"ocr_agreement": 0.922,
+"page": 55
+},
+{
+"en": "hiccup",
+"lo": "ນ, ສະເອິ",
+"lo_chandra": "ສະເອີ",
+"ocr_agreement": 0.615,
+"page": 55
+},
+{
+"en": "hip",
+"lo": "ກະໂພກ, ສະໂພກ",
+"lo_chandra": "ກະໂພກ, ສະໂພກ",
+"ocr_agreement": 1.0,
+"page": 55
+},
+{
+"en": "hoarse",
+"lo": "ສຽງແຫບ , Sumy",
+"lo_chandra": "ສຽງແຫບ, ຄົແຫບ",
+"ocr_agreement": 0.615,
+"page": 55
+},
+{
+"en": "hole",
+"lo": "ຮູ, Yang, ປາກທໍ່, ຊ່ອງ",
+"lo_chandra": "ຮູ, ປາກຮູ, ປາກທຸ, ຊອງ",
+"ocr_agreement": 0.698,
+"page": 55
+},
+{
+"en": "hookworm",
+"lo": "ແມ່ທ້ອງປາກຂໍ",
+"lo_chandra": "ແມ່ທ້ອງປາກຂໍ",
+"ocr_agreement": 1.0,
+"page": 55
+},
+{
+"en": "hormone",
+"lo": "ຮອກໂມນ, ສານເຄມີຊະ ນິດຕ່າງໆ ຂຶ່ງຜະລິດໃນຕ່ອມຂັບຍ່ອຍ ໃນ ມີຫນ້າທີສົງເສີມການເປັນໄປຂອງ ອະໄວຍະວະສວນຕ່າງໆ ໂດຍໄທລ ຕາມກະແສເລືອດ. ຢາປະດິດດ້ວຍ ເຄມີເພືອໃຊ້ຕາງສານທຳມະຊາດ",
+"lo_chandra": "ຮອກໂມນ, ສາມເຄມີຊະ ນິດຕ່າງໆ ຊູ່ຜະລິດໃນຕ່ອມຂົບຍ່ອຍ ໃນ ມີຫນ້າທີ່ສຸກເສີມການເປັນໄປຂອງ ອະໄວຍະວະສວນຕ່າງໆ ໂດຍໄຫລ ຕາມກະແສເລືອດ. ຢ່າປະດິດດ້ວຍ ເຄມີເພື່ອໃຊ້ຕາງສາມທຸມະຊາດ",
+"ocr_agreement": 0.929,
+"page": 55
+},
+{
+"en": "hospital",
+"lo": "ໂຮງຫມໍ, ໂຮງພະຍາບານ",
+"lo_chandra": "ໂຮງຫມໍ, ໂຮງພະຍາບານ",
+"ocr_agreement": 1.0,
+"page": 55
+},
+{
+"en": "host",
+"lo": "ເຈົ້າຂອງຮາງ, ສິງມີຊີວິດຊຶງ ເປັນບ່ອນອາໄສ (ຢ່າງເຊັນ ຂອງກາ ຝາກ ຫລືເຊື່ອພະຍາດ)",
+"lo_chandra": "ເຈົ້າຂອງຮ່າງ, ສູງມີຊີວິດຊູງ ເປັນບ່ອນອາໄສ (ຢ່າງເຊັ່ນ ຂອງກາ ຝາກ ຫລືເຊື້ອພະຍາດ)",
+"ocr_agreement": 0.947,
+"page": 55
+},
+{
+"en": "hot",
+"lo": "ຮ້ອນ",
+"lo_chandra": "ຮ້ອນ",
+"ocr_agreement": 1.0,
+"page": 55
+},
+{
+"en": "chaud(e)",
+"lo": "ງັຍເ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 55
+},
+{
+"en": "hunger nv",
+"lo": "ຄວາມຫີວ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 55
+},
+{
+"en": "hungry",
+"lo": "ຫວ, ຢາກກິນ",
+"lo_chandra": "ຫົວ, ຢ່າກກິນ",
+"ocr_agreement": 0.909,
+"page": 55
+},
+{
+"en": "hygiene",
+"lo": "ການສຸຂາພິບານ, ສຸຂະ",
+"lo_chandra": "ການສະຂາພິບານ, ສະຂະ",
+"ocr_agreement": 0.889,
+"page": 55
+},
+{
+"en": "hymen",
+"lo": "ເຍອພມມະຈາລ",
+"lo_chandra": "ເອືອຟມມະຈາລີ",
+"ocr_agreement": 0.727,
+"page": 56
+},
+{
+"en": "hyperemia",
+"lo": "ອາການໃຄຕຶງແດງ",
+"lo_chandra": "ອາການໂຄ້ງແດງ",
+"ocr_agreement": 0.8,
+"page": 56
+},
+{
+"en": "hyperglycemia",
+"lo": "ສະພາບທາດນຳ໌ ຕານໃນເລືອດສູງ",
+"lo_chandra": "ສະພາບທາດນ້ຳ ຕາມໃນເລືອດສູງ",
+"ocr_agreement": 0.92,
+"page": 56
+},
+{
+"en": "hypertension",
+"lo": "ຄວາມດັນເລືອດສູງ",
+"lo_chandra": "ຄວາມດັນເລືອດສູງ",
+"ocr_agreement": 1.0,
+"page": 56
+},
+{
+"en": "hypertrophy",
+"lo": "Suuntosd, ຫນາ ຂຶ້ນ, ຂະຫຍາຍໃທຍຂຶນ",
+"lo_chandra": "ຮີແປກໂຕຣຟີ, ຫມາ ຂຸນ, ຂະຫຍາຍໃຫຍ່ຂຸນ",
+"ocr_agreement": 0.576,
+"page": 56
+},
+{
+"en": "hyperventilation",
+"lo": "ການຫາຍໃຈຫຼາຍ ໂພດ",
+"lo_chandra": "ການຫາຍໃຈຫຼາຍ ໄພດ",
+"ocr_agreement": 0.938,
+"page": 56
+},
+{
+"en": "hypnosis",
+"lo": "ການສະກົດຈິດ, ການເຮັດ ໃຫ້ຫລັບ, ພາວະຖືກສະກົດຈິດ",
+"lo_chandra": "ການສະກິດຈິດ, ການເຮັດ ໃຫ້ຫລົບ, ພາວະຖືກສະກິດຈິດ",
+"ocr_agreement": 0.933,
+"page": 56
+},
+{
+"en": "hypoglycemia",
+"lo": "ຮີໂປກລີເຊມີ, ພາ",
+"lo_chandra": "ຮີໂປກລີເຊີມີ, ພາ ວະນ້ຳຕາມໃນເລືອດລົລົງ",
+"ocr_agreement": 0.577,
+"page": 56
+},
+{
+"en": "hypotension",
+"lo": "ຄວາມດັນເລືອດຕຳ",
+"lo_chandra": "ຄວາມດັນເລືອດຕ່ຳ",
+"ocr_agreement": 0.966,
+"page": 56
+},
+{
+"en": "hysterectomy",
+"lo": "ການຜາຕັດເອົາມົດ ລູກອອກ",
+"lo_chandra": "ການຜ່າຕັດເອີ່ມ",
+"ocr_agreement": 0.611,
+"page": 56
+},
+{
+"en": "hysteria",
+"lo": "ຮິດສະເຕລີ, ໂລກຈິດປະ ສາດຂະນິດນຶງ",
+"lo_chandra": "ຮີດສະເຕລີ, ໂລກຈິດປະ ສາດຂະນິດມັງ",
+"ocr_agreement": 0.903,
+"page": 56
+},
+{
+"en": "hysterotomy",
+"lo": "ການເຈາະມົດລູກ",
+"lo_chandra": "ການເຈາະມິດລູກ",
+"ocr_agreement": 0.923,
+"page": 56
+},
+{
+"en": "immunity",
+"lo": "ພູມຄຸ້ມກັນ, ຄວາມຄຸ້ມ ກັນ",
+"lo_chandra": "ພູມຄຸມກັນ, ຄວາມຄຸ ມກັນ",
+"ocr_agreement": 0.913,
+"page": 56
+},
+{
+"en": "immunization",
+"lo": "ການສັກຢາປ້ອງກັນ ພະຍາດຕາງໆ, ການເຮັດໃທ້ເກີດພູມ ຄຸມກິນ",
+"lo_chandra": "ການສັກຢາປ້ອງກັນ ພະຍາດຕ່າງໆ, ການເຮັດໃຫ້ເກີດພູມ ຄຸມກັນ",
+"ocr_agreement": 0.951,
+"page": 56
+},
+{
+"en": "eM",
+"lo": "ຄາ1ປອູກຕີ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 56
+},
+{
+"en": "impetigo",
+"lo": "ພະຍາດຜິວຫນັງຊະນິດນິງ ມີລັກສະນະເປັນຕຸມໂພງ",
+"lo_chandra": "ພະຍາດຜິວຫນັງຂະນິດມັງ ມີລັກສະນະເປັນຕຸ່ມໄພງ",
+"ocr_agreement": 0.889,
+"page": 56
+},
+{
+"en": "impotence",
+"lo": "ທາດລມ, ການຂາດສະ",
+"lo_chandra": "ທາດລົມ, ການຂາດສະ",
+"ocr_agreement": 0.968,
+"page": 56
+},
+{
+"en": "incision",
+"lo": "ການປາດ, ການຜ່າຕັດ, ແຜ ຊຶງເກີດຈາກການຜາຕັດ",
+"lo_chandra": "ການປາດ, ການຜາຕັດ, ແຕ່ຊ້ອງກິດຈາກການຜາຕັດ",
+"ocr_agreement": 0.861,
+"page": 57
+},
+{
+"en": "incontinence",
+"lo": "ການກັນບໍ່ຢູ່ (ປັດສະ",
+"lo_chandra": "ການກັນບໍ່ຢ່າ (ບັດສະວະ ຫລື ອຸດຈາລະ), ການກັນຢ່າງວາຫລືຂັບໄດ້",
+"ocr_agreement": 0.447,
+"page": 57
+},
+{
+"en": "increase",
+"lo": "ການເຕີບໂຕ, ການເພີ່ມຈາ ນວນຫລືປະລິມານ",
+"lo_chandra": "ການເຕີບໂຕ, ການເພີ່ມຈຳນວນຫລືປະລິມານ",
+"ocr_agreement": 0.957,
+"page": 57
+},
+{
+"en": "indigestion",
+"lo": "ການບໍລະລາຍ, ການບໍ ຍ່ອຍ, ການຄັດທ້ອງ",
+"lo_chandra": "ການບໍລະລາຍ, ການບໍ່ອອຍ, ການຄັດກັອງ",
+"ocr_agreement": 0.896,
+"page": 57
+},
+{
+"en": "infant",
+"lo": "ເດັກອອນໆ,, ເດັກເກີດໃຫມ່",
+"lo_chandra": "ເດັກອອກໆ, ເດັກເກີດໃຫມ່",
+"ocr_agreement": 0.933,
+"page": 57
+},
+{
+"en": "infection",
+"lo": "ການຊຶມເຊື້ອ, ການຕິດ",
+"lo_chandra": "ການຊົມເຊີຍ, ການຕັດແປດເຊີຍ",
+"ocr_agreement": 0.636,
+"page": 57
+},
+{
+"en": "infectious",
+"lo": "ທີຕິດແປດເຂື້ອ, ຕິດຕໍ່ (ຂອງພະຍາດ)",
+"lo_chandra": "ທີຕັດແປດເຊີຍ, ຕັດຕໍ່ (ຂອງພະຍາດ)",
+"ocr_agreement": 0.825,
+"page": 57
+},
+{
+"en": "inferior",
+"lo": "ໂຕ້, ຢູ່ກ້ອງ, au",
+"lo_chandra": "ໃຕ້, ຢູ່ກ້ອງ, ຢູ່ລຸມ",
+"ocr_agreement": 0.722,
+"page": 57
+},
+{
+"en": "infertile",
+"lo": "ເປັນຫມັນ, ມີລູກບໍ່ໄດ້",
+"lo_chandra": "ເປັນຫມັນ, ມີລູກບໍໄດ້",
+"ocr_agreement": 0.976,
+"page": 57
+},
+{
+"en": "inflammation",
+"lo": "ການອັກເສບ, ອາ ການໃຄ່ແດງຮ້ອນແລະເຈັບປວດ",
+"lo_chandra": "ການອັກເສບ, ອາການໂຄ່ແດງຮ້ອນແລະເຈັບປວດ",
+"ocr_agreement": 0.959,
+"page": 57
+},
+{
+"en": "inflate",
+"lo": "ເປົາເຂົາໄປ, ພົນເຂົ້າໄປ",
+"lo_chandra": "ເປີ້າເຂົາໄປ, ພິມເຂົາໄປ",
+"ocr_agreement": 0.818,
+"page": 57
+},
+{
+"en": "influenza",
+"lo": "ໄຂ້ຫວັດໃຫຍ່",
+"lo_chandra": "ໄຂ້ຫວັດໃຫຍ່",
+"ocr_agreement": 1.0,
+"page": 57
+},
+{
+"en": "information",
+"lo": "ຂ່າວ(ສານ), ລາຍລະ ອ]ຽດ, ຂໍມູນ",
+"lo_chandra": "ຂ່າວ(ສາມ), ລາຍລະອຽດ, ຂໍມູນ",
+"ocr_agreement": 0.926,
+"page": 57
+},
+{
+"en": "inhale",
+"lo": "ຫາຍໃຈເຂົ້າ",
+"lo_chandra": "ຫາຍໃຈເຂົາ",
+"ocr_agreement": 0.947,
+"page": 57
+},
+{
+"en": "inject",
+"lo": "ສັກ (ຢາ)",
+"lo_chandra": "ສັກ (ຢາ)",
+"ocr_agreement": 1.0,
+"page": 58
+},
+{
+"en": "injection",
+"lo": "ການສັກ ຢາ",
+"lo_chandra": "ການສັກ ຢາ",
+"ocr_agreement": 1.0,
+"page": 58
+},
+{
+"en": "injured",
+"lo": "ບາດເຈັບ",
+"lo_chandra": "ບາດເຈັບ",
+"ocr_agreement": 1.0,
+"page": 58
+},
+{
+"en": "inorganic",
+"lo": "ອະນົງຄະທາດ",
+"lo_chandra": "ອະນຸມິງຄະທາດ",
+"ocr_agreement": 0.818,
+"page": 58
+},
+{
+"en": "insane",
+"lo": "ເປັນໂລກຈິດ, ເປັນບ້າ",
+"lo_chandra": "ເປັນໂລກຈິດ, ເປັນບ້າ",
+"ocr_agreement": 1.0,
+"page": 58
+},
+{
+"en": "insomnia",
+"lo": "ອາການນອນບໍທລັບ",
+"lo_chandra": "ອາການມອມບ່ຫລັບ",
+"ocr_agreement": 0.714,
+"page": 58
+},
+{
+"en": "instep",
+"lo": "ຫລັງຕີນ",
+"lo_chandra": "ຫລັງຕີນ",
+"ocr_agreement": 1.0,
+"page": 58
+},
+{
+"en": "insulin",
+"lo": "ທາດແອັງຊູລີນ, ຮອກໂມນທີ",
+"lo_chandra": "ທາດແອັງຊຸລິນ, ຮອກໂມນທີ ອຸມທາດມັດຕາມໃນຮ່າງກາຍ",
+"ocr_agreement": 0.606,
+"page": 58
+},
+{
+"en": "intelligent",
+"lo": "ສະຫລາດ, ສະຕິປັນຍາ ດີ, ສະຫມອງດີ",
+"lo_chandra": "ສະຫລາດ, ສະຕິປັນຍາ ດີ, ສະຫມອງດີ",
+"ocr_agreement": 1.0,
+"page": 58
+},
+{
+"en": "internal",
+"lo": "ພາຍໃນ, ທາງໃນ",
+"lo_chandra": "ພາຍໃນ, ທາງໃນ",
+"ocr_agreement": 1.0,
+"page": 58
+},
+{
+"en": "intestine",
+"lo": "ໄສ້, ລຳໄສ້",
+"lo_chandra": "ໄສ, ລ່າໄສ",
+"ocr_agreement": 0.737,
+"page": 58
+},
+{
+"en": "intolerance",
+"lo": "ຄວາມບໍ່ຍອມຮັບ, ປະຕິ ກະລິຍາຜິດທຳມະດາຂອງຮ່າງກາຍຕໍ່ ສິ່ງກະຕຸ້ນທາງຟິຊິກທລິທາງເຄມີ, ອາ ການທົນທລືຮັບສິງນຶ່ງສິງໃດບໍ່ໄດ້",
+"lo_chandra": "ຄວາມບ່ອນຮ້ອຍ, ປະຕິ ກະລິຍາຜິດທາມະດາຂອງຮ່າງກາຍຕໍ ສູງກະຕູນທາງພິຊາກລິທາງເຄມີ, ອາ ການກິນຫລືບສູງມຸ່ງໄປໄດ້",
+"ocr_agreement": 0.768,
+"page": 58
+},
+{
+"en": "ion",
+"lo": "ອີອົງ",
+"lo_chandra": "ອີອີງ",
+"ocr_agreement": 0.8,
+"page": 58
+},
+{
+"en": "iris",
+"lo": "ມານຕາ",
+"lo_chandra": "ມ່ານຕາ",
+"ocr_agreement": 0.909,
+"page": 58
+},
+{
+"en": "irregularity",
+"lo": "ຄວາມບໍ່ສະຫມຳສະ ເຫມີ, ການບໍ່ເປັນຈັງທວະ (ເຊັນ ຫາຍ ໃຈ ທົວໃຈເຕັ້ນ ການຖາຍຫນັກ), ອາ",
+"lo_chandra": "ຄວາມບ່ອນຫມາກສະ ເຫມີ, ການບໍເປັນຈຸງຫວຍ (ເຊັ່ນ ຫາຍ ໃຈ ທີວໃຈເຕັມ ການຖາຍຫມັກ), ອາ ການກິບເປັນປີກກະຕິ",
+"ocr_agreement": 0.76,
+"page": 58
+},
+{
+"en": "irrigate",
+"lo": "ເປັງນາ໌, Wink, ລ້າງດ້ວຍ ນຳ້ສະອາດຫລືນຳຢາ",
+"lo_chandra": "ເປັງນ້ຳ, ໃຫ້ນ້ຳ, ລ້າງດ້ວຍ ນ້ຳສະອາດຫລືນ້ຳຢາ",
+"ocr_agreement": 0.79,
+"page": 59
+},
+{
+"en": "irrigation",
+"lo": "ການລ້າງໂດຍວິທີສວນທລ໊",
+"lo_chandra": "ການລ້າງໂດຍວິທີສວມຫລື ສີດນ້ຳເປັນສາຍເຂົ້າໄປ",
+"ocr_agreement": 0.557,
+"page": 59
+},
+{
+"en": "itch",
+"lo": "ອາການຄັນ, ອາການຄັນຄາຍ",
+"lo_chandra": "ອາການຄົມ, ອາການຄົມຄາຍ",
+"ocr_agreement": 0.81,
+"page": 59
+},
+{
+"en": "itchy",
+"lo": "ທີຄັນ",
+"lo_chandra": "ຄົມ",
+"ocr_agreement": 0.25,
+"page": 59
+},
+{
+"en": "jaundice",
+"lo": "ອາການເປັນເທລືອງ, ໄຂ້ ຫມາກເທລືອງ",
+"lo_chandra": "ອາການເປັນເຫລືອງ, ໄຂ ຫມາກເຫລືອງ",
+"ocr_agreement": 0.918,
+"page": 59
+},
+{
+"en": "jaw",
+"lo": "ຄາງ, ຄາງກະໄຕ",
+"lo_chandra": "ຄາງ, ຄາງກະໄຕ",
+"ocr_agreement": 1.0,
+"page": 59
+},
+{
+"en": "jerk",
+"lo": "ກະຕຸກເຕັ້ນ",
+"lo_chandra": "ກະຕຸກຕົວ",
+"ocr_agreement": 0.667,
+"page": 59
+},
+{
+"en": "joint",
+"lo": "ຄໍ, ຄໍຕໍ່",
+"lo_chandra": "ຄ່, ຄ້າ",
+"ocr_agreement": 0.5,
+"page": 59
+},
+{
+"en": "jugular vein",
+"lo": "ເສັນເລືອດນຶງຕາວຄໍ",
+"lo_chandra": "ເສັມເລືອດມິງຕ່າວຄ່",
+"ocr_agreement": 0.743,
+"page": 59
+},
+{
+"en": "kidney",
+"lo": "ຫມາກໄຂ່ຫລັງ",
+"lo_chandra": "ຫມາກໄຂ່ຫລັງ",
+"ocr_agreement": 1.0,
+"page": 59
+},
+{
+"en": "knee",
+"lo": "ທຫວເຂາ",
+"lo_chandra": "ຫົວເຂົາ",
+"ocr_agreement": 0.769,
+"page": 59
+},
+{
+"en": "knuckle",
+"lo": "ຄໍນິ້ວ",
+"lo_chandra": "ຄ້າມວ",
+"ocr_agreement": 0.545,
+"page": 59
+},
+{
+"en": "lactation",
+"lo": "ພາວະການຂັບຍ່ອຍນຳ່ນົມ",
+"lo_chandra": "ພາວະການຂົບຍ່ອຍນ້ຳມີນ",
+"ocr_agreement": 0.8,
+"page": 59
+},
+{
+"en": "lance",
+"lo": "ຣແ ແແ ນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 59
+},
+{
+"en": "laryngitis",
+"lo": "ຫລອດສຽງອັກເສບ",
+"lo_chandra": "ຫລອດສູງອັກເສບ",
+"ocr_agreement": 0.923,
+"page": 60
+},
+{
+"en": "larynx",
+"lo": "ຫລອດສຽງ",
+"lo_chandra": "ຫລອດສູງ",
+"ocr_agreement": 0.857,
+"page": 60
+},
+{
+"en": "lens",
+"lo": "ແກ້ວບັງຄັບແສງ",
+"lo_chandra": "ແກ້ວບັງຄັບແສງ",
+"ocr_agreement": 1.0,
+"page": 60
+},
+{
+"en": "leukemia",
+"lo": "ເລີເຊມີ, ມະເຮັງເມັດ ເລືອດຂາວ",
+"lo_chandra": "ເລີເຊມີ, ມະເຮັງເມດ",
+"ocr_agreement": 0.783,
+"page": 60
+},
+{
+"en": "letkocyte",
+"lo": "ເມັດເລືອດຂາວ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 60
+},
+{
+"en": "leukoderma",
+"lo": "ເລີໂກແດກ, ການຂາດ ສານສີທີຜິວຫທນັງ, ເປັນດາງດອນ",
+"lo_chandra": "ເລີໂກແດກ, ການຂາດ",
+"ocr_agreement": 0.533,
+"page": 60
+},
+{
+"en": "leukorthea",
+"lo": "ລົງຂາວ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 60
+},
+{
+"en": "lice npl",
+"lo": "ເທົາ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 60
+},
+{
+"en": "limb",
+"lo": "ແຂນ, ຂາ",
+"lo_chandra": "ແຂນ, ຂາ",
+"ocr_agreement": 1.0,
+"page": 60
+},
+{
+"en": "lip",
+"lo": "ຮິມສົບ, ສົບ, ຮິມຂອງຊ່ອງຫລືຮູ",
+"lo_chandra": "ຮິມສີບ, ສີບ, ຮິມຂອງຊ່ອງຫຼື",
+"ocr_agreement": 0.852,
+"page": 60
+},
+{
+"en": "liquid",
+"lo": "ຂອງແຫລວ, Uh",
+"lo_chandra": "ຂອງແຫລວ, ນ້ຳ",
+"ocr_agreement": 0.783,
+"page": 60
+},
+{
+"en": "liver",
+"lo": "ຕັບ",
+"lo_chandra": "ຕັບ",
+"ocr_agreement": 1.0,
+"page": 60
+},
+{
+"en": "liver fluke",
+"lo": "ສານໃບໄມ້ໃນຕັບ",
+"lo_chandra": "ສາມໃບໄມໂນຕັບ",
+"ocr_agreement": 0.8,
+"page": 60
+},
+{
+"en": "loss",
+"lo": "ການສູນເສຍ",
+"lo_chandra": "ການສູນເສຍ",
+"ocr_agreement": 1.0,
+"page": 60
+},
+{
+"en": "lumbar",
+"lo": "ກ່ຽວກັບແອວ",
+"lo_chandra": "ກຸງວັກບແອວ",
+"ocr_agreement": 0.7,
+"page": 61
+},
+{
+"en": "lump",
+"lo": "ກ້ອນ",
+"lo_chandra": "ກ້ອນ",
+"ocr_agreement": 1.0,
+"page": 61
+},
+{
+"en": "lung",
+"lo": "ປອດ",
+"lo_chandra": "ປອດ",
+"ocr_agreement": 1.0,
+"page": 61
+},
+{
+"en": "lymph node",
+"lo": "ຕ໋ອມກະດັນ, ລູກຫນູ",
+"lo_chandra": "ຕ່ອມກະດົມ, ລູກຫມູ",
+"ocr_agreement": 0.765,
+"page": 61
+},
+{
+"en": "malaria",
+"lo": "ໄຂ້ມາລາເຣຍ, ໄຂ້ປາ, ໄຂ້ ຍຸງ",
+"lo_chandra": "ໄຂ້ມາລາເຣຍ, ໄຂ້ປາ, ໄຂ້ຍຸງ",
+"ocr_agreement": 0.98,
+"page": 61
+},
+{
+"en": "male",
+"lo": "ເພດຊາຍ, ກ່ຽວກັບຜູ້ຊາຍ",
+"lo_chandra": "ເພດຊາຍ, ກຸງວັກບຜູຊາຍ",
+"ocr_agreement": 0.829,
+"page": 61
+},
+{
+"en": "man",
+"lo": "ຜູ້ຊາຍທີ່ເປັນຜູ້ໂທຍແລ້ວ",
+"lo_chandra": "ຜູຊາຍທີ່ເປັນຜູໃຫຍ່ແລ້ວ",
+"ocr_agreement": 0.844,
+"page": 61
+},
+{
+"en": "mankind",
+"lo": "ມະນຸດ, ມະນຸດຊາດ",
+"lo_chandra": "ມະນຸດ, ມະນຸດຊາດ",
+"ocr_agreement": 1.0,
+"page": 61
+},
+{
+"en": "manual",
+"lo": "ຄູມື",
+"lo_chandra": "ຄູມີ",
+"ocr_agreement": 0.75,
+"page": 61
+},
+{
+"en": "massage",
+"lo": "(ການ)ນວດ",
+"lo_chandra": "ການ)ນວດ",
+"ocr_agreement": 0.933,
+"page": 61
+},
+{
+"en": "mastectomy",
+"lo": "ການຕັດເຕົານົມອອກ",
+"lo_chandra": "ການຕັດຕົ້ານມອອກ",
+"ocr_agreement": 0.903,
+"page": 61
+},
+{
+"en": "masturbation",
+"lo": "ການສຳເລັດຄວາມ ຕ້ອງການທາງເພດດ້ວຍມືຂອງຕົນ ເອງ ຫລືຂອງຜູ້ອືນ",
+"lo_chandra": "ການສຳເລັດຄວາມຕ້ອງການທາງເພດດ້ວຍມີຂອງຕົນເອງ",
+"ocr_agreement": 0.825,
+"page": 61
+},
+{
+"en": "maternity",
+"lo": "ຄວາມເປັນແມ, ການປະ",
+"lo_chandra": "ຄວາມເປັນແມ່, ການປະສົດລູກ",
+"ocr_agreement": 0.829,
+"page": 61
+},
+{
+"en": "mature",
+"lo": "an (ງອມ), ເປັນຜູ້ໂທຍ, ໃຫຍ່ແລ້ວ",
+"lo_chandra": "ສຸກ (ງອມ), ເປັນຜູໃຫຍ່, ໃຫຍ່ແລ້ວ",
+"ocr_agreement": 0.82,
+"page": 61
+},
+{
+"en": "measles",
+"lo": "ພະຍາດຫມາກແດງນ້ອຍ, ທັດ",
+"lo_chandra": "ພະຍາດຫມາກແດງມັອຍ, ຫັດ",
+"ocr_agreement": 0.857,
+"page": 62
+},
+{
+"en": "median",
+"lo": "ທີຢູ່ເຄິງກາງ, Jogu",
+"lo_chandra": "ຫຼັງເຄິງກາງ, ມັດຊິມະ",
+"ocr_agreement": 0.474,
+"page": 62
+},
+{
+"en": "medical",
+"lo": "ແຫ່ງການແພດ, ແຫ່ງການ ສາທາລະນະສຸກ",
+"lo_chandra": "ແຫ່ງການແພດ, ແຫ່ງການສາທາລະນະສຸກ",
+"ocr_agreement": 0.984,
+"page": 62
+},
+{
+"en": "medicine",
+"lo": "ຢາ, ຢາປົວພະຍາດ, ເວດ ຊະພັນ",
+"lo_chandra": "ຢາ, ຢາປິວພະຍາດ, ເວດຊະພັນ",
+"ocr_agreement": 0.939,
+"page": 62
+},
+{
+"en": "medicine",
+"lo": "ການແພດ, ວິຊາການ ແພດ, ອາຍຸລະສາດ, ວິຊາພາຍໃນ",
+"lo_chandra": "ການແພດ, ວິຊາການແພດ, ອາຍລະສາດ, ວິຊາພາຍໃນ",
+"ocr_agreement": 0.975,
+"page": 62
+},
+{
+"en": "melanoma",
+"lo": "ເນືອງອກສດາ",
+"lo_chandra": "ເນື້ອງອກສີດັດ",
+"ocr_agreement": 0.783,
+"page": 62
+},
+{
+"en": "membrane",
+"lo": "ເຍອກນ, ເຍອທຸມ, ເຈຍ ຫຸມ",
+"lo_chandra": "ເຍື້ອກັນ, ເຍື້ອຫຸມ, ເຈີຍຫຸມ",
+"ocr_agreement": 0.816,
+"page": 62
+},
+{
+"en": "memory",
+"lo": "ຄວາມຊົງຈາ້, ຄວາມຈາ",
+"lo_chandra": "ຄວາມຊີງຈັ, ຄວາມຈັ",
+"ocr_agreement": 0.8,
+"page": 62
+},
+{
+"en": "meningitis",
+"lo": "ເຍືອທຸ້ມສະຫມອງອັກ ເສບ . ເບີ່ອຖຸ້ນຜນ03ອັກເຕນ",
+"lo_chandra": "ເຍື້ອຫຸມສະຫມອງອັກເສບ",
+"ocr_agreement": 0.571,
+"page": 62
+},
+{
+"en": "menopause",
+"lo": "ໄລຍະຫມົດປະຈາົ ເດືອນ",
+"lo_chandra": "ໂລຍະຫມົດປະຈັດຕົວ",
+"ocr_agreement": 0.629,
+"page": 62
+},
+{
+"en": "menstruate",
+"lo": "ເປັນປະຈຳເດືອນ, ເປັນ ລະດູ",
+"lo_chandra": "ເປັນປະຈັດຕົວ, ເປັນລະດູ",
+"ocr_agreement": 0.783,
+"page": 62
+},
+{
+"en": "menstruation",
+"lo": "ອາການເປັນປະຈາົ ເດືອນ",
+"lo_chandra": "ອາການເປັນປະຈັດຕົວ",
+"ocr_agreement": 0.703,
+"page": 62
+},
+{
+"en": "metabolism",
+"lo": "ເມຕາໂບລິດ, ການ ແລກປນທາດ",
+"lo_chandra": "ເມຕາໄບລິດ, ການແລກປ່ຽນທາດ",
+"ocr_agreement": 0.894,
+"page": 62
+},
+{
+"en": "metritis",
+"lo": "ກ້າມຊີນມົດລູກອັກເສບ",
+"lo_chandra": "ການຂຸມມົດລູກອັກເສບ",
+"ocr_agreement": 0.811,
+"page": 62
+},
+{
+"en": "micro-",
+"lo": "ຈຸລະ, ນ້ອຍທີສຸດ",
+"lo_chandra": "ຈຸລະ, ນ້ອຍທີສຸດ",
+"ocr_agreement": 1.0,
+"page": 62
+},
+{
+"en": "midwife",
+"lo": "ຫມໍຕາແຍ, ນາງຜະດຸງຄັນ",
+"lo_chandra": "ຫມໍຕັດແຍ, ມາງຜະດູງຄົນ",
+"ocr_agreement": 0.78,
+"page": 62
+},
+{
+"en": "migraine",
+"lo": "ມີແກຣນ, ເຈັບທົວຂ້າງ ດຽວ, ເຈັບທົວດິບ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 63
+},
+{
+"en": "milk",
+"lo": "ນຳ້ນົມ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 63
+},
+{
+"en": "mind",
+"lo": "ຈິດໃຈ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 63
+},
+{
+"en": "miscarriage",
+"lo": "ການທລຸລູກຢ່າງບໍ່ຕັ້ງ ໃຈ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 63
+},
+{
+"en": "mite",
+"lo": "ໂຕທິດ, ໂຕໄຮ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 63
+},
+{
+"en": "mole",
+"lo": "ຂີແມງວັນ, ໄຝ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 63
+},
+{
+"en": "morning sickness",
+"lo": "ອາການແພ້ ທ້ອງ, ອາການຢາກຮາກຕອນເຊົາໃນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 63
+},
+{
+"en": "mortality",
+"lo": "ອັດຕາການຕາຍ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 63
+},
+{
+"en": "mosquito",
+"lo": "ຍຸງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 63
+},
+{
+"en": "motion",
+"lo": "ການຕີງ, ການເຄືອນທີ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 63
+},
+{
+"en": "motion",
+"lo": "ການຖ່າຍຫນັກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 63
+},
+{
+"en": "mouth",
+"lo": "ປາກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 63
+},
+{
+"en": "mouthwash",
+"lo": "ການບ້ວນປາກບ້ວນຄໍ, ນຳ້ຢາສຳຫລັບການບ້ວນປາກບ້ວນຄໍ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 63
+},
+{
+"en": "mucous membrane",
+"lo": "ເຍອເມອກ",
+"lo_chandra": "ເຍືອເມືອກ",
+"ocr_agreement": 0.875,
+"page": 64
+},
+{
+"en": "mucus",
+"lo": "ນາເມືອກ, vhun, ມູກ, ຂ່",
+"lo_chandra": "ມູ່ເມືອກ, ມູ່ມຸກ, ມຸກ, ຂໍ້ ມຸກ, ຂໍ້ກະເທີ, ສະເຫລດ",
+"ocr_agreement": 0.4,
+"page": 64
+},
+{
+"en": "mumps",
+"lo": "ພະຍາດທມາກເບີດ, ຕອມ",
+"lo_chandra": "ພະຍາດຫມາກເບີດ, ຕຸ່ມ ປາໄຣຕີດອັກເສບ",
+"ocr_agreement": 0.627,
+"page": 64
+},
+{
+"en": "muscle",
+"lo": "ກາມຊຸນ, ກອນຊນ",
+"lo_chandra": "ກ້າມຊີ້ນ, ກ້ອນຊີ້ນ",
+"ocr_agreement": 0.774,
+"page": 64
+},
+{
+"en": "mushroom",
+"lo": "ເທັດເປັນທົວ ມັກເກີດ ຕາມດິນ, ຕາມຕົນໄມ້ ແລະຕາມຂອນ ໄມ້",
+"lo_chandra": "ເຫັດເປັນຫີວ ມກເກີດ ຕາມດິນ, ຕາມຕົນໄມ້ ແລະຕາມຂອນ ໄມ້",
+"ocr_agreement": 0.931,
+"page": 64
+},
+{
+"en": "mycosis",
+"lo": "ພະຍາດທີເກີດຈາກເຊື່ອ ເທັດ",
+"lo_chandra": "ພະຍາດທີ່ເກີດຈາກເຊື້ອ ເຫັດ",
+"ocr_agreement": 0.898,
+"page": 64
+},
+{
+"en": "myocardial infarction",
+"lo": "ການຕາຍ ຂອງຈິວະກ້າມເນືອທົວໃຈສ່ວນໃດນິງ ຍ້ອນເສັນເລືອດຫລິລ໌ ງກ້າມເນື້ອທົວ ໃຈສ່ວນນັ້ນຕັນ, ຂຶງເປັນເທດໃຫ້ເກີດ ອາການທົວໃຈວາຍ, ທົວໃຈວາຍ",
+"lo_chandra": "ການຕາຍ ຂອງຈິວຂໍ້າມເນືອຫີວໃຈສ່ວນໃດມື້ ຍ້ອນເສີມເລືອດຫລຸ້ງກ້າມເນືອຫີວ ໃຈສ່ວນນັ້ນຕົນ, ຊຶ້ງເປັນເຫດໃຫ້ເກີດ ອາການຫີວໃຈວາຍ, ຫີວໃຈວາຍ",
+"ocr_agreement": 0.824,
+"page": 64
+},
+{
+"en": "myopia",
+"lo": "ສາຍຕາສັນ",
+"lo_chandra": "ສາຍຕາສັ້ນ",
+"ocr_agreement": 0.941,
+"page": 64
+},
+{
+"en": "narcotic na",
+"lo": "ນາໂກຕິກ, (ຢາ)ເສບຕິດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 64
+},
+{
+"en": "nasal",
+"lo": "ແຫງດັງ, ກ່ຽວກັບດັງ",
+"lo_chandra": "ແຫ້ງດັງ, ກຸງວັກບັງ",
+"ocr_agreement": 0.778,
+"page": 64
+},
+{
+"en": "natural",
+"lo": "ທີທຳມະຊາດ, ປົກກະຕິ",
+"lo_chandra": "ທີ່ກ່າມຂະຊາດ, ປົກກະຕິ",
+"ocr_agreement": 0.821,
+"page": 64
+},
+{
+"en": "nausea",
+"lo": "ອາການປວດຮາກ, ຢາກ ຮາກ",
+"lo_chandra": "ອາການປວດຮາກ, ຢາກ ຮາກ",
+"ocr_agreement": 1.0,
+"page": 64
+},
+{
+"en": "navel",
+"lo": "ສາຍບື",
+"lo_chandra": "ສາຍບີ",
+"ocr_agreement": 0.8,
+"page": 64
+},
+{
+"en": "neck",
+"lo": "ຄ, ບອນກວ",
+"lo_chandra": "ຄ້, ບ່ອນກັງ",
+"ocr_agreement": 0.737,
+"page": 64
+},
+{
+"en": "nephritis",
+"lo": "ຫມາກໄຂ່ຫລັງອັກເສບ",
+"lo_chandra": "ຫມາກໄຂ່ຫລຸ້ງອັກເສບ",
+"ocr_agreement": 0.914,
+"page": 64
+},
+{
+"en": "nerve",
+"lo": "ເສັນປະສາດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 65
+},
+{
+"en": "nervous",
+"lo": "ກ່ຽວກັບເສັ້ນປະສາດ, ຕືນ ເຕັນ, ຫາດທງຶດ",
+"lo_chandra": "ກຸງກັບເສີມປະສາດ, ຕົນ ຕົນ, ທາງດ້າງດ",
+"ocr_agreement": 0.686,
+"page": 65
+},
+{
+"en": "neuron",
+"lo": "ຈຸລັງປະສາດ",
+"lo_chandra": "ຈຸລັງປະສາດ",
+"ocr_agreement": 1.0,
+"page": 65
+},
+{
+"en": "neurosis",
+"lo": "ໂລກຈິດປະສາດ",
+"lo_chandra": "ໂລກຈິດປະສາດ",
+"ocr_agreement": 1.0,
+"page": 65
+},
+{
+"en": "nipple",
+"lo": "ທົວນົມ",
+"lo_chandra": "ຫົວນີມ",
+"ocr_agreement": 0.667,
+"page": 65
+},
+{
+"en": "nit",
+"lo": "ໄຂເທົາ",
+"lo_chandra": "ໄຂ່ຫີກ",
+"ocr_agreement": 0.333,
+"page": 65
+},
+{
+"en": "normal",
+"lo": "ປົກກະຕິ, ທາມະດາ",
+"lo_chandra": "ປົກກະຕິ, ທຳມະດາ",
+"ocr_agreement": 0.933,
+"page": 65
+},
+{
+"en": "nose",
+"lo": "ດັງ",
+"lo_chandra": "ດັງ",
+"ocr_agreement": 1.0,
+"page": 65
+},
+{
+"en": "nosebleed",
+"lo": "ອາການເລືອດດັງອອກ",
+"lo_chandra": "ອາການເລືອດດັງອອກ",
+"ocr_agreement": 1.0,
+"page": 65
+},
+{
+"en": "nucleus",
+"lo": "ແກນນ້ອຍ",
+"lo_chandra": "ແກ່ມນ້ອຍ",
+"ocr_agreement": 0.8,
+"page": 65
+},
+{
+"en": "nude",
+"lo": "ເປືອຍຕົວ, ປະໂຕ",
+"lo_chandra": "ເປີຍຕົວ, ປະໂຕ",
+"ocr_agreement": 0.889,
+"page": 65
+},
+{
+"en": "nurse",
+"lo": "ພົນພະຍາບານ, ນາງພະຍາ ບານ",
+"lo_chandra": "ພິມພະຍາບານ, ນາງພະຍາ ບານ",
+"ocr_agreement": 0.913,
+"page": 65
+},
+{
+"en": "nurse",
+"lo": "ເບິງແຍງຄົນເຈັບໄຂ້",
+"lo_chandra": "ເບິ່ງແຍງຄົນເຈັບໄຂ່",
+"ocr_agreement": 0.914,
+"page": 65
+},
+{
+"en": "e soigner",
+"lo": "+ ບານາຄຸ ຄູແຕຈັກນາຄ ໃຈ້",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 65
+},
+{
+"en": "nutrition",
+"lo": "ອາຫານການກິນ, າງ | ນາການ, ການລຽງແລະບາລຸງຮາງ ກາຍ",
+"lo_chandra": "ອາຫານການກິນ, ໂພຊະ) ມາການ, ການລົງແລະບຳລຸງຮ່າງ ກາຍ",
+"ocr_agreement": 0.83,
+"page": 65
+},
+{
+"en": "obese",
+"lo": "ອ້ວນ, ພີທລາຍ, ຕຸ້ຍ ເກີນໄປ",
+"lo_chandra": "ຕຸຍ, ອ້ວນ, ພິຫລາຍ, ຕຸຍ ເກີນໄປ",
+"ocr_agreement": 0.815,
+"page": 65
+},
+{
+"en": "obstetrician",
+"lo": "ຊ່ຽວຊານຝ່າຍປະສູດ, ແພດປະສູດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 66
+},
+{
+"en": "obstruction",
+"lo": "ສິງສະກັດກັນ, ສິ່ງອັດ ຕັນ, ສິງກັນກາງ, ສິງກີດຂວາງ, ສິ່ງ ເຮັດໃຫ້ຕັນ, ສິງບັງ, ສິງຂັດຂວາງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 66
+},
+{
+"en": "odor",
+"lo": "ກິນ, ກິນເຫມັນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 66
+},
+{
+"en": "olfaction",
+"lo": "ການຮບກໍ່ນ, ນາສກສາຜັດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 66
+},
+{
+"en": "omni-",
+"lo": "ທຸກໆ, ທຸກຢ່າງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 66
+},
+{
+"en": "ophthalmoscope",
+"lo": "ກ້ອງສ່ອງເບິງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 66
+},
+{
+"en": "opium",
+"lo": "ຝິນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 66
+},
+{
+"en": "optic",
+"lo": "ທກຽວກບຕາ, ທກຽວກບສາຍ ຕາ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 66
+},
+{
+"en": "oral",
+"lo": "ກ່ຽວກັບປາກ, ທາງປາກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 66
+},
+{
+"en": "oral contraceptive",
+"lo": "ຢາກິນຄຸມກຳ ເນີດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 66
+},
+{
+"en": "organ",
+"lo": "ອະໄວຍະວະ, ພາກສວນຂອງ ຮາງກາຍສ່ວນໃດນິງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 66
+},
+{
+"en": "organic",
+"lo": "ອົງຄະທາດ, ແຫງອະໄວຍະ ວະ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 66
+},
+{
+"en": "orgasm",
+"lo": "ຄວາມກະສັນສຸດຍອດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 66
+},
+{
+"en": "orthopedics",
+"lo": "ການຜຳຕັດແປງກະດູກ ແລະຄໍຕໍ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 66
+},
+{
+"en": "otitis",
+"lo": "ຫູຮັກເສບ",
+"lo_chandra": "ຫຼືອກເສບ",
+"ocr_agreement": 0.625,
+"page": 67
+},
+{
+"en": "otoscope",
+"lo": "ເຄືອງກວດທູ, ເຄືອງສອງ ເບງທູ",
+"lo_chandra": "ເຄືອງກວດຫູ, ເຄືອງສ່ອງ • ເບີງຫູ",
+"ocr_agreement": 0.857,
+"page": 67
+},
+{
+"en": "ovary",
+"lo": "ຮວຍໄຂ, ຮັງໄຂ່",
+"lo_chandra": "ຮວຍໄຂ, ຮັງໄຂ",
+"ocr_agreement": 0.96,
+"page": 67
+},
+{
+"en": "ovum",
+"lo": "ຫນ່ວຍໄຂ່ສຸກ, ໄຂ່",
+"lo_chandra": "ໝວຍໄຂສຸກ, ໄຂ",
+"ocr_agreement": 0.786,
+"page": 67
+},
+{
+"en": "pain",
+"lo": "ອາການເຈັບປວດ, ຄວາມເອົາ ສະລົດໃຈ",
+"lo_chandra": "ອາການເຈັບປວດ, ຄວາມເສົາ • ສະລິດໃຈ",
+"ocr_agreement": 0.903,
+"page": 67
+},
+{
+"en": "palate",
+"lo": "ເພດານປາກ",
+"lo_chandra": "ເພດາມປາກ",
+"ocr_agreement": 0.875,
+"page": 67
+},
+{
+"en": "pallor",
+"lo": "ການຂາດສີ",
+"lo_chandra": "ການຂາດສີ",
+"ocr_agreement": 1.0,
+"page": 67
+},
+{
+"en": "palm (of hand)",
+"lo": "ຝ່າມື",
+"lo_chandra": "ຝ່າມ",
+"ocr_agreement": 0.889,
+"page": 67
+},
+{
+"en": "palpation",
+"lo": "ການລູບຄາ, ການກວດ ດ້ວຍເອົາມືຄຳເບິງ",
+"lo_chandra": "ການລຸບຄ້າ, ການກວດ • ດ້ວຍເອົາມືຄ້າເບີງ",
+"ocr_agreement": 0.857,
+"page": 67
+},
+{
+"en": "palpitate",
+"lo": "ເຕັ້ນ ໄວ, ສັນ",
+"lo_chandra": "ເຕັມໄວ, ສົມ",
+"ocr_agreement": 0.667,
+"page": 67
+},
+{
+"en": "palpitation",
+"lo": "ການເຕັນໄວ, ການສັນ",
+"lo_chandra": "ການເຕັມໄວ, ການສົມ",
+"ocr_agreement": 0.824,
+"page": 67
+},
+{
+"en": "pancreas",
+"lo": "ມ້າມ",
+"lo_chandra": "ມ່າມ",
+"ocr_agreement": 0.75,
+"page": 67
+},
+{
+"en": "panic",
+"lo": "ຕນ ແລະຢ້ານກົວທີສຸດ",
+"lo_chandra": "ຕົກແລະຢ້ານກິວທີສຸດ",
+"ocr_agreement": 0.833,
+"page": 67
+},
+{
+"en": "paralysis",
+"lo": "ອາມະພາດ, ການຂາດ ຄວາມສາມາດເຄືອນທີ, ອາການເປັນ ເປັຍເປັນຫລອຍ",
+"lo_chandra": "ອາການພາດ, ການຂາດ • ຄວາມສາມາດເຄືອນທີ, ອາການເບີມ • ເບີຍເບີມຫລອຍ",
+"ocr_agreement": 0.786,
+"page": 67
+},
+{
+"en": "paraplegia",
+"lo": "ອຳມະພາດເຄິງຄີງ",
+"lo_chandra": "ອາການພາດເຄື່ງຄົງ • (ເບີອງເບີງ ຫລຸມ)",
+"ocr_agreement": 0.408,
+"page": 67
+},
+{
+"en": "parasite",
+"lo": "ແມ່ກາຝາກ, ແມ່ພະຍາດທີ ອາໄສຢູ່ນາໂຕ (ເຊັນ ແມ່ທ້ອງ ຫລື ແມຂີ່ທິດ)",
+"lo_chandra": "ແມ່ກາຝາກ, ແມ່ພະຍາດທີ່ ອາໄສຢູ່ນຳໂຕ (ເຊັ່ນ ແມ່ຫ້ອງ ຫລື ແມ່ຂີ້ຄຸ)",
+"ocr_agreement": 0.885,
+"page": 68
+},
+{
+"en": "patella",
+"lo": "ຫມາກບ້າທົວເຂົາ",
+"lo_chandra": "ຫມາກບ້າຫີວເຂົາ",
+"ocr_agreement": 0.857,
+"page": 68
+},
+{
+"en": "patient",
+"lo": "ຄົນເຈັບ, ຄົນໄຂ້, ຄົນອອນ ແອ",
+"lo_chandra": "ຄົນເຈັບ, ຄົນໄຂ, ຄົນອ່ອນ ແອ",
+"ocr_agreement": 0.962,
+"page": 68
+},
+{
+"en": "patient",
+"lo": "ມີຄວາມອົດທົນ, ໃຈເຢັນ",
+"lo_chandra": "ມີຄວາມອິດທິມ, ໃຈເຢັນ",
+"ocr_agreement": 0.85,
+"page": 68
+},
+{
+"en": "pediatrician",
+"lo": "ຊ້ຽວຊານຝ່າຍເດັກ, ທານຫມໍປົວເດັກ",
+"lo_chandra": "ຊຸງວຊາມຝາຍເດັກ, ທາມຫມົວເດັກ",
+"ocr_agreement": 0.807,
+"page": 68
+},
+{
+"en": "pelvic",
+"lo": "ກ່ຽວກັບກະດູກຊາມແອງ, “ພມ ກຽວກບກະດູກຕະ ພກ",
+"lo_chandra": "ກຸງວກັບກະດູກຊາມແອງ, ກຸງວກັບຫ້ອງນ້ອຍ, ກຸງວກັບກະດູກຕະ ໂພກ",
+"ocr_agreement": 0.702,
+"page": 68
+},
+{
+"en": "pelvis",
+"lo": "ທ້ອງນ້ອຍ, ກະດູກຊາມ, ກະ ດູກແອງ, ກະດູກກະໂພກ ພ ເ ເ]",
+"lo_chandra": "ຫ້ອງນ້ອຍ, ກະດູກຊາມ, ກະ ດູກແອງ, ກະດູກກະໂພກ",
+"ocr_agreement": 0.899,
+"page": 68
+},
+{
+"en": "penis",
+"lo": "ລິງຄະ, ອະໄວຍະວະສືບພັນຜູ້ ຊາຍ, ໂຄຍ",
+"lo_chandra": "ລົງຄະ, ອະໄວຍະວະສິບພັນຜູ້ ຊາຍ, ໂຄຍ",
+"ocr_agreement": 0.939,
+"page": 68
+},
+{
+"en": "peptic ulcer",
+"lo": "ແຜໃນກະເພາະອາ ຫານ",
+"lo_chandra": "ແຜໃນກະເພາະອາ ຫາມ",
+"ocr_agreement": 0.938,
+"page": 68
+},
+{
+"en": "perineum",
+"lo": "ເປຣເນ, ພນຊາມ, ບລ ເວນທວາງຂາທນີບ",
+"lo_chandra": "ເປີເມ, ພັນຊາມ, ບົລ ເວນຫວ່າງຂາຫມີບ",
+"ocr_agreement": 0.794,
+"page": 68
+},
+{
+"en": "peritoneum",
+"lo": "ເຍອທຸມທອງ",
+"lo_chandra": "ເຍືອຫຸມຫ້ອງ",
+"ocr_agreement": 0.7,
+"page": 68
+},
+{
+"en": "peritonitis",
+"lo": "ເຍອຫຸມທອງອກເສບ",
+"lo_chandra": "ເຍືອຫຸມຫ້ອງອັກເສບ",
+"ocr_agreement": 0.839,
+"page": 68
+},
+{
+"en": "pernicious anemia",
+"lo": "ພະຍາດເລືອດ ຈາງຮ້າຍແຮງ",
+"lo_chandra": "ພະຍາດເລືອດ ຈາງຮ້າຍແຮງ",
+"ocr_agreement": 1.0,
+"page": 68
+},
+{
+"en": "person",
+"lo": "ຄົນ",
+"lo_chandra": "ຄົນ",
+"ocr_agreement": 1.0,
+"page": 68
+},
+{
+"en": "pharmacist",
+"lo": "ເພສັດຊະກອນ, ພະນັກ ງານການຢາ",
+"lo_chandra": "ເພສດຊະກອນ, ພະນັກງານການຢາ",
+"ocr_agreement": 0.96,
+"page": 69
+},
+{
+"en": "pharmacy",
+"lo": "ຮ້ານຂາຍຢາ, ເພສັດຊະ ກາ",
+"lo_chandra": "ຮ້ານຂາຍຢາ, ເພສດຊະກຳ",
+"ocr_agreement": 0.9,
+"page": 69
+},
+{
+"en": "pharyngitis",
+"lo": "ຮູຄືອັກເສບ",
+"lo_chandra": "ຮູຄ້ອກເສບ",
+"ocr_agreement": 0.842,
+"page": 69
+},
+{
+"en": "pharyngoscope",
+"lo": "ກ້ອງສ່ອງເບິງຮຄໍ",
+"lo_chandra": "ກ້ອງສອງເບິງຮູຄ້",
+"ocr_agreement": 0.867,
+"page": 69
+},
+{
+"en": "phiycten rn",
+"lo": "ຕຸ່ມໂພງ, ຕຸ່ມນາ້ໂສ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 69
+},
+{
+"en": "physical",
+"lo": "ກ່ຽວກັບຮ່າງກາຍ",
+"lo_chandra": "ກຸງວັນຮ່າງກາຍ",
+"ocr_agreement": 0.741,
+"page": 69
+},
+{
+"en": "physical",
+"lo": "ການ ກວດສຸຂະພາບ (ຮາງກາຍ)",
+"lo_chandra": "ການກວດສະພາບ (ຮ່າງກາຍ)",
+"ocr_agreement": 0.909,
+"page": 69
+},
+{
+"en": "physiotherapy",
+"lo": "ກາຍະບຳບັດ,. ການ",
+"lo_chandra": "ກາຍະບັບດ, ການປະຕິບັດງານໂດຍໃຫ້ຄົນປວຍເຄືອນໄຫວຫລືອອກກ່າວ, ເພື່ອໃຫ້ກັບສະພາບເດີມ",
+"ocr_agreement": 0.267,
+"page": 69
+},
+{
+"en": "pigmentation",
+"lo": "ການມີສີກຳຕາມຜິວ ຫນັງ",
+"lo_chandra": "ການມີສີກ່າຕາມຜິວຫນັງ",
+"ocr_agreement": 0.9,
+"page": 69
+},
+{
+"en": "pill",
+"lo": "ຢາເມັດ, ຢາລູກກອນ",
+"lo_chandra": "ຢາເມັດ, ຢາລູກກອນ",
+"ocr_agreement": 1.0,
+"page": 69
+},
+{
+"en": "pimple",
+"lo": "ຕຸມ, ຕຸ່ມຫນອງ ຈ ຈ",
+"lo_chandra": "ຕຸມ, ຕຸມຫນອງ",
+"ocr_agreement": 0.828,
+"page": 69
+},
+{
+"en": "pituitary gland",
+"lo": "ຕ່ອມຂັບຍ່ອຍໃນຢູ່ ກ້ອງສະຫມອງສ່ວນຫນ້າ ມີຫນ້າທີ",
+"lo_chandra": "ຕ້ອມຂ້ບຍອຍໃນຢ່າງກ້ອງສະຫມອງສວນຫນັກ ມີຫນ້າທີ່ສ້າງສາມເຄື່ອນ hormone ຫລາຍຢ່າງທີ່ມີຜົນສຳຄັນໃນການຄວບຄຸມອະໄວຍະວະອື່ນໆ ຮ່ວມທັງຄວບຄຸມການໃຫ່ຍສູງຂຶ້ນຂອງຮ່າງກາຍ",
+"ocr_agreement": 0.375,
+"page": 69
+},
+{
+"en": "placebo",
+"lo": "ປລາເຊໂບ, ຢາທລອກ, ຢາ ຂີ່ຕົວະ, ສິ່ງທີຫລອກວາເປັນຢາ ແຕ່ ໂທ້ແທນຢາເພື່ອເອົາໃຈຄົນເຈັບ",
+"lo_chandra": "ປລາເຊໂບ, ຢາຫລອກ, ຢາຂ້ຳວະ, ສິງຍາຫລອກວ່າເປັນຢາ ແຕ່ໃຫ້ແທນຢາເພື່ອເອົາໃຈຄິມເຈີບ",
+"ocr_agreement": 0.829,
+"page": 70
+},
+{
+"en": "placenta",
+"lo": "ແຮ, ແຮພົກຂອງເດັກໃນ ທ້ອງແມ່",
+"lo_chandra": "ແຮ່, ແຮ່ຟິກຂອງດັງກິນ",
+"ocr_agreement": 0.609,
+"page": 70
+},
+{
+"en": "plasma",
+"lo": "ປລັດສະມາ, ສວນນາ໌ຂອງ ເລືອດ, ສ່ວນນຳ້ຂອງນຳ້ເທລືອງ",
+"lo_chandra": "ປລັດສະມາ, ສວນມຸ່ຂອງເລືອດ, ສວນມຸ່ຂອງມຸ່ເຫລືອງ",
+"ocr_agreement": 0.756,
+"page": 70
+},
+{
+"en": "platelet",
+"lo": "ເມັດເລືອດນ້ອຍ",
+"lo_chandra": "ເມັດເລືອດມັອຍ",
+"ocr_agreement": 0.846,
+"page": 70
+},
+{
+"en": "pleurisy",
+"lo": "ເຍືອທຸ້ມປອດມີນາົ, ເຍືອ ທຸ້ມປອດອັກເສບ",
+"lo_chandra": "ເຍື່ອຫຸມປອດມີນັ້ນ, ເຍື່ອຫຸມປອດອັກເສບ",
+"ocr_agreement": 0.806,
+"page": 70
+},
+{
+"en": "pneumonia",
+"lo": "ປອດອັກເສບ",
+"lo_chandra": "ປອດອັກເສບ",
+"ocr_agreement": 1.0,
+"page": 70
+},
+{
+"en": "poison",
+"lo": "ພິດ, ສານເບືອ",
+"lo_chandra": "ພິດ, ສາມເປື່ອ",
+"ocr_agreement": 0.8,
+"page": 70
+},
+{
+"en": "poliomyelitis rn",
+"lo": "ພະຍາດໂປລີໂອ, we ຍາດເປັຍລອຍ, ໄຂສັນຫລັງສີຫມົນ ອັກເສບ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 70
+},
+{
+"en": "pore",
+"lo": "ຮູຕ່ອມເຫືອ, ຮູນ້ອຍໆ",
+"lo_chandra": "ຮູຕອມເຫຼືອ, ຮູມ່ອຍງ",
+"ocr_agreement": 0.789,
+"page": 70
+},
+{
+"en": "posterior",
+"lo": "ເບື້ອງຫລັງ, ສ່ວນຫລັງ, ຂ້າງຫລັງ",
+"lo_chandra": "ເປື່ອງຫລັງ, ສວນຫລັງ, ຂາງຫລັງ",
+"ocr_agreement": 0.897,
+"page": 70
+},
+{
+"en": "postpartum",
+"lo": "ພາຍຫລັງອອກລູກ, ເວ ລາຫລັງຈາກອອກລູກແລ້ວ",
+"lo_chandra": "ພາຍຫລັງອອກລູກ, ເວລາຫລັງຈາກອອກລູກແລ້ວ",
+"ocr_agreement": 0.986,
+"page": 70
+},
+{
+"en": "posture",
+"lo": "ການຄຶງໂຕ, ທ່າ",
+"lo_chandra": "ການຄົງໂຕ, ບ່າ",
+"ocr_agreement": 0.846,
+"page": 70
+},
+{
+"en": "potable",
+"lo": "ຊຶງໃຊ້ດືມໄດ້",
+"lo_chandra": "ຊຸງໃຊ້ດື່ມໄດ້",
+"ocr_agreement": 0.88,
+"page": 70
+},
+{
+"en": "pregnancy",
+"lo": "ການຖືພາ, ໄລຍະຖືພາ",
+"lo_chandra": "ການຖືພາ, ໄລຍະຖືພາ",
+"ocr_agreement": 1.0,
+"page": 70
+},
+{
+"en": "pregnant",
+"lo": "ມານ",
+"lo_chandra": "ຖືພາ, ມາມ",
+"ocr_agreement": 0.333,
+"page": 70
+},
+{
+"en": "premature birth",
+"lo": "ການເກີດກ່ອນກຳ ຫນົດ, ເກີດກ່ອນຖ້ວນເດືອນ",
+"lo_chandra": "ການເກີດກ່ອນກຳ ທົ່ມດ, ເກີດກ່ອນຖ້ວນເດືອນ",
+"ocr_agreement": 0.933,
+"page": 71
+},
+{
+"en": "prenatal",
+"lo": "ເວລາເດັກຍັງຢູ່ໃນທ້ອງ",
+"lo_chandra": "ເວລາເດັກຍັງຢູ່ໃນຫ້ອງ",
+"ocr_agreement": 0.95,
+"page": 71
+},
+{
+"en": "prescription",
+"lo": "ໃບສັງຢາ",
+"lo_chandra": "ໃບສັງຢາ",
+"ocr_agreement": 1.0,
+"page": 71
+},
+{
+"en": "prevention",
+"lo": "ການກັນ, ການປ້ອງກັນ ລວງຫນ້າ",
+"lo_chandra": "ການກັກ, ການປ້ອງກັນ ລ່ວງຫນ້າ",
+"ocr_agreement": 0.943,
+"page": 71
+},
+{
+"en": "prickly heat",
+"lo": "ຕຸ່ມຝົດເທືອ, ຝົດ",
+"lo_chandra": "ຝຶດເຫືອ, ຕຸ່ມຝຶດເຫືອ, ຝຶດ",
+"ocr_agreement": 0.634,
+"page": 71
+},
+{
+"en": "prognosis",
+"lo": "ການພະຍາກອນພະ ຍາດ, ການກະຕວງພະຍາດ",
+"lo_chandra": "ການພະຍາກອນພະ ຍາດ, ການກະຕວງພະຍາດ",
+"ocr_agreement": 1.0,
+"page": 71
+},
+{
+"en": "prolapse (of uterus)",
+"lo": "ໂປຣລັບຊຸດ, ຢ່ອນ (ມົດລູກ)",
+"lo_chandra": "ໂປຣລັບຊຸດ, ຢ່ອມ (ມິດລູກ)",
+"ocr_agreement": 0.917,
+"page": 71
+},
+{
+"en": "prostate",
+"lo": "ຕ່ອມໂປຣສະຕັດ, ຕອມ ລູກຫມາກ",
+"lo_chandra": "ຕ່ອມໂປຣສະຕັດ, ຕ່ອມ ລູກຫມາກ",
+"ocr_agreement": 0.98,
+"page": 71
+},
+{
+"en": "prosthesis",
+"lo": "ອົງຄະທຽມ, ເຄືອງທີໃຊ້ ແທນອະໄວຍະວະທີເສຍ, ເຊັນ ແຂນ ປອມ, ຂາປອມ, ແຂ້ວປອມ",
+"lo_chandra": "ອັງຄະທາງມ, ເຄືອງທີ່ໃຊ້ ແທນອະໄວຍະວະທີເສຍ, ເຊັນ ແຂນ ປອມ, ຂາປອມ, ແຂ້ວປອມ",
+"ocr_agreement": 0.956,
+"page": 71
+},
+{
+"en": "protein",
+"lo": "ໂປຣເຕອີນ",
+"lo_chandra": "ໂປຣເຕີນ",
+"ocr_agreement": 0.933,
+"page": 71
+},
+{
+"en": "protoplasm",
+"lo": "ໂປຣ ໂຕປລາດ, ນຳລັ່ຽງ ໃນຈຸລັງ",
+"lo_chandra": "ໂປຣໂຕຟລາດ, ມັກລັງ ໃນຈຸລັງ",
+"ocr_agreement": 0.808,
+"page": 71
+},
+{
+"en": "protozoa",
+"lo": "ສັດຈຸລັງດຽວ",
+"lo_chandra": "ສັດຈຸລັງດຽວ",
+"ocr_agreement": 1.0,
+"page": 71
+},
+{
+"en": "psoriasis",
+"lo": "ປະຊໍລີອາຊິສ, ພະຍາດ ຜິວທນັງຊະນິດນິງ ມີລັກສະນະແດງ ເປັນເກັດ",
+"lo_chandra": "ປະຊຸລີອາຊີສ, ພະຍາດ ຜິວຫນັງຊະນິດນຶ່ງ ມີລັກສະນະແດງ ເປັນເກັດ",
+"ocr_agreement": 0.92,
+"page": 71
+},
+{
+"en": "psychosis",
+"lo": "ໂລກຈິດ",
+"lo_chandra": "ໂລກຈິດ",
+"ocr_agreement": 1.0,
+"page": 71
+},
+{
+"en": "psychosomatic",
+"lo": "ເຈບທເນອງມາ ຈາກຄວາມອຸກອັງຫລືທຸກໃຈຕ່າງໆ ຈາ. 3 ຈ",
+"lo_chandra": "ເຈັບທີ່ເນືອງມາ ຈາກຄວາມອຸກອັງຫລືທາງໃຈຕ່າງໆ",
+"ocr_agreement": 0.814,
+"page": 71
+},
+{
+"en": "pterygium",
+"lo": "ຕາຕໍ່",
+"lo_chandra": "ຕາຕ້",
+"ocr_agreement": 0.667,
+"page": 71
+},
+{
+"en": "puberty",
+"lo": "ໄລຍະສອນບາວສອນສາວ, ໄວອາຍຸຂອງຄົນທີ ເລີ່ມມີລູກໄດ້",
+"lo_chandra": "ໂລຍະສອມບ້າວສອມສາວ, ໂວອາຍຂອງຄົນທີ່ເລີ່ມມີລູກໄດ້",
+"ocr_agreement": 0.87,
+"page": 71
+},
+{
+"en": "pubic bone",
+"lo": "ກະດູກຂະໂມມ , ຂະ ໂມມ",
+"lo_chandra": "ກະດູກຂະໂມມ, ຂະ ໂມມ",
+"ocr_agreement": 0.973,
+"page": 71
+},
+{
+"en": "public health",
+"lo": "ສາທາລະນະສຸກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 72
+},
+{
+"en": "pulmonary tuberculosis",
+"lo": "ວັນນະ ໂລກປອດ, ພະຍາດປອດແທຫ້ງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 72
+},
+{
+"en": "pulse",
+"lo": "ຊີບພະຈອນ, ກຳມະຈອນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 72
+},
+{
+"en": "pupil",
+"lo": "ຮູມ່ານຕາ, 2890907, ວົງຕາ ດາ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 72
+},
+{
+"en": "purgative",
+"lo": "ຢາລະບາຍທອງ, 89 ເຣັດໃຫ້ຖາຍ ຫລື ລະບາຍລຳໃສ້",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 72
+},
+{
+"en": "pus",
+"lo": "ນາຫນອງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 72
+},
+{
+"en": "quarantine",
+"lo": "ການກັກຂັງຄົນ, ສັດ ຫລື ສິ່ງຂອງ ຊິ່ງອາດຈະເປັນສືນຳພະຍາດ ຕິດຕໍ່",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 72
+},
+{
+"en": "rabies",
+"lo": "ພະຍາດຫມາວໍ, ພະຍາດ ຫມາບາ້",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 72
+},
+{
+"en": "rash",
+"lo": "ການອອກ (Qu), ປາມສີແດງທີ ຜິວຫນັງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 72
+},
+{
+"en": "raw",
+"lo": "ດິບ, ຍັງບໍ່ໄດ້ຜ່ານວິທີຂ້າເຊື່ອ, ຍັງບໍ່ໄດ້ເຮັດໃຫ້ສຸກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 72
+},
+{
+"en": "re-infection",
+"lo": "ການຊຶມເຊື້ອຄືນໃຫມ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 72
+},
+{
+"en": "reason",
+"lo": "ເຫດຜົນ, ຕົ້ນເຫດ, ຊາຍເທດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 72
+},
+{
+"en": "recover",
+"lo": "ພື້ນຕົວ, ຄືນສູ່ສະພາບປົກ ກະຕິ, ກັບດີຄືນ, ທາຍ (ພະຍາດ,ຈາກ ການຕົກໃຈ)",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 72
+},
+{
+"en": "rectum",
+"lo": "ໃສ້ສຸດ, 152",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 72
+},
+{
+"en": "reflex",
+"lo": "ການກະທົບຕອບ, ການຕອບ ຂອງເສັນປະສາດ",
+"lo_chandra": "ການກະກິບຕອບ, ການຕອບ ຂອງເສີມປະສາດ",
+"ocr_agreement": 0.875,
+"page": 73
+},
+{
+"en": "register",
+"lo": "ທະບ]ນ, ບນຊລາຍຊໍ",
+"lo_chandra": "ທະບຽນ, ບັນຊີລາຍຊື່",
+"ocr_agreement": 0.788,
+"page": 73
+},
+{
+"en": "regularity",
+"lo": "ຄວາມສະຫມຳສະເຫມີ, ການເປັນຈັງທວະ (ເຊັນ ຫາຍໃຈ ທົ ທວ ໃຈເຕັນ ການຖ່າຍຫນັກ), ອາການທີ ເປັນປົກກະຕິ",
+"lo_chandra": "ຄວາມສະຫມັກສະຫມັກ, ການເປັນຈຸງຫວະ (ເຊັນ ຫາຍໃຈ ຫົວ ໃຈຕົວ ການຖຸຍຫນັກ), ອາການກໍ ເປັນປົກກະຕິ",
+"ocr_agreement": 0.846,
+"page": 73
+},
+{
+"en": "relapse",
+"lo": "ການກັບຄືນເປັນພະຍາດອີກ ເທືອໃຫມ່",
+"lo_chandra": "ການກັບຄືນເປັນພະຍາດອີກ ເທົ້າໃຫມ",
+"ocr_agreement": 0.9,
+"page": 73
+},
+{
+"en": "relax",
+"lo": "ປ່ອຍໄປ, ວາງ, ຜອນຄາຍ",
+"lo_chandra": "ປ່ອຍໄປ, ວາງ, ຜ່ອນຄາຍ",
+"ocr_agreement": 0.974,
+"page": 73
+},
+{
+"en": "relief",
+"lo": "ການຜອນຄາຍ (ຈາກຄວາມ ເຈັບປວດທລືຄວາມເຄັງຕຶງ)",
+"lo_chandra": "ການຜ່ອນຄາຍ (ຈາກຄວາມ ເຈັບປວດຫລືຄວາມເຄັງຕົງ)",
+"ocr_agreement": 0.94,
+"page": 73
+},
+{
+"en": "remedy",
+"lo": "ວິທີປິນປົວ, ການປົວ",
+"lo_chandra": "ວິທີປະຢູ, ການປີ",
+"ocr_agreement": 0.667,
+"page": 73
+},
+{
+"en": "reproduction",
+"lo": "ການຈະເລີນພັນ",
+"lo_chandra": "ການຈະເລີມຍິນ",
+"ocr_agreement": 0.75,
+"page": 73
+},
+{
+"en": "respiration",
+"lo": "ການຫາຍໃຈ , ການທັນ ໃຈ",
+"lo_chandra": "ການຫາຍໃຈ, ການຫົວ ໃຈ",
+"ocr_agreement": 0.821,
+"page": 73
+},
+{
+"en": "rest",
+"lo": "ພັກຜ່ອນ, ເຊົາແຮງ, ຢູ່ຊ໊ໆ",
+"lo_chandra": "ພັກຜ່ອນ, ເຊົາແຮງ, ຢູຊູງ",
+"ocr_agreement": 0.894,
+"page": 73
+},
+{
+"en": "rest",
+"lo": "ການພັກຜ່ອນ , ການເຊົາແຮງ",
+"lo_chandra": "ການພັກຜ່ອນ, ການເຊົາແຮງ",
+"ocr_agreement": 0.978,
+"page": 73
+},
+{
+"en": "rest (in bed)",
+"lo": "ນອນພັກຜອນ",
+"lo_chandra": "ນອນພັກຜ່ອນ",
+"ocr_agreement": 0.947,
+"page": 73
+},
+{
+"en": "retarded",
+"lo": "ຊັກຊ້າ, ບໍ່ທວງທັນ, ຈະ ເລີນຊ້າກວາປົກກະຕິ",
+"lo_chandra": "ຊັກຊຶ, ບ່ອງຍັງ, ຈະ ເລີມຊັກວ່າປົກກະຕິ",
+"ocr_agreement": 0.773,
+"page": 73
+},
+{
+"en": "retarded",
+"lo": "ທີໂງຈັາຫລ້າ ຫລັງ, ທີປັນຍາອອນ",
+"lo_chandra": "ທີ່ໂງ່ຈາຫລັ ຫລັງ, ທີ່ປະຍາຍອອນ",
+"ocr_agreement": 0.807,
+"page": 73
+},
+{
+"en": "retina",
+"lo": "ພນຕາ, ຈຕາ",
+"lo_chandra": "ເຮຕົວ, ພັນຕາ, ຈັຕາ",
+"ocr_agreement": 0.667,
+"page": 73
+},
+{
+"en": "rheumatic fever",
+"lo": "ປະດົງຄໍກະທັນ ທັນ",
+"lo_chandra": "ປະດິງຄົກກະທັນ ຫົວ",
+"ocr_agreement": 0.667,
+"page": 73
+},
+{
+"en": "rheumatism",
+"lo": "ປະດົງ, ອາການໂຄ ຕາມຄໍຕາງໆ",
+"lo_chandra": "ປະດິງ, ອາການໂຄ່ຕາມຄຳຕາງໆ",
+"ocr_agreement": 0.875,
+"page": 74
+},
+{
+"en": "rhinitis",
+"lo": "ເຍືອເມືອກດັງອັກເສບ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 74
+},
+{
+"en": "rhinoscopy",
+"lo": "ການກວດເບງຮູດັງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 74
+},
+{
+"en": "rib",
+"lo": "ກະດູກຂ້າງ, ກະດູກສ້ວງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 74
+},
+{
+"en": "risk",
+"lo": "ສຽງ, ສຽງໄພ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 74
+},
+{
+"en": "roughage",
+"lo": "ເ. ອາທານທຍາບຸ ອາຫານ ທລະລາຍຍາກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 74
+},
+{
+"en": "roundworm",
+"lo": "ແມ່ທ້ອງໂຕກົມ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 74
+},
+{
+"en": "rub",
+"lo": "ຖູ, ຮຸກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 74
+},
+{
+"en": "rubella",
+"lo": "ຫມາກແດງນ້ອຍ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 74
+},
+{
+"en": "rupture",
+"lo": "ແຕກອອກ, ຈີກອອກ, ແນວ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 74
+},
+{
+"en": "Jun",
+"lo": "ຫລື ເປັນໂພ່ງແຕກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 74
+},
+{
+"en": "sac",
+"lo": "ຖົງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 74
+},
+{
+"en": "saline",
+"lo": "ນາເກືອ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 74
+},
+{
+"en": "saliva",
+"lo": "ນາ໌ລາຍ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 74
+},
+{
+"en": "Salmonella",
+"lo": "ເຊື່ອຊານໂມແນນລາ, ເຊື່ອພະຍາດທີກໍໃທ້ເກີດອາທານເປັນ ພິດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 74
+},
+{
+"en": "salmonellosis",
+"lo": "ການຕິດເຊື່ອຊານ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 74
+},
+{
+"en": "salpingitis",
+"lo": "ງວງມົດລູກອັກເສບ",
+"lo_chandra": "ງວງມີດລູກອັກເສບ",
+"ocr_agreement": 0.933,
+"page": 75
+},
+{
+"en": "salt",
+"lo": "ເກືອ, ທາດເກືອ, ເຄັມ",
+"lo_chandra": "ເກືອ, ທາດເກືອ, ເຄັມ",
+"ocr_agreement": 1.0,
+"page": 75
+},
+{
+"en": "sane",
+"lo": "ຈິດໃຈປົກກະຕິ",
+"lo_chandra": "ຈິດໃຈປົກກະຕິ",
+"ocr_agreement": 1.0,
+"page": 75
+},
+{
+"en": "scab",
+"lo": "ເກັດ, ແຜເປັນເກັດ",
+"lo_chandra": "ເກັດ, ແຜເປັນເກັດ",
+"ocr_agreement": 1.0,
+"page": 75
+},
+{
+"en": "scabies",
+"lo": "ຂີ້ຫິດ",
+"lo_chandra": "ຂັບດ",
+"ocr_agreement": 0.4,
+"page": 75
+},
+{
+"en": "scald",
+"lo": "ແຜໄຫມ້ທີເກີດຈາກນຳຮ້ອນ ຫລື ອາຍຮ້ອນ",
+"lo_chandra": "ແຜໄຫມມັກເກັດຈາກນ້ຳຮ້ອນ",
+"ocr_agreement": 0.618,
+"page": 75
+},
+{
+"en": "scalp",
+"lo": "ຫນັງຫົວ",
+"lo_chandra": "ຫຼັງຫົວ",
+"ocr_agreement": 0.857,
+"page": 75
+},
+{
+"en": "scar",
+"lo": "ແປ້ວ, ຮອຍບາດແຜ",
+"lo_chandra": "ແປ້ວ, ຮອຍບາດແຜ",
+"ocr_agreement": 1.0,
+"page": 75
+},
+{
+"en": "scarlet fever",
+"lo": "ສະກາກລາຖຕີນາ , ໄຂ້ ດາແດງ",
+"lo_chandra": "ສະມາກລາດີມາ, ໄຂດັ້ງ",
+"ocr_agreement": 0.651,
+"page": 75
+},
+{
+"en": "schistosomiasis",
+"lo": "ພະຍາດຊິດສະໄ ຕມີອາສ, ສານໃບໄມ້ຊະນິດນຶງ",
+"lo_chandra": "ພະຍາດຊິດສະໄຕມີອາສ, ສາມໃບໄມ້ຊະນິດມີງ",
+"ocr_agreement": 0.901,
+"page": 75
+},
+{
+"en": "sciatica",
+"lo": "ເສນປະສາດຊໍອາຕົກ, ອາ",
+"lo_chandra": "ເສັ້ນປະສາດຊີອາດີກ, ອາການເຈັບຕາມເສັ້ນປະສາດຊີອາດີກ",
+"ocr_agreement": 0.478,
+"page": 75
+},
+{
+"en": "sclerosis",
+"lo": "ການແຂງ",
+"lo_chandra": "ການແຂງ",
+"ocr_agreement": 1.0,
+"page": 75
+},
+{
+"en": "scratch",
+"lo": "ເກົາ, 20",
+"lo_chandra": "ເກົາ, ຊູດ",
+"ocr_agreement": 0.706,
+"page": 75
+},
+{
+"en": "scratch",
+"lo": "ຮອຍຂູດ",
+"lo_chandra": "ຮອຍຊູດ",
+"ocr_agreement": 0.833,
+"page": 75
+},
+{
+"en": "seasick",
+"lo": "ເມົາເຮືອ",
+"lo_chandra": "ເມີດເຮືອ",
+"ocr_agreement": 0.75,
+"page": 76
+},
+{
+"en": "secretion",
+"lo": "ການຂັບຍ່ອຍ, ນຳຂັບ ຍອຍ, ສງຂບຍອຍ",
+"lo_chandra": "ການຂົບຍ່ອຍ, ນ້ຳຂົບ",
+"ocr_agreement": 0.625,
+"page": 76
+},
+{
+"en": "sedative",
+"lo": "ຢາລະງັບ",
+"lo_chandra": "ຢາລະຄຸ່ບ",
+"ocr_agreement": 0.667,
+"page": 76
+},
+{
+"en": "seizure",
+"lo": "ອາການຊັກ, ການຈູ່ໂຈມ ຂອງພະຍາດ",
+"lo_chandra": "ອາການຊຸກ, ການຈູໂຈມ",
+"ocr_agreement": 0.739,
+"page": 76
+},
+{
+"en": "semen",
+"lo": "ນຳ້ກາມ, vie ຜູຊາຍ",
+"lo_chandra": "ນ້ຳອະສິ, ນ້ຳກາມ, ນ້ຳເຊືອ",
+"ocr_agreement": 0.439,
+"page": 76
+},
+{
+"en": "senility",
+"lo": "ຊະລາພາບ, ການເຖົາແກ່, ສະພາບຄວາມຄຶດຄວາມຈຳເສືອມ ຍ້ອນແກ່ຕົວ",
+"lo_chandra": "ຂະລາພາບ, ການເຖົາແກ່",
+"ocr_agreement": 0.486,
+"page": 76
+},
+{
+"en": "sense",
+"lo": "ອິນຊີ, ກາຍອິນຊີທັງຫ້າ",
+"lo_chandra": "ອິນຊີ, ກາຍອິນຊີທັງຫ້າ",
+"ocr_agreement": 1.0,
+"page": 76
+},
+{
+"en": "sensitivity",
+"lo": "ພາວະທີເກີດຄວາມຮູ້ສຶກ ງ່າຍ, ການມີຄວາມຮູ້ສຶກ, ອາການບໍ ສາບາຍຍ້ອນສຳຜັດທລືກິນສິງທີຮ່າງ ກາຍບໍ່ຢາກຮັບ, ອາການແພ້ເລັກນ້ອຍ",
+"lo_chandra": "ພາວະທີເກີດຄວາມຮູ້ສຶກ",
+"ocr_agreement": 0.303,
+"page": 76
+},
+{
+"en": "septicemia",
+"lo": "ເຊັບຕີເຊມີ, ພາວະ ເລືອດຂຊຶມເຊື່ອ",
+"lo_chandra": "ເຊີບຕີເຊີມ, ພາວະ",
+"ocr_agreement": 0.596,
+"page": 76
+},
+{
+"en": "serum",
+"lo": "ເຊຣອມ, ສວນໃສຂອງ ແຫລວທີແຍກອອກຈາກສ່ວນຂຸ່ນ",
+"lo_chandra": "ເຊຣອມ, ສວມໃສຂອງ",
+"ocr_agreement": 0.519,
+"page": 76
+},
+{
+"en": "serum albumin",
+"lo": "ນຳ້ຢາງເຫລືອງທີ ເຫລືອຫລັງຈາກເລືອດກ້າມແລ້ວ, ທາດໄຂ່ຂາວ",
+"lo_chandra": "ນ້ຳຢາງເຫລືອງທີ",
+"ocr_agreement": 0.4,
+"page": 76
+},
+{
+"en": "sex",
+"lo": "ເພດ",
+"lo_chandra": "ເພດ",
+"ocr_agreement": 1.0,
+"page": 76
+},
+{
+"en": "sexual",
+"lo": "ທີ່ກ່ຽວກັບເພດ, ທີກ່ຽວກັບກາ ມະລົມ",
+"lo_chandra": "ຄຳກ່ຽວກັບເພດ, ຄຳກ່ຽວກັບການ",
+"ocr_agreement": 0.724,
+"page": 76
+},
+{
+"en": "shake",
+"lo": "ຂະເຫຍາ, ສນສະເທອນ , ສນ ຄອນ",
+"lo_chandra": "ຂະເຫົາ, ສັນສະເທືອນ, ສັນ",
+"ocr_agreement": 0.792,
+"page": 76
+},
+{
+"en": "shin",
+"lo": "ແຂ້ງ, ຫນ້າແຂ້ງ",
+"lo_chandra": "ແຂງ, ຫມ້າແຂງ",
+"ocr_agreement": 0.846,
+"page": 77
+},
+{
+"en": "shingles",
+"lo": "ພະຍາດຕານເຕັ້ນ",
+"lo_chandra": "ພະຍາດຕາມຕັນ",
+"ocr_agreement": 0.833,
+"page": 77
+},
+{
+"en": "shiver",
+"lo": "ສັນ, ສັນສະທ້ານ",
+"lo_chandra": "ສົມ, ສົມສະທ້າມ",
+"ocr_agreement": 0.643,
+"page": 77
+},
+{
+"en": "shock",
+"lo": "ຊົກ, ການສະດຸງຕົກໃຈ, ພາ ວະຖືກກະທົບແຮງ ຍ້ອນຖືກບາດເຈັບ ຫນັກ, ເສຍເລືອດ ຫລືຕົກໃຈ ໂພດ",
+"lo_chandra": "ຊຸກ, ການສະດຸງຕິກໃຈ, ພາ",
+"ocr_agreement": 0.396,
+"page": 77
+},
+{
+"en": "shoulder",
+"lo": "ປາໄຫລ",
+"lo_chandra": "ບ່າໄຫລ",
+"ocr_agreement": 0.727,
+"page": 77
+},
+{
+"en": "shoulder blade",
+"lo": "ກະດູກເອື່ອງ, ກະ ດູກປາໄທລ",
+"lo_chandra": "ກະດູກເອອງ, ກະ",
+"ocr_agreement": 0.703,
+"page": 77
+},
+{
+"en": "sick",
+"lo": "ເຈັບປ່ວຍ, ບໍ່ສະບາຍ",
+"lo_chandra": "ເຈັບປວຍ, ບ່ອຍບາຍ",
+"ocr_agreement": 0.824,
+"page": 77
+},
+{
+"en": "side",
+"lo": "ຂ້າງ, ເບື້ອງ, ຝ່າຍ, ສ້ວງ",
+"lo_chandra": "ຂ້າງ, ເບືອງ, ຝາຍ, ສ້ວງ",
+"ocr_agreement": 0.957,
+"page": 77
+},
+{
+"en": "side effect",
+"lo": "ຜົນຂ້າງຄຽງ, ປະຕິກິລິ ຍາຂາງຄຽງ",
+"lo_chandra": "ວິນຂ້າງຄຽງ, ປະຕິກິລ",
+"ocr_agreement": 0.708,
+"page": 77
+},
+{
+"en": "sign",
+"lo": "ອາການສະແດງອອກ, ອາການ ທີ່ສັງເກດໄດ້",
+"lo_chandra": "ອາການສະແດງອອກ, ອາການ",
+"ocr_agreement": 0.755,
+"page": 77
+},
+{
+"en": "sinusitis",
+"lo": "ຊີນູຊິດ, ອັກເສບຜົງ",
+"lo_chandra": "ຊຸມຊົດ, ອັກເສບຜົງ",
+"ocr_agreement": 0.8,
+"page": 77
+},
+{
+"en": "skeleton",
+"lo": "ໂຄງກະດູກ, ຮ່າງກະດູກ",
+"lo_chandra": "ໂຄງກະດູກ, ຮ່າງກະດູກ",
+"ocr_agreement": 1.0,
+"page": 77
+},
+{
+"en": "skin",
+"lo": "ຜິວຫນັງ",
+"lo_chandra": "ຜົວຫມັງ",
+"ocr_agreement": 0.714,
+"page": 77
+},
+{
+"en": "skull",
+"lo": "ກະໂຫລກທົວ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 78
+},
+{
+"en": "sleep",
+"lo": "ນອນຫລັບ , ຫລັບ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 78
+},
+{
+"en": "slice",
+"lo": "ແຜ່ນ, ປຽງ (ຈາກການທັນການ ຝານ)",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 78
+},
+{
+"en": "sling",
+"lo": "ຜ້າສາມຫລຽມໃຊ້ແຂວນແຂນ ທີບາດເຈັບ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 78
+},
+{
+"en": "small intestine",
+"lo": "ໄສ້ອອນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 78
+},
+{
+"en": "smallpox",
+"lo": "ຫມາກສຸກ, ຝີດາດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 78
+},
+{
+"en": "smell",
+"lo": "ດມກນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 78
+},
+{
+"en": "smoke",
+"lo": "ສູບຢາ, ດູດຢາ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 78
+},
+{
+"en": "sneeze vn",
+"lo": "ການ)ຈາມ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 78
+},
+{
+"en": "snore vn",
+"lo": "ການ)ໂກນເວລານອນທລັບ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 78
+},
+{
+"en": "sole (of foot)",
+"lo": "ຝາຕີນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 78
+},
+{
+"en": "solid",
+"lo": "ຂອງແຂງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 78
+},
+{
+"en": "esolide",
+"lo": "ນ01ແນີ້3",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 78
+},
+{
+"en": "solution",
+"lo": "ສານລະລາຍ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 78
+},
+{
+"en": "sore",
+"lo": "ຮອຍບາດ, ແຜເປືອຍ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 78
+},
+{
+"en": "sore",
+"lo": "ປວດ, ເຈັບ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 78
+},
+{
+"en": "sore throat",
+"lo": "ເຈັບຄໍ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 78
+},
+{
+"en": "spasm",
+"lo": "ການປັນຮັດ, ການທົດຮັດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 78
+},
+{
+"en": "specialist",
+"lo": "ຜູ້ຊ]ວຊານ",
+"lo_chandra": "ຜູ້ຊ່ຽວຊານ",
+"ocr_agreement": 0.842,
+"page": 79
+},
+{
+"en": "sperm",
+"lo": "ຕົວອະສຈິ, ຈຸລັງຜະສົມເຊື່ອ ຂອງເພດຊາຍ",
+"lo_chandra": "ຕົວອະສິ, ຈຸລັງຜະລິມເຊື້ອ",
+"ocr_agreement": 0.712,
+"page": 79
+},
+{
+"en": "sphincter",
+"lo": "ກ້າມຊື່ນຍຸ້ມ, ກ້າມຊື່ນຮັດ ປາກຮູ (ຕົວຢ່າງ : ກ້າມຊື່ນຍູ້ມະກົນ)",
+"lo_chandra": "ກ້າມຊີມຍຸມ, ກ້າມຊີມຮັດ",
+"ocr_agreement": 0.439,
+"page": 79
+},
+{
+"en": "oe",
+"lo": "ຄຕ້ານເນື້ຍທຸຽຄ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 79
+},
+{
+"en": "spinal cord",
+"lo": "ໄຂສັນຫລັງ",
+"lo_chandra": "ໄຂສັນຫລັງ",
+"ocr_agreement": 1.0,
+"page": 79
+},
+{
+"en": "spine",
+"lo": "ກະດູກສັນຫລັງ",
+"lo_chandra": "ກະດູກສັນຫລັງ",
+"ocr_agreement": 1.0,
+"page": 79
+},
+{
+"en": "e NTEANTUNA",
+"lo": "ຕີ່າ)",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 79
+},
+{
+"en": "spleen",
+"lo": "ປ້າງ",
+"lo_chandra": "ປ່າງ",
+"ocr_agreement": 0.75,
+"page": 79
+},
+{
+"en": "splint",
+"lo": "ເຄືອງທາມ, ເຄືອງດາມ (ໃນເວ ລາກະດູກທັກ)",
+"lo_chandra": "ເຄື່ອງທາມ, ເຄື່ອງດາມ (ໃນເວລາກະດູກຫັກ)",
+"ocr_agreement": 0.932,
+"page": 79
+},
+{
+"en": "splint",
+"lo": "ໂອບແປ້ງ, ໂສ່ເຝືອກຕໍ່ກະດູກ",
+"lo_chandra": "ໂອບແປງ, ໃສ່ເປືອກຕັກກະດູກ",
+"ocr_agreement": 0.816,
+"page": 79
+},
+{
+"en": "splinter",
+"lo": "ສັຽນ, ເສດໄມ້ນ້ອຍທີສຽບ ຫນັງ",
+"lo_chandra": "ສຸງມ, ເສດໄມ້ມອຍກີສຸງບ",
+"ocr_agreement": 0.596,
+"page": 79
+},
+{
+"en": "sprain",
+"lo": "ເອັນສະແມ້ງ, ເອັນພິກ",
+"lo_chandra": "ເອັມສະແມ້ງ, ເອັມພິກ",
+"ocr_agreement": 0.895,
+"page": 79
+},
+{
+"en": "sputum",
+"lo": "ຂີ້ກະເທີ, FLER0",
+"lo_chandra": "ຂົ້ມະເທີ, ສະເຫລດ",
+"ocr_agreement": 0.516,
+"page": 79
+},
+{
+"en": "stability",
+"lo": "ຄວາມຄົງຕົວຄົງທີ",
+"lo_chandra": "ຄວາມຄົງຕົວຄົງທີ",
+"ocr_agreement": 1.0,
+"page": 79
+},
+{
+"en": "stage",
+"lo": "ໄລຍະເວລາ, ຍາມ, ຄາວ, ລະ ດູ. ວາລະ, ຊ່ວງເວລາຊ່ວງນຶງ",
+"lo_chandra": "ໄລຍະເວລາ, ຍາມ, ຄາວ, ລະດູ, ວາລະ, ຊ່ວງເວລາຊ່ວງມື",
+"ocr_agreement": 0.915,
+"page": 79
+},
+{
+"en": "sterile",
+"lo": "ອະເຊື່ອ, ປາດສະຈາກເຊື່ອ ພະຍາດ",
+"lo_chandra": "ອະເຊື້ອ, ບາດສະຈາກເຊື້ອພະຍາດ",
+"ocr_agreement": 0.873,
+"page": 79
+},
+{
+"en": "sterilization",
+"lo": "ການອະເຊື້ອ, ການຂ້າ ເຊື້ອພະຍາດໃທ້ັທມົດ",
+"lo_chandra": "ການອະເຊື້ອ, ການຂ້າເຊື້ອພະຍາດໃຫ້ຫຼົດ",
+"ocr_agreement": 0.889,
+"page": 79
+},
+{
+"en": "sterilization",
+"lo": "ການເຮັດຫມັນ",
+"lo_chandra": "ການເຮັດຫມັນ",
+"ocr_agreement": 1.0,
+"page": 80
+},
+{
+"en": "sternum",
+"lo": "ກະດູກມີດ, ກະດູກເອິກ",
+"lo_chandra": "ກະດູກມີດ, ກະດູກເອກ",
+"ocr_agreement": 0.973,
+"page": 80
+},
+{
+"en": "oe",
+"lo": "ຄຽະຄຸກຕັພຍດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 80
+},
+{
+"en": "stiff",
+"lo": "«2909, ແຂງກະດ້າງ",
+"lo_chandra": "ແຂງຕຶງ, ແຂງກະດັງ",
+"ocr_agreement": 0.562,
+"page": 80
+},
+{
+"en": "stiffness",
+"lo": "ຄວາມແຂງ, ຄວາມເຄັງຕຶງ",
+"lo_chandra": "ຄວາມແຂງ, ຄວາມເຄັງຕຶງ",
+"ocr_agreement": 1.0,
+"page": 80
+},
+{
+"en": "stillborn",
+"lo": "ເດັກຕາຍກອນເກີດຫລືເວ ລາເກີດ",
+"lo_chandra": "ເດັກຕາຍກ່ອນເກີດຫລືເວລາເກີດ",
+"ocr_agreement": 0.962,
+"page": 80
+},
+{
+"en": "sting",
+"lo": "ຕອດ (ແມງງອດ, | ເຜິ້ງ), ແທງ ເຂັມເຈັບ ຣື້ ຂົບ (ຍຸງທລືສັດນ້ອຍ ໆ ແນວອືນທີມີພິດເຮັດໃຫ້ຄັນ ຫລືແສບ ປວດ), ແສບ",
+"lo_chandra": "ໝອດ (ແມງງອດ, ເຜັງ), ແທງ",
+"ocr_agreement": 0.339,
+"page": 80
+},
+{
+"en": "sting",
+"lo": "ຮອຍຕອດ, ຮອຍຂົບ",
+"lo_chandra": "ຮອຍຕອດ, ຮອຍຂີບ",
+"ocr_agreement": 0.929,
+"page": 80
+},
+{
+"en": "strabismus",
+"lo": "ຕາເສື້ອງ, ຕາເຫລ່",
+"lo_chandra": "ຕາເສືອງ, ຕາເຫລື",
+"ocr_agreement": 0.903,
+"page": 80
+},
+{
+"en": "strength",
+"lo": "ແຮງ, ກຳລັງ, ພະລັງ",
+"lo_chandra": "ແຮງ, ກຳລັງ, ພະລັງ",
+"ocr_agreement": 1.0,
+"page": 80
+},
+{
+"en": "stress",
+"lo": "ຊະແຕຣດ, ສງກະທບ , ສງທ ເຮັດໃຫ້ຕ້ອງເສຍແຮງອົດທົນຫລືສູ້",
+"lo_chandra": "ຊະແຕຣດ, ສັງກະກິບ, ສັງຄົ",
+"ocr_agreement": 0.493,
+"page": 80
+},
+{
+"en": "stroke",
+"lo": "ລູບ",
+"lo_chandra": "ລູບ",
+"ocr_agreement": 1.0,
+"page": 80
+},
+{
+"en": "stroke",
+"lo": "ອຸບັດເທດເສັ້ນເລືອດສະ ຫມອງ, ອາການກະທັນທັນເນືອງມາ ຈາກເສັນເລືອດສະຫມອງແຕກຫລືຕັນ",
+"lo_chandra": "ອັບດເຫດເສັມເລືອດສະ",
+"ocr_agreement": 0.323,
+"page": 80
+},
+{
+"en": "sty(e)",
+"lo": "ຕາຕອນ, ເປັນຝີຕາມຮູຂົນ ຂອງຫນັງຕາ",
+"lo_chandra": "ຕາຕອມ, ເປັນຜີຕາມຮູຂີມ",
+"ocr_agreement": 0.654,
+"page": 80
+},
+{
+"en": "subconscious",
+"lo": "ໃຕ້ສຳນິກ",
+"lo_chandra": "ໃຕ້ສາມິກ",
+"ocr_agreement": 0.75,
+"page": 80
+},
+{
+"en": "suffocation",
+"lo": "ການຢຸດຫາຍໃຈ, ການ ຂາດອົກຂ໊ແຊນໃນເລືອດ, ອາການ ຫາຍໃຈບໍ່ໄດ້ຍ້ອນມືສິງຄາຄໍ",
+"lo_chandra": "ການຢູດຫາຍໃຈ, ການ ຂາດອີກຊຸແຊມໃນເລືອດ, ອາການ ຫາຍໃຈບໍໄດ້ຍອມມີສຸກຄົ",
+"ocr_agreement": 0.815,
+"page": 81
+},
+{
+"en": "suicide",
+"lo": "ການຂ້າຕົວເອງຕາຍ",
+"lo_chandra": "ການຂ້າຕົວເອງຕາຍ",
+"ocr_agreement": 1.0,
+"page": 81
+},
+{
+"en": "sunburn",
+"lo": "ແດດໄຫມ້, ແດດເຜົາ",
+"lo_chandra": "ແດດໄຫມ້, ແດດຜິ",
+"ocr_agreement": 0.867,
+"page": 81
+},
+{
+"en": "superior",
+"lo": "ເຫນອ, ເທິງ, ເບອງບນ, ເບືອງສູງ",
+"lo_chandra": "ເໜືອ, ເທິງ, ເບືອງບິນ, ເບືອງສູງ",
+"ocr_agreement": 0.897,
+"page": 81
+},
+{
+"en": "supervise",
+"lo": "ເບງແຍງ, ຄຸມ, ເຝົ້າ",
+"lo_chandra": "ເບີງແຍງ, ຄຸມ, ເຝົ",
+"ocr_agreement": 0.914,
+"page": 81
+},
+{
+"en": "suppository",
+"lo": "ຢາຍັດ (ເຂົາທາງຮູທະ ວານ ຫລື ທາງຊ່ອງຄອດ)",
+"lo_chandra": "ຢ່າຍັດ (ເຂົາທາງຮຽບ ວາມ ຫລື ທາງຊອງຄອດ)",
+"ocr_agreement": 0.88,
+"page": 81
+},
+{
+"en": "surgery",
+"lo": "ສັນລະຍະກຳ, ວິຊາຜາຕັດ, ການຜາຕັດ",
+"lo_chandra": "ສົມລະຍະກຳ, ວິຊາຜ່າຕັດ, ການຜ່າຕັດ",
+"ocr_agreement": 0.903,
+"page": 81
+},
+{
+"en": "suture nv",
+"lo": "ການ)ຫຍິບບາດແຜ, ດ້າຍ ຫຍິບບາດແຜ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 81
+},
+{
+"en": "swab",
+"lo": "ກ້ອນສາລິສຳຫລັບໃຊ້ເຊັດຖຸ, ກ້ອນສຳລີສຳຫລັບປ້າຍເຊື່ອ ແລ້ວເອາ ໄປກວດ",
+"lo_chandra": "ກ້ອນສຳລິສຳຫລັບໃຊ້ເຊັດຖ, ກ້ອນສຳລິສຳຫລັບປາຍເຊັດແລວເອົາ ໄປກວດ",
+"ocr_agreement": 0.883,
+"page": 81
+},
+{
+"en": "swallow",
+"lo": "ກືນກິນ",
+"lo_chandra": "ກິນກິນ",
+"ocr_agreement": 0.833,
+"page": 81
+},
+{
+"en": "sweat",
+"lo": "ເທືອອອກ",
+"lo_chandra": "ເຫັງອອກ",
+"ocr_agreement": 0.571,
+"page": 81
+},
+{
+"en": "swell",
+"lo": "ໃຄ່, ບວມຂຶ້ນ, ໂນ",
+"lo_chandra": "ໂຄ, ບວມຂຶ້ນ, ໂນ",
+"ocr_agreement": 0.903,
+"page": 81
+},
+{
+"en": "swollen",
+"lo": "ບວມ (ຂຶ້ນ), ພອງຂຶ້ນ, ໂພງ, ໂຄ",
+"lo_chandra": "ບວມ (ຂຶ້ນ), ພອງຂຶ້ນ, ໂພງ, ໂຄ",
+"ocr_agreement": 1.0,
+"page": 81
+},
+{
+"en": "symptom",
+"lo": "ອາການ, ອາການເຈັບ ປວດ, ອາການຂອງພະຍາດ",
+"lo_chandra": "ອາການ, ອາການເຈັບ ປວດ, ອາການຂອງພະຍາດ",
+"ocr_agreement": 1.0,
+"page": 81
+},
+{
+"en": "syndrome",
+"lo": "ຫມວດອາການ",
+"lo_chandra": "ຫມວດອາການ",
+"ocr_agreement": 1.0,
+"page": 81
+},
+{
+"en": "syphilis",
+"lo": "ພະຍາດຊິຟີລິດ, ກາມະ ໂລກເກີດຈາກເຊື່ອພະຍາດຊິຟີລິດ",
+"lo_chandra": "ພະຍາດຊິຟິລດ, ການ ໂລກເກີດຈາກເຊັອພະຍາດຊິຟິລດ",
+"ocr_agreement": 0.864,
+"page": 81
+},
+{
+"en": "syringe",
+"lo": "ເຊແຣັງ, ກ້ອງສັກຢາ, ຫລອດສັກຢາ",
+"lo_chandra": "ເຊແຮງ, ກ້ອງສັກຢາ, ຫລອດສັກຢາ",
+"ocr_agreement": 0.945,
+"page": 82
+},
+{
+"en": "system",
+"lo": "ລະບົບ, ເຄືອງ, ກົງຈັກ, ລະ ບົບຂອງຮາງກາຍ",
+"lo_chandra": "ລະບົບ, ເຄືອງ, ກິງຈັກ, ລະ • ບຸຂອງຮ່າງກາຍ",
+"ocr_agreement": 0.895,
+"page": 82
+},
+{
+"en": "tapeworm",
+"lo": "ແມ່ທ້ອງໂຕແປ",
+"lo_chandra": "ແມ່ຫ້ອງໂຕແປ",
+"ocr_agreement": 0.909,
+"page": 82
+},
+{
+"en": "taste",
+"lo": "ລົດ, ລົດສຳຜັດດ້ວຍລື່ນ",
+"lo_chandra": "ລິດ, ລິດສຳຜັດດ້ວຍລົມ",
+"ocr_agreement": 0.78,
+"page": 82
+},
+{
+"en": "tears npl",
+"lo": "ນຳ້ຕາ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 82
+},
+{
+"en": "temperature",
+"lo": "ອຸນຫະພູມ, ອັນດັບ ຄວາມຮ້ອນ ແລະ ເຢັນ",
+"lo_chandra": "ອຸນຫະພູມ, ອັນດັບ • ຄວາມຮ້ອນ ແລະ ເຢັນ",
+"ocr_agreement": 0.971,
+"page": 82
+},
+{
+"en": "temple",
+"lo": "ຂະຫມັບ",
+"lo_chandra": "ຂະຫນັບ",
+"ocr_agreement": 0.833,
+"page": 82
+},
+{
+"en": "tender",
+"lo": "ອອນ, ຮູ້ສຶກເຈັບເວລາຈັບ ບາຍ",
+"lo_chandra": "ອ່ອນ, ຮູລິກເຈັບເວລາຈິບ • ບາຍ",
+"ocr_agreement": 0.815,
+"page": 82
+},
+{
+"en": "tendon",
+"lo": "ເອັນທີຕໍ່ກ້າມຊີ່ນ",
+"lo_chandra": "ເອັມຊູມ, ເອັມທັດກ້າມຊູມ • ກ້ບກະດູກ",
+"ocr_agreement": 0.353,
+"page": 82
+},
+{
+"en": "tense av",
+"lo": "ເຄັງຕຶງ, ເຮັດໃຫ້ກ້ອນຂຶ້ນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 82
+},
+{
+"en": "tension",
+"lo": "ຄວາມດັນ, ຄວາມເຄັງຕຶງ, ຄວາມຕຶງ",
+"lo_chandra": "ຄວາມດັນ, ຄວາມເຄົງຕົງ, • ຄວາມຕົງ",
+"ocr_agreement": 0.867,
+"page": 82
+},
+{
+"en": "terminal",
+"lo": "ຂັ້ນສຸດທ້າຍ, ກ່ອນຕາຍ",
+"lo_chandra": "ຂໍ້ມູດທ້າຍ, ກ້ອນຕາຍ",
+"ocr_agreement": 0.769,
+"page": 82
+},
+{
+"en": "testis",
+"lo": "ຫນວຍອັນທະ, ທມາກໄຂ່ທາ",
+"lo_chandra": "ຫມວຍອັນທະ, ຫມາກໄຂ່ທ້າ",
+"ocr_agreement": 0.878,
+"page": 82
+},
+{
+"en": "tetanus",
+"lo": "ພະຍາດບາດທະຍັກ",
+"lo_chandra": "ພະຍາດບາດທະຍັງ",
+"ocr_agreement": 0.923,
+"page": 82
+},
+{
+"en": "therapy",
+"lo": "ການປິນປົວ",
+"lo_chandra": "ການປິ່ນປົວ",
+"ocr_agreement": 0.947,
+"page": 82
+},
+{
+"en": "thermometer",
+"lo": "ເຄືອງວັດຄວາມ",
+"lo_chandra": "ເຄືອງວັດຄວາມ • ຮ້ອນ, ບາຫລອດ, ເຄືອງວັດອຸນຫະ",
+"ocr_agreement": 0.444,
+"page": 82
+},
+{
+"en": "thigh",
+"lo": "ກົກຂາ, ຂາໂຕ້",
+"lo_chandra": "ກິກຂາ, ຂາໂຕ",
+"ocr_agreement": 0.87,
+"page": 83
+},
+{
+"en": "thin",
+"lo": "ຈອຍຜອມ, ບາງ, ຜອມ",
+"lo_chandra": "ຈ່ອຍຜອມ, ບາງ, ຜອມ",
+"ocr_agreement": 0.97,
+"page": 83
+},
+{
+"en": "think",
+"lo": "ຄິດ, ຄຶດ",
+"lo_chandra": "ຄິດ, ຄິດ",
+"ocr_agreement": 0.875,
+"page": 83
+},
+{
+"en": "thirst",
+"lo": "ຄວາມຫີວນາົ໌",
+"lo_chandra": "ຄວາມຫົວມກຳ",
+"ocr_agreement": 0.571,
+"page": 83
+},
+{
+"en": "thorax",
+"lo": "ເອິກ, ອົກ, ຫນ້າເອິກ (ຫນ້າ ອົກ), ລາຕົວສວນເທິງ",
+"lo_chandra": "ເອິກ, ອິກ, ຫມ້າເອິກ (ຫມ້າອິກ), ລັດວສວນເກີງ",
+"ocr_agreement": 0.791,
+"page": 83
+},
+{
+"en": "threadworm",
+"lo": "ແມ່ທ້ອງເສັ້ນດ້າຍ",
+"lo_chandra": "ແມ່ກ້ອງເສີມດ້າຍ",
+"ocr_agreement": 0.774,
+"page": 83
+},
+{
+"en": "oe",
+"lo": "ບານີ້ເຕັນຄ້າຍ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 83
+},
+{
+"en": "throat",
+"lo": "ຄືທອຍ, ຟາແຮັງ, ຮູຄໍ, ຄໍ",
+"lo_chandra": "ຄ້າຫອຍ, ຟາແຮ້ງ, ຮູຄ້, ຄ້",
+"ocr_agreement": 0.766,
+"page": 83
+},
+{
+"en": "thrombosis",
+"lo": "ໂຕຣມໂບຊິດ, ພາວະ ເກີດກ້ອນເລືອດກ້າມໃນເສັນເລືອດ ຊຶງເຮັດໃຫ້ເລືອດໄທລຜ່ານຍາກ",
+"lo_chandra": "ໂຕຣມໂບຊິດ, ພາວະເກີດກ້ອນເລືອດກ້າມໃນເສີມເລືອດຊ້ອງເຮັດໃຫ້ເລືອດໄຫລຜ່ານຍາກ",
+"ocr_agreement": 0.921,
+"page": 83
+},
+{
+"en": "thrush",
+"lo": "ປາກເປັນກາງ, ພະຍາດທີ່",
+"lo_chandra": "ປາກເບີນກາງ, ພະຍາດກິດຈາກເຊັອເຫດ Candida ຫລື Monilia",
+"ocr_agreement": 0.429,
+"page": 83
+},
+{
+"en": "thumb",
+"lo": "ໂປ້ມື",
+"lo_chandra": "ໄປມື",
+"ocr_agreement": 0.667,
+"page": 83
+},
+{
+"en": "thyroid",
+"lo": "ຕອມຕີໂ ຣອີດ, ຕ່ອມຂັບຍອຍໃນຢູ່ທີຄໍທີມີສ່ວນຄວບ ຄຸມການໃຊ້ຜະລັງຈາກອາທານ ແລະ ການເຕີບໂ ຕຂອງຮາງກາຍ",
+"lo_chandra": "ຕ່ອມຕີໂຣອິດ, ຕ່ອມຂ່ຍຍອຍໃນຢູທີຄີມິສວນຄວບຄຸມການໃຊ້ຜະລິງຈາກອາຫານແລະການເຕີບໂຕຂອງຮ່າງກາຍ",
+"ocr_agreement": 0.867,
+"page": 83
+},
+{
+"en": "tibia",
+"lo": "ກະດູກຕີບີອາ, ກະດູກແຂ້ງ",
+"lo_chandra": "ກະດູກຕີບີອາ, ກະດູກແຂ້ງ",
+"ocr_agreement": 1.0,
+"page": 83
+},
+{
+"en": "tic",
+"lo": "ເສັ້ນກະຕຸກ, ການກະຕຸກ",
+"lo_chandra": "ເສີມກະດູກ, ການກະດູກ",
+"ocr_agreement": 0.667,
+"page": 83
+},
+{
+"en": "tick",
+"lo": "ເທັບ",
+"lo_chandra": "ເກ້ຍ",
+"ocr_agreement": 0.25,
+"page": 83
+},
+{
+"en": "time",
+"lo": "ເວລາ, ລະຍະເວລາ",
+"lo_chandra": "ເວລາ, ລະຍະເວລາ",
+"ocr_agreement": 1.0,
+"page": 83
+},
+{
+"en": "tinea",
+"lo": "ຂີກາກ, ພະຍາດເທັດຢູຜົມ",
+"lo_chandra": "ຂົກາກ, ພະຍາດເກີດຢູຕີມ",
+"ocr_agreement": 0.762,
+"page": 83
+},
+{
+"en": "tinea cruris",
+"lo": "ເປັນຂີ້ກາກຕາມທວາງ ຂາ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 84
+},
+{
+"en": "tinea pedis",
+"lo": "ກໍ ພະຍາດຕີນຕິດເປືອຍ, ຂີກາກລະຫວາງນິວຕີນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 84
+},
+{
+"en": "tired",
+"lo": "ເມືອຍ, ອິດເມືອຍ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 84
+},
+{
+"en": "tissue",
+"lo": "ຈິວະ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 84
+},
+{
+"en": "toe",
+"lo": "ນັ້ວຕີນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 84
+},
+{
+"en": "toenail",
+"lo": "ເລັບຕີນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 84
+},
+{
+"en": "tongue",
+"lo": "ລື່ນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 84
+},
+{
+"en": "tonsil",
+"lo": "ຕອມອາມິດານ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 84
+},
+{
+"en": "tonsillitis",
+"lo": "ອາມິດານອັກເສບ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 84
+},
+{
+"en": "tooth",
+"lo": "ແຂ້ວ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 84
+},
+{
+"en": "torso",
+"lo": "ເລົາຄີງແຕ່ຄໍທາກົນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 84
+},
+{
+"en": "touch vn",
+"lo": "ບາຍ, ຈັບ, 890",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 84
+},
+{
+"en": "toxemia",
+"lo": "ເລືອດຊຶມທາດສານພິດ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 84
+},
+{
+"en": "toxic",
+"lo": "ເປັນພິດ, ເບືອ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 84
+},
+{
+"en": "trachea",
+"lo": "ຫລອດລົມ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 84
+},
+{
+"en": "trachoma",
+"lo": "ຕຣາໂກມ, ພະຍາດຕາ ສານ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 84
+},
+{
+"en": "tradition",
+"lo": "ປະເພນີ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 84
+},
+{
+"en": "tranquilizer",
+"lo": "ຢາລະງັບອາລົມ, ຢາທີ ເຮັດໃຫ້ສະຫງົບ",
+"lo_chandra": "ຢາລະງັບອາລົມ, ຢາທີ່ເຮັດໃຫ້ສະຫງົບ",
+"ocr_agreement": 0.969,
+"page": 85
+},
+{
+"en": "tranquilizing",
+"lo": "ທີເຮັດໃຫ້ສະຫງົບ, ທີ ລະງັບອາລົມ",
+"lo_chandra": "ທີ່ເຮັດໃຫ້ສະຫງົບ, ທີ່ລະງັບອາລົມ",
+"ocr_agreement": 0.951,
+"page": 85
+},
+{
+"en": "transplant",
+"lo": "ການປຽນຖາຍອະໄວຍະ ວະ",
+"lo_chandra": "ການປຸງຖາຍອະໄວຍະວະ",
+"ocr_agreement": 0.857,
+"page": 85
+},
+{
+"en": "treat",
+"lo": "ໃຫ້ການຮັກສາ, ປິນປົວ",
+"lo_chandra": "ໃຫ້ການຮັກສາ, ປຸກປົວ",
+"ocr_agreement": 0.895,
+"page": 85
+},
+{
+"en": "tremor",
+"lo": "ການສັນ, ການສັນສະເທືອນ, ສັນກະທົນກະຫວຍ",
+"lo_chandra": "ການສົມ, ການສົມສະເທືອນ, ສົມກະທິກະຫວຍ",
+"ocr_agreement": 0.789,
+"page": 85
+},
+{
+"en": "trichinosis",
+"lo": "ພະຍາດຕລີຄີໂນດ, AS",
+"lo_chandra": "ພະຍາດຕລີໂນດ, ລໍ່",
+"ocr_agreement": 0.788,
+"page": 85
+},
+{
+"en": "trichomoniasis",
+"lo": "ພະຍາດເກີດຈາກ",
+"lo_chandra": "ພະຍາດເກີດຈາກ",
+"ocr_agreement": 1.0,
+"page": 85
+},
+{
+"en": "tube",
+"lo": "ທໍ, ເສັ້ນທາງ, ຫລອດ, ຊອງ ຜານ",
+"lo_chandra": "ບໍ, ເສົມທາງ, ຫລອດ, ຊອງຜ່ານ",
+"ocr_agreement": 0.83,
+"page": 85
+},
+{
+"en": "tuberculosis",
+"lo": "ວັນນະ ໂລກ",
+"lo_chandra": "ວັນນະໂລກ",
+"ocr_agreement": 0.941,
+"page": 85
+},
+{
+"en": "tumor",
+"lo": "1. ເນື້ອງອກ, ການເກີດຊື່ນປົງ ຫລືເນື່ອງອກຂຶ້ນໃຫມ",
+"lo_chandra": "ເນ້ອງອກ, ການເກີດຊຸມປຸງຫລືເນ້ອງອກຂຸມໃຫມ່",
+"ocr_agreement": 0.753,
+"page": 85
+},
+{
+"en": "type",
+"lo": "ຊະນິດ, ແນວ, ແບບ",
+"lo_chandra": "ຂະນິດ, ແນວ, ແບບ",
+"ocr_agreement": 0.933,
+"page": 85
+},
+{
+"en": "typhoid",
+"lo": "ໄຂ້ຕີໂຟອີດ (ໄຕ ຟອຍ), ໄຂ້ທໍລະພຶດ",
+"lo_chandra": "ໄຂ້ຕີໄຟອິດ (ໄຕຟອຍ), ໄຂ້ທຳລະພິດ",
+"ocr_agreement": 0.852,
+"page": 85
+},
+{
+"en": "typhus",
+"lo": "ໄຂ້ຕີຟຸສ, ໄຂ້ເກີດຈາກເຊື່ອຣິ ແກດຊີອາ",
+"lo_chandra": "ໄຂ້ຕີຟສ, ໄຂ້ເກີດຈາກເຊື້ອຣັດດຊີອາ",
+"ocr_agreement": 0.866,
+"page": 85
+},
+{
+"en": "ulcer",
+"lo": "ແຜເປືອຍ",
+"lo_chandra": "ແຜເປື້ອຍ",
+"ocr_agreement": 0.933,
+"page": 85
+},
+{
+"en": "umbilical cord",
+"lo": "ສາຍບື, ສາຍສະບີ, ສາຍແຮ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 86
+},
+{
+"en": "unclear",
+"lo": "ບໍ່ແຈ້ງ, ບໍ່ແຈມແຈ້ງ, ມົວ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 86
+},
+{
+"en": "UNCONSCIOUS",
+"lo": "ສະຫລົບ, ທີບໍຮັສຶກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 86
+},
+{
+"en": "de",
+"lo": "ຈຸ ທບຮູສານກ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 86
+},
+{
+"en": "uremia",
+"lo": "ພາວະທີມີທາດອຸຍ ເຣໃນເລືອດສູງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 86
+},
+{
+"en": "urethra",
+"lo": "ທໍປັດສາວະ, ຮູຍ່ຽວ, ທໍ່ຈາກ ພົກຍ່ຽວ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 86
+},
+{
+"en": "urethritis",
+"lo": "ທໍ່ປັດສາວະອັກເສບ , ເຈັບ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 86
+},
+{
+"en": "urgent",
+"lo": "ກະທັນທັນ, ສຸກເສີນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 86
+},
+{
+"en": "urinate",
+"lo": "ຍ່ຽວ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 86
+},
+{
+"en": "urine",
+"lo": "ປັດສາວະ, ຍຽວ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 86
+},
+{
+"en": "urticaria",
+"lo": "ມຸນມານ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 86
+},
+{
+"en": "uterus",
+"lo": "ມົດລູກ, ອຸທອນ, ຄັນ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 86
+},
+{
+"en": "vaccine",
+"lo": "ຢາວັກແຂ້ງ (ໂຊ໋ສຳຫລັບ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 86
+},
+{
+"en": "vagina",
+"lo": "ຂ່ອງຄອດ, ຂອງໂຍນີ, ອະ ໄວຍະວະສີບພັນຜູ້ຍິງ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 86
+},
+{
+"en": "vaginitis",
+"lo": "ຊ່ອງຄອດອັກເສັບ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 86
+},
+{
+"en": "vaporizer",
+"lo": "ເຄືອງພົນອາຍ, ເຄືອງເຮັດ ໃຫ້ເປັນອາຍອອກຈາກນາົ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 86
+},
+{
+"en": "varicose vein",
+"lo": "ເສັ້ນເລືອດນັ່ງຕຶງ, ເສັນ ເລືອດນຶ່ງຂອດ",
+"lo_chandra": "ເສັມເລືອດມັງຕຸງ, ເສັມເລືອດມັງຂອດ",
+"ocr_agreement": 0.765,
+"page": 87
+},
+{
+"en": "vas deferens",
+"lo": "ທໍລະບາຍນຳອາສຸຈີ, ສາຍນຳເຊື້ອຂອງຜູ້ຊາຍ",
+"lo_chandra": "ບໍລະບາຍນ້ຳອາສູຈ, ສາຍນ້ຳເຊອຂອງຜູຊາຍ",
+"ocr_agreement": 0.857,
+"page": 87
+},
+{
+"en": "vasectomy",
+"lo": "ການຕັດທຶນຳ້ອະສຸຈິ ຂາດ, ການເຮັດທມັນຜູ້ຊາຍ",
+"lo_chandra": "ການຕັດທຸກນ້ຳອະສູຈ ຂາດ, ການເຮັດຫມູ່ຜູຊາຍ",
+"ocr_agreement": 0.81,
+"page": 87
+},
+{
+"en": "vector",
+"lo": "ພາຫະນະນຳເຊອ",
+"lo_chandra": "ພາຫະນະນ້ຳເຊອ",
+"ocr_agreement": 0.957,
+"page": 87
+},
+{
+"en": "venereal disease",
+"lo": "ກາມມະໂລກ",
+"lo_chandra": "ການມະໂລກ (ມີຫລາຍຊະນິດ), ພະຍາດຕິດຕຳງການທຸງວຫາຮ່ວມເພດ",
+"ocr_agreement": 0.237,
+"page": 87
+},
+{
+"en": "COMPARE",
+"lo": "ແມານ gonorrhea",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 87
+},
+{
+"en": "venom",
+"lo": "ພິດຊິງເກີດຈາກສັດທລືແມງ ມີພິດ",
+"lo_chandra": "ມິດຊຸງເກີດຈາກສັດຫລືແມງ ມິນດ",
+"ocr_agreement": 0.836,
+"page": 87
+},
+{
+"en": "ventricle",
+"lo": "ຫ້ອງ, ຫ້ອງນ້ອຍ, ຫ້ອງຫົວ ໃຈລຸມ",
+"lo_chandra": "ຫ້ອງ, ຫ້ອງມັອຍ, ຫ້ອງກິວ ໃຈລຸມ",
+"ocr_agreement": 0.862,
+"page": 87
+},
+{
+"en": "vertebra",
+"lo": "ຂໍ້ກະດູກສັນຫລັງ, ປ້ອງກະ ດູກສັນທລັງ",
+"lo_chandra": "ຂໍກະດູກສັມຫລຸງ, ປ້ອງກະ ດູກສັມຫລຸງ",
+"ocr_agreement": 0.836,
+"page": 87
+},
+{
+"en": "vertigo",
+"lo": "ອາການເປັນວິນ",
+"lo_chandra": "ອາການເປັນວິນ",
+"ocr_agreement": 1.0,
+"page": 87
+},
+{
+"en": "virus",
+"lo": "ຈຸລະໂລກ, ເຊື່ອນ້ອຍທີ ສຸດ",
+"lo_chandra": "ວີຣຸດ, ຈຸລະໂລກ, ເຊອມັອຍກິ ສຸດ",
+"ocr_agreement": 0.679,
+"page": 87
+},
+{
+"en": "vision",
+"lo": "ສາຍຕາ, ການເທັນ",
+"lo_chandra": "ສາຍຕາ, ການເຫັນ",
+"ocr_agreement": 0.929,
+"page": 87
+},
+{
+"en": "visual",
+"lo": "ກ່ຽວກັບສາຍຕາ",
+"lo_chandra": "ກຸງວກັບສາຍຕາ",
+"ocr_agreement": 0.833,
+"page": 87
+},
+{
+"en": "vitamin",
+"lo": "ຢາ)ວີຕາມີນ",
+"lo_chandra": "ຢາ)ວິຕາມິນ",
+"ocr_agreement": 0.8,
+"page": 87
+},
+{
+"en": "voice",
+"lo": "ສຽງ, ສຽງປາກ",
+"lo_chandra": "ສຽງ, ສຽງປາກ",
+"ocr_agreement": 1.0,
+"page": 88
+},
+{
+"en": "vomit",
+"lo": "ຮາກ",
+"lo_chandra": "ຮາກ",
+"ocr_agreement": 1.0,
+"page": 88
+},
+{
+"en": "vulva",
+"lo": "ໂຍນີ, ພາກສ່ວນນອກຂອງອະ",
+"lo_chandra": "ໂຍນີ, ພາກສ່ວນນອກຂອງອະໄວຍະວະສິບພັນຂອງຜູ້ຍິງ",
+"ocr_agreement": 0.667,
+"page": 88
+},
+{
+"en": "waist",
+"lo": "ແອວ",
+"lo_chandra": "ແອວ",
+"ocr_agreement": 1.0,
+"page": 88
+},
+{
+"en": "wart",
+"lo": "ຂຶ້ກະຕອດ, ຂີ້ຫູດ",
+"lo_chandra": "ຂໍ້ກະຕອດ, ຂໍ້ຍຸດ",
+"ocr_agreement": 0.75,
+"page": 88
+},
+{
+"en": "wash",
+"lo": "ລ້າງ",
+"lo_chandra": "ລ້າງ",
+"ocr_agreement": 1.0,
+"page": 88
+},
+{
+"en": "elaver",
+"lo": "04, ຕັຽະ(ແນ)",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 88
+},
+{
+"en": "weak",
+"lo": "ອອນເພຍ, ຂາດກຳລັງ",
+"lo_chandra": "ອ່ອນເພຍ, ຂາດກ່າລົງ",
+"ocr_agreement": 0.824,
+"page": 88
+},
+{
+"en": "weakness",
+"lo": "ອາການອອນເພຍ, ອາ ການຂາດກຳລັງ",
+"lo_chandra": "ອາການອ່ອນເພຍ, ອາການຂາດກ່າລົງ",
+"ocr_agreement": 0.873,
+"page": 88
+},
+{
+"en": "weight",
+"lo": "ນາຫນັກ",
+"lo_chandra": "ນັ້ນນັ້ນ",
+"ocr_agreement": 0.286,
+"page": 88
+},
+{
+"en": "wheeze",
+"lo": "ຫາຍໃຈຫນັກດັງສຽງຮືດໆ",
+"lo_chandra": "ຫາຍໃຈຫັນກົງສຽງຮືດງ",
+"ocr_agreement": 0.811,
+"page": 88
+},
+{
+"en": "whipworm",
+"lo": "ແມ່ທ້ອງແສ້ມ້າ",
+"lo_chandra": "ແມ່ທ້ອງແສ້ມ້າ",
+"ocr_agreement": 1.0,
+"page": 88
+},
+{
+"en": "whooping cough",
+"lo": "ພະຍາດໄອໄກ່",
+"lo_chandra": "ພະຍາດໄອໄກ",
+"ocr_agreement": 0.947,
+"page": 88
+},
+{
+"en": "woman",
+"lo": "ຜູ້ຍິງ",
+"lo_chandra": "ຜູ້ຍິງ",
+"ocr_agreement": 1.0,
+"page": 88
+},
+{
+"en": "work",
+"lo": "ເຮັດວຽກ",
+"lo_chandra": "ເຮັດວຽກ",
+"ocr_agreement": 1.0,
+"page": 88
+},
+{
+"en": "work",
+"lo": "ວຽກງານ",
+"lo_chandra": "ວຽກງານ",
+"ocr_agreement": 1.0,
+"page": 88
+},
+{
+"en": "worm",
+"lo": "ແມ່ທ້ອງ",
+"lo_chandra": "ແມ້ທອງ",
+"ocr_agreement": 0.769,
+"page": 89
+},
+{
+"en": "wound",
+"lo": "ບາດເຈັບ, ບາດແຜ",
+"lo_chandra": "ບາດເຈັບ, ບາດແຜ",
+"ocr_agreement": 1.0,
+"page": 89
+},
+{
+"en": "wrist",
+"lo": "ຄໍມ໊",
+"lo_chandra": "ຄໍມ",
+"ocr_agreement": 0.857,
+"page": 89
+},
+{
+"en": "x-ray nv",
+"lo": "ລັງສີ X, (ຮູບ)ສ່ອງໄຟຟ້າ",
+"lo_chandra": null,
+"ocr_agreement": null,
+"page": 89
+},
+{
+"en": "yawn",
+"lo": "ຫາວນອນ",
+"lo_chandra": "ຫາວນອນ",
+"ocr_agreement": 1.0,
+"page": 89
+},
+{
+"en": "yaws",
+"lo": "ພະຍາດເກີດຈາກເຊື້ອເຕຣໂປ ແນມ",
+"lo_chandra": "ພະຍາດເກີດຈາກເຊື້ອຕຣໄປ ແນມ",
+"ocr_agreement": 0.941,
+"page": 89
+},
+{
+"en": "yeast",
+"lo": "ເຂຊືອແປ້ງ, ເຊື່ອເທັດພວກນຶງ",
+"lo_chandra": "ເຊື້ອແປງ, ເຊື້ອເຫດພວກມັງ",
+"ocr_agreement": 0.76,
+"page": 89
+},
+{
+"en": "back",
+"lo": "ຫລັງ, ສັມຫລັງ",
+"lo_chandra": "ຫລັງ, ສັມຫລັງ",
+"ocr_agreement": null,
+"page": 29,
+"chandra_only": true
+},
+{
+"en": "bile",
+"lo": "ມັນ",
+"lo_chandra": "ມັນ",
+"ocr_agreement": null,
+"page": 30,
+"chandra_only": true
+},
+{
+"en": "bland",
+"lo": "ລິດຈິດ, ລິດຈາງ",
+"lo_chandra": "ລິດຈິດ, ລິດຈາງ",
+"ocr_agreement": null,
+"page": 31,
+"chandra_only": true
+},
+{
+"en": "blennorhea",
+"lo": "ພະຍາດຫມອງໃນ, ອາການອັກເສບເຍືອເມືອກຕາ ສ່ວນມາກຈະມາຈາກເຊືອ chlamydia",
+"lo_chandra": "ພະຍາດຫມອງໃນ, ອາການອັກເສບເຍືອເມືອກຕາ ສ່ວນມາກຈະມາຈາກເຊືອ chlamydia",
+"ocr_agreement": null,
+"page": 31,
+"chandra_only": true
+},
+{
+"en": "calf",
+"lo": "ຍີແຄງ",
+"lo_chandra": "ຍີແຄງ",
+"ocr_agreement": null,
+"page": 34,
+"chandra_only": true
+},
+{
+"en": "calmness",
+"lo": "ຄວາມງຽບສະຫງົບ, ອາ ການບົ່ມເຕັມ",
+"lo_chandra": "ຄວາມງຽບສະຫງົບ, ອາ ການບົ່ມເຕັມ",
+"ocr_agreement": null,
+"page": 34,
+"chandra_only": true
+},
+{
+"en": "capillary",
+"lo": "ເສັ້ນເລືອດຝອຍ, ຫລອດ ນ້ອຍໆ",
+"lo_chandra": "ເສັ້ນເລືອດຝອຍ, ຫລອດ ນ້ອຍໆ",
+"ocr_agreement": null,
+"page": 34,
+"chandra_only": true
+},
+{
+"en": "caries",
+"lo": "ແຂວແມງ",
+"lo_chandra": "ແຂວແມງ",
+"ocr_agreement": null,
+"page": 34,
+"chandra_only": true
+},
+{
+"en": "caustic",
+"lo": "ຍືເຜີາໄຫມ້ ຫລື ກັດຈິວະ, ຍືກັດຫມັງ (ຍ້ອນກິດຫລືດັງ)",
+"lo_chandra": "ຍືເຜີາໄຫມ້ ຫລື ກັດຈິວະ, ຍືກັດຫມັງ (ຍ້ອນກິດຫລືດັງ)",
+"ocr_agreement": null,
+"page": 35,
+"chandra_only": true
+},
+{
+"en": "cheek",
+"lo": "ແກ່ມ",
+"lo_chandra": "ແກ່ມ",
+"ocr_agreement": null,
+"page": 35,
+"chandra_only": true
+},
+{
+"en": "cleft lip",
+"lo": "ລີບແວ່ງ",
+"lo_chandra": "ລີບແວ່ງ",
+"ocr_agreement": null,
+"page": 36,
+"chandra_only": true
+},
+{
+"en": "cold sore (of lip)",
+"lo": "ຕຸ່ມໂພງທີສິບ",
+"lo_chandra": "ຕຸ່ມໂພງທີສິບ",
+"ocr_agreement": null,
+"page": 37,
+"chandra_only": true
+},
+{
+"en": "ear lobe",
+"lo": "ຕຶງຫູ",
+"lo_chandra": "ຕຶງຫູ",
+"ocr_agreement": null,
+"page": 44,
+"chandra_only": true
+},
+{
+"en": "endemic",
+"lo": "ພະຍາດປະຈຳເຂດ",
+"lo_chandra": "ພະຍາດປະຈຳເຂດ",
+"ocr_agreement": null,
+"page": 46,
+"chandra_only": true
+},
+{
+"en": "expectorant",
+"lo": "ຢາ)ທີ່ຊ່ວຍຂຸບສະຫລອດ, ໂຄຍຂຸບເຄີ",
+"lo_chandra": "ຢາ)ທີ່ຊ່ວຍຂຸບສະຫລອດ, ໂຄຍຂຸບເຄີ",
+"ocr_agreement": null,
+"page": 48,
+"chandra_only": true
+},
+{
+"en": "fistula",
+"lo": "ຮູຊອດ",
+"lo_chandra": "ຮູຊອດ",
+"ocr_agreement": null,
+"page": 50,
+"chandra_only": true
+},
+{
+"en": "flea",
+"lo": "ຫມັດ",
+"lo_chandra": "ຫມັດ",
+"ocr_agreement": null,
+"page": 50,
+"chandra_only": true
+},
+{
+"en": "flesh",
+"lo": "ຊຸມ, ເນື້ອຫມັງ",
+"lo_chandra": "ຊຸມ, ເນື້ອຫມັງ",
+"ocr_agreement": null,
+"page": 50,
+"chandra_only": true
+},
+{
+"en": "glasses",
+"lo": "ແວ່ນຕາ",
+"lo_chandra": "ແວ່ນຕາ",
+"ocr_agreement": null,
+"page": 52,
+"chandra_only": true
+},
+{
+"en": "hunger",
+"lo": "ຄວາມຫົວ",
+"lo_chandra": "ຄວາມຫົວ",
+"ocr_agreement": null,
+"page": 55,
+"chandra_only": true
+},
+{
+"en": "leukocyte",
+"lo": "ເມດເລີອດຂາວ",
+"lo_chandra": "ເມດເລີອດຂາວ",
+"ocr_agreement": null,
+"page": 60,
+"chandra_only": true
+},
+{
+"en": "leukorrhea",
+"lo": "ລົງຂາວ",
+"lo_chandra": "ລົງຂາວ",
+"ocr_agreement": null,
+"page": 60,
+"chandra_only": true
+},
+{
+"en": "lice",
+"lo": "ເຫົາ",
+"lo_chandra": "ເຫົາ",
+"ocr_agreement": null,
+"page": 60,
+"chandra_only": true
+},
+{
+"en": "ligament",
+"lo": "ສາຍຈັອງ, ສາຍເມັງ",
+"lo_chandra": "ສາຍຈັອງ, ສາຍເມັງ",
+"ocr_agreement": null,
+"page": 60,
+"chandra_only": true
+},
+{
+"en": "malnutrition",
+"lo": "ການຂາດອາຫານ ຫລື ຂາດອາຫານບາງແນວ",
+"lo_chandra": "ການຂາດອາຫານ ຫລື ຂາດອາຫານບາງແນວ",
+"ocr_agreement": null,
+"page": 61,
+"chandra_only": true
+},
+{
+"en": "narcotic",
+"lo": "ມາໂກຕິກ, (ຢາ)ເສບຕິດ",
+"lo_chandra": "ມາໂກຕິກ, (ຢາ)ເສບຕິດ",
+"ocr_agreement": null,
+"page": 64,
+"chandra_only": true
+},
+{
+"en": "nostril",
+"lo": "ຮູດັງ",
+"lo_chandra": "ຮູດັງ",
+"ocr_agreement": null,
+"page": 65,
+"chandra_only": true
+},
+{
+"en": "numb",
+"lo": "ມັນ, ຊາ",
+"lo_chandra": "ມັນ, ຊາ",
+"ocr_agreement": null,
+"page": 65,
+"chandra_only": true
+},
+{
+"en": "palpate",
+"lo": "ລຸບຄ້າ, ກວດດ້ວຍໃຊ້ມືຄ້າ • ເບີງ",
+"lo_chandra": "ລຸບຄ້າ, ກວດດ້ວຍໃຊ້ມືຄ້າ • ເບີງ",
+"ocr_agreement": null,
+"page": 67,
+"chandra_only": true
+},
+{
+"en": "phlycten",
+"lo": "ຕຸມໂພງ, ຕຸມນົກໃສ",
+"lo_chandra": "ຕຸມໂພງ, ຕຸມນົກໃສ",
+"ocr_agreement": null,
+"page": 69,
+"chandra_only": true
+},
+{
+"en": "poliomyelitis",
+"lo": "ພະຍາດໄປລີໂອ, ພະຍາດເປື່ອລອຍ, ໄຂສັມຫລັງສີຫມີນອກເສບ",
+"lo_chandra": "ພະຍາດໄປລີໂອ, ພະຍາດເປື່ອລອຍ, ໄຂສັມຫລັງສີຫມີນອກເສບ",
+"ocr_agreement": null,
+"page": 70,
+"chandra_only": true
+},
+{
+"en": "resuscitation",
+"lo": "ການພັກພູຊີວິດ, ການຊູວຍເອົາຊີວິດຄືນ",
+"lo_chandra": "ການພັກພູຊີວິດ, ການຊູວຍເອົາຊີວິດຄືນ",
+"ocr_agreement": null,
+"page": 73,
+"chandra_only": true
+},
+{
+"en": "scler(o)-",
+"lo": "ກຸງວັກບເຍືອຕາຂາວ",
+"lo_chandra": "ກຸງວັກບເຍືອຕາຂາວ",
+"ocr_agreement": null,
+"page": 75,
+"chandra_only": true
+},
+{
+"en": "scrotum",
+"lo": "ທ່າ",
+"lo_chandra": "ທ່າ",
+"ocr_agreement": null,
+"page": 76,
+"chandra_only": true
+},
+{
+"en": "sinus",
+"lo": "ຜົງອາກາດ, ຮູບມ້ອຍໆ ລົງມາ",
+"lo_chandra": "ຜົງອາກາດ, ຮູບມ້ອຍໆ ລົງມາ",
+"ocr_agreement": null,
+"page": 77,
+"chandra_only": true
+},
+{
+"en": "stomach",
+"lo": "ກະເພາະອາຫານ, ກ້ອງ, ພຽງ",
+"lo_chandra": "ກະເພາະອາຫານ, ກ້ອງ, ພຽງ",
+"ocr_agreement": null,
+"page": 80,
+"chandra_only": true
+},
+{
+"en": "suture",
+"lo": "ການ)ຫິບບາດແຜ, ດ້າຍ ຫິບບາດແຜ",
+"lo_chandra": "ການ)ຫິບບາດແຜ, ດ້າຍ ຫິບບາດແຜ",
+"ocr_agreement": null,
+"page": 81,
+"chandra_only": true
+},
+{
+"en": "tears",
+"lo": "ນ້ຳຕາ",
+"lo_chandra": "ນ້ຳຕາ",
+"ocr_agreement": null,
+"page": 82,
+"chandra_only": true
+},
+{
+"en": "tense",
+"lo": "ເຄົງຕົງ, ເຮັດໃຫ້ກ້ອນຊູມ • ເຄົງຕົງ",
+"lo_chandra": "ເຄົງຕົງ, ເຮັດໃຫ້ກ້ອນຊູມ • ເຄົງຕົງ",
+"ocr_agreement": null,
+"page": 82,
+"chandra_only": true
+},
+{
+"en": "transfusion",
+"lo": "ການສູງເລືອດ ຫລື ກາດນ້ຳອີນໆ ເຂົ້າໃນເສົມເລືອດ",
+"lo_chandra": "ການສູງເລືອດ ຫລື ກາດນ້ຳອີນໆ ເຂົ້າໃນເສົມເລືອດ",
+"ocr_agreement": null,
+"page": 85,
+"chandra_only": true
+},
+{
+"en": "vein",
+"lo": "ເສັມເລືອດມັງ, ຫລອດເລືອດ ມັງ, ສາຍເລືອດດ້າ",
+"lo_chandra": "ເສັມເລືອດມັງ, ຫລອດເລືອດ ມັງ, ສາຍເລືອດດ້າ",
+"ocr_agreement": null,
+"page": 87,
+"chandra_only": true
+},
+{
+"en": "water",
+"lo": "ນ້ຳ",
+"lo_chandra": "ນ້ຳ",
+"ocr_agreement": null,
+"page": 88,
+"chandra_only": true
+},
+{
+"en": "x-ray",
+"lo": "ລົງສີ X, (ຮູບ)ສອງໄຟຟ້າ",
+"lo_chandra": "ລົງສີ X, (ຮູບ)ສອງໄຟຟ້າ",
+"ocr_agreement": null,
+"page": 89,
+"chandra_only": true
+}
+],
+"xrefs": {
+"abdominal": "abdomen",
+"ablation": "excision",
+"abnormality": "anomaly",
+"abrasion": "graze",
+"achromasia": "pallor",
+"achromatopsia": "color",
+"abnormal": "anomalous",
+"abstain": "fast",
+"ache": "pain",
+"adam's apple": "larynx",
+"aetiology": "etiology",
+"afterbirth": "placenta",
+"agitate": "shake",
+"ague": "fever",
+"aids abbr": "acquired immune",
+"ailment": "disease",
+"akinesia": "paralysis",
+"acute rheumatism": "rheumatic fever",
+"adipo-": "fat",
+"aid": "help",
+"amoebiasis": "amebiasis",
+"alimentary regime": "diet",
+"alkaline": "alkali",
+"amoeba": "ameba",
+"anaemia": "anemia",
+"anal": "anus",
+"anodyne": "analgesic na",
+"ankylostoma": "hookworm",
+"aqua": "water",
+"aqueous": "water",
+"articulation": "joint",
+"apoplexy": "stroke",
+"aseptic": "sterile",
+"asthenia": "weakness",
+"athlete's foot": "tinea pedis",
+"audio-": "hearing",
+"azotemia": "uremia",
+"asleep": "sleep",
+"axillary": "armpit",
+"ascaris": "roundworm",
+"asphyxiation": "suffocation",
+"assistance": "aid",
+"aural": "ear",
+"baby": "infant",
+"bacillus": "bacterium",
+"backbone": "spine",
+"bacteria": "bacterium",
+"balance": "equilibrium",
+"bandage": "dress",
+"basic": "alkali",
+"bedwetting": "enuresis",
+"belly": "abdomen",
+"betel nut": "areca",
+"bath": "bathe",
+"base": "alkali",
+"blockage": "obstruction",
+"bladder infection": "cystitis",
+"bleb": "blister",
+"bleeding": "hemorrhage",
+"blood poisoning": "septicemia",
+"bowel": "intestine",
+"bowel movement": "motion",
+"blood type": "blood group",
+"break": "fracture",
+"breakbone fever": "dengue",
+"breastbone": "stemum",
+"brow": "forehead",
+"buccal": "cheek",
+"c-section": "caesarian",
+"burp": "belch",
+"burst": "rupture",
+"breathing": "respiration",
+"canker sore": "aphthous",
+"cardiac": "heart",
+"cardio-": "heart",
+"carpal": "wrist",
+"carbuncle": "boil",
+"calloused": "callosity",
+"callus": "callosity",
+"cancerous": "cancer",
+"candidiasis": "thrush",
+"capability": "ability",
+"cardiac arrest": "heart attack",
+"caress": "stroke",
+"cavity": "caries",
+"cerebral": "brain",
+"cerebrum": "brain",
+"cestode": "tapeworm",
+"check-up": "physical",
+"catathartic": "purgative",
+"cause": "reason",
+"cephalo-": "head",
+"chafe": "rub",
+"chemist": "pharmacist",
+"chest": "thorax",
+"choking": "suffocation",
+"clammy": "algid",
+"cholecyst-": "gallbladder",
+"climacteric": "menopause",
+"clonorchis": "liver fluke",
+"clot": "embolus",
+"coitus": "copulation",
+"cold": "algid",
+"collar bone": "clavicle",
+"colouring": "pigmentation",
+"colpitis": "vaginitis",
+"complaint": "disease",
+"contact": "connection",
+"contagious": "infectious",
+"contusion": "bruise",
+"cor": "heart",
+"cranial": "skull",
+"corium": "skin",
+"corn": "callosity",
+"costive": "constipation",
+"counsel": "advice",
+"cure": "heal",
+"cut off": "amputate",
+"cutis": "skin",
+"d and": "dilatation and",
+"dactyl": "finger",
+"cross-eyed": "strabismus",
+"custom": "tradition",
+"decay": "decompose",
+"deceased": "dead",
+"delivery": "child-birth",
+"death rate": "mortality",
+"debility": "weakness",
+"decease": "die",
+"decomposition": "decay",
+"decubitus ulcer": "bedsore",
+"dental surgeon": "dentist",
+"derma-": "skin",
+"dhobie itch": "tinea cruris",
+"digestive system": "alimentary",
+"digestive tract": "alimentary",
+"digit": "finger",
+"disabled": "handicapped",
+"disk": "disc",
+"distress": "anxiety",
+"dizziness": "vertigo",
+"disinfectant": "antiseptic",
+"dorsal": "back",
+"drug": "medicine",
+"drugstore": "pharmacy",
+"dyspepsia": "indigestion",
+"dysthymia": "depression",
+"dressing": "bandage",
+"duct": "tube",
+"duration": "time",
+"ear wax": "cerumen",
+"ecchymosis": "bruise",
+"ecthyma": "impetigo",
+"egg": "ovum",
+"encephalo-": "brain",
+"epicranium": "scalp",
+"entero-": "small intestine",
+"emotion": "feeling",
+"enlarged": "hypertrophy",
+"epistaxis": "nosebleed",
+"eructation": "belch",
+"ethanol": "alcohol",
+"excited": "agitated",
+"excrement": "feces",
+"expert": "specialist",
+"exsanguination": "hemorrhage -",
+"facial": "face",
+"facies": "aspect",
+"family planning": "birth",
+"excitement": "agitation",
+"faint": "collapse",
+"fat": "obese",
+"febrile": "feverish",
+"feeble": "weak",
+"femoral": "femur",
+"fetal": "fetus",
+"feel": "palpate",
+"features": "aspect",
+"feet": "foot",
+"flu": "influenza",
+"flush": "blush",
+"fiber": "roughage",
+"fit": "convulsion",
+"fracture": "break",
+"frame": "brace",
+"frenzy": "delirium",
+"gall": "bile",
+"gamete": "sperm",
+"frambesia": "yaws",
+"fungal": "fungus",
+"ganglion": "lymph node",
+"garble": "mouthwash",
+"genetic": "hereditary",
+"genital": "genitals",
+"gingival": "gum",
+"gastric ulcer": "peptic ulcer",
+"gastr(o)-": "stomach",
+"gender": "sex",
+"german measles": "rubella",
+"gestation": "pregnancy",
+"giddiness": "vertigo",
+"giddy": "dizzy",
+"gluteal": "buttocks",
+"gonad": "ovary",
+"growth": "increase",
+"gut": "intestine",
+"haemo-": "hemo- prefix",
+"hare lip": "cleft",
+"gullet": "esophagus",
+"handbook": "manual",
+"hay fever": "allergic rhinitis",
+"help": "aid",
+"hemorrhage": "bleed",
+"hiccough": "hiccup",
+"hide (of animal)": "skin",
+"hives": "urticaria",
+"herpes zoster": "shingles",
+"human": "mankind",
+"human being": "person",
+"human race": "mankind",
+"hurt": "injured",
+"hydrophobia": "rabies",
+"hyperopic": "farsighted",
+"icterus": "jaundice",
+"illness": "disease",
+"ill": "sick",
+"inborn": "hereditary",
+"inguinal": "groin",
+"incise": "cut",
+"injury": "wound",
+"intellect": "intelligent",
+"intoxicated": "drunk",
+"inoculation": "immunization",
+"intercourse": "copulation",
+"irid(o)-": "iris",
+"kerat(o)-": "comea",
+"kind": "type",
+"kneecap": "patella",
+"labial": "lip",
+"labor": "work",
+"lack": "deficiency",
+"lacrimal": "tears",
+"labia": "vulva",
+"lance": "cut",
+"lateral": "side",
+"lavage": "irrigation",
+"laxative": "purgative",
+"leprosy": "hansen's disease",
+"lesion": "wound",
+"list": "register",
+"louse nsg": "lice",
+"large intestine": "colon",
+"lienal": "spleen",
+"lingual": "tongue",
+"look after": "nurse",
+"louse n sg": "lice",
+"lumbago": "backache",
+"malignant": "cancer",
+"man": "person",
+"masculine": "male",
+"mastication": "chew",
+"malformation": "deformity",
+"mammary": "breast",
+"manual": "hand",
+"matting": "copulation",
+"meatus": "hole",
+"medication": "medicine",
+"mental": "mind",
+"mentally insane": "insane",
+"micro-organism": "germ",
+"microbe": "germ",
+"mongolism": "down's",
+"mouth ulcer": "aphthous",
+"model": "example",
+"moniliasis": "thrush",
+"mortal": "fatal",
+"motherhood": "maternity",
+"movement": "motion",
+"muccoous": "mucus",
+"nates": "buttocks",
+"nearsighted": "myopia",
+"nebulizer": "vaporizer",
+"neoplasm": "tumor",
+"mucous": "mucus",
+"naked": "nude",
+"newborn": "infant",
+"nurse": "breastfeed",
+"nourishment": "feeding",
+"occlusion": "obstruction",
+"oedema": "edema",
+"onco-": "tumor",
+"opening": "hole",
+"operation": "surgery",
+"orifice": "hole",
+"osteo-": "bone",
+"otalgia": "earache",
+"outer": "external",
+"pale": "faint",
+"palsy": "paralysis",
+"paludism": "malaria",
+"papule": "pimple",
+"overweight": "obese",
+"ova": "ovum",
+"oviduct": "fallopian tubes",
+"ped-": "foot",
+"period": "stage",
+"persistent": "chronic",
+"perspiration": "sweat",
+"parturition": "child-birth",
+"pass away": "die",
+"passage": "tube",
+"pediatricist": "pediatrician",
+"phase": "stage",
+"piebaldism": "leukoderma",
+"pinworm": "threadworm",
+"pituitary": "pituitary gland",
+"pituitary body": "pituitary",
+"perspire": "sweat",
+"pertussis": "whooping cough",
+"pharynx": "throat",
+"phleb(o)-": "vein",
+"phlegm": "sputum",
+"physical therapy": "physiotherapy",
+"physician": "doctor",
+"piles": "hemorrhoid",
+"pinkeye": "conjunctivitis",
+"pityriasis": "dandruff",
+"pod-": "foot",
+"poisonous": "toxic",
+"polio": "poliomyelitis",
+"plague": "bubonic plague",
+"pneumo-": "lung",
+"pollenosis": "allergic rhinitis",
+"power": "strength",
+"practice": "habit",
+"presbyopic": "farsighted",
+"protrusion": "bump",
+"prepuce": "foreskin",
+"proct(o)-": "rectum",
+"pruritic": "itchy",
+"pruritus": "itch",
+"pubis": "pubic bone",
+"pudenda": "vulva",
+"pustule": "pimple",
+"putrefy": "decompose",
+"pyrexia": "fever",
+"recipe": "formula",
+"pulmo-": "lung",
+"putrefaction": "decay",
+"pyrosis": "heartburn",
+"rectal": "rectum",
+"renal": "kidney",
+"resection": "excision",
+"respire": "breathe",
+"recuperate": "recover",
+"red blood cell": "erythrocyte",
+"rigid": "stiff",
+"rigidity": "stiffness",
+"rigor": "tremor",
+"ringworm": "tinea",
+"roll": "register",
+"rump": "buttocks",
+"scales": "balance",
+"scarlatina": "scarlet fever",
+"scent": "odor",
+"sclero-": "sclerosis",
+"sciatic": "sciatica",
+"salping(o)-": "fallopian tubes",
+"sanitation": "hygiene",
+"scapula": "shoulder blade",
+"scrape": "rub",
+"senile dementia": "alzheimer's",
+"sensitivity": "intolerance",
+"sheath": "condom",
+"shot": "injection",
+"sick": "nausea",
+"sight": "vision",
+"sightless": "blind",
+"sinew": "tendon",
+"shake": "shiver",
+"sick headache": "migraine",
+"sliver": "splinter",
+"smell": "odor",
+"soothing": "tranquilizing",
+"sour": "acid",
+"smart": "intelligent",
+"sleeplessness": "insomnia",
+"spectacles": "glasses",
+"spit": "saliva",
+"splen(o)-": "spleen",
+"spur": "calcar",
+"sterile": "infertile",
+"state": "condition",
+"stitches": "suture",
+"stool": "feces",
+"strept throat": "sore throat",
+"suffering": "pain",
+"superciliary": "eyebrow",
+"syncope": "fainting",
+"sunstroke": "heatstroke",
+"table": "chart",
+"tablet": "pill",
+"tasteless": "bland",
+"testicle": "testis",
+"test": "check",
+"teeth": "tooth",
+"temporal": "temple",
+"testes": "testis",
+"throb": "palpitate",
+"thoracic": "thorax",
+"throbbing": "palpitation",
+"toxin": "poison",
+"tract": "system",
+"tomy": "incision",
+"trauma": "wound",
+"tremble": "shiver",
+"trichuris": "whipworm",
+"trait": "characteristic",
+"treatment": "therapy",
+"twitch": "tic",
+"utero-": "uterus",
+"varicella": "chicken pox",
+"umbilicus": "navel",
+"uretic": "diuretic",
+"vaccination": "immunization",
+"uncooked": "raw",
+"underarm": "armpit",
+"untreated": "raw",
+"varices": "yaicoss vai",
+"varicosity": "varicose vein",
+"variola": "smallpox",
+"verify": "check",
+"verruca": "wart",
+"vigor": "energy",
+"ventral": "abdomen",
+"vertebral column": "spine",
+"vesicle": "blister",
+"vitiligo": "leukoderma",
+"voice-box": "larynx",
+"warmth": "heat",
+"white blood cell": "leukocyte",
+"wind": "colic",
+"windpipe": "trachea",
+"womb": "uterus",
+"warm": "heat",
+"weary": "tired",
+"zoster": "shingles"
+},
+"synonyms": {
+"capability": "ability",
+"aids abbr": "syndrome",
+"belly": "abdomen",
+"abdominal": "abdomen",
+"sour": "acid",
+"counsel": "advice",
+"excited": "agitated",
+"excitement": "agitation",
+"help": "aid",
+"assistance": "aid",
+"ethanol": "alcohol",
+"clammy": "algid",
+"cold": "algid",
+"digestive tract": "alimentary canal",
+"digestive": "alimentary canal",
+"alkaline": "alkali",
+"base": "alkali",
+"basic": "base",
+"hay fever": "allergic rhinitis",
+"pollenosis": "allergic rhinitis",
+"senile dementia": "Alzheimer's disease",
+"amoebiasis": "amebiasis",
+"cut off": "amputate",
+"anodyne": "analgesic",
+"abnormal": "anomalous",
+"abnormality": "anomaly",
+"disinfectant": "antiseptic na",
+"antivenin": "antitoxin",
+"antivenom": "antitoxin",
+"anal": "anus",
+"distress": "anxiety",
+"mouth ulcer": "aphthous ulcer",
+"canker sore": "aphthous ulcer",
+"betel nut": "areca",
+"underarm": "armpit",
+"axillary": "armpit",
+"appearance": "aspect",
+"dorsal": "back na",
+"lumbago": "backache",
+"bacteria": "bacterium",
+"bacillus": "bacterium",
+"scales": "balance",
+"dressing": "bandage",
+"bath": "bathe",
+"decubitus ulcer": "bedsore",
+"burp": "belch",
+"eructation": "belch",
+"gall": "bile",
+"family planning": "birth control",
+"tasteless": "bland",
+"sightless": "blind",
+"vesicle": "blister",
+"bleb": "blister",
+"blood type": "blood group",
+"hemorrhage": "bleed",
+"carbuncle": "boil",
+"osteo-": "bone",
+"frame": "brace",
+"cerebrum": "brain",
+"cerebral": "brain",
+"flush": "blush",
+"encephalo-": "brain",
+"mammary": "breast",
+"nurse": "breastfeed",
+"respire": "breathe",
+"contusion": "bruise",
+"ecchymosis": "bruise",
+"plague": "bubonic plague",
+"rump": "buttocks",
+"nates": "buttocks",
+"gluteal": "buttocks",
+"protrusion": "bump",
+"spur": "calcar",
+"callus": "callosity",
+"com": "callosity",
+"calloused": "callosity",
+"malignant": "cancer",
+"cancerous": "cancer",
+"cavity": "caries npl",
+"c-section": "Caesarian",
+"ear wax": "cerumen",
+"trait": "characteristic",
+"table": "chart",
+"verify": "check",
+"test": "check",
+"buccal": "check",
+"mastication": "chew",
+"varicella": "chicken pox",
+"ped-": "foot",
+"pedia-": "child(ren)",
+"pedo-": "child(ren)",
+"paed-": "child(ren)",
+"parturition": "child-birth",
+"labor": "work",
+"persistent": "chronic",
+"collar bone": "clavicle",
+"hare lip": "cleft",
+"paedo-": "child(ren)",
+"delivery": "child-birth",
+"clot": "embolus",
+"faint": "collapse",
+"large intestine": "colon",
+"achromatopsia": "color blindness",
+"fever blister": "cold sore (of lip)",
+"wind": "colic",
+"state": "condition",
+"sheath": "condom",
+"pinkeye": "conjunctivitis",
+"costive": "constipation",
+"contact": "connection",
+"coitus": "copulation",
+"intercourse": "copulation",
+"kerat(o)-": "cornea",
+"fit": "convulsion",
+"mating": "copulation",
+"incise": "cut",
+"lance": "cut",
+"bladder infection": "cystitis",
+"seborrheic dermatitis": "dandruff",
+"deceased": "dead",
+"pityriasis": "dandruff",
+"putrefaction": "decay",
+"putrefy": "decompose",
+"decay": "decompose",
+"lack": "deficiency",
+"malformation": "deformity",
+"frenzy": "delirium",
+"breakbone fever": "dengue",
+"dental surgeon": "dentist",
+"nervous breakdown": "depression",
+"alimentary regime": "diet",
+"dysthymia": "depression",
+"pass away": "die",
+"decease": "die",
+"d and": "dilatation and curettage",
+"disk": "disc",
+"illness": "disease",
+"ailment": "disease",
+"uretic-": "diuretic",
+"giddy": "dizzy",
+"physician": "doctor",
+"bandage": "dress",
+"intoxicated": "drunk",
+"aural": "ear",
+"otic": "ear",
+"otalgia": "earache",
+"oedema": "edema",
+"gaseous effusion": "emphysema",
+"vigor": "energy",
+"urinary incontinence": "enuresis",
+"balance": "equilibrium",
+"red blood cell": "erythrocyte",
+"oesophagus": "esophagus",
+"gullet": "esophagus",
+"aetiology": "etiology",
+"exam": "examination",
+"model": "example",
+"resection": "excision",
+"ablation": "excision",
+"outer": "external",
+"ocular": "eye",
+"superciliary": "eyebrow",
+"pale": "faint",
+"syncope": "fainting",
+"facial": "face",
+"salping(o)-": "Fallopian tubes",
+"oviduct": "Fallopian tubes",
+"abstain": "fast",
+"adipo-": "fat",
+"mortal": "fatal",
+"stool": "feces",
+"excrement": "feces",
+"nourishment": "feeding",
+"emotion": "feeling",
+"femoral": "femur",
+"fetal": "fetus",
+"pyrexia": "fever",
+"ague": "fever",
+"febrile": "feverish",
+"dactyl": "finger",
+"digit": "finger",
+"feet": "foot",
+"pod-": "foot",
+"pod-prefix": "foot",
+"brow": "forehead",
+"prepuce": "foreskin",
+"recipe": "formula",
+"break": "fracture",
+"cholecyst-": "gallbladder",
+"fungal": "fungus",
+"microbe nr": "germ",
+"micro-organism nr": "germ",
+"spectacles": "glasses npl",
+"genital": "genitals",
+"microbe": "germ",
+"micro-organism": "germ",
+"abrasion": "graze",
+"inguinal": "groin",
+"gingival": "gum",
+"practice": "habit",
+"manual": "hand",
+"disabled": "handicapped",
+"leprosy": "handicapped",
+"cephalo-": "head",
+"cure": "remedy",
+"audio-": "hearing",
+"cor": "heart",
+"cardiac": "heart",
+"cardio-": "heart",
+"cardiac arrest": "heart attack",
+"pyyrosis": "heartburn",
+"warm": "heat",
+"warmth": "heat",
+"sunstroke": "heatstroke",
+"aid": "help",
+"haemo-": "hemo-",
+"exsanguination": "hemorrhage",
+"bleeding": "hemorrhage",
+"piles": "hemorrhoid",
+"pyrosis": "heartburn",
+"meatus": "hole",
+"orifice": "hole",
+"ankylostoma": "hookworm",
+"hiccough": "hiccup",
+"congestion": "hyperemia",
+"high blood pressure": "hypertension",
+"enlarged": "hypertrophy",
+"low blood pressure": "hypotension",
+"vaccination": "immunization",
+"inoculation": "immunization",
+"ecthyma": "impetigo",
+"hysterectomy": "hysterectomy",
+"growth": "tumor",
+"dyspepsia": "indigestion",
+"baby": "infant",
+"newbom": "infant",
+"contagious": "infectious",
+"flu": "influenza",
+"newborn": "infant",
+"sterile": "infertile",
+"shot": "injection",
+"hurt": "injured",
+"sleeplessness": "insomnia",
+"smart": "intelligent",
+"intellect": "intelligent",
+"gut": "intestine",
+"bowel": "intestine",
+"sensitivity": "intolerance",
+"mentally insane": "insane",
+"irid(o)-": "iris",
+"lavage": "irrigation",
+"pruritus": "itch",
+"pruritic": "itchy",
+"icterus": "jaundice",
+"articulation": "joint",
+"renal": "kidney",
+"white blood cell": "letkocyte",
+"vitiligo": "leukoderma",
+"piebaldism": "leukoderma",
+"louse n sg": "lice npl",
+"labial": "lip",
+"clonorchis": "liver fluke",
+"opisthorchis": "liver fluke",
+"voice-box": "larynx",
+"adam's apple": "larynx",
+"pneumo-": "lung",
+"pulmo-": "lung",
+"ganglion": "lymph node",
+"paludism": "malaria",
+"masculine": "male",
+"motherhood": "maternity",
+"human race": "mankind",
+"human": "mankind",
+"handbook": "manual",
+"rubeola": "measles",
+"medication": "medicine",
+"drug": "medicine",
+"climacteric": "menopause",
+"period": "stage",
+"sick headache": "migraine",
+"hemicranial": "migraine",
+"mental": "mind",
+"abortion": "miscarriage",
+"glandular fever": "mole",
+"kissing": "mole",
+"death rate": "mortality",
+"movement": "motion",
+"defecation": "motion",
+"evacuation": "motion",
+"gargle": "mouthwash",
+"mucous": "mucus",
+"parotitis": "mumps",
+"nearsighted": "myopia",
+"drug (of addiction)": "narcotic na",
+"rhino-": "nasal",
+"sick": "nausea",
+"umbilicus": "navel",
+"omphal(o)-": "navel",
+"epistaxis": "nosebleed",
+"naked": "nude",
+"look after": "nurse",
+"fat": "obese",
+"overweight": "obese",
+"occlusion": "obstruction",
+"blockage": "obstruction",
+"scent": "odor",
+"smell": "odor",
+"gonad": "ovary",
+"ova": "ovum",
+"egg": "ovum",
+"suffering": "pain",
+"ache": "pain",
+"achromasia": "pallor",
+"feel": "palm (of hand)",
+"throb": "palpitate",
+"throbbing": "palpitation",
+"akinesia": "paralysis",
+"palsy": "paralysis",
+"oo-": "ovum",
+"pediatrist": "pediatrician",
+"gastric ulcer": "peptic ulcer",
+"human being": "person",
+"man": "person",
+"kneecap": "patella",
+"pediatricist": "pediatrician",
+"chemist": "pharmacist",
+"drugstore": "pharmacy",
+"medical examination": "physical",
+"physical therapy": "physiotherapy",
+"colouring": "pigmentation",
+"tablet": "pill",
+"pustule": "pimple",
+"papule": "pimple",
+"check-up": "physical",
+"afterbirth": "placenta",
+"toxin": "poison",
+"polio": "poliomyelitis rn",
+"infantile paralysis": "poliomyelitis rn",
+"gestation": "pregnancy",
+"pubis": "pubic bone",
+"laxative": "purgative",
+"cathartic": "purgative",
+"hydrophobia": "rabies",
+"eruption (of skin)": "rash",
+"uncooked": "raw",
+"untreated": "raw",
+"cause": "reason",
+"recuperate": "recover",
+"roll": "register",
+"list": "register",
+"breathing": "respiration",
+"acute rheumatism": "rheumatic fever",
+"ascaris": "roundworm",
+"chafe": "rub",
+"scrape": "rub",
+"german measles": "rubella",
+"roteln": "rubella",
+"burst": "Jun",
+"spit": "saliva",
+"saline": "salt",
+"epicranium": "scalp",
+"scarlatina": "scarlet fever",
+"bilharziasis": "schistosomiasis",
+"sclero-": "sclerosis",
+"sciatic": "sciatica",
+"blood poisoning": "septicemia",
+"gender": "sex",
+"herpes zoster": "shingles",
+"zoster": "shingles",
+"tremble": "shiver",
+"shake": "shiver",
+"scapula": "shoulder blade",
+"lateral": "side",
+"ill": "sick",
+"cranial": "skull",
+"asleep": "sleep",
+"entero-": "small intestine",
+"variola": "smallpox",
+"strep throat": "sore throat",
+"expert": "specialist",
+"gamete": "sperm",
+"backbone": "spine",
+"vertebral": "spine",
+"sliver": "splinter",
+"phlegm": "sputum",
+"phase": "stage",
+"aseptic": "sterile",
+"lienal": "spleen",
+"splen(o)-": "spleen",
+"breastbone": "sternum",
+"rigid": "stiff",
+"rigidity": "stiffness",
+"cross-eyed": "strabismus",
+"power": "strength",
+"caress": "stroke",
+"apoplexy": "stroke",
+"hordeolum": "sty(e)",
+"gastr(o)-": "stomach",
+"asphyxiation": "suffocation",
+"choking": "suffocation",
+"operation": "surgery",
+"stitches": "suture nv",
+"perspiration": "swallow",
+"perspire": "sweat",
+"hypodermic syringe": "syringe",
+"tract": "system",
+"cestode": "tapeworm",
+"lacrimal": "tears npl",
+"temporal": "temple",
+"sinew": "tendon",
+"testicle": "testis",
+"testes": "testis",
+"treatment": "therapy",
+"pinworm": "threadworm",
+"pharynx": "throat",
+"candidiasis": "thrush",
+"moniliasis": "thrush",
+"twitch": "tic",
+"duration": "time",
+"ringworm": "tinea",
+"chest": "thorax",
+"thoracic": "thorax",
+"athlete's foot": "tinea pedis",
+"weary": "tired",
+"teeth": "tooth",
+"poisonous": "toxic",
+"windpipe": "trachea",
+"custom": "tradition",
+"soothing": "tranquilizing",
+"rigor": "tremor",
+"passage": "tube",
+"duct": "tube",
+"neoplasm": "tumor",
+"kind": "type",
+"onco-": "tumor",
+"azotemia": "uremia",
+"hives": "urticaria",
+"womb": "uterus",
+"utero-": "uterus",
+"colpitis": "vaginitis",
+"nebulizer": "vaporizer",
+"varices": "varicose vein",
+"varicosity": "varicose vein",
+"phleb(o)-": "vector",
+"sexually": "venereal disease",
+"giddiness": "vertigo",
+"dizziness": "vertigo",
+"sight": "vision",
+"sexually transmitted disease": "venereal disease",
+"pudenda": "vulva",
+"labia": "vulva",
+"verruca": "wart",
+"aqua": "water",
+"aqueous": "water",
+"feeble": "weak",
+"debility": "weakness",
+"asthenia": "weakness",
+"trichuris": "whipworm",
+"pertussis": "whooping cough",
+"trauma": "wound",
+"injury": "wound",
+"lesion": "wound",
+"carpal": "wrist",
+"frambesia": "yaws"
+}
+}

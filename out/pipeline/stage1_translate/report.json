@@ -1,0 +1,47 @@
+{
+ "model": "facebook/nllb-200-1.3B",
+ "pages_translated": [
+  1,
+  4,
+  5,
+  6,
+  266
+ ],
+ "segments_per_page": {
+  "1": {
+   "khm/pdf_text": 8
+  },
+  "4": {
+   "khm/chandra": 13
+  },
+  "5": {
+   "khm/chandra": 9
+  },
+  "6": {
+   "khm/chandra": 2
+  },
+  "266": {
+   "khm/pdf_text": 12
+  }
+ },
+ "segments_total": 44,
+ "stats": {
+  "number_retry": 1,
+  "segments_khm": 44,
+  "sentences_khm": 45
+ },
+ "segments_with_numbers_lost": [
+  [
+   "seg_0015",
+   4,
+   [
+    "1"
+   ]
+  ]
+ ],
+ "segments_with_repetitive_source": [
+  "seg_0031"
+ ],
+ "vietnamese_candidates_rejected": [],
+ "seconds": 57.1
+}

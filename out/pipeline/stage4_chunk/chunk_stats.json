@@ -1,0 +1,758 @@
+{
+ "256": {
+  "chunks": 1652,
+  "per_source_type": {
+   "body_text": 948,
+   "table": 286,
+   "flowchart": 60,
+   "figure": 358
+  },
+  "tokens": {
+   "min": 4,
+   "median": 221.0,
+   "max": 934
+  },
+  "tokens_per_type": {
+   "body_text": {
+    "min": 7,
+    "median": 226.0,
+    "max": 277
+   },
+   "table": {
+    "min": 58,
+    "median": 218.5,
+    "max": 447
+   },
+   "flowchart": {
+    "min": 4,
+    "median": 290.5,
+    "max": 934
+   },
+   "figure": {
+    "min": 4,
+    "median": 204.0,
+    "max": 381
+   }
+  },
+  "over_max": 24,
+  "over_max_by_type": {
+   "flowchart": 21,
+   "table": 3
+  },
+  "mean_overlap_fraction": 0.188,
+  "text_chunks_with_overlap": "500/948",
+  "flowchart_pairs": [
+   {
+    "algorithm": "chunk_00088",
+    "image": "chunk_00089",
+    "page": 35,
+    "overlap": 0.96
+   },
+   {
+    "algorithm": "chunk_00090",
+    "image": "chunk_00091",
+    "page": 36,
+    "overlap": 0.81
+   },
+   {
+    "algorithm": "chunk_00092",
+    "image": "chunk_00093",
+    "page": 37,
+    "overlap": 0.81
+   },
+   {
+    "algorithm": "chunk_00147",
+    "image": "chunk_00148",
+    "page": 59,
+    "overlap": 0.96
+   },
+   {
+    "algorithm": "chunk_00149",
+    "image": "chunk_00150",
+    "page": 60,
+    "overlap": 0.99
+   },
+   {
+    "algorithm": "chunk_00178",
+    "image": "chunk_00179",
+    "page": 71,
+    "overlap": 0.99
+   },
+   {
+    "algorithm": "chunk_00265",
+    "image": "chunk_00266",
+    "page": 105,
+    "overlap": 0.99
+   },
+   {
+    "algorithm": "chunk_00298",
+    "image": "chunk_00299",
+    "page": 117,
+    "overlap": 0.98
+   },
+   {
+    "algorithm": "chunk_00322",
+    "image": "chunk_00323",
+    "page": 127,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_00360",
+    "image": "chunk_00361",
+    "page": 142,
+    "overlap": 0.86
+   },
+   {
+    "algorithm": "chunk_00384",
+    "image": "chunk_00385",
+    "page": 151,
+    "overlap": 0.38
+   },
+   {
+    "algorithm": "chunk_00386",
+    "image": "chunk_00387",
+    "page": 152,
+    "overlap": 0.63
+   },
+   {
+    "algorithm": "chunk_00425",
+    "image": "chunk_00426",
+    "page": 163,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_00428",
+    "image": "chunk_00429",
+    "page": 164,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_00436",
+    "image": "chunk_00437",
+    "page": 166,
+    "overlap": 0.55
+   },
+   {
+    "algorithm": "chunk_00470",
+    "image": "chunk_00471",
+    "page": 178,
+    "overlap": 0.98
+   },
+   {
+    "algorithm": "chunk_00544",
+    "image": "chunk_00545",
+    "page": 203,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_00587",
+    "image": "chunk_00588",
+    "page": 220,
+    "overlap": 0.85
+   },
+   {
+    "algorithm": "chunk_00632",
+    "image": "chunk_00633",
+    "page": 237,
+    "overlap": 0.97
+   },
+   {
+    "algorithm": "chunk_00651",
+    "image": "chunk_00652",
+    "page": 246,
+    "overlap": 0.97
+   },
+   {
+    "algorithm": "chunk_00674",
+    "image": "chunk_00675",
+    "page": 255,
+    "overlap": 0.94
+   },
+   {
+    "algorithm": "chunk_00697",
+    "image": "chunk_00698",
+    "page": 263,
+    "overlap": 0.97
+   },
+   {
+    "algorithm": "chunk_00708",
+    "image": "chunk_00709",
+    "page": 267,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_00765",
+    "image": "chunk_00766",
+    "page": 285,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_00786",
+    "image": "chunk_00787",
+    "page": 291,
+    "overlap": 0.94
+   },
+   {
+    "algorithm": "chunk_00818",
+    "image": "chunk_00819",
+    "page": 299,
+    "overlap": 0.93
+   },
+   {
+    "algorithm": "chunk_00838",
+    "image": "chunk_00839",
+    "page": 306,
+    "overlap": 0.96
+   },
+   {
+    "algorithm": "chunk_00851",
+    "image": "chunk_00852",
+    "page": 310,
+    "overlap": 0.92
+   },
+   {
+    "algorithm": "chunk_00854",
+    "image": "chunk_00855",
+    "page": 311,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_00874",
+    "image": "chunk_00875",
+    "page": 317,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_00889",
+    "image": "chunk_00890",
+    "page": 320,
+    "overlap": 0.8
+   },
+   {
+    "algorithm": "chunk_00892",
+    "image": "chunk_00893",
+    "page": 321,
+    "overlap": 0.85
+   },
+   {
+    "algorithm": "chunk_00922",
+    "image": "chunk_00923",
+    "page": 331,
+    "overlap": 0.94
+   },
+   {
+    "algorithm": "chunk_00931",
+    "image": "chunk_00932",
+    "page": 334,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_00937",
+    "image": "chunk_00938",
+    "page": 336,
+    "overlap": 0.77
+   },
+   {
+    "algorithm": "chunk_00945",
+    "image": "chunk_00946",
+    "page": 339,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_00949",
+    "image": "chunk_00950",
+    "page": 340,
+    "overlap": 0.97
+   },
+   {
+    "algorithm": "chunk_00970",
+    "image": "chunk_00971",
+    "page": 348,
+    "overlap": 0.55
+   },
+   {
+    "algorithm": "chunk_00974",
+    "image": "chunk_00975",
+    "page": 350,
+    "overlap": 0.6
+   },
+   {
+    "algorithm": "chunk_00979",
+    "image": "chunk_00980",
+    "page": 352,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_01000",
+    "image": "chunk_01002",
+    "page": 360,
+    "overlap": 0.51
+   },
+   {
+    "algorithm": "chunk_01007",
+    "image": "chunk_01008",
+    "page": 362,
+    "overlap": 0.44
+   },
+   {
+    "algorithm": "chunk_01075",
+    "image": "chunk_01076",
+    "page": 385,
+    "overlap": 0.42
+   },
+   {
+    "algorithm": "chunk_01102",
+    "image": "chunk_01103",
+    "page": 394,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_01121",
+    "image": "chunk_01122",
+    "page": 400,
+    "overlap": 0.98
+   },
+   {
+    "algorithm": "chunk_01145",
+    "image": "chunk_01146",
+    "page": 408,
+    "overlap": 0.98
+   },
+   {
+    "algorithm": "chunk_01153",
+    "image": "chunk_01154",
+    "page": 410,
+    "overlap": 0.92
+   },
+   {
+    "algorithm": "chunk_01176",
+    "image": "chunk_01177",
+    "page": 418,
+    "overlap": 0.98
+   },
+   {
+    "algorithm": "chunk_01221",
+    "image": "chunk_01222",
+    "page": 437,
+    "overlap": 0.75
+   },
+   {
+    "algorithm": "chunk_01225",
+    "image": "chunk_01226",
+    "page": 438,
+    "overlap": 0.89
+   },
+   {
+    "algorithm": "chunk_01231",
+    "image": "chunk_01232",
+    "page": 439,
+    "overlap": 0.97
+   },
+   {
+    "algorithm": "chunk_01245",
+    "image": "chunk_01246",
+    "page": 444,
+    "overlap": 0.98
+   },
+   {
+    "algorithm": "chunk_01276",
+    "image": "chunk_01278",
+    "page": 455,
+    "overlap": 0.92
+   }
+  ],
+  "counters": {
+   "sentences_joined_across_lines": 633,
+   "type_body_text": 948,
+   "type_table": 286,
+   "overlaps": 500,
+   "type_flowchart": 60,
+   "type_figure": 358,
+   "figures_split": 82,
+   "sentences_joined_across_blocks": 45,
+   "tables_split": 38,
+   "flowcharts_paired_with_qwen3": 53,
+   "overlap_skipped_long_sentence": 11
+  }
+ },
+ "512": {
+  "chunks": 926,
+  "per_source_type": {
+   "body_text": 511,
+   "table": 185,
+   "flowchart": 60,
+   "figure": 170
+  },
+  "tokens": {
+   "min": 4,
+   "median": 371.0,
+   "max": 934
+  },
+  "tokens_per_type": {
+   "body_text": {
+    "min": 7,
+    "median": 385,
+    "max": 512
+   },
+   "table": {
+    "min": 58,
+    "median": 250,
+    "max": 738
+   },
+   "flowchart": {
+    "min": 4,
+    "median": 290.5,
+    "max": 934
+   },
+   "figure": {
+    "min": 4,
+    "median": 433.5,
+    "max": 758
+   }
+  },
+  "over_max": 2,
+  "over_max_by_type": {
+   "flowchart": 2
+  },
+  "mean_overlap_fraction": 0.2,
+  "text_chunks_with_overlap": "183/511",
+  "flowchart_pairs": [
+   {
+    "algorithm": "chunk_00088",
+    "image": "chunk_00089",
+    "page": 35,
+    "overlap": 0.96
+   },
+   {
+    "algorithm": "chunk_00090",
+    "image": "chunk_00091",
+    "page": 36,
+    "overlap": 0.81
+   },
+   {
+    "algorithm": "chunk_00092",
+    "image": "chunk_00093",
+    "page": 37,
+    "overlap": 0.81
+   },
+   {
+    "algorithm": "chunk_00147",
+    "image": "chunk_00148",
+    "page": 59,
+    "overlap": 0.96
+   },
+   {
+    "algorithm": "chunk_00149",
+    "image": "chunk_00150",
+    "page": 60,
+    "overlap": 0.99
+   },
+   {
+    "algorithm": "chunk_00178",
+    "image": "chunk_00179",
+    "page": 71,
+    "overlap": 0.99
+   },
+   {
+    "algorithm": "chunk_00265",
+    "image": "chunk_00266",
+    "page": 105,
+    "overlap": 0.99
+   },
+   {
+    "algorithm": "chunk_00298",
+    "image": "chunk_00299",
+    "page": 117,
+    "overlap": 0.98
+   },
+   {
+    "algorithm": "chunk_00322",
+    "image": "chunk_00323",
+    "page": 127,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_00360",
+    "image": "chunk_00361",
+    "page": 142,
+    "overlap": 0.86
+   },
+   {
+    "algorithm": "chunk_00384",
+    "image": "chunk_00385",
+    "page": 151,
+    "overlap": 0.38
+   },
+   {
+    "algorithm": "chunk_00386",
+    "image": "chunk_00387",
+    "page": 152,
+    "overlap": 0.63
+   },
+   {
+    "algorithm": "chunk_00425",
+    "image": "chunk_00426",
+    "page": 163,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_00428",
+    "image": "chunk_00429",
+    "page": 164,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_00436",
+    "image": "chunk_00437",
+    "page": 166,
+    "overlap": 0.55
+   },
+   {
+    "algorithm": "chunk_00470",
+    "image": "chunk_00471",
+    "page": 178,
+    "overlap": 0.98
+   },
+   {
+    "algorithm": "chunk_00544",
+    "image": "chunk_00545",
+    "page": 203,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_00587",
+    "image": "chunk_00588",
+    "page": 220,
+    "overlap": 0.85
+   },
+   {
+    "algorithm": "chunk_00632",
+    "image": "chunk_00633",
+    "page": 237,
+    "overlap": 0.97
+   },
+   {
+    "algorithm": "chunk_00651",
+    "image": "chunk_00652",
+    "page": 246,
+    "overlap": 0.97
+   },
+   {
+    "algorithm": "chunk_00674",
+    "image": "chunk_00675",
+    "page": 255,
+    "overlap": 0.94
+   },
+   {
+    "algorithm": "chunk_00697",
+    "image": "chunk_00698",
+    "page": 263,
+    "overlap": 0.97
+   },
+   {
+    "algorithm": "chunk_00708",
+    "image": "chunk_00709",
+    "page": 267,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_00765",
+    "image": "chunk_00766",
+    "page": 285,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_00786",
+    "image": "chunk_00787",
+    "page": 291,
+    "overlap": 0.94
+   },
+   {
+    "algorithm": "chunk_00818",
+    "image": "chunk_00819",
+    "page": 299,
+    "overlap": 0.93
+   },
+   {
+    "algorithm": "chunk_00838",
+    "image": "chunk_00839",
+    "page": 306,
+    "overlap": 0.96
+   },
+   {
+    "algorithm": "chunk_00851",
+    "image": "chunk_00852",
+    "page": 310,
+    "overlap": 0.92
+   },
+   {
+    "algorithm": "chunk_00854",
+    "image": "chunk_00855",
+    "page": 311,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_00874",
+    "image": "chunk_00875",
+    "page": 317,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_00889",
+    "image": "chunk_00890",
+    "page": 320,
+    "overlap": 0.8
+   },
+   {
+    "algorithm": "chunk_00892",
+    "image": "chunk_00893",
+    "page": 321,
+    "overlap": 0.85
+   },
+   {
+    "algorithm": "chunk_00922",
+    "image": "chunk_00923",
+    "page": 331,
+    "overlap": 0.94
+   },
+   {
+    "algorithm": "chunk_00931",
+    "image": "chunk_00932",
+    "page": 334,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_00937",
+    "image": "chunk_00938",
+    "page": 336,
+    "overlap": 0.77
+   },
+   {
+    "algorithm": "chunk_00945",
+    "image": "chunk_00946",
+    "page": 339,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_00949",
+    "image": "chunk_00950",
+    "page": 340,
+    "overlap": 0.97
+   },
+   {
+    "algorithm": "chunk_00970",
+    "image": "chunk_00971",
+    "page": 348,
+    "overlap": 0.55
+   },
+   {
+    "algorithm": "chunk_00974",
+    "image": "chunk_00975",
+    "page": 350,
+    "overlap": 0.6
+   },
+   {
+    "algorithm": "chunk_00979",
+    "image": "chunk_00980",
+    "page": 352,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_01000",
+    "image": "chunk_01002",
+    "page": 360,
+    "overlap": 0.51
+   },
+   {
+    "algorithm": "chunk_01007",
+    "image": "chunk_01008",
+    "page": 362,
+    "overlap": 0.44
+   },
+   {
+    "algorithm": "chunk_01075",
+    "image": "chunk_01076",
+    "page": 385,
+    "overlap": 0.42
+   },
+   {
+    "algorithm": "chunk_01102",
+    "image": "chunk_01103",
+    "page": 394,
+    "overlap": 1.0
+   },
+   {
+    "algorithm": "chunk_01121",
+    "image": "chunk_01122",
+    "page": 400,
+    "overlap": 0.98
+   },
+   {
+    "algorithm": "chunk_01145",
+    "image": "chunk_01146",
+    "page": 408,
+    "overlap": 0.98
+   },
+   {
+    "algorithm": "chunk_01153",
+    "image": "chunk_01154",
+    "page": 410,
+    "overlap": 0.92
+   },
+   {
+    "algorithm": "chunk_01176",
+    "image": "chunk_01177",
+    "page": 418,
+    "overlap": 0.98
+   },
+   {
+    "algorithm": "chunk_01221",
+    "image": "chunk_01222",
+    "page": 437,
+    "overlap": 0.75
+   },
+   {
+    "algorithm": "chunk_01225",
+    "image": "chunk_01226",
+    "page": 438,
+    "overlap": 0.89
+   },
+   {
+    "algorithm": "chunk_01231",
+    "image": "chunk_01232",
+    "page": 439,
+    "overlap": 0.97
+   },
+   {
+    "algorithm": "chunk_01245",
+    "image": "chunk_01246",
+    "page": 444,
+    "overlap": 0.98
+   },
+   {
+    "algorithm": "chunk_01276",
+    "image": "chunk_01278",
+    "page": 455,
+    "overlap": 0.92
+   }
+  ],
+  "counters": {
+   "sentences_joined_across_lines": 633,
+   "type_body_text": 511,
+   "type_table": 185,
+   "overlaps": 183,
+   "type_flowchart": 60,
+   "type_figure": 170,
+   "figures_split": 23,
+   "sentences_joined_across_blocks": 45,
+   "flowcharts_paired_with_qwen3": 53,
+   "tables_split": 12
+  }
+ },
+ "excluded": {
+  "front_matter": 33,
+  "reference_list": 95,
+  "chapter_title_page": 1
+ },
+ "excluded_records": 129
+}

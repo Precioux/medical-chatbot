@@ -1,0 +1,661 @@
+{
+ "mt_min_chrf": 60,
+ "mt_unreliable": "placeholder",
+ "segments_used": 18,
+ "segments_withheld": 26,
+ "blocks": [
+  {
+   "id": "chunk_00000",
+   "page": 1,
+   "type": "text",
+   "language": "khm",
+   "source_before": "pdf_text",
+   "segments": [
+    "seg_0000",
+    "seg_0001",
+    "seg_0002",
+    "seg_0003",
+    "seg_0004",
+    "seg_0005",
+    "seg_0006",
+    "seg_0007"
+   ],
+   "flags": [
+    "withheld_unreliable"
+   ],
+   "original": "## ព្រះរាជាណាចព្ររម្ពុជា\nជាតិ សាសនា ព្រះម្ហារសព្ត\n## 3 ភាគ ១\n## នាយរដ្ឋានសសវាសុខភារ\nធ្នូ ២០២៥\n## ម្គគុសទេសរ៍រាបាលគលីនិរ\n## CLINICAL  PRACTICE GUIDELINES\n## សេជ្ជសាស្រសតទូសៅ\n## MEDICINE\n## ផ្ននរ\n## FOR",
+   "english": "## The Kingdom of Cambodia\nThe nation, the religion, the temple\n## 3 [Khmer text, machine translation withheld (unreliable); numbers in it: 1]\n## [Khmer text, machine translation withheld (unreliable)]\n[Khmer text, machine translation withheld (unreliable); numbers in it: 2025]\n## [Khmer text, machi"
+  },
+  {
+   "id": "chunk_00004",
+   "page": 4,
+   "type": "text",
+   "language": "khm",
+   "source_before": "chandra",
+   "segments": [
+    "seg_0008",
+    "seg_0009",
+    "seg_0010",
+    "seg_0011",
+    "seg_0012",
+    "seg_0013",
+    "seg_0014"
+   ],
+   "flags": [
+    "withheld_unreliable"
+   ],
+   "original": "ព្រះរាជាណាចក្រភាពជា\n\nជាតិ សាធារណៈ ព្រះរាជាណាចក្រភាព\n\nព្រះមហាក្សត្របារាំង\n\nថ្ងែ 04 ខែ ឧសភា | ឆ្នាំ 2017\n\nព្រះរាជា\n\nគ្រូ\n\nសាមគ្គីរដ្ឋបាលសុខាភិបាល និងអង្គការសុខាភិបាល",
+   "english": "The Kingdom of God is the Kingdom of the heavens and the earth.\n\n[Khmer text, machine translation withheld (unreliable)]\n\nThe King of France\n\n[Khmer text, machine translation withheld (unreliable); numbers in it: 4] 2017\n\nThe Kingdom\n\nTeacher\n\nHealth authorities and health organizations"
+  },
+  {
+   "id": "chunk_00005",
+   "page": 4,
+   "type": "text",
+   "language": "khm",
+   "source_before": "chandra",
+   "segments": [
+    "seg_0015",
+    "seg_0016",
+    "seg_0017",
+    "seg_0018",
+    "seg_0019"
+   ],
+   "flags": [
+    "numbers_lost",
+    "withheld_unreliable"
+   ],
+   "original": "### ផ្អែកទី១ លទ្ធផល និង ការវាយតម្លៃ\n\n- ប្រព័ន្ធប្រមូលទិន្នន័យ: ការណាត្រប្រមូលទិន្នន័យ\n\n- ប្រព័ន្ធប្រមូលទិន្នន័យ: ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\n- ប្រព័ន្ធប្រមូលទិន្នន័យ: ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\n- ប្រព័ន្ធប្រមូលទិន្នន័យ: ក",
+   "english": "### [Khmer text, machine translation withheld (unreliable); numbers in it: 1]\n\n- The data collection system: the data collection interface\n\n- Data collection systems: data collection and evaluation and data collection and evaluation\n\n- Data collection systems: data collection and evaluation and data"
+  },
+  {
+   "id": "chunk_00006",
+   "page": 4,
+   "type": "text",
+   "language": "khm",
+   "source_before": "chandra",
+   "segments": [
+    "seg_0019"
+   ],
+   "flags": [],
+   "original": "ទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្ន",
+   "english": "Location: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Pa"
+  },
+  {
+   "id": "chunk_00007",
+   "page": 4,
+   "type": "text",
+   "language": "khm",
+   "source_before": "chandra",
+   "segments": [
+    "seg_0019"
+   ],
+   "flags": [],
+   "original": "ទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្ន",
+   "english": "Location: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Pa"
+  },
+  {
+   "id": "chunk_00008",
+   "page": 4,
+   "type": "text",
+   "language": "khm",
+   "source_before": "chandra",
+   "segments": [
+    "seg_0019"
+   ],
+   "flags": [],
+   "original": "ទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្ន",
+   "english": "Location: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Pa"
+  },
+  {
+   "id": "chunk_00009",
+   "page": 4,
+   "type": "text",
+   "language": "khm",
+   "source_before": "chandra",
+   "segments": [
+    "seg_0019",
+    "seg_0020"
+   ],
+   "flags": [],
+   "original": "ទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ\n\nទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្ន",
+   "english": "Location: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Part 1 of data collection and evaluation and data collection\n\nLocation: Pa"
+  },
+  {
+   "id": "chunk_00010",
+   "page": 4,
+   "type": "algorithm",
+   "language": "khm",
+   "source_before": "chandra",
+   "segments": [
+    "seg_0008",
+    "seg_0009",
+    "seg_0010",
+    "seg_0011",
+    "seg_0012",
+    "seg_0013",
+    "seg_0014",
+    "seg_0015",
+    "seg_0016",
+    "seg_0017",
+    "seg_0018",
+    "seg_0019",
+    "seg_0020"
+   ],
+   "flags": [
+    "numbers_lost",
+    "withheld_unreliable"
+   ],
+   "original": "ព្រះរាជាណាចក្រភាពជា\n\nជាតិ សាធារណៈ ព្រះរាជាណាចក្រភាព\n\nព្រះមហាក្សត្របារាំង\n\nថ្ងែ 04 ខែ ឧសភា | ឆ្នាំ 2017\n\nព្រះរាជា\n\nគ្រូ\n\nសាមគ្គីរដ្ឋបាលសុខាភិបាល និងអង្គការសុខាភិបាល\n\n### ផ្អែកទី១ លទ្ធផល និង ការវាយតម្លៃ\n\n- ប្រព័ន្ធប្រមូលទិន្នន័យ: ការណាត្រប្រមូលទិន្នន័យ\n\n- ប្រព័ន្ធប្រមូលទិន្នន័យ: ការណាត្រប្រមូលទិន្នន័យ",
+   "english": "The Kingdom of God is the Kingdom of the heavens and the earth.\n\n[Khmer text, machine translation withheld (unreliable)]\n\nThe King of France\n\n[Khmer text, machine translation withheld (unreliable); numbers in it: 4] 2017\n\nThe Kingdom\n\nTeacher\n\nHealth authorities and health organizations\n\n### [Khmer "
+  },
+  {
+   "id": "chunk_00011",
+   "page": 5,
+   "type": "text",
+   "language": "khm",
+   "source_before": "chandra",
+   "segments": [
+    "seg_0021",
+    "seg_0022",
+    "seg_0023",
+    "seg_0024",
+    "seg_0025",
+    "seg_0026",
+    "seg_0027",
+    "seg_0028",
+    "seg_0029"
+   ],
+   "flags": [
+    "withheld_unreliable"
+   ],
+   "original": "ស្រាវជ្រាវ\n\nរូបភាព 1.\n\nក្រុមហ៊ុនផលិតថ្នាំ ដែលបានបង្កើតឡើងដើម្បីផ្តល់ជំនួយដល់អ្នកជំងឺ (Clinical Practice Guidelines For Medicine) ដែលជាមូលដ្ឋានសម្រាប់ការស្រាវជ្រាវ:\n\nរូបភាព 2.\n\nការស្រាវជ្រាវ: មានការស្រាវជ្រាវដែលបានបង្កើតឡើងដើម្បីផ្តល់ជំនួយដល់អ្នកជំងឺ ដែលបានបង្កើតឡើងដើម្បីផ្តល់ជំនួយដល់អ្នកជំងឺ:\n\nរូបភា",
+   "english": "[Khmer text, machine translation withheld (unreliable)]\n\nThe picture 1.\n\n[Khmer text, machine translation withheld (unreliable)] (Clinical Practice Guidelines For Medicine) It's the foundation for research.:\n\nThe picture 2.\n\n[Khmer text, machine translation withheld (unreliable)]:\n\nThe picture 3.\n\nM"
+  },
+  {
+   "id": "chunk_00012",
+   "page": 6,
+   "type": "text",
+   "language": "khm",
+   "source_before": "chandra",
+   "segments": [
+    "seg_0030",
+    "seg_0031"
+   ],
+   "flags": [
+    "source_repetitive",
+    "withheld_unreliable"
+   ],
+   "original": "## សាលារាជធានីភ្នែក\n\nវាយបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស",
+   "english": "## [Khmer text, machine translation withheld (unreliable)]\n\n[Khmer text, machine translation withheld (unreliable)]"
+  },
+  {
+   "id": "chunk_00706",
+   "page": 266,
+   "type": "table",
+   "language": "khm",
+   "source_before": "mmore_table+pdf_text",
+   "segments": [
+    "seg_0032",
+    "seg_0033",
+    "seg_0034",
+    "seg_0035",
+    "seg_0036",
+    "seg_0037",
+    "seg_0038",
+    "seg_0039",
+    "seg_0040",
+    "seg_0041",
+    "seg_0042",
+    "seg_0043"
+   ],
+   "flags": [
+    "withheld_unreliable"
+   ],
+   "original": "| Latin name | English name | Cambodian name |\n|---|---|---|\n| Ophiophagus hannah | King cobra | ពស់វែករន ៀម |\n| Naja<br>kaouthia | Monocellate<br>cobra | ពស់វែកប្ររី |\n| Naja<br>siamensis | Indo-Chinese spitting cobra | ពស់វែកដំរូក |\n| Bungarus flaviceps | Red headed krait | ពស់ប្ាយកាលប្កហម |\n| Bun",
+   "english": "| Latin name | English name | Cambodian name |\n|---|---|---|\n| Ophiophagus hannah | King cobra | [Khmer text, machine translation withheld (unreliable)] |\n| Naja<br>kaouthia | Monocellate<br>cobra | [Khmer text, machine translation withheld (unreliable)] |\n| Naja<br>siamensis | Indo-Chinese spitting"
+  }
+ ],
+ "segments": [
+  {
+   "seg_id": "seg_0000",
+   "page": 1,
+   "original": "ព្រះរាជាណាចព្ររម្ពុជា",
+   "translation": "The Kingdom of Cambodia",
+   "back_translation": "ព្រះរាជាណាចក្រ កម្ពុជា",
+   "qe_chrf": 66.1,
+   "reliable": true,
+   "content_en": "The Kingdom of Cambodia"
+  },
+  {
+   "seg_id": "seg_0001",
+   "page": 1,
+   "original": "ជាតិ សាសនា ព្រះម្ហារសព្ត",
+   "translation": "The nation, the religion, the temple",
+   "back_translation": "ជាតិ សាសនា ព្រះវិហារ",
+   "qe_chrf": 60.7,
+   "reliable": true,
+   "content_en": "The nation, the religion, the temple"
+  },
+  {
+   "seg_id": "seg_0002",
+   "page": 1,
+   "original": "ភាគ ១",
+   "translation": "Part 1",
+   "back_translation": "ផ្នែកទី 1",
+   "qe_chrf": 5.2,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable); numbers in it: 1]"
+  },
+  {
+   "seg_id": "seg_0003",
+   "page": 1,
+   "original": "នាយរដ្ឋានសសវាសុខភារ",
+   "translation": "The head of the National Security Council",
+   "back_translation": "ប្រធាន ក្រុមប្រឹក្សា សន្តិសុខ ជាតិ",
+   "qe_chrf": 14.3,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable)]"
+  },
+  {
+   "seg_id": "seg_0004",
+   "page": 1,
+   "original": "ធ្នូ ២០២៥",
+   "translation": "December 2025",
+   "back_translation": "ខែធ្នូ ឆ្នាំ ២០២៥",
+   "qe_chrf": 20.2,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable); numbers in it: 2025]"
+  },
+  {
+   "seg_id": "seg_0005",
+   "page": 1,
+   "original": "ម្គគុសទេសរ៍រាបាលគលីនិរ",
+   "translation": "In the first century C.E., the Greek city of Magdala was the capital of the Roman Empire.",
+   "back_translation": "[រូបភាព នៅ ទំព័រ ១៦]",
+   "qe_chrf": 4.8,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable)]"
+  },
+  {
+   "seg_id": "seg_0006",
+   "page": 1,
+   "original": "សេជ្ជសាស្រសតទូសៅ",
+   "translation": "In the meantime, I'm trying to find a way to make it work.",
+   "back_translation": "ទន្ទឹម នឹង នេះ ខ្ញុំ កំពុង ព្យាយាម រក វិធី ដើម្បី ធ្វើ ឲ្យ វា ដំណើរការ។",
+   "qe_chrf": 4.1,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable)]"
+  },
+  {
+   "seg_id": "seg_0007",
+   "page": 1,
+   "original": "ផ្ននរ",
+   "translation": "The tomb",
+   "back_translation": "ផ្នូរ",
+   "qe_chrf": 32.7,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable)]"
+  },
+  {
+   "seg_id": "seg_0008",
+   "page": 4,
+   "original": "ព្រះរាជាណាចក្រភាពជា",
+   "translation": "The Kingdom of God is the Kingdom of the heavens and the earth.",
+   "back_translation": "ព្រះ រាជាណាចក្រ នៃ ព្រះ ជាម្ចាស់",
+   "qe_chrf": 66.6,
+   "reliable": true,
+   "content_en": "The Kingdom of God is the Kingdom of the heavens and the earth."
+  },
+  {
+   "seg_id": "seg_0009",
+   "page": 4,
+   "original": "ជាតិ សាធារណៈ ព្រះរាជាណាចក្រភាព",
+   "translation": "The nation, the people, the kingdom",
+   "back_translation": "ប្រទេសជាតិ ប្រជាជន ព្រះរាជាណាចក្រ",
+   "qe_chrf": 51.6,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable)]"
+  },
+  {
+   "seg_id": "seg_0010",
+   "page": 4,
+   "original": "ព្រះមហាក្សត្របារាំង",
+   "translation": "The King of France",
+   "back_translation": "ព្រះមហាក្សត្រ នៃ ប្រទេស បារាំង",
+   "qe_chrf": 76.3,
+   "reliable": true,
+   "content_en": "The King of France"
+  },
+  {
+   "seg_id": "seg_0011",
+   "page": 4,
+   "original": "ថ្ងែ 04 ខែ ឧសភា | ឆ្នាំ",
+   "translation": "May 4th.",
+   "back_translation": "ថ្ងៃទី៤ ខែឧសភា",
+   "qe_chrf": 29.2,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable); numbers in it: 4]"
+  },
+  {
+   "seg_id": "seg_0012",
+   "page": 4,
+   "original": "ព្រះរាជា",
+   "translation": "The Kingdom",
+   "back_translation": "ព្រះរាជាណាចក្រ",
+   "qe_chrf": 81.4,
+   "reliable": true,
+   "content_en": "The Kingdom"
+  },
+  {
+   "seg_id": "seg_0013",
+   "page": 4,
+   "original": "គ្រូ",
+   "translation": "Teacher",
+   "back_translation": "គ្រូបង្រៀន",
+   "qe_chrf": 66.2,
+   "reliable": true,
+   "content_en": "Teacher"
+  },
+  {
+   "seg_id": "seg_0014",
+   "page": 4,
+   "original": "សាមគ្គីរដ្ឋបាលសុខាភិបាល និងអង្គការសុខាភិបាល",
+   "translation": "Health authorities and health organizations",
+   "back_translation": "អាជ្ញាធរ សុខាភិបាល និង អង្គការ សុខាភិបាល",
+   "qe_chrf": 68.1,
+   "reliable": true,
+   "content_en": "Health authorities and health organizations"
+  },
+  {
+   "seg_id": "seg_0015",
+   "page": 4,
+   "original": "ផ្អែកទី១ លទ្ធផល និង ការវាយតម្លៃ",
+   "translation": "Based on results and evaluation",
+   "back_translation": "ផ្អែកលើលទ្ធផល និងការវាយតម្លៃ",
+   "qe_chrf": 78.5,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable); numbers in it: 1]"
+  },
+  {
+   "seg_id": "seg_0016",
+   "page": 4,
+   "original": "ប្រព័ន្ធប្រមូលទិន្នន័យ: ការណាត្រប្រមូលទិន្នន័យ",
+   "translation": "The data collection system: the data collection interface",
+   "back_translation": "ប្រព័ន្ធប្រមូលទិន្នន័យ: ប្រព័ន្ធប្រតិបត្តិការប្រមូលទិន្នន័យ",
+   "qe_chrf": 76.5,
+   "reliable": true,
+   "content_en": "The data collection system: the data collection interface"
+  },
+  {
+   "seg_id": "seg_0017",
+   "page": 4,
+   "original": "ប្រព័ន្ធប្រមូលទិន្នន័យ: ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ",
+   "translation": "Data collection systems: data collection and evaluation and data collection and evaluation",
+   "back_translation": "ប្រព័ន្ធ ប្រមូល ទិន្នន័យ: ប្រមូល ទិន្នន័យ និង វាយតម្លៃ និង ប្រមូល ទិន្នន័យ និង វាយតម្លៃ",
+   "qe_chrf": 69.3,
+   "reliable": true,
+   "content_en": "Data collection systems: data collection and evaluation and data collection and evaluation"
+  },
+  {
+   "seg_id": "seg_0018",
+   "page": 4,
+   "original": "អាការៈ ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ",
+   "translation": "A sense of the 1 part of data collection and evaluation and data collection",
+   "back_translation": "ការយល់ដឹងអំពីផ្នែកទី 1 នៃការប្រមូលទិន្នន័យ និងការវាយតម្លៃ និងការប្រមូលទិន្នន័យ",
+   "qe_chrf": 76.1,
+   "reliable": true,
+   "content_en": "A sense of the 1 part of data collection and evaluation and data collection"
+  },
+  {
+   "seg_id": "seg_0019",
+   "page": 4,
+   "original": "ទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ និង ការណាត្រប្រមូលទិន្នន័យ",
+   "translation": "Location: Part 1 of data collection and evaluation and data collection",
+   "back_translation": "ទីតាំង: ផ្នែកទី 1 នៃការប្រមូលទិន្នន័យ និងការវាយតម្លៃ និងការប្រមូលទិន្នន័យ",
+   "qe_chrf": 84.5,
+   "reliable": true,
+   "content_en": "Location: Part 1 of data collection and evaluation and data collection"
+  },
+  {
+   "seg_id": "seg_0020",
+   "page": 4,
+   "original": "ទីតាំង: ផ្នែកទី១ នៃ ការណាត្រប្រមូលទិន្នន័យ និង ការវាយតម្លៃ",
+   "translation": "Location: Part 1 of the data collection and evaluation",
+   "back_translation": "ទីតាំង: ផ្នែកទី 1 នៃការប្រមូលទិន្នន័យ និងការវាយតម្លៃ",
+   "qe_chrf": 88.4,
+   "reliable": true,
+   "content_en": "Location: Part 1 of the data collection and evaluation"
+  },
+  {
+   "seg_id": "seg_0021",
+   "page": 5,
+   "original": "ស្រាវជ្រាវ",
+   "translation": "How can we do this?",
+   "back_translation": "តើ យើង អាច ធ្វើ បែប នេះ បាន យ៉ាង ដូចម្តេច?",
+   "qe_chrf": 5.6,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable)]"
+  },
+  {
+   "seg_id": "seg_0022",
+   "page": 5,
+   "original": "រូបភាព",
+   "translation": "The picture",
+   "back_translation": "រូបភាព",
+   "qe_chrf": 100.0,
+   "reliable": true,
+   "content_en": "The picture"
+  },
+  {
+   "seg_id": "seg_0023",
+   "page": 5,
+   "original": "ក្រុមហ៊ុនផលិតថ្នាំ ដែលបានបង្កើតឡើងដើម្បីផ្តល់ជំនួយដល់អ្នកជំងឺ",
+   "translation": "Pharmaceutical companies that were created to help patients",
+   "back_translation": "ក្រុមហ៊ុន ផលិត ឱសថ ដែល ត្រូវ បាន បង្កើត ឡើង ដើម្បី ជួយ អ្នក ជំងឺ",
+   "qe_chrf": 59.6,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable)]"
+  },
+  {
+   "seg_id": "seg_0024",
+   "page": 5,
+   "original": "ដែលជាមូលដ្ឋានសម្រាប់ការស្រាវជ្រាវ",
+   "translation": "It's the foundation for research.",
+   "back_translation": "វា ជា មូលដ្ឋាន សម្រាប់ ការស្រាវជ្រាវ។",
+   "qe_chrf": 90.1,
+   "reliable": true,
+   "content_en": "It's the foundation for research."
+  },
+  {
+   "seg_id": "seg_0025",
+   "page": 5,
+   "original": "ការស្រាវជ្រាវ: មានការស្រាវជ្រាវដែលបានបង្កើតឡើងដើម្បីផ្តល់ជំនួយដល់អ្នកជំងឺ ដែលបានបង្កើតឡើងដើម្បីផ្តល់ជំនួយដល់អ្នកជំងឺ",
+   "translation": "Research: There is research that is designed to help patients, that is designed to help patients.",
+   "back_translation": "ការស្រាវជ្រាវ: មាន ការស្រាវជ្រាវ ដែល ត្រូវ បាន រចនា ឡើង ដើម្បី ជួយ អ្នកជំងឺ ដែល ត្រូវ បាន រចនា ឡើង ដើម្បី ជួយ អ្នកជំងឺ ។",
+   "qe_chrf": 56.6,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable)]"
+  },
+  {
+   "seg_id": "seg_0026",
+   "page": 5,
+   "original": "ប្រព័ន្ធផ្សព្វផ្សាយ: ប្រព័ន្ធផ្សព្វផ្សាយដែលបានបង្កើតឡើងដើម្បីផ្តល់ជំនួយដល់អ្នកជំងឺ",
+   "translation": "Media: media created to provide assistance to patients",
+   "back_translation": "ប្រព័ន្ធផ្សព្វផ្សាយ: ប្រព័ន្ធផ្សព្វផ្សាយដែលបង្កើតឡើងដើម្បីផ្តល់ជំនួយដល់អ្នកជំងឺ",
+   "qe_chrf": 94.7,
+   "reliable": true,
+   "content_en": "Media: media created to provide assistance to patients"
+  },
+  {
+   "seg_id": "seg_0027",
+   "page": 5,
+   "original": "អ្នកស្រាវជ្រាវ: អ្នកស្រាវជ្រាវដែលបានបង្កើតឡើងដើម្បីផ្តល់ជំនួយដល់អ្នកជំងឺ ដែលបានបង្កើតឡើងដើម្បីផ្តល់ជំនួយដល់អ្នកជំងឺ",
+   "translation": "Researchers: Researchers created to help patients created to help patients",
+   "back_translation": "អ្នកស្រាវជ្រាវ: អ្នកស្រាវជ្រាវ ត្រូវបានបង្កើតឡើងដើម្បីជួយអ្នកជំងឺ ត្រូវបានបង្កើតឡើងដើម្បីជួយអ្នកជំងឺ",
+   "qe_chrf": 65.6,
+   "reliable": true,
+   "content_en": "Researchers: Researchers created to help patients created to help patients"
+  },
+  {
+   "seg_id": "seg_0028",
+   "page": 5,
+   "original": "អ្នកស្រាវជ្រាវ: អ្នកស្រាវជ្រាវដែលបានបង្កើតឡើងដើម្បីផ្តល់ជំនួយដល់អ្នកជំងឺ",
+   "translation": "Researchers: Researchers created to help patients",
+   "back_translation": "អ្នកស្រាវជ្រាវ: អ្នកស្រាវជ្រាវ ត្រូវបានបង្កើតឡើងដើម្បីជួយអ្នកជំងឺ",
+   "qe_chrf": 72.3,
+   "reliable": true,
+   "content_en": "Researchers: Researchers created to help patients"
+  },
+  {
+   "seg_id": "seg_0029",
+   "page": 5,
+   "original": "អ្នកស្រាវជ្រ",
+   "translation": "A researcher",
+   "back_translation": "អ្នកស្រាវជ្រាវ",
+   "qe_chrf": 95.9,
+   "reliable": true,
+   "content_en": "A researcher"
+  },
+  {
+   "seg_id": "seg_0030",
+   "page": 6,
+   "original": "សាលារាជធានីភ្នែក",
+   "translation": "The capital's eyes",
+   "back_translation": "ភ្នែក របស់ រដ្ឋធានី",
+   "qe_chrf": 30.0,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable)]"
+  },
+  {
+   "seg_id": "seg_0031",
+   "page": 6,
+   "original": "វាយបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មានដែលអាចប្រើប្រាស់បានដើម្បីបង្កើតគណនីប្រចាំថ្ងៃ និងបញ្ចូលព័ត៌មាន",
+   "translation": "It provides usable information to create a daily account and usable information to create a daily account and usable information to create a daily account and usable information to create a daily account and usable information to create a daily account and usable information to create a daily account and usable information to create a daily account and usable information to create a daily account and usable information to create a daily account and usable information to create a daily account and usable information to create a daily account and usable information to create a daily account and usable information to create a daily account and usable information to create a daily account. And add usable information to create a daily account and add usable information to create a daily account and add usable information to create a daily account and add usable information to create a daily account and enter information",
+   "back_translation": "វា ផ្តល់ ព័ត៌មាន ដែល អាច ប្រើប្រាស់ ដើម្បី បង្កើត គណនី ប្រចាំថ្ងៃ និង ព័ត៌មាន ដែល អាច ប្រើប្រាស់ ដើម្បី បង្កើត គណនី ប្រចាំថ្ងៃ និង ព័ត៌មាន ដែល អាច ប្រើប្រាស់ ដើម្បី បង្កើត គណនី ប្រចាំថ្ងៃ និង ព័ត៌មាន ដែល អាច ប្រើប្រាស់ ដើម្បី បង្កើត គណនី ប្រចាំថ្ងៃ និង ព័ត៌មាន ដែល អាច ប្រើប្រាស់ ដើម្បី បង្កើត គណនី ប្រចាំថ្ងៃ ។ និង បន្ថែម ព័ត៌មាន ដែល អាច ប្រើ បាន ដើម្បី បង្កើត គណនី ប្រចាំ ថ្ងៃ និង បន្ថែម ព័ត៌មាន ដែល អាច ប្រើ បាន ដើម្បី បង្កើត គណនី ប្រចាំ ថ្ងៃ និង បន្ថែម ព័ត៌មាន ដែល អាច ប្រើ បាន ដើម្បី បង្កើត គណនី ប្រចាំ ថ្ងៃ និង បន្ថែម ព័ត៌មាន ដែល អាច ប្រើ បាន ដើម្បី បង្កើត គណនី ប្រចាំ ថ្ងៃ និង បញ្ចូល ព័ត៌មាន",
+   "qe_chrf": 48.6,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable)]"
+  },
+  {
+   "seg_id": "seg_0032",
+   "page": 266,
+   "original": "ពស់វែករន ៀម",
+   "translation": "How do we know that Jehovah's Witnesses are genuinely interested in us?",
+   "back_translation": "[រូបភាព នៅ ទំព័រ ១៦]",
+   "qe_chrf": 4.4,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable)]"
+  },
+  {
+   "seg_id": "seg_0033",
+   "page": 266,
+   "original": "ពស់វែកប្ររី",
+   "translation": "The snake is known for its fearsome appearance.",
+   "back_translation": "សត្វ ពស់ នេះ ត្រូវ បាន គេ ស្គាល់ ថា មាន រូបរាង គួរ ឲ្យ ភ័យ ខ្លាច។",
+   "qe_chrf": 10.7,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable)]"
+  },
+  {
+   "seg_id": "seg_0034",
+   "page": 266,
+   "original": "ពស់វែកដំរូក",
+   "translation": "The snake is known as the sea snake, or sea snake.",
+   "back_translation": "ពស់ នេះ ត្រូវបាន គេ ស្គាល់ ថា ពស់ សមុទ្រ ឬ ពស់ សមុទ្រ ។",
+   "qe_chrf": 9.8,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable)]"
+  },
+  {
+   "seg_id": "seg_0035",
+   "page": 266,
+   "original": "ពស់ប្ាយកាលប្កហម",
+   "translation": "The snake, however, was not a snake.",
+   "back_translation": "[រូបភាព នៅ ទំព័រ ១៦]",
+   "qe_chrf": 3.2,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable)]"
+  },
+  {
+   "seg_id": "seg_0036",
+   "page": 266,
+   "original": "ពស់ប្ាយរង្កង្់លលឿង្លមៅ",
+   "translation": "The snake is known for its large size, which makes it difficult to see.",
+   "back_translation": "ពស់ នេះ ល្បី ពី ទំហំ ធំ របស់ វា ដែល ធ្វើ ឲ្យ ពិបាក មើល ឃើញ។",
+   "qe_chrf": 11.9,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable)]"
+  },
+  {
+   "seg_id": "seg_0037",
+   "page": 266,
+   "original": "ពស់ប្ាយរង្កង្់សលមៅ",
+   "translation": "The snake is known for its large size, which makes it difficult to see.",
+   "back_translation": "ពស់ នេះ ល្បី ពី ទំហំ ធំ របស់ វា ដែល ធ្វើ ឲ្យ ពិបាក មើល ឃើញ។",
+   "qe_chrf": 12.8,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable)]"
+  },
+  {
+   "seg_id": "seg_0038",
+   "page": 266,
+   "original": "ពស់សមុប្រ",
+   "translation": "The Sea Serpent",
+   "back_translation": "ពស់ សមុទ្រ",
+   "qe_chrf": 56.0,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable)]"
+  },
+  {
+   "seg_id": "seg_0039",
+   "page": 266,
+   "original": "ពស់ហនុមាន",
+   "translation": "What is the origin of the name?",
+   "back_translation": "តើ ឈ្មោះ នេះ មាន ប្រភព មក ពី ណា?",
+   "qe_chrf": 11.5,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable)]"
+  },
+  {
+   "seg_id": "seg_0040",
+   "page": 266,
+   "original": "ពស់ល ៀែវនែកធំ",
+   "translation": "It is also known as the great horned viper, or big horned viper.",
+   "back_translation": "[រូបភាព នៅ ទំព័រ ១៦]",
+   "qe_chrf": 3.8,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable)]"
+  },
+  {
+   "seg_id": "seg_0041",
+   "page": 266,
+   "original": "ពស់ល ឿែ",
+   "translation": "How do we know that Jehovah's Witnesses are genuine?",
+   "back_translation": "[រូបភាព នៅ ទំព័រ ១២]",
+   "qe_chrf": 2.0,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable)]"
+  },
+  {
+   "seg_id": "seg_0042",
+   "page": 266,
+   "original": "ពស់ប្សាចាស់",
+   "translation": "The ancient serpent",
+   "back_translation": "ពស់ បុរាណ",
+   "qe_chrf": 19.6,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable)]"
+  },
+  {
+   "seg_id": "seg_0043",
+   "page": 266,
+   "original": "ពស់ពញ្លាក់",
+   "translation": "The snake fell.",
+   "back_translation": "ពស់ នោះ បាន ធ្លាក់ ចុះ។",
+   "qe_chrf": 33.3,
+   "reliable": false,
+   "content_en": "[Khmer text, machine translation withheld (unreliable)]"
+  }
+ ],
+ "unused_segments": []
+}
