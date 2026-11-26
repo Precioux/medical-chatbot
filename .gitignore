@@ -12,6 +12,7 @@ out/images/
 out/mmore/
 out/nllb_bench/
 out/translation_agent/
+out/reverse_mt/
 out/pipeline/stage2_extract/unified_output.jsonl
 out/pipeline/stage3_verify/
 out/pipeline/stage4_chunk/chunks_*.jsonl

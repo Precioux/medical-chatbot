@@ -14,7 +14,7 @@ NLLB-1.3B is not re-run: its saved outputs (out/nllb_bench/) are scored again wi
 Scores: sacrebleu corpus BLEU and chrF++ (word_order=2) as in the NLLB benchmark, COMET (Unbabel/wmt22-comet-da),
 numbers kept (every digit run of the source in the output), loops / empty outputs, seconds per 100 sentences.
 Outputs: out/translation_agent/<model>.<set>.jsonl, out/translation_agent_results.json, out/translation_agent_report.md,
-out/translation_agent_bleu.png
+out/translation_agent_bleu.png (BLEU, chrF++, COMET panels)
 """
 import argparse, collections, json, os, re, sys, time
 
@@ -35,6 +35,8 @@ LLMS = {  # name -> (path, loader)
     "Llama-3.1-8B-Instruct (extra)": (f"{MODELS_DIR}/Llama-3.1-8B-Instruct", "causal"),
     "Gemma-3-4B-it": (f"{MODELS_DIR}/gemma-3-4b", "vlm"),
     "Qwen3-VL-8B (text-only)": (f"{MODELS_DIR}/Qwen3-VL-8B-Instruct", "vlm"),
+    # aisingapore/Gemma-SEA-LION-v4-27B-IT: Gemma-3-27B-IT continued-pretrained on SEA languages incl. Khmer and Lao
+    "SEA-LION-v4-27B-IT": (f"{MODELS_DIR}/Gemma-SEA-LION-v4-27B-IT", "vlm"),
 }
 NLLB = "NLLB-1.3B"
 SYSTEM = ("You are a medical translator. Translate the user's text from {lang} into English. Output only the English "
@@ -306,32 +308,40 @@ def disagreements(data, systems, comet, k=5):
 
 # ---------------------------------------------------------------- report
 def chart(rows, path):
+    """BLEU, chrF++ and COMET panels stacked, one bar per model and test set."""
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
     models = [NLLB] + list(LLMS)
-    colors = ["#257de0", "#f47230", "#00b894", "#f2a600", "#ee7fac"]      # categorical slots 1-5, fixed order
+    colors = ["#257de0", "#f47230", "#00b894", "#f2a600", "#ee7fac", "#008a17"]   # categorical slots 1-6, fixed order
     sets = [s for s in SETS if any(r["set"] == s for r in rows)]
     w = 0.8 / len(models)
-    fig, ax = plt.subplots(figsize=(11, 5), dpi=150)
-    for j, m in enumerate(models):
-        vals = [next((r["BLEU"] for r in rows if r["model"] == m and r["set"] == s), 0) for s in sets]
-        xs = [i + (j - (len(models) - 1) / 2) * w for i in range(len(sets))]
-        bars = ax.bar(xs, vals, w * 0.92, color=colors[j], label=m, zorder=2)
-        for b, v in zip(bars, vals):
-            ax.text(b.get_x() + b.get_width() / 2, v + 0.5, f"{v:.1f}", ha="center", va="bottom", fontsize=7, color="#444")
-    ax.set_xticks(range(len(sets)))
-    ax.set_xticklabels([SET_LABEL[s] for s in sets])
-    ax.set_ylabel("BLEU (sacrebleu, corpus)")
+    # (key, y label, value format, label offset, y floor): COMET starts at 0.4 so the differences are visible
+    panels = [("BLEU", "BLEU (sacrebleu, corpus)", "{:.1f}", 0.5, 0),
+              ("chrF++", "chrF++ (word_order=2)", "{:.1f}", 0.5, 0),
+              ("COMET", "COMET (wmt22-comet-da)\naxis starts at 0.4", "{:.3f}", 0.004, 0.4)]
+    fig, axes = plt.subplots(len(panels), 1, figsize=(12, 13), dpi=150, sharex=True)
+    for ax, (key, ylab, fmt, off, lo) in zip(axes, panels):
+        for j, m in enumerate(models):
+            vals = [next((r[key] or 0 for r in rows if r["model"] == m and r["set"] == s), 0) for s in sets]
+            xs = [i + (j - (len(models) - 1) / 2) * w for i in range(len(sets))]
+            bars = ax.bar(xs, [v - lo for v in vals], w * 0.92, bottom=lo, color=colors[j], label=m, zorder=2)
+            for b, v in zip(bars, vals):
+                ax.text(b.get_x() + b.get_width() / 2, v + off, fmt.format(v), ha="center", va="bottom",
+                        fontsize=6.5, color="#444")
+        top = max(r[key] or 0 for r in rows)
+        ax.set_ylim(lo, top + (top - lo) * 0.12)
+        ax.set_ylabel(ylab)
+        ax.grid(axis="y", color="#e5e5e5", zorder=0)
+        for sp in ("top", "right"):
+            ax.spines[sp].set_visible(False)
+        ax.spines["left"].set_color("#bbb"); ax.spines["bottom"].set_color("#bbb")
+    axes[-1].set_xticks(range(len(sets)))
+    axes[-1].set_xticklabels([SET_LABEL[s] for s in sets])
     n = next(r["n"] for r in rows if r["set"] == "flores_khm")
-    ax.set_title(f"X → English BLEU: NLLB-1.3B vs LLM translation agents (FLORES devtest first {n}, 200 Khmer medical Qs)",
-                 fontsize=10, loc="left")
-    ax.grid(axis="y", color="#e5e5e5", zorder=0)
-    for sp in ("top", "right"):
-        ax.spines[sp].set_visible(False)
-    ax.spines["left"].set_color("#bbb"); ax.spines["bottom"].set_color("#bbb")
-    ax.legend(frameon=False, fontsize=8, ncol=3, loc="upper left")
-    ax.set_ylim(0, max(r["BLEU"] for r in rows) * 1.2 + 2)
+    axes[0].set_title(f"X → English: NLLB-1.3B vs LLM translation agents (FLORES devtest first {n}, "
+                      "200 Khmer medical Qs)", fontsize=10, loc="left", pad=28)
+    axes[0].legend(frameon=False, fontsize=8, ncol=len(models), loc="lower left", bbox_to_anchor=(0, 1.0))
     fig.tight_layout()
     fig.savefig(path)
 
