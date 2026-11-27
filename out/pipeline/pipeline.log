@@ -711,3 +711,27 @@ ImportError: cannot import name 'NP_SUPPORTED_MODULES' from 'torch._dynamo.utils
 2026-11-26 13:12:47 [validate] variant 512: 926 chunks; numbers 6362/6362 symbols 245/245 | index 4430/4430 240/240; orphans 0/0; crossing 0; bad tables 0; bad citations 0; <40 tok 21
 2026-11-26 13:12:50 [validate] done in 34.5 s
 2026-11-26 13:12:50 [pipeline] report: /mnt/upschrimpf2/scratch/mahdipou/ml/out/pipeline/pipeline_report.md
+2026-11-27 02:48:46 [pipeline] run ['chunk', 'validate'] force=False cwd=/mnt/upschrimpf2/scratch/mahdipou/ml
+2026-11-27 02:48:46 [chunk] inputs, code or config changed since the last run: rerunning
+2026-11-27 02:49:16 [chunk] variant 256: 1626 chunks {'body_text': 940, 'table': 287, 'flowchart': 55, 'figure': 344} tokens {'min': 33, 'median': 222.0, 'max': 934}; tiny merged 27, left 1
+2026-11-27 02:49:16 [chunk] variant 512: 905 chunks {'body_text': 503, 'table': 185, 'flowchart': 55, 'figure': 162} tokens {'min': 48, 'median': 376, 'max': 934}; tiny merged 21, left 0
+2026-11-27 02:49:16 [chunk] TOC: 51 sections in 2 chapters; excluded {'front_matter': 33, 'reference_list': 95, 'chapter_title_page': 1}
+2026-11-27 02:49:16 [chunk] text fixes 9 (LaTeX-like left 0); stray '#' lines 15; errata [('E001', {'256': 1, '512': 1}), ('E002', {'256': 4, '512': 4})]; printed pages: no footer [], footer disagrees []
+2026-11-27 02:49:16 [chunk] done in 30.0 s
+2026-11-27 02:49:16 [validate] inputs, code or config changed since the last run: rerunning
+2026-11-27 02:49:33 [validate] variant 256: 1626 chunks; numbers 6362/6362 symbols 245/245 | index 4430/4430 240/240; orphans 0/0; crossing 0; bad tables 0; bad citations 0; <40 tok 1
+2026-11-27 02:49:48 [validate] variant 512: 905 chunks; numbers 6362/6362 symbols 245/245 | index 4430/4430 240/240; orphans 0/0; crossing 0; bad tables 0; bad citations 0; <40 tok 0
+2026-11-27 02:49:51 [validate] done in 35.3 s
+2026-11-27 02:49:51 [pipeline] report: /mnt/upschrimpf2/scratch/mahdipou/ml/out/pipeline/pipeline_report.md
+2026-11-27 02:50:50 [pipeline] run ['chunk', 'validate'] force=False cwd=/mnt/upschrimpf2/scratch/mahdipou/ml
+2026-11-27 02:50:51 [chunk] inputs, code or config changed since the last run: rerunning
+2026-11-27 02:51:11 [chunk] variant 256: 1626 chunks {'body_text': 940, 'table': 287, 'flowchart': 55, 'figure': 344} tokens {'min': 33, 'median': 222.0, 'max': 934}; tiny merged 27, left 1
+2026-11-27 02:51:11 [chunk] variant 512: 905 chunks {'body_text': 503, 'table': 185, 'flowchart': 55, 'figure': 162} tokens {'min': 48, 'median': 376, 'max': 934}; tiny merged 21, left 0
+2026-11-27 02:51:11 [chunk] TOC: 51 sections in 2 chapters; excluded {'front_matter': 33, 'reference_list': 95, 'chapter_title_page': 1}
+2026-11-27 02:51:11 [chunk] text fixes 9 (LaTeX-like left 0); stray '#' lines 16; errata [('E001', {'256': 1, '512': 1}), ('E002', {'256': 4, '512': 4})]; printed pages: no footer [], footer disagrees []
+2026-11-27 02:51:11 [chunk] done in 20.9 s
+2026-11-27 02:51:11 [validate] inputs, code or config changed since the last run: rerunning
+2026-11-27 02:51:28 [validate] variant 256: 1626 chunks; numbers 6362/6362 symbols 245/245 | index 4430/4430 240/240; orphans 0/0; crossing 0; bad tables 0; bad citations 0; <40 tok 1
+2026-11-27 02:51:44 [validate] variant 512: 905 chunks; numbers 6362/6362 symbols 245/245 | index 4430/4430 240/240; orphans 0/0; crossing 0; bad tables 0; bad citations 0; <40 tok 0
+2026-11-27 02:51:47 [validate] done in 35.2 s
+2026-11-27 02:51:47 [pipeline] report: /mnt/upschrimpf2/scratch/mahdipou/ml/out/pipeline/pipeline_report.md

@@ -1,18 +1,20 @@
 {
  "stage": "validate",
  "folder": "stage5_validate",
- "fingerprint": "b45ac0173bdd061d",
+ "fingerprint": "e2cc8e10d457923e",
  "inputs": {
   "code": {
-   "pipeline/validate.py": "b0e4af344e009ca5",
-   "verify_output.py": "c68ba5fec84db242"
+   "pipeline/validate.py": "83becdf21a1d453c",
+   "verify_output.py": "c68ba5fec84db242",
+   "pipeline/chunk.py": "489ada1b0cb06ec4"
   },
   "inputs": {
    "pdf": "622cf276350a6d64"
   },
   "prev": {
-   "chunk/chunks_256.jsonl": "e5f4987ddeeb1110",
-   "chunk/chunks_512.jsonl": "bd6f9558d4e706a0",
+   "verify/unified_output.verified.jsonl": "6c459bb10d3479ee",
+   "chunk/chunks_256.jsonl": "e25ceac5d805630e",
+   "chunk/chunks_512.jsonl": "cafce179c7e974c3",
    "chunk/excluded.jsonl": "35ff1157c8c2ea98",
    "chunk/sections.json": "e44ebdb4e9183378"
   },
@@ -60,16 +62,75 @@
     ],
     "reference_heading": "REFERENCES",
     "flowchart_match_min": 0.35,
-    "flowchart_min_chars": 150
+    "flowchart_min_chars": 150,
+    "text_fixes": [
+     {
+      "page": 443,
+      "find": "\\$4",
+      "replace": "S4",
+      "why": "Table 1, Heart / STOP column: the image reads 'Loud systolic murmur, diastolic murmur, S4' (4th heart sound)"
+     },
+     {
+      "page": 412,
+      "find": "combined with $\\nu$ be considered",
+      "replace": "combined with be considered",
+      "why": "the image reads '... daptomycin combined with ceftaroline or fosfomycin may be considered'; the OCR put 'ceftaroline or fosfomycin may' in the first cell of the row and read the end of 'may' as $\nu$"
+     },
+     {
+      "page": 422,
+      "find": "combined with\\ne considered",
+      "replace": "combined with be considered",
+      "why": "same table as p412 (printed again); the image reads '... may be considered'; '\n' is an escaped line break left by the OCR inside the word 'be'"
+     }
+    ],
+    "errata": [
+     {
+      "id": "E001",
+      "pages": [
+       43
+      ],
+      "where": "NEWS-2 table, respiratory rate (/minute), score 3 (high) column",
+      "document_says": ">= 75",
+      "expected": ">= 25",
+      "note": "NEWS-2 (Royal College of Physicians 2017) scores a respiratory rate of 25/min or more as 3. The same table printed again on p252 (sepsis section) says >= 25.",
+      "match": [
+       {
+        "page": 43,
+        "regex": "≥\\s*75"
+       }
+      ]
+     },
+     {
+      "id": "E002",
+      "pages": [
+       297,
+       299
+      ],
+      "where": "NSTE-ACS, timing of the early invasive strategy for high-risk patients",
+      "document_says": "p297 text and table: 'Early invasive (<24H)'; p299 algorithm figure: 'Early Invasive (<2H)'",
+      "expected": "< 24 h (ESC NSTE-ACS guideline); < 2 h is the immediate invasive strategy for very-high-risk patients",
+      "note": "The two pages disagree; the figure repeats the immediate-invasive time.",
+      "match": [
+       {
+        "page": 297,
+        "regex": "Early invasive\\s*\\(<\\s*24\\s*H\\)"
+       },
+       {
+        "page": 299,
+        "regex": "Early Invasive\\s*\\(<\\s*2\\s*H\\)|Early Invasive[\\s\\S]{0,120}?\\(<\\s*2\\s*H\\)\\s*\\n\\s*\\(<\\s*2\\s*H\\)"
+       }
+      ]
+     }
+    ]
    }
   }
  },
- "seconds": 34.5,
- "finished": "2026-11-26 13:12:50",
+ "seconds": 35.2,
+ "finished": "2026-11-27 02:51:47",
  "host": "haas034.ds-a3-r02.cct.rcp.epfl.ch",
  "summary": {
   "256": {
-   "chunks": 1652,
+   "chunks": 1626,
    "numbers_symbols": {
     "chunks_plus_excluded_all_pages": {
      "numbers": "6362/6362",
@@ -97,7 +158,7 @@
    "sections": {
     "chunks_crossing_a_section": [],
     "table_parts_without_header": [],
-    "tables_split": 38,
+    "tables_split": 40,
     "pass": true
    },
    "citations": {
@@ -107,36 +168,36 @@
    "tokens": {
     "histogram": {
      "body_text": {
-      "0-39": 9,
+      "0-39": 1,
       "40-63": 14,
       "64-127": 98,
       "128-191": 199,
-      "192-255": 604,
-      "256-383": 24,
+      "192-255": 601,
+      "256-383": 27,
       "384-511": 0,
       "512-767": 0,
       "768-1023": 0,
       "1024-": 0
      },
      "figure": {
-      "0-39": 14,
+      "0-39": 0,
       "40-63": 18,
-      "64-127": 38,
+      "64-127": 37,
       "128-191": 84,
-      "192-255": 176,
-      "256-383": 28,
+      "192-255": 174,
+      "256-383": 31,
       "384-511": 0,
       "512-767": 0,
       "768-1023": 0,
       "1024-": 0
      },
      "flowchart": {
-      "0-39": 5,
+      "0-39": 0,
       "40-63": 0,
       "64-127": 7,
       "128-191": 8,
-      "192-255": 8,
-      "256-383": 11,
+      "192-255": 7,
+      "256-383": 12,
       "384-511": 11,
       "512-767": 8,
       "768-1023": 2,
@@ -146,8 +207,8 @@
       "0-39": 0,
       "40-63": 1,
       "64-127": 35,
-      "128-191": 66,
-      "192-255": 146,
+      "128-191": 65,
+      "192-255": 148,
       "256-383": 35,
       "384-511": 3,
       "512-767": 0,
@@ -157,179 +218,15 @@
     },
     "under_min": [
      [
-      "s06_stroke_syndrome_in_emergency_0033",
-      "flowchart",
-      26,
-      "7. Decision tree, (algorithm)\n\nMANAGEMENT OF PATIENT WITH STROKE SYNDROME"
-     ],
-     [
-      "s14_cardiopulmonary_arrest_basic_and_advance_0012",
-      "body_text",
-      22,
-      "## 5- First-line treatment of n hospital cardiac arrest (IHCA)\n## Adult chain of"
-     ],
-     [
-      "s14_cardiopulmonary_arrest_basic_and_advance_0016",
-      "figure",
-      19,
-      "Advance cardiac life support (ACLS) for adult (A-B-C-D)"
-     ],
-     [
-      "s14_cardiopulmonary_arrest_basic_and_advance_0018",
-      "flowchart",
-      9,
-      "### Airway management\n\n6- Treatment adjustment"
-     ],
-     [
-      "s14_cardiopulmonary_arrest_basic_and_advance_0025",
-      "figure",
-      8,
-      "C\nD\n6-  Treatment adj\nustment"
-     ],
-     [
-      "s14_cardiopulmonary_arrest_basic_and_advance_0050",
-      "body_text",
-      7,
-      "## Adult ACLS Algorithm"
-     ],
-     [
-      "s14_cardiopulmonary_arrest_basic_and_advance_0061",
-      "figure",
-      13,
-      "Algorithm for VF/ pulseless VT management"
-     ],
-     [
-      "s14_cardiopulmonary_arrest_basic_and_advance_0062",
-      "body_text",
-      8,
-      "## Algorithm for PEA management"
-     ],
-     [
-      "s18_initial_management_of_chest_trauma_0017",
-      "flowchart",
-      4,
-      "Flail Chest"
-     ],
-     [
-      "s18_initial_management_of_chest_trauma_0019",
-      "figure",
-      4,
-      "Flail Chest"
-     ],
-     [
-      "s18_initial_management_of_chest_trauma_0021",
-      "figure",
-      4,
-      "Rib Fracture"
-     ],
-     [
-      "s18_initial_management_of_chest_trauma_0025",
-      "figure",
-      6,
-      "Pulmonary Contusion"
-     ],
-     [
-      "s21_hypokalemia_0021",
-      "flowchart",
-      35,
-      "Algorithm for treatment of hypokalemia\n\nK – potassium; Mg – magnesium; IV – intr"
-     ],
-     [
-      "s26_snake_bites_0005",
-      "figure",
-      29,
-      "King cobra\nMonocellate cobra\nIndo-Chinese spitting cobra\nRed headed krait\nBanded"
-     ],
-     [
-      "s27_massive_blood_transfusion_0004",
-      "body_text",
-      14,
-      "## III. BLOOD PRODUCTS IN CLINICAL USE"
-     ],
-     [
-      "s29_acute_coronary_syndrome_acs_non_st_eleva_0005",
-      "flowchart",
-      29,
-      "M. Smit et al. / Journal of Cardiothoracic and Vascular Anesthesia 00 (2019) 1–1"
-     ],
-     [
-      "s31_emergency_tachy_arrhythmia_0004",
-      "body_text",
-      8,
-      "## IV. PIDERMIOLOGY"
-     ],
-     [
-      "s31_emergency_tachy_arrhythmia_0019",
-      "figure",
-      10,
-      "I.  MANAGEMENT\nII. MANAGEMENT"
-     ],
-     [
-      "s31_emergency_tachy_arrhythmia_0038",
-      "figure",
-      34,
-      "Note: The ECG does not show clear signs of acute ischemia or infarction, but the"
-     ],
-     [
       "s31_emergency_tachy_arrhythmia_0046",
       "body_text",
       33,
       "## IX. OMPLICATIONS\nThe common complications include sudden cardiac death, synco"
-     ],
-     [
-      "s32_emergency_bradycardia_0016",
-      "figure",
-      17,
-      "No abnormalities detected. Patient likely has a normal cardiac electrical system"
-     ],
-     [
-      "s32_emergency_bradycardia_0019",
-      "figure",
-      34,
-      "This is a 12-lead electrocardiogram (ECG) tracing, specifically lead II, showing"
-     ],
-     [
-      "s35_hypertension_0015",
-      "body_text",
-      20,
-      "## Antihypertensive recommendations based on patient co-morbidities and\n## chara"
-     ],
-     [
-      "s38_aortic_stenosis_as_0006",
-      "figure",
-      30,
-      "No drug names, dosages, or specific clinical decision points are included — this"
-     ],
-     [
-      "s40_mitral_regurgitation_mr_0017",
-      "figure",
-      28,
-      "This classification is essential for guiding surgical planning and understanding"
-     ],
-     [
-      "s44_prevention_of_deep_venous_thrombosis_0003",
-      "body_text",
-      39,
-      "## II. RISK   ASSESSMENT   AND PROPHYLACTIC RECOMMENDATION FOR\n## MEDICAL PATIEN"
-     ],
-     [
-      "s45_infectious_endocarditis_0047",
-      "figure",
-      37,
-      "| Gentamicinc | 3 mg/kg/day i.v. or i.m. in 3 equally divided doses |  |  |"
-     ],
-     [
-      "s48_constrictive_pericarditis_0019",
-      "body_text",
-      32,
-      "## Diagnosis and therapeutic approach for relapsing pericarditis\n## Therapeutic "
      ]
     ],
-    "under_min_count": 28,
+    "under_min_count": 1,
     "under_min_by_type": {
-     "flowchart": 5,
-     "body_text": 9,
-     "figure": 14
+     "body_text": 1
     },
     "over_max": [
      [
@@ -370,7 +267,7 @@
      [
       "s14_cardiopulmonary_arrest_basic_and_advance_0051",
       "flowchart",
-      436
+      443
      ],
      [
       "s14_cardiopulmonary_arrest_basic_and_advance_0060",
@@ -430,17 +327,17 @@
      [
       "s46_infectious_endocarditis_0044",
       "table",
-      447
+      446
      ],
      [
       "s46_infectious_endocarditis_0045",
       "table",
-      434
+      433
      ],
      [
       "s46_infectious_endocarditis_0046",
       "table",
-      447
+      446
      ],
      [
       "s49_management_of_cardiovascular_diseases_du_0017",
@@ -458,18 +355,18 @@
      "table": 3
     },
     "numbers_verified": {
-     "body_text:True": 940,
-     "table:False": 124,
-     "flowchart:False": 60,
-     "figure:False": 335,
+     "body_text:True": 930,
+     "table:False": 125,
+     "flowchart:False": 55,
+     "figure:False": 329,
      "table:True": 162,
-     "figure:True": 23,
-     "body_text:False": 8
+     "body_text:False": 10,
+     "figure:True": 15
     }
    }
   },
   "512": {
-   "chunks": 926,
+   "chunks": 905,
    "numbers_symbols": {
     "chunks_plus_excluded_all_pages": {
      "numbers": "6362/6362",
@@ -507,7 +404,7 @@
    "tokens": {
     "histogram": {
      "body_text": {
-      "0-39": 8,
+      "0-39": 0,
       "40-63": 4,
       "64-127": 22,
       "128-191": 28,
@@ -519,11 +416,11 @@
       "1024-": 0
      },
      "figure": {
-      "0-39": 8,
+      "0-39": 0,
       "40-63": 2,
       "64-127": 8,
-      "128-191": 8,
-      "192-255": 8,
+      "128-191": 7,
+      "192-255": 9,
       "256-383": 34,
       "384-511": 63,
       "512-767": 39,
@@ -531,12 +428,12 @@
       "1024-": 0
      },
      "flowchart": {
-      "0-39": 5,
+      "0-39": 0,
       "40-63": 0,
       "64-127": 7,
       "128-191": 8,
-      "192-255": 8,
-      "256-383": 11,
+      "192-255": 7,
+      "256-383": 12,
       "384-511": 11,
       "512-767": 8,
       "768-1023": 2,
@@ -555,140 +452,9 @@
       "1024-": 0
      }
     },
-    "under_min": [
-     [
-      "s06_stroke_syndrome_in_emergency_0018",
-      "flowchart",
-      26,
-      "7. Decision tree, (algorithm)\n\nMANAGEMENT OF PATIENT WITH STROKE SYNDROME"
-     ],
-     [
-      "s14_cardiopulmonary_arrest_basic_and_advance_0008",
-      "body_text",
-      22,
-      "## 5- First-line treatment of n hospital cardiac arrest (IHCA)\n## Adult chain of"
-     ],
-     [
-      "s14_cardiopulmonary_arrest_basic_and_advance_0010",
-      "figure",
-      19,
-      "Advance cardiac life support (ACLS) for adult (A-B-C-D)"
-     ],
-     [
-      "s14_cardiopulmonary_arrest_basic_and_advance_0012",
-      "flowchart",
-      9,
-      "### Airway management\n\n6- Treatment adjustment"
-     ],
-     [
-      "s14_cardiopulmonary_arrest_basic_and_advance_0017",
-      "figure",
-      8,
-      "C\nD\n6-  Treatment adj\nustment"
-     ],
-     [
-      "s14_cardiopulmonary_arrest_basic_and_advance_0031",
-      "body_text",
-      7,
-      "## Adult ACLS Algorithm"
-     ],
-     [
-      "s14_cardiopulmonary_arrest_basic_and_advance_0038",
-      "figure",
-      13,
-      "Algorithm for VF/ pulseless VT management"
-     ],
-     [
-      "s14_cardiopulmonary_arrest_basic_and_advance_0039",
-      "body_text",
-      8,
-      "## Algorithm for PEA management"
-     ],
-     [
-      "s18_initial_management_of_chest_trauma_0010",
-      "flowchart",
-      4,
-      "Flail Chest"
-     ],
-     [
-      "s18_initial_management_of_chest_trauma_0012",
-      "figure",
-      4,
-      "Flail Chest"
-     ],
-     [
-      "s18_initial_management_of_chest_trauma_0014",
-      "figure",
-      4,
-      "Rib Fracture"
-     ],
-     [
-      "s18_initial_management_of_chest_trauma_0016",
-      "figure",
-      6,
-      "Pulmonary Contusion"
-     ],
-     [
-      "s21_hypokalemia_0011",
-      "flowchart",
-      35,
-      "Algorithm for treatment of hypokalemia\n\nK – potassium; Mg – magnesium; IV – intr"
-     ],
-     [
-      "s26_snake_bites_0003",
-      "figure",
-      29,
-      "King cobra\nMonocellate cobra\nIndo-Chinese spitting cobra\nRed headed krait\nBanded"
-     ],
-     [
-      "s29_acute_coronary_syndrome_acs_non_st_eleva_0004",
-      "flowchart",
-      29,
-      "M. Smit et al. / Journal of Cardiothoracic and Vascular Anesthesia 00 (2019) 1–1"
-     ],
-     [
-      "s31_emergency_tachy_arrhythmia_0010",
-      "figure",
-      10,
-      "I.  MANAGEMENT\nII. MANAGEMENT"
-     ],
-     [
-      "s35_hypertension_0012",
-      "body_text",
-      20,
-      "## Antihypertensive recommendations based on patient co-morbidities and\n## chara"
-     ],
-     [
-      "s44_prevention_of_deep_venous_thrombosis_0002",
-      "body_text",
-      39,
-      "## II. RISK   ASSESSMENT   AND PROPHYLACTIC RECOMMENDATION FOR\n## MEDICAL PATIEN"
-     ],
-     [
-      "s47_pericarditis_0002",
-      "body_text",
-      10,
-      "## IV. PATHOPHYSIOLOGY"
-     ],
-     [
-      "s48_constrictive_pericarditis_0011",
-      "body_text",
-      32,
-      "## Diagnosis and therapeutic approach for relapsing pericarditis\n## Therapeutic "
-     ],
-     [
-      "s51_cardiac_evaluation_before_non_cardiac_su_0005",
-      "body_text",
-      18,
-      "## IV. APPROACH TO PERIOPERATIVE CARDIAC TESTING"
-     ]
-    ],
-    "under_min_count": 21,
-    "under_min_by_type": {
-     "flowchart": 5,
-     "body_text": 8,
-     "figure": 8
-    },
+    "under_min": [],
+    "under_min_count": 0,
+    "under_min_by_type": {},
     "over_max": [
      [
       "s15_acute_metabolic_complication_of_diabetes_0009",
@@ -705,17 +471,17 @@
      "flowchart": 2
     },
     "numbers_verified": {
-     "body_text:True": 507,
+     "body_text:True": 499,
      "table:False": 60,
-     "flowchart:False": 60,
+     "flowchart:False": 55,
      "figure:False": 147,
      "table:True": 125,
-     "figure:True": 23,
-     "body_text:False": 4
+     "body_text:False": 4,
+     "figure:True": 15
     }
    }
   },
-  "seconds": 34.5,
+  "seconds": 35.2,
   "failures": []
  }
 }

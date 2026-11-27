@@ -1,0 +1,48 @@
+{
+ "note": "Errors in the source document itself, not pipeline errors. The chunk text is NOT changed; chunks that contain an erratum carry metadata.errata = [id].",
+ "errata": [
+  {
+   "id": "E001",
+   "pages": [
+    43
+   ],
+   "where": "NEWS-2 table, respiratory rate (/minute), score 3 (high) column",
+   "document_says": ">= 75",
+   "expected": ">= 25",
+   "note": "NEWS-2 (Royal College of Physicians 2017) scores a respiratory rate of 25/min or more as 3. The same table printed again on p252 (sepsis section) says >= 25.",
+   "chunks": {
+    "256": [
+     "s03_early_warning_score_in_hospital_0005"
+    ],
+    "512": [
+     "s03_early_warning_score_in_hospital_0003"
+    ]
+   }
+  },
+  {
+   "id": "E002",
+   "pages": [
+    297,
+    299
+   ],
+   "where": "NSTE-ACS, timing of the early invasive strategy for high-risk patients",
+   "document_says": "p297 text and table: 'Early invasive (<24H)'; p299 algorithm figure: 'Early Invasive (<2H)'",
+   "expected": "< 24 h (ESC NSTE-ACS guideline); < 2 h is the immediate invasive strategy for very-high-risk patients",
+   "note": "The two pages disagree; the figure repeats the immediate-invasive time.",
+   "chunks": {
+    "256": [
+     "s29_acute_coronary_syndrome_acs_non_st_eleva_0023",
+     "s29_acute_coronary_syndrome_acs_non_st_eleva_0025",
+     "s29_acute_coronary_syndrome_acs_non_st_eleva_0030",
+     "s29_acute_coronary_syndrome_acs_non_st_eleva_0031"
+    ],
+    "512": [
+     "s29_acute_coronary_syndrome_acs_non_st_eleva_0017",
+     "s29_acute_coronary_syndrome_acs_non_st_eleva_0018",
+     "s29_acute_coronary_syndrome_acs_non_st_eleva_0021",
+     "s29_acute_coronary_syndrome_acs_non_st_eleva_0022"
+    ]
+   }
+  }
+ ]
+}

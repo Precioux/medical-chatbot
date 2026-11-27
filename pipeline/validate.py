@@ -6,7 +6,7 @@
    A chunk's text counts for every page it lists.
  2 every block of the verified unified output is in a chunk or in excluded.jsonl; every sentence of it as well
  3 no chunk crosses a section; every table part starts with the table's header
- 4 every citation matches the chunk's chapter, section and pages
+ 4 every citation matches the chunk's chapter, section and printed pages (PDF page - page_offset)
  5 token histogram per source_type; chunks under min_tokens_flag listed
  6 chunks_preview.html: random chunks + all chunks of the preview pages, next to the page image
 Outputs (stage5_validate/): validation.json, chunks_preview.html
@@ -25,13 +25,15 @@ def key(s):
 def run(cfg, log):
     import pymupdf
     import verify_output as V
-    from pipeline.chunk import split_sentences
+    from pipeline.chunk import fix_text, split_sentences
     V.PDF, V.DOCLING, V.PAGES = inp(cfg, "pdf"), inp(cfg, "docling_json"), inp(cfg, "page_images")
     t0 = time.time()
     cdir, out = stage_dir(cfg, "chunk"), stage_dir(cfg, "validate")
     doc = pymupdf.open(inp(cfg, "pdf"))
     dl = json.load(open(inp(cfg, "docling_json")))
     blocks = read_jsonl(os.path.join(stage_dir(cfg, "verify"), "unified_output.verified.jsonl"))
+    blocks = fix_text(blocks, cfg["chunk"])[0]           # the same page-checked OCR fixes stage 4 applied
+    off = cfg["chunk"]["page_offset"]
     bidx = {b["id"]: i for i, b in enumerate(blocks)}
     excluded = read_jsonl(os.path.join(cdir, "excluded.jsonl"))
     secs = json.load(open(os.path.join(cdir, "sections.json")))
@@ -124,6 +126,8 @@ def run(cfg, log):
             if c["source_type"] != "table":
                 continue
             lines = c["text_en"].split("\n")
+            while lines and not lines[0].lstrip().startswith("|"):   # a short chunk merged in front (caption)
+                lines = lines[1:]
             h = c["metadata"].get("table_header")
             if h and "\n".join(lines[:2]) != h:
                 bad_tables.append(c["chunk_id"])
@@ -141,9 +145,10 @@ def run(cfg, log):
             m = re.fullmatch(r"Ch\. (\w+) §(\d+) (.+), (?:p\. (\d+)|pp\. (\d+)–(\d+))", c["citation"])
             ok = bool(m) and m[1] == c["chapter"] and int(m[2]) == c["section_number"] and m[3] == c["section_title"] \
                 and sinfo[c["section_number"]]["chapter"] == c["chapter"] and sinfo[c["section_number"]]["title"] == c["section_title"]
-            if ok:
-                ok = (int(m[4]) == c["pages"][0] and len(c["pages"]) == 1) if m[4] else \
-                    (int(m[5]) == c["pages"][0] and int(m[6]) == c["pages"][-1])
+            if ok:                                       # printed page numbers = PDF page - page_offset
+                ok = (int(m[4]) == c["pages"][0] - off and len(c["pages"]) == 1) if m[4] else \
+                    (int(m[5]) == c["pages"][0] - off and int(m[6]) == c["pages"][-1] - off)
+                ok &= c["metadata"].get("printed_pages") == [pg - off for pg in c["pages"]]
             if not ok:
                 bad_cite.append((c["chunk_id"], c["citation"], c["pages"]))
         r["citations"] = {"bad": bad_cite, "pass": not bad_cite}

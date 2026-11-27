@@ -28,6 +28,13 @@ runai command), `--from chunk`, `--to translate`, `--force`.
   their English names are in the same table row.
 - Chunking rules are in the `pipeline/chunk.py` docstring. Sections are cut where each TOC title line is found in the
   text layer, never at Docling headings. Over-max chunks are only flowcharts (kept whole) and single table rows.
+- Stage 4 also (2026-11-27): cites the **printed** page (PDF page - 13, checked against every page footer; `pages` keep
+  the PDF page); applies page-image-checked OCR fixes (`chunk.text_fixes`) and LaTeX -> text before chunking (stage 5
+  applies the same `fix_text`); joins stray `##` lines (`stray_headings.json`); renames repeated-number score headers
+  (NEWS-2; `metadata.original_header`); merges chunks < 40 tokens into the next chunk of the same section
+  (`metadata.merged_from`); tags document errata from `chunk.errata` (`out/pipeline/errata.json`, `metadata.errata`,
+  text unchanged); writes `out/pipeline/manual_review_tables.csv` (tables with numbers_verified=false).
+  Document typo: PDF p284's footer says 288 (it is printed page 271; the page is a chapter title page, not indexed).
 - `verify_output.coverage()` is shared by stages 3 and 5. `norm_text` maps Khmer/Lao digits to ASCII.
 
 ## Layout

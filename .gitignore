@@ -32,3 +32,5 @@ profiling_output/
 test_out/
 test_logs/
 logs/
+# local model weights (Sailor2 etc., ~24 GB)
+models/

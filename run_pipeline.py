@@ -31,8 +31,8 @@ DEPS = {
                "prev": [("extract", "unified_output.jsonl")], "cfg": ["verify"]},
     "chunk": {"code": ["pipeline/chunk.py"], "inputs": ["pdf"],
               "prev": [("verify", "unified_output.verified.jsonl")], "cfg": ["chunk"]},
-    "validate": {"code": ["pipeline/validate.py", "verify_output.py"], "inputs": ["pdf"],
-                 "prev": [("chunk", "chunks_256.jsonl"), ("chunk", "chunks_512.jsonl"), ("chunk", "excluded.jsonl"),
+    "validate": {"code": ["pipeline/validate.py", "verify_output.py", "pipeline/chunk.py"], "inputs": ["pdf"],
+                 "prev": [("verify", "unified_output.verified.jsonl"), ("chunk", "chunks_256.jsonl"), ("chunk", "chunks_512.jsonl"), ("chunk", "excluded.jsonl"),
                           ("chunk", "sections.json")], "cfg": ["validate", "verify", "chunk"]},
 }
 

@@ -23,6 +23,7 @@ OUT = os.path.join(ROOT, "out")
 TR = os.path.join(OUT, "translation_agent")
 FL = os.path.join(ROOT, "data", "flores200", "flores200_dataset", "devtest")
 MODELS_DIR = os.path.normpath(os.path.join(ROOT, "..", "models"))
+LOCAL_MODELS_DIR = os.path.join(ROOT, "models")        # models downloaded for this project only (ml/models, not in git)
 COMET_LIB = os.path.normpath(os.path.join(ROOT, "..", "pylibs", "comet"))     # unbabel-comet, installed --no-deps
 
 LANGS = {"khm": ("Khmer", "khm_Khmr"), "lao": ("Lao", "lao_Laoo"), "vie": ("Vietnamese", "vie_Latn")}
@@ -37,8 +38,19 @@ LLMS = {  # name -> (path, loader)
     "Qwen3-VL-8B (text-only)": (f"{MODELS_DIR}/Qwen3-VL-8B-Instruct", "vlm"),
     # aisingapore/Gemma-SEA-LION-v4-27B-IT: Gemma-3-27B-IT continued-pretrained on SEA languages incl. Khmer and Lao
     "SEA-LION-v4-27B-IT": (f"{MODELS_DIR}/Gemma-SEA-LION-v4-27B-IT", "vlm"),
+    # smaller SEA-LION v4 models (aisingapore/*): Qwen3-VL-4B and Gemma-3-4B based VLMs, and a text-only Apertus-8B
+    "Qwen-SEA-LION-v4-4B-VL": (f"{MODELS_DIR}/Qwen-SEA-LION-v4-4B-VL", "vlm"),
+    "Gemma-SEA-LION-v4-4B-VL": (f"{MODELS_DIR}/Gemma-SEA-LION-v4-4B-VL", "vlm"),
+    "Apertus-SEA-LION-v4-8B-IT": (f"{MODELS_DIR}/Apertus-SEA-LION-v4-8B-IT", "causal"),
+    # sail/Sailor2-*-Chat: Qwen2.5-based, continued-pretrained on Southeast Asian languages (text-only)
+    "Sailor2-3B-Chat": (f"{LOCAL_MODELS_DIR}/Sailor2-3B-Chat", "causal"),
+    "Sailor2-8B-Chat": (f"{LOCAL_MODELS_DIR}/Sailor2-8B-Chat", "causal"),
+    "Sailor2-20B-Chat": (f"{LOCAL_MODELS_DIR}/Sailor2-20B-Chat", "causal"),
 }
 NLLB = "NLLB-1.3B"
+# NLLB models run by this script (the 1.3B uses the saved outputs of the earlier benchmark): beam 4, sentence by
+# sentence, the same settings as that benchmark; loaded from the shared HF cache (added 2026-11-27)
+NLLB_EXTRA = {"NLLB-3.3B": "facebook/nllb-200-3.3B"}
 SYSTEM = ("You are a medical translator. Translate the user's text from {lang} into English. Output only the English "
           "translation, nothing else. Keep every number, unit, range and symbol exactly as written. Never drop a "
           "negation (not, no, never, avoid). Keep drug names as they are.")
@@ -166,8 +178,13 @@ def translate(model, tok, proc, texts, lang, max_new, bs, log):
     ps = prompts(texts, lang, tok, proc)
     order = sorted(range(len(ps)), key=lambda i: -len(tok(ps[i], add_special_tokens=False)["input_ids"]))
     res = [None] * len(ps)
+    # stop at the end-of-turn token too: Sailor2 ends a reply with <|im_end|> but its eos is <|endoftext|>, so without
+    # this it opens a new 'assistant' turn and rambles to max_new (Sailor2-3B: every sentence; added 2026-11-27,
+    # outputs saved before that were not rerun)
+    stop = {tok.eos_token_id} | {i for t in ("<|im_end|>", "<end_of_turn>", "<|eot_id|>")
+                                 if (i := tok.convert_tokens_to_ids(t)) is not None and i != tok.unk_token_id}
     gen_cfg = dict(do_sample=False, temperature=None, top_p=None, top_k=None, max_new_tokens=max_new,
-                   pad_token_id=tok.pad_token_id)
+                   pad_token_id=tok.pad_token_id, eos_token_id=sorted(i for i in stop if i is not None))
     for s in range(0, len(order), bs):
         idx = order[s:s + bs]
         enc = tok([ps[i] for i in idx], return_tensors="pt", padding=True, add_special_tokens=False).to("cuda")
@@ -213,10 +230,58 @@ def run_llms(data, n, bs, log):
         gc.collect(); torch.cuda.empty_cache()
 
 
+def run_nllb(data, log, bs=16):
+    """NLLB_EXTRA models -> out/translation_agent/<slug>.<set>.jsonl ({"i", "raw", "clean", "sec_per_100"})."""
+    import torch
+    from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+    code = {name: c for name, c in LANGS.values()}
+    for name, mid in NLLB_EXTRA.items():
+        todo = [st for st in SETS if not os.path.exists(os.path.join(TR, f"{slug(name)}.{st}.jsonl"))]
+        if not todo:
+            log(f"{name}: all outputs present, skipped")
+            continue
+        t0 = time.time()
+        tok = AutoTokenizer.from_pretrained(mid)
+        model = AutoModelForSeq2SeqLM.from_pretrained(mid, dtype=torch.bfloat16).to("cuda").eval()
+        log(f"{name}: loaded in {time.time() - t0:.0f} s; sets {todo}")
+        bos = tok.convert_tokens_to_ids("eng_Latn")
+        for st in todo:
+            src = data[st]["src"]
+            tok.src_lang = code[SET_LANG[st]]
+            order = sorted(range(len(src)), key=lambda i: -len(src[i]))
+            res, t1 = [None] * len(src), time.time()
+            with torch.no_grad():
+                for k in range(0, len(order), bs):
+                    idx = order[k:k + bs]
+                    enc = tok([src[i] for i in idx], return_tensors="pt", padding=True, truncation=True,
+                              max_length=256).to("cuda")
+                    g = model.generate(**enc, forced_bos_token_id=bos, num_beams=4, max_new_tokens=384)
+                    for i, t in zip(idx, tok.batch_decode(g, skip_special_tokens=True)):
+                        res[i] = t.strip()
+            secs = time.time() - t1
+            with open(os.path.join(TR, f"{slug(name)}.{st}.jsonl"), "w", encoding="utf-8") as fh:
+                for i, t in enumerate(res):
+                    fh.write(json.dumps({"i": i, "raw": t, "clean": t, "sec_per_100": round(100 * secs / len(src), 2)},
+                                        ensure_ascii=False) + "\n")
+            log(f"  {st}: {len(src)} sentences in {secs:.0f} s ({100 * secs / len(src):.1f} s/100)")
+        del model
+        import gc
+        gc.collect(); torch.cuda.empty_cache()
+
+
 # ---------------------------------------------------------------- scoring
 def system_outputs(data, n):
     """{model: {set: {"hyp": [...], "meta": [...] or None}}}"""
     systems = {NLLB: {st: {"hyp": h, "meta": None} for st, h in nllb_outputs(n).items()}}
+    for name in NLLB_EXTRA:                                  # like the 1.3B: raw output, no LLM meta (no cleaning)
+        sets = {}
+        for st in SETS:
+            f = os.path.join(TR, f"{slug(name)}.{st}.jsonl")
+            rows = {json.loads(l)["i"]: json.loads(l) for l in open(f)} if os.path.exists(f) else {}
+            if rows and all(i in rows for i in range(len(data[st]["src"]))):
+                sets[st] = {"hyp": [rows[i]["raw"] for i in range(len(data[st]["src"]))], "meta": None}
+        if sets:
+            systems[name] = sets
     for name in LLMS:
         systems[name] = {}
         for st in SETS:
@@ -312,15 +377,16 @@ def chart(rows, path):
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
-    models = [NLLB] + list(LLMS)
-    colors = ["#257de0", "#f47230", "#00b894", "#f2a600", "#ee7fac", "#008a17"]   # categorical slots 1-6, fixed order
+    models = [m for m in [NLLB] + list(LLMS) + list(NLLB_EXTRA) if any(r["model"] == m for r in rows)]
+    colors = ["#257de0", "#f47230", "#00b894", "#f2a600", "#ee7fac", "#008a17",     # categorical slots 1-13, fixed order
+              "#7a5af8", "#b0413e", "#5f6b7a", "#9c36b5", "#5c940d", "#3b2a8a", "#0b3d91"]
     sets = [s for s in SETS if any(r["set"] == s for r in rows)]
     w = 0.8 / len(models)
     # (key, y label, value format, label offset, y floor): COMET starts at 0.4 so the differences are visible
     panels = [("BLEU", "BLEU (sacrebleu, corpus)", "{:.1f}", 0.5, 0),
               ("chrF++", "chrF++ (word_order=2)", "{:.1f}", 0.5, 0),
               ("COMET", "COMET (wmt22-comet-da)\naxis starts at 0.4", "{:.3f}", 0.004, 0.4)]
-    fig, axes = plt.subplots(len(panels), 1, figsize=(12, 13), dpi=150, sharex=True)
+    fig, axes = plt.subplots(len(panels), 1, figsize=(15, 13), dpi=150, sharex=True)
     for ax, (key, ylab, fmt, off, lo) in zip(axes, panels):
         for j, m in enumerate(models):
             vals = [next((r[key] or 0 for r in rows if r["model"] == m and r["set"] == s), 0) for s in sets]
@@ -341,7 +407,7 @@ def chart(rows, path):
     n = next(r["n"] for r in rows if r["set"] == "flores_khm")
     axes[0].set_title(f"X → English: NLLB-1.3B vs LLM translation agents (FLORES devtest first {n}, "
                       "200 Khmer medical Qs)", fontsize=10, loc="left", pad=28)
-    axes[0].legend(frameon=False, fontsize=8, ncol=len(models), loc="lower left", bbox_to_anchor=(0, 1.0))
+    axes[0].legend(frameon=False, fontsize=8, ncol=5, loc="lower left", bbox_to_anchor=(0, 1.0))
     fig.tight_layout()
     fig.savefig(path)
 
@@ -384,6 +450,7 @@ def main():
     log = lambda m: print(time.strftime("%H:%M:%S"), m, flush=True)
     data = load_sets(a.n)
     if not a.report_only:
+        run_nllb(data, log)
         run_llms(data, a.n, a.bs, log)
     systems = system_outputs(data, a.n)
     comet = comet_scores(data, systems, a.n, log, gpu=not a.report_only)
@@ -391,6 +458,7 @@ def main():
     ex = disagreements(data, systems, comet)
     json.dump({"config": {"n_flores": a.n, "system_prompt": SYSTEM, "decoding": "greedy (temperature 0)",
                           "models": {NLLB: "facebook/nllb-200-1.3B (saved outputs, beam 4)",
+                                     **{m: f"{p} (beam 4, bf16)" for m, p in NLLB_EXTRA.items()},
                                      **{m: p for m, (p, _) in LLMS.items()}},
                           "comet": "Unbabel/wmt22-comet-da", "bleu": "sacrebleu corpus_bleu default",
                           "chrf": "sacrebleu corpus_chrf word_order=2"},

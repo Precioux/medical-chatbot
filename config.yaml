@@ -59,6 +59,44 @@ chunk:
   reference_heading: REFERENCES    # fuzzy-matched (EFERENCES, REFERRENCES, REFERECES occur)
   flowchart_match_min: 0.35        # word overlap Chandra algorithm vs Qwen3 description to call them the same figure
   flowchart_min_chars: 150         # shorter Chandra algorithm blocks are not treated as the figure's transcription
+  # OCR errors in image tables, each checked by eye against the page image (pages/page_NNNN.png), 2026-11-27.
+  # Applied to the stage-3 blocks before chunking (stage 5 applies them too); a fix that no longer matches stops stage 4.
+  text_fixes:
+    - page: 443
+      find: '\$4'
+      replace: 'S4'
+      why: "Table 1, Heart / STOP column: the image reads 'Loud systolic murmur, diastolic murmur, S4' (4th heart sound)"
+    - page: 412
+      find: 'combined with $\nu$ be considered'
+      replace: 'combined with be considered'
+      why: "the image reads '... daptomycin combined with ceftaroline or fosfomycin may be considered'; the OCR put
+        'ceftaroline or fosfomycin may' in the first cell of the row and read the end of 'may' as $\nu$"
+    - page: 422
+      find: 'combined with\ne considered'
+      replace: 'combined with be considered'
+      why: "same table as p412 (printed again); the image reads '... may be considered'; '\n' is an escaped line
+        break left by the OCR inside the word 'be'"
+  # Errors in the source document itself (not pipeline errors). The chunk text is NOT changed; chunks whose text
+  # matches get metadata.errata = [id] and the list goes to out/pipeline/errata.json.
+  errata:
+    - id: E001
+      pages: [43]
+      where: "NEWS-2 table, respiratory rate (/minute), score 3 (high) column"
+      document_says: ">= 75"
+      expected: ">= 25"
+      note: "NEWS-2 (Royal College of Physicians 2017) scores a respiratory rate of 25/min or more as 3. The same table
+        printed again on p252 (sepsis section) says >= 25."
+      match:
+        - {page: 43, regex: '≥\s*75'}
+    - id: E002
+      pages: [297, 299]
+      where: "NSTE-ACS, timing of the early invasive strategy for high-risk patients"
+      document_says: "p297 text and table: 'Early invasive (<24H)'; p299 algorithm figure: 'Early Invasive (<2H)'"
+      expected: "< 24 h (ESC NSTE-ACS guideline); < 2 h is the immediate invasive strategy for very-high-risk patients"
+      note: "The two pages disagree; the figure repeats the immediate-invasive time."
+      match:
+        - {page: 297, regex: 'Early invasive\s*\(<\s*24\s*H\)'}
+        - {page: 299, regex: 'Early Invasive\s*\(<\s*2\s*H\)|Early Invasive[\s\S]{0,120}?\(<\s*2\s*H\)\s*\n\s*\(<\s*2\s*H\)'}
 
 validate:
   random_chunks: 20

@@ -1,0 +1,134 @@
+{
+ "rule": "A '#' line that Docling marked as a heading but that is the rest of the previous line -> 'sentence' | 'heading'",
+ "count": 16,
+ "lines": [
+  {
+   "page": 44,
+   "block": "chunk_00108",
+   "section": 3,
+   "fixed_as": "heading",
+   "previous_line": "ncrease of NEWS score range, implied the scaleup of patient assessment frequency",
+   "line": "## and additional measure"
+  },
+  {
+   "page": 309,
+   "block": "chunk_00849",
+   "section": 31,
+   "fixed_as": "sentence",
+   "previous_line": "- Verapamil is not recommended in wide QRS complex tachycardia of",
+   "line": "## unknown etiology"
+  },
+  {
+   "page": 321,
+   "block": "chunk_00891",
+   "section": 33,
+   "fixed_as": "heading",
+   "previous_line": "## Diagnostic Algorithm for patient with suspected high-risk PE with hemodynamic",
+   "line": "## instability"
+  },
+  {
+   "page": 321,
+   "block": "chunk_00891",
+   "section": 33,
+   "fixed_as": "sentence",
+   "previous_line": "- Immediate treatment: Start anticoagulation as soon as PE is sus",
+   "line": "## pected"
+  },
+  {
+   "page": 326,
+   "block": "chunk_00907",
+   "section": 34,
+   "fixed_as": "sentence",
+   "previous_line": "- ¼ or 24% patients are re-hospitalized within 30-days post discharge period,",
+   "line": "## 20% die within 6 months"
+  },
+  {
+   "page": 337,
+   "block": "chunk_00940",
+   "section": 35,
+   "fixed_as": "heading",
+   "previous_line": "## Antihypertensive recommendations based on patient co-morbidities and",
+   "line": "## characteristics"
+  },
+  {
+   "page": 398,
+   "block": "chunk_01113",
+   "section": 43,
+   "fixed_as": "sentence",
+   "previous_line": "- In patients where initial tests are inconclusive but suspicion remains,",
+   "line": "## repeat ultrasound after 5 – 7 days may be performed to confirm or"
+  },
+  {
+   "page": 445,
+   "block": "chunk_01248",
+   "section": 49,
+   "fixed_as": "sentence",
+   "previous_line": "- Oxytocin and artificial rupture of the membrane are indicated when the",
+   "line": "## Bishop score is favorable (avoiding long induction time)"
+  },
+  {
+   "page": 452,
+   "block": "chunk_01267",
+   "section": 49,
+   "fixed_as": "sentence",
+   "previous_line": "- If the woman is taking ß-blockers during pregnancy they should be continue",
+   "line": "## in the peripartum periods"
+  },
+  {
+   "page": 452,
+   "block": "chunk_01267",
+   "section": 49,
+   "fixed_as": "sentence",
+   "previous_line": "- Caesarean section should be considered when the aortic diameter exceeds",
+   "line": "## 45mm and should be performed early especially in women with Ehlers- Danlos"
+  },
+  {
+   "page": 453,
+   "block": "chunk_01269",
+   "section": 49,
+   "fixed_as": "sentence",
+   "previous_line": "- Diuretics are recommended (avoiding high dose) when congestive symptoms",
+   "line": "## persist despite B-blockers"
+  },
+  {
+   "page": 459,
+   "block": "chunk_01290",
+   "section": 49,
+   "fixed_as": "sentence",
+   "previous_line": "- Temporary pacing during pregnancy is recommended in selected women",
+   "line": "## with complete heart block and symptoms due to the risk of bradycardia"
+  },
+  {
+   "page": 462,
+   "block": "chunk_01300",
+   "section": 49,
+   "fixed_as": "sentence",
+   "previous_line": "gent reversal of anticoagulation by protamine is needed, as well as in the acute",
+   "line": "## treatment of massive pulmonary emboli:"
+  },
+  {
+   "page": 462,
+   "block": "chunk_01300",
+   "section": 49,
+   "fixed_as": "sentence",
+   "previous_line": "- VKA may be started on the second day after delivery and",
+   "line": "## continued for at least 3 months or for 6 months if pulmonary"
+  },
+  {
+   "page": 462,
+   "block": "chunk_01302",
+   "section": 49,
+   "fixed_as": "sentence",
+   "previous_line": "Women with low pre-test probability and normal D-dimer should undergo",
+   "line": "## serial compression ultrasonography on day3 and after 1 week without anti-"
+  },
+  {
+   "page": 471,
+   "block": "chunk_01326",
+   "section": 51,
+   "fixed_as": "sentence",
+   "previous_line": "- In patients with HF undergoing elective NCS, sodium-glucose",
+   "line": "## cotransporter-2 inhibitors (SGLT2i) should be withheld for 3 to 4"
+  }
+ ]
+}

@@ -1,36 +1,36 @@
 {
  "256": {
-  "chunks": 1652,
+  "chunks": 1626,
   "per_source_type": {
-   "body_text": 948,
-   "table": 286,
-   "flowchart": 60,
-   "figure": 358
+   "body_text": 940,
+   "table": 287,
+   "flowchart": 55,
+   "figure": 344
   },
   "tokens": {
-   "min": 4,
-   "median": 221.0,
+   "min": 33,
+   "median": 222.0,
    "max": 934
   },
   "tokens_per_type": {
    "body_text": {
-    "min": 7,
-    "median": 226.0,
-    "max": 277
+    "min": 33,
+    "median": 227.0,
+    "max": 278
    },
    "table": {
     "min": 58,
-    "median": 218.5,
-    "max": 447
+    "median": 219,
+    "max": 446
    },
    "flowchart": {
-    "min": 4,
-    "median": 290.5,
+    "min": 73,
+    "median": 301,
     "max": 934
    },
    "figure": {
-    "min": 4,
-    "median": 204.0,
+    "min": 40,
+    "median": 207.0,
     "max": 381
    }
   },
@@ -39,8 +39,17 @@
    "flowchart": 21,
    "table": 3
   },
-  "mean_overlap_fraction": 0.188,
-  "text_chunks_with_overlap": "500/948",
+  "mean_overlap_fraction": 0.189,
+  "text_chunks_with_overlap": "500/940",
+  "tiny_before_merge": 28,
+  "tiny_merged": 27,
+  "tiny_left": [
+   {
+    "chunk_id": "s31_emergency_tachy_arrhythmia_0046",
+    "tokens": 33,
+    "reason": "last chunk of its section"
+   }
+  ],
   "flowchart_pairs": [
    {
     "algorithm": "chunk_00088",
@@ -361,37 +370,169 @@
     "overlap": 0.92
    }
   ],
+  "stray_hash_lines": [
+   {
+    "page": 44,
+    "block": "chunk_00108",
+    "section": 3,
+    "fixed_as": "heading",
+    "previous_line": "ncrease of NEWS score range, implied the scaleup of patient assessment frequency",
+    "line": "## and additional measure"
+   },
+   {
+    "page": 309,
+    "block": "chunk_00849",
+    "section": 31,
+    "fixed_as": "sentence",
+    "previous_line": "- Verapamil is not recommended in wide QRS complex tachycardia of",
+    "line": "## unknown etiology"
+   },
+   {
+    "page": 321,
+    "block": "chunk_00891",
+    "section": 33,
+    "fixed_as": "heading",
+    "previous_line": "## Diagnostic Algorithm for patient with suspected high-risk PE with hemodynamic",
+    "line": "## instability"
+   },
+   {
+    "page": 321,
+    "block": "chunk_00891",
+    "section": 33,
+    "fixed_as": "sentence",
+    "previous_line": "- Immediate treatment: Start anticoagulation as soon as PE is sus",
+    "line": "## pected"
+   },
+   {
+    "page": 326,
+    "block": "chunk_00907",
+    "section": 34,
+    "fixed_as": "sentence",
+    "previous_line": "- ¼ or 24% patients are re-hospitalized within 30-days post discharge period,",
+    "line": "## 20% die within 6 months"
+   },
+   {
+    "page": 337,
+    "block": "chunk_00940",
+    "section": 35,
+    "fixed_as": "heading",
+    "previous_line": "## Antihypertensive recommendations based on patient co-morbidities and",
+    "line": "## characteristics"
+   },
+   {
+    "page": 398,
+    "block": "chunk_01113",
+    "section": 43,
+    "fixed_as": "sentence",
+    "previous_line": "- In patients where initial tests are inconclusive but suspicion remains,",
+    "line": "## repeat ultrasound after 5 – 7 days may be performed to confirm or"
+   },
+   {
+    "page": 445,
+    "block": "chunk_01248",
+    "section": 49,
+    "fixed_as": "sentence",
+    "previous_line": "- Oxytocin and artificial rupture of the membrane are indicated when the",
+    "line": "## Bishop score is favorable (avoiding long induction time)"
+   },
+   {
+    "page": 452,
+    "block": "chunk_01267",
+    "section": 49,
+    "fixed_as": "sentence",
+    "previous_line": "- If the woman is taking ß-blockers during pregnancy they should be continue",
+    "line": "## in the peripartum periods"
+   },
+   {
+    "page": 452,
+    "block": "chunk_01267",
+    "section": 49,
+    "fixed_as": "sentence",
+    "previous_line": "- Caesarean section should be considered when the aortic diameter exceeds",
+    "line": "## 45mm and should be performed early especially in women with Ehlers- Danlos"
+   },
+   {
+    "page": 453,
+    "block": "chunk_01269",
+    "section": 49,
+    "fixed_as": "sentence",
+    "previous_line": "- Diuretics are recommended (avoiding high dose) when congestive symptoms",
+    "line": "## persist despite B-blockers"
+   },
+   {
+    "page": 459,
+    "block": "chunk_01290",
+    "section": 49,
+    "fixed_as": "sentence",
+    "previous_line": "- Temporary pacing during pregnancy is recommended in selected women",
+    "line": "## with complete heart block and symptoms due to the risk of bradycardia"
+   },
+   {
+    "page": 462,
+    "block": "chunk_01300",
+    "section": 49,
+    "fixed_as": "sentence",
+    "previous_line": "gent reversal of anticoagulation by protamine is needed, as well as in the acute",
+    "line": "## treatment of massive pulmonary emboli:"
+   },
+   {
+    "page": 462,
+    "block": "chunk_01300",
+    "section": 49,
+    "fixed_as": "sentence",
+    "previous_line": "- VKA may be started on the second day after delivery and",
+    "line": "## continued for at least 3 months or for 6 months if pulmonary"
+   },
+   {
+    "page": 462,
+    "block": "chunk_01302",
+    "section": 49,
+    "fixed_as": "sentence",
+    "previous_line": "Women with low pre-test probability and normal D-dimer should undergo",
+    "line": "## serial compression ultrasonography on day3 and after 1 week without anti-"
+   },
+   {
+    "page": 471,
+    "block": "chunk_01326",
+    "section": 51,
+    "fixed_as": "sentence",
+    "previous_line": "- In patients with HF undergoing elective NCS, sodium-glucose",
+    "line": "## cotransporter-2 inhibitors (SGLT2i) should be withheld for 3 to 4"
+   }
+  ],
   "counters": {
-   "sentences_joined_across_lines": 633,
+   "sentences_joined_across_lines": 644,
    "type_body_text": 948,
-   "type_table": 286,
+   "type_table": 287,
    "overlaps": 500,
    "type_flowchart": 60,
    "type_figure": 358,
    "figures_split": 82,
-   "sentences_joined_across_blocks": 45,
+   "sentences_joined_across_blocks": 52,
    "tables_split": 38,
    "flowcharts_paired_with_qwen3": 53,
-   "overlap_skipped_long_sentence": 11
+   "overlap_skipped_long_sentence": 11,
+   "score_headers_renamed": 2,
+   "tiny_merged": 27
   }
  },
  "512": {
-  "chunks": 926,
+  "chunks": 905,
   "per_source_type": {
-   "body_text": 511,
+   "body_text": 503,
    "table": 185,
-   "flowchart": 60,
-   "figure": 170
+   "flowchart": 55,
+   "figure": 162
   },
   "tokens": {
-   "min": 4,
-   "median": 371.0,
+   "min": 48,
+   "median": 376,
    "max": 934
   },
   "tokens_per_type": {
    "body_text": {
-    "min": 7,
-    "median": 385,
+    "min": 48,
+    "median": 390,
     "max": 512
    },
    "table": {
@@ -400,13 +541,13 @@
     "max": 738
    },
    "flowchart": {
-    "min": 4,
-    "median": 290.5,
+    "min": 73,
+    "median": 301,
     "max": 934
    },
    "figure": {
-    "min": 4,
-    "median": 433.5,
+    "min": 48,
+    "median": 439.5,
     "max": 758
    }
   },
@@ -415,7 +556,10 @@
    "flowchart": 2
   },
   "mean_overlap_fraction": 0.2,
-  "text_chunks_with_overlap": "183/511",
+  "text_chunks_with_overlap": "183/503",
+  "tiny_before_merge": 21,
+  "tiny_merged": 21,
+  "tiny_left": [],
   "flowchart_pairs": [
    {
     "algorithm": "chunk_00088",
@@ -736,17 +880,149 @@
     "overlap": 0.92
    }
   ],
+  "stray_hash_lines": [
+   {
+    "page": 44,
+    "block": "chunk_00108",
+    "section": 3,
+    "fixed_as": "heading",
+    "previous_line": "ncrease of NEWS score range, implied the scaleup of patient assessment frequency",
+    "line": "## and additional measure"
+   },
+   {
+    "page": 309,
+    "block": "chunk_00849",
+    "section": 31,
+    "fixed_as": "sentence",
+    "previous_line": "- Verapamil is not recommended in wide QRS complex tachycardia of",
+    "line": "## unknown etiology"
+   },
+   {
+    "page": 321,
+    "block": "chunk_00891",
+    "section": 33,
+    "fixed_as": "heading",
+    "previous_line": "## Diagnostic Algorithm for patient with suspected high-risk PE with hemodynamic",
+    "line": "## instability"
+   },
+   {
+    "page": 321,
+    "block": "chunk_00891",
+    "section": 33,
+    "fixed_as": "sentence",
+    "previous_line": "- Immediate treatment: Start anticoagulation as soon as PE is sus",
+    "line": "## pected"
+   },
+   {
+    "page": 326,
+    "block": "chunk_00907",
+    "section": 34,
+    "fixed_as": "sentence",
+    "previous_line": "- ¼ or 24% patients are re-hospitalized within 30-days post discharge period,",
+    "line": "## 20% die within 6 months"
+   },
+   {
+    "page": 337,
+    "block": "chunk_00940",
+    "section": 35,
+    "fixed_as": "heading",
+    "previous_line": "## Antihypertensive recommendations based on patient co-morbidities and",
+    "line": "## characteristics"
+   },
+   {
+    "page": 398,
+    "block": "chunk_01113",
+    "section": 43,
+    "fixed_as": "sentence",
+    "previous_line": "- In patients where initial tests are inconclusive but suspicion remains,",
+    "line": "## repeat ultrasound after 5 – 7 days may be performed to confirm or"
+   },
+   {
+    "page": 445,
+    "block": "chunk_01248",
+    "section": 49,
+    "fixed_as": "sentence",
+    "previous_line": "- Oxytocin and artificial rupture of the membrane are indicated when the",
+    "line": "## Bishop score is favorable (avoiding long induction time)"
+   },
+   {
+    "page": 452,
+    "block": "chunk_01267",
+    "section": 49,
+    "fixed_as": "sentence",
+    "previous_line": "- If the woman is taking ß-blockers during pregnancy they should be continue",
+    "line": "## in the peripartum periods"
+   },
+   {
+    "page": 452,
+    "block": "chunk_01267",
+    "section": 49,
+    "fixed_as": "sentence",
+    "previous_line": "- Caesarean section should be considered when the aortic diameter exceeds",
+    "line": "## 45mm and should be performed early especially in women with Ehlers- Danlos"
+   },
+   {
+    "page": 453,
+    "block": "chunk_01269",
+    "section": 49,
+    "fixed_as": "sentence",
+    "previous_line": "- Diuretics are recommended (avoiding high dose) when congestive symptoms",
+    "line": "## persist despite B-blockers"
+   },
+   {
+    "page": 459,
+    "block": "chunk_01290",
+    "section": 49,
+    "fixed_as": "sentence",
+    "previous_line": "- Temporary pacing during pregnancy is recommended in selected women",
+    "line": "## with complete heart block and symptoms due to the risk of bradycardia"
+   },
+   {
+    "page": 462,
+    "block": "chunk_01300",
+    "section": 49,
+    "fixed_as": "sentence",
+    "previous_line": "gent reversal of anticoagulation by protamine is needed, as well as in the acute",
+    "line": "## treatment of massive pulmonary emboli:"
+   },
+   {
+    "page": 462,
+    "block": "chunk_01300",
+    "section": 49,
+    "fixed_as": "sentence",
+    "previous_line": "- VKA may be started on the second day after delivery and",
+    "line": "## continued for at least 3 months or for 6 months if pulmonary"
+   },
+   {
+    "page": 462,
+    "block": "chunk_01302",
+    "section": 49,
+    "fixed_as": "sentence",
+    "previous_line": "Women with low pre-test probability and normal D-dimer should undergo",
+    "line": "## serial compression ultrasonography on day3 and after 1 week without anti-"
+   },
+   {
+    "page": 471,
+    "block": "chunk_01326",
+    "section": 51,
+    "fixed_as": "sentence",
+    "previous_line": "- In patients with HF undergoing elective NCS, sodium-glucose",
+    "line": "## cotransporter-2 inhibitors (SGLT2i) should be withheld for 3 to 4"
+   }
+  ],
   "counters": {
-   "sentences_joined_across_lines": 633,
+   "sentences_joined_across_lines": 644,
    "type_body_text": 511,
    "type_table": 185,
    "overlaps": 183,
    "type_flowchart": 60,
    "type_figure": 170,
    "figures_split": 23,
-   "sentences_joined_across_blocks": 45,
+   "sentences_joined_across_blocks": 52,
    "flowcharts_paired_with_qwen3": 53,
-   "tables_split": 12
+   "score_headers_renamed": 2,
+   "tables_split": 12,
+   "tiny_merged": 21
   }
  },
  "excluded": {
@@ -754,5 +1030,19 @@
   "reference_list": 95,
   "chapter_title_page": 1
  },
- "excluded_records": 129
+ "excluded_records": 129,
+ "printed_pages": {
+  "rule": "printed page = PDF page - 13",
+  "indexed_pages": 447,
+  "pages_without_footer_number": [],
+  "pages_footer_disagrees": [],
+  "chunks_without_printed_page": {
+   "256": [],
+   "512": []
+  }
+ },
+ "text_fixes": {
+  "changes": 9,
+  "latex_like_text_left": 0
+ }
 }

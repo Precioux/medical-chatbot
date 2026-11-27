@@ -7,8 +7,8 @@
 | 1 | translate | stage1_translate/ | done | 2026-11-26 12:09:52 | pipeline-translate-0-0 | 57.1 |
 | 2 | extract | stage2_extract/ | done | 2026-11-26 13:10:39 | haas034.ds-a3-r02.cct.rcp.epfl.ch | 33.6 |
 | 3 | verify | stage3_verify/ | done | 2026-11-26 13:10:49 | haas034.ds-a3-r02.cct.rcp.epfl.ch | 10.0 |
-| 4 | chunk | stage4_chunk/ | done | 2026-11-26 13:12:15 | haas034.ds-a3-r02.cct.rcp.epfl.ch | 20.5 |
-| 5 | validate | stage5_validate/ | done | 2026-11-26 13:12:50 | haas034.ds-a3-r02.cct.rcp.epfl.ch | 34.5 |
+| 4 | chunk | stage4_chunk/ | done | 2026-11-27 02:51:11 | haas034.ds-a3-r02.cct.rcp.epfl.ch | 20.9 |
+| 5 | validate | stage5_validate/ | done | 2026-11-27 02:51:47 | haas034.ds-a3-r02.cct.rcp.epfl.ch | 35.2 |
 
 ## Stage 1: translation
 
@@ -163,17 +163,17 @@ Excluded from the index (`excluded.jsonl`, 129 records): {'front_matter': 33, 'r
 
 | variant | chunks | body_text | table | flowchart | figure | tokens min / median / max | over max | text chunks with overlap | mean overlap |
 |---|---|---|---|---|---|---|---|---|---|
-| 256 (max 384) | 1652 | 948 | 286 | 60 | 358 | 4 / 221.0 / 934 | 24 {'flowchart': 21, 'table': 3} | 500/948 | 19% |
-| 512 (max 768) | 926 | 511 | 185 | 60 | 170 | 4 / 371.0 / 934 | 2 {'flowchart': 2} | 183/511 | 20% |
+| 256 (max 384) | 1626 | 940 | 287 | 55 | 344 | 33 / 222.0 / 934 | 24 {'flowchart': 21, 'table': 3} | 500/940 | 19% |
+| 512 (max 768) | 905 | 503 | 185 | 55 | 162 | 48 / 376 / 934 | 2 {'flowchart': 2} | 183/503 | 20% |
 
 Tokens per source_type (min / median / max):
 
 | variant | body_text | table | flowchart | figure |
 |---|---|---|---|---|
-| 256 | 7 / 226.0 / 277 | 58 / 218.5 / 447 | 4 / 290.5 / 934 | 4 / 204.0 / 381 |
-| 512 | 7 / 385 / 512 | 58 / 250 / 738 | 4 / 290.5 / 934 | 4 / 433.5 / 758 |
+| 256 | 33 / 227.0 / 278 | 58 / 219 / 446 | 73 / 301 / 934 | 40 / 207.0 / 381 |
+| 512 | 48 / 390 / 512 | 58 / 250 / 738 | 73 / 301 / 934 | 48 / 439.5 / 758 |
 
-Flowcharts: 53 Chandra algorithm blocks were matched to the Qwen3 description of the same figure (Chandra text kept, Qwen3 in `metadata.alt_description`); the other Qwen3 descriptions are figure chunks with `numbers_verified: false`. Sentences joined across a line break: 633, across a block/page break: 45. Sentences longer than max that had to be cut: 0.
+Flowcharts: 53 Chandra algorithm blocks were matched to the Qwen3 description of the same figure (Chandra text kept, Qwen3 in `metadata.alt_description`); the other Qwen3 descriptions are figure chunks with `numbers_verified: false`. Sentences joined across a line break: 644, across a block/page break: 52. Sentences longer than max that had to be cut: 0.
 
 Over-max chunks are flowcharts kept whole (rule 4 outranks the size limit) and single table rows longer than the limit (a row is never split).
 
@@ -187,8 +187,8 @@ Over-max chunks are flowcharts kept whole (rule 4 outranks the size limit) and s
 | 2 orphan blocks / lost sentences | 0 / 0 ✓ | 0 / 0 ✓ |
 | 3 chunks crossing a section / table parts without header | 0 / 0 ✓ | 0 / 0 ✓ |
 | 4 citations not matching | 0 ✓ | 0 ✓ |
-| 5 chunks under 40 tokens | 28 {'flowchart': 5, 'body_text': 9, 'figure': 14} | 21 {'flowchart': 5, 'body_text': 8, 'figure': 8} |
-| 5 numbers_verified (type:value) | {'body_text:True': 940, 'table:False': 124, 'flowchart:False': 60, 'figure:False': 335, 'table:True': 162, 'figure:True': 23, 'body_text:False': 8} | {'body_text:True': 507, 'table:False': 60, 'flowchart:False': 60, 'figure:False': 147, 'table:True': 125, 'figure:True': 23, 'body_text:False': 4} |
+| 5 chunks under 40 tokens | 1 {'body_text': 1} | 0 {} |
+| 5 numbers_verified (type:value) | {'body_text:True': 930, 'table:False': 125, 'flowchart:False': 55, 'figure:False': 329, 'table:True': 162, 'body_text:False': 10, 'figure:True': 15} | {'body_text:True': 499, 'table:False': 60, 'flowchart:False': 55, 'figure:False': 147, 'table:True': 125, 'body_text:False': 4, 'figure:True': 15} |
 
 Overall: **all checks passed**.
 
@@ -196,41 +196,14 @@ Token histogram, variant 256:
 
 | type | 0-39 | 40-63 | 64-127 | 128-191 | 192-255 | 256-383 | 384-511 | 512-767 | 768-1023 | 1024- |
 |---|---|---|---|---|---|---|---|---|---|---|
-| body_text | 9 | 14 | 98 | 199 | 604 | 24 | 0 | 0 | 0 | 0 |
-| figure | 14 | 18 | 38 | 84 | 176 | 28 | 0 | 0 | 0 | 0 |
-| flowchart | 5 | 0 | 7 | 8 | 8 | 11 | 11 | 8 | 2 | 0 |
-| table | 0 | 1 | 35 | 66 | 146 | 35 | 3 | 0 | 0 | 0 |
+| body_text | 1 | 14 | 98 | 199 | 601 | 27 | 0 | 0 | 0 | 0 |
+| figure | 0 | 18 | 37 | 84 | 174 | 31 | 0 | 0 | 0 | 0 |
+| flowchart | 0 | 0 | 7 | 8 | 7 | 12 | 11 | 8 | 2 | 0 |
+| table | 0 | 1 | 35 | 65 | 148 | 35 | 3 | 0 | 0 | 0 |
 
 <details><summary>Chunks under 40 tokens (256)</summary>
 
-- s06_stroke_syndrome_in_emergency_0033 (flowchart, 26 tok): 7. Decision tree, (algorithm) MANAGEMENT OF PATIENT WITH STROKE SYNDRO…
-- s14_cardiopulmonary_arrest_basic_and_advance_0012 (body_text, 22 tok): ## 5- First-line treatment of n hospital cardiac arrest (IHCA) ## Adul…
-- s14_cardiopulmonary_arrest_basic_and_advance_0016 (figure, 19 tok): Advance cardiac life support (ACLS) for adult (A-B-C-D)
-- s14_cardiopulmonary_arrest_basic_and_advance_0018 (flowchart, 9 tok): ### Airway management 6- Treatment adjustment
-- s14_cardiopulmonary_arrest_basic_and_advance_0025 (figure, 8 tok): C D 6- Treatment adj ustment
-- s14_cardiopulmonary_arrest_basic_and_advance_0050 (body_text, 7 tok): ## Adult ACLS Algorithm
-- s14_cardiopulmonary_arrest_basic_and_advance_0061 (figure, 13 tok): Algorithm for VF/ pulseless VT management
-- s14_cardiopulmonary_arrest_basic_and_advance_0062 (body_text, 8 tok): ## Algorithm for PEA management
-- s18_initial_management_of_chest_trauma_0017 (flowchart, 4 tok): Flail Chest
-- s18_initial_management_of_chest_trauma_0019 (figure, 4 tok): Flail Chest
-- s18_initial_management_of_chest_trauma_0021 (figure, 4 tok): Rib Fracture
-- s18_initial_management_of_chest_trauma_0025 (figure, 6 tok): Pulmonary Contusion
-- s21_hypokalemia_0021 (flowchart, 35 tok): Algorithm for treatment of hypokalemia K – potassium; Mg – magnesium; …
-- s26_snake_bites_0005 (figure, 29 tok): King cobra Monocellate cobra Indo-Chinese spitting cobra Red headed kr…
-- s27_massive_blood_transfusion_0004 (body_text, 14 tok): ## III. BLOOD PRODUCTS IN CLINICAL USE
-- s29_acute_coronary_syndrome_acs_non_st_eleva_0005 (flowchart, 29 tok): M. Smit et al. / Journal of Cardiothoracic and Vascular Anesthesia 00 …
-- s31_emergency_tachy_arrhythmia_0004 (body_text, 8 tok): ## IV. PIDERMIOLOGY
-- s31_emergency_tachy_arrhythmia_0019 (figure, 10 tok): I. MANAGEMENT II. MANAGEMENT
-- s31_emergency_tachy_arrhythmia_0038 (figure, 34 tok): Note: The ECG does not show clear signs of acute ischemia or infarctio…
 - s31_emergency_tachy_arrhythmia_0046 (body_text, 33 tok): ## IX. OMPLICATIONS The common complications include sudden cardiac de…
-- s32_emergency_bradycardia_0016 (figure, 17 tok): No abnormalities detected. Patient likely has a normal cardiac electri…
-- s32_emergency_bradycardia_0019 (figure, 34 tok): This is a 12-lead electrocardiogram (ECG) tracing, specifically lead I…
-- s35_hypertension_0015 (body_text, 20 tok): ## Antihypertensive recommendations based on patient co-morbidities an…
-- s38_aortic_stenosis_as_0006 (figure, 30 tok): No drug names, dosages, or specific clinical decision points are inclu…
-- s40_mitral_regurgitation_mr_0017 (figure, 28 tok): This classification is essential for guiding surgical planning and und…
-- s44_prevention_of_deep_venous_thrombosis_0003 (body_text, 39 tok): ## II. RISK ASSESSMENT AND PROPHYLACTIC RECOMMENDATION FOR ## MEDICAL …
-- s45_infectious_endocarditis_0047 (figure, 37 tok): \| Gentamicinc \| 3 mg/kg/day i.v. or i.m. in 3 equally divided doses \| …
-- s48_constrictive_pericarditis_0019 (body_text, 32 tok): ## Diagnosis and therapeutic approach for relapsing pericarditis ## Th…
 
 </details>
 
@@ -238,36 +211,10 @@ Token histogram, variant 512:
 
 | type | 0-39 | 40-63 | 64-127 | 128-191 | 192-255 | 256-383 | 384-511 | 512-767 | 768-1023 | 1024- |
 |---|---|---|---|---|---|---|---|---|---|---|
-| body_text | 8 | 4 | 22 | 28 | 74 | 119 | 246 | 10 | 0 | 0 |
-| figure | 8 | 2 | 8 | 8 | 8 | 34 | 63 | 39 | 0 | 0 |
-| flowchart | 5 | 0 | 7 | 8 | 8 | 11 | 11 | 8 | 2 | 0 |
+| body_text | 0 | 4 | 22 | 28 | 74 | 119 | 246 | 10 | 0 | 0 |
+| figure | 0 | 2 | 8 | 7 | 9 | 34 | 63 | 39 | 0 | 0 |
+| flowchart | 0 | 0 | 7 | 8 | 7 | 12 | 11 | 8 | 2 | 0 |
 | table | 0 | 1 | 28 | 42 | 23 | 33 | 44 | 14 | 0 | 0 |
-
-<details><summary>Chunks under 40 tokens (512)</summary>
-
-- s06_stroke_syndrome_in_emergency_0018 (flowchart, 26 tok): 7. Decision tree, (algorithm) MANAGEMENT OF PATIENT WITH STROKE SYNDRO…
-- s14_cardiopulmonary_arrest_basic_and_advance_0008 (body_text, 22 tok): ## 5- First-line treatment of n hospital cardiac arrest (IHCA) ## Adul…
-- s14_cardiopulmonary_arrest_basic_and_advance_0010 (figure, 19 tok): Advance cardiac life support (ACLS) for adult (A-B-C-D)
-- s14_cardiopulmonary_arrest_basic_and_advance_0012 (flowchart, 9 tok): ### Airway management 6- Treatment adjustment
-- s14_cardiopulmonary_arrest_basic_and_advance_0017 (figure, 8 tok): C D 6- Treatment adj ustment
-- s14_cardiopulmonary_arrest_basic_and_advance_0031 (body_text, 7 tok): ## Adult ACLS Algorithm
-- s14_cardiopulmonary_arrest_basic_and_advance_0038 (figure, 13 tok): Algorithm for VF/ pulseless VT management
-- s14_cardiopulmonary_arrest_basic_and_advance_0039 (body_text, 8 tok): ## Algorithm for PEA management
-- s18_initial_management_of_chest_trauma_0010 (flowchart, 4 tok): Flail Chest
-- s18_initial_management_of_chest_trauma_0012 (figure, 4 tok): Flail Chest
-- s18_initial_management_of_chest_trauma_0014 (figure, 4 tok): Rib Fracture
-- s18_initial_management_of_chest_trauma_0016 (figure, 6 tok): Pulmonary Contusion
-- s21_hypokalemia_0011 (flowchart, 35 tok): Algorithm for treatment of hypokalemia K – potassium; Mg – magnesium; …
-- s26_snake_bites_0003 (figure, 29 tok): King cobra Monocellate cobra Indo-Chinese spitting cobra Red headed kr…
-- s29_acute_coronary_syndrome_acs_non_st_eleva_0004 (flowchart, 29 tok): M. Smit et al. / Journal of Cardiothoracic and Vascular Anesthesia 00 …
-- s31_emergency_tachy_arrhythmia_0010 (figure, 10 tok): I. MANAGEMENT II. MANAGEMENT
-- s35_hypertension_0012 (body_text, 20 tok): ## Antihypertensive recommendations based on patient co-morbidities an…
-- s44_prevention_of_deep_venous_thrombosis_0002 (body_text, 39 tok): ## II. RISK ASSESSMENT AND PROPHYLACTIC RECOMMENDATION FOR ## MEDICAL …
-- s47_pericarditis_0002 (body_text, 10 tok): ## IV. PATHOPHYSIOLOGY
-- s48_constrictive_pericarditis_0011 (body_text, 32 tok): ## Diagnosis and therapeutic approach for relapsing pericarditis ## Th…
-- s51_cardiac_evaluation_before_non_cardiac_su_0005 (body_text, 18 tok): ## IV. APPROACH TO PERIOPERATIVE CARDIAC TESTING
-
-</details>
 
 Preview: `out/pipeline/stage5_validate/chunks_preview.html`
 

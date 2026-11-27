@@ -14,11 +14,21 @@ Rules, in priority order
   5 other figure chunks (Qwen3 descriptions) numbers_verified = false
   6 text chunks overlap by ~15 % (whole sentences, only between consecutive text chunks of one text run)
   7 front matter (pages 1-16), chapter title pages and reference lists -> excluded.jsonl
-Outputs (stage4_chunk/): chunks_<variant>.jsonl, excluded.jsonl, sections.json, chunk_stats.json
+  8 a chunk under min_tokens_flag is merged into the next chunk of the same section (metadata.merged_from);
+    one at the end of a section stays as it is
+Clean-up before chunking (fix_text, shared with stage 5): page-checked manual fixes from config chunk.text_fixes, then
+LaTeX left in OCR'd tables -> plain text ('$4\\!-\\!6$' -> '4-6', '$0.34 \\text{m}^3$' -> '0.34 m³').
+While chunking: a '#' line that continues the previous unfinished line is text, not a heading (stray_hash); a table
+whose header row is only repeated score numbers (NEWS-2) gets 'Score 3 (low)' ... 'Score 3 (high)' headers
+(metadata.original_header keeps the old one).
+Citations use the printed page number (PDF page - page_offset, checked against each page's footer); `pages` keeps the
+PDF page. Document errata (config chunk.errata) are tagged on chunks as metadata.errata; the text is not changed.
+Outputs (stage4_chunk/): chunks_<variant>.jsonl, excluded.jsonl, sections.json, chunk_stats.json, text_fixes.json,
+stray_headings.json; and out/pipeline/errata.json, out/pipeline/manual_review_tables.csv
 """
-import collections, difflib, json, os, re, statistics, time
+import collections, csv, difflib, json, os, re, statistics, time
 
-from pipeline.common import StageFailed, inp, read_jsonl, stage_dir, write_json, write_jsonl
+from pipeline.common import StageFailed, inp, p, read_jsonl, stage_dir, write_json, write_jsonl
 
 TYPE_MAP = {"text": "body_text", "table": "table", "image": "figure", "algorithm": "flowchart"}
 LAYER_SOURCES = {"pdf_text", "mmore_table+pdf_text", "docling_grid+pdf_text", "pdf_text_table"}
@@ -139,6 +149,107 @@ def ends_sentence(t):
     return bool(t) and (t[-1] in ".!?:;" or t.startswith("#"))
 
 
+LIST_LABEL = re.compile(r"(?:[a-z]{1,4}|\d{1,2})\s*[.)\-]\s")             # 'a. ' 'ii. ' 'b) ' '2- '
+END_WORD = re.compile(r"\b(?:of|and|or|the|to|with|in|for|a|an|by|on|at|from|as|is|are|than|that|which|if|when|"
+                      r"after|before|per|without|within|including|such)$", re.I)
+
+
+def stray_hash(prev, line):
+    """A '#' line that Docling marked as a heading but that is the rest of the previous line -> 'sentence' | 'heading'
+    | None. 'sentence': `prev` is an unfinished text line and the line starts with an all-lowercase word (p398
+    '## repeat ultrasound after 5 – 7 days'), or `prev` ends on a connective word ('... when the' + '## Bishop score
+    ...'), or the line starts with a number that is not a list label ('..., ## 20% die within 6 months') -> text,
+    joined to that sentence. 'heading': `prev` is a long heading line (>= 60 characters, wrapped at the page width)
+    and the line starts with an all-lowercase word ('## ... with hemodynamic' + '## instability') -> one heading.
+    List labels ('## a. Signs', '## ii. Reperfusion'), Roman-numeral headings and capitalised headings after a list
+    ending in ',' stay headings."""
+    rest = re.sub(r"^\s*#+\s*", "", line)
+    if not prev or LIST_LABEL.match(rest) or ROMAN_HEAD.match(line.strip()):
+        return None
+    w = (re.match(r"\S+", rest) or [""])[0]
+    lower = bool(re.fullmatch(r"[a-z][a-z0-9\-/]*[,.:;]?", w))
+    if prev.lstrip().startswith("#"):
+        return "heading" if lower and len(re.sub(r"^\s*#+\s*", "", prev).strip()) >= 60 else None
+    if ends_sentence(prev):
+        return None
+    if lower or END_WORD.search(prev.rstrip()):
+        return "sentence"
+    return "sentence" if re.match(r"\d", rest) and not re.match(r"\d{1,2}\s*[.)\-]\s", rest) else None
+
+
+# ---------------------------------------------------------------- text fixes (stage-3 blocks, before chunking)
+LATEX = re.compile(r"\$([^$\n]{1,80}?)\$")
+SUPERSCRIPT = str.maketrans("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")
+LATEX_LEFT = re.compile(r"\\[a-zA-Z]{1,12}\b|\\[!$]|\$[^$\n]{0,40}[\\^][^$\n]{0,40}\$")
+
+
+def delatex(s):
+    """Inline LaTeX from the OCR of image tables -> plain text. '$...$' without a backslash or '^' is left alone."""
+    def conv(m):
+        t = m.group(1)
+        if "\\" not in t and "^" not in t:
+            return m.group(0)
+        t = t.replace("\\!", "")                                         # thin negative space: 4\!-\!6 -> 4-6
+        t = re.sub(r"\\(?:text|mathrm)\s*\{([^}]*)\}", r"\1", t)          # \text{m} -> m
+        if re.fullmatch(r"\s*\^\{?[\d\s,–-]+\}?\s*", t):                  # reference superscript ^{322-327}
+            return "<sup>" + re.sub(r"[\s^{}]", "", t).replace("-", "–") + "</sup>"
+        t = re.sub(r"\^\{?(\d)\}?", lambda k: k[1].translate(SUPERSCRIPT), t)   # unit power m^3 -> m³
+        return re.sub(r"\s+", " ", t).strip()
+    return LATEX.sub(conv, s)
+
+
+def fix_text(blocks, cc):
+    """Manual fixes (config chunk.text_fixes, each checked against the page image) then delatex, on every block.
+    Stage 5 calls this too, so its sentence check compares the chunks with the same text.
+    -> new blocks, log of changes, unused manual fixes, LaTeX-like text still left [(block, page, text)]"""
+    fixes = cc.get("text_fixes") or []
+    used, log_, out = collections.Counter(), [], []
+    for b in blocks:
+        t = b["content"]
+        for i, f in enumerate(fixes):
+            if b["page"] == f["page"] and f["find"] in t:
+                n = t.count(f["find"])
+                t = t.replace(f["find"], f["replace"])
+                used[i] += n
+                log_.append({"block": b["id"], "page": b["page"], "kind": "manual (page image)", "before": f["find"],
+                             "after": f["replace"], "count": n, "why": f["why"]})
+        for m in LATEX.finditer(t):
+            new = delatex(m.group(0))
+            if new != m.group(0):
+                log_.append({"block": b["id"], "page": b["page"], "kind": "latex", "before": m.group(0), "after": new})
+        t = delatex(t)
+        out.append({**b, "content": t} if t != b["content"] else b)
+    unused = [f for i, f in enumerate(fixes) if not used[i]]
+    left = [(b["id"], b["page"], m.group(0)) for b in out for m in LATEX_LEFT.finditer(b["content"])]
+    return out, log_, unused, left
+
+
+# ---------------------------------------------------------------- score tables
+def _cells(line):
+    return [x.strip() for x in line.strip().strip("|").split("|")]
+
+
+def rename_score_header(text):
+    """A table whose header (or first row under it) is only repeated score numbers, e.g. NEWS-2
+    '| parameter | 3 | 2 | 1 | 0 | 1 | 2 | 3 |' -> one header row
+    '| Physiological parameter | Score 3 (low) | Score 2 (low) | Score 1 (low) | Score 0 | Score 1 (high) | ... |'.
+    -> (new text, original header lines) or None"""
+    lines = text.split("\n")
+    if len(lines) < 3 or not re.fullmatch(r"\|[\s|:-]*\|", lines[1].strip()):
+        return None
+    for r in (0, 2):
+        cs = _cells(lines[r])
+        nums = cs[1:]
+        if len(nums) >= 4 and all(re.fullmatch(r"\d+", x) for x in nums) and len(set(nums)) < len(nums):
+            zero = nums.index("0") if "0" in nums else None
+            labels = [f"Score {x}" + ("" if zero is None or i == zero else " (low)" if i < zero else " (high)")
+                      for i, x in enumerate(nums)]
+            first = " ".join(x for x in (_cells(lines[0])[0], cs[0] if r else "") if x)
+            head = "| " + " | ".join([first] + labels) + " |"
+            return "\n".join([head, lines[1]] + lines[r + 1 if r else 2:]), "\n".join(lines[:r + 1])
+    return None
+
+
 # ---------------------------------------------------------------- regions
 def assign_regions(blocks, pdf, BU, cfg, toc):
     """Split every block into pieces (block, line range) with a region:
@@ -243,6 +354,9 @@ def run(cfg, log):
     t0 = time.time()
     pdf = pymupdf.open(inp(cfg, "pdf"))
     blocks = read_jsonl(os.path.join(stage_dir(cfg, "verify"), "unified_output.verified.jsonl"))
+    blocks, fix_log, unused, latex_left = fix_text(blocks, cc)
+    if unused:
+        raise StageFailed(f"config chunk.text_fixes not found in the text (stale?): {unused}")
     chapters, sections, toc_skipped = parse_toc(pdf, cc["toc_pages"])
     if not sections:
         raise StageFailed("no sections parsed from the TOC pages")
@@ -289,9 +403,57 @@ def run(cfg, log):
         variants[var["name"]] = (chunks, vstats)
 
     out = stage_dir(cfg, "chunk")
+
+    # ---- printed page numbers: PDF page - offset, checked against the number in each page's footer
+    def footer(pg):
+        page = pdf[pg - 1]
+        return [int(t[4]) for t in page.get_text("blocks")
+                if t[1] > 0.9 * page.rect.height and re.fullmatch(r"\s*\d{1,3}\s*", t[4])]
+    idx_pages = sorted({pg for chunks, _ in variants.values() for c in chunks for pg in c["pages"]})
+    foot = {pg: footer(pg) for pg in idx_pages}
+    printed_check = {
+        "rule": f"printed page = PDF page - {cc['page_offset']}",
+        "indexed_pages": len(idx_pages),
+        "pages_without_footer_number": [pg for pg in idx_pages if not foot[pg]],
+        "pages_footer_disagrees": [{"pdf_page": pg, "printed_by_rule": pg - cc["page_offset"], "footer": foot[pg]}
+                                   for pg in idx_pages if foot[pg] and pg - cc["page_offset"] not in foot[pg]],
+        "chunks_without_printed_page": {n: [c["chunk_id"] for c in ch if not c["metadata"].get("printed_pages")]
+                                        for n, (ch, _) in variants.items()}}
+
+    # ---- document errata (errors in the guideline itself): tag chunks, text unchanged
+    errata = []
+    for e in cc.get("errata") or []:
+        rx = [(m["page"], re.compile(m["regex"], re.I)) for m in e["match"]]
+        hits = {n: [c["chunk_id"] for c in ch if any(pg in c["pages"] and r.search(c["text_en"]) for pg, r in rx)]
+                for n, (ch, _) in variants.items()}
+        for n, (ch, _) in variants.items():
+            for c in ch:
+                if c["chunk_id"] in hits[n]:
+                    c["metadata"].setdefault("errata", []).append(e["id"])
+        errata.append({k: v for k, v in e.items() if k != "match"} | {"chunks": hits})
+        if not all(hits.values()):
+            raise StageFailed(f"erratum {e['id']}: no chunk matched in some variant {hits}")
+    write_json(os.path.join(p(cfg["output_root"]), "errata.json"),
+               {"note": "Errors in the source document itself, not pipeline errors. The chunk text is NOT changed; "
+                        "chunks that contain an erratum carry metadata.errata = [id].", "errata": errata})
+
+    # ---- tables whose numbers could not be checked against the text layer (pictures in the PDF): manual review
+    with open(os.path.join(p(cfg["output_root"]), "manual_review_tables.csv"), "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["page", "chunk_id", "variant", "printed_page"])
+        for n, (ch, _) in variants.items():
+            for c in ch:
+                if c["source_type"] == "table" and not c["numbers_verified"]:
+                    for pg in c["pages"]:
+                        w.writerow([pg, c["chunk_id"], n, pg - cc["page_offset"]])
+
     for name, (chunks, _) in variants.items():
         write_jsonl(os.path.join(out, f"chunks_{name}.jsonl"), chunks)
     write_jsonl(os.path.join(out, "excluded.jsonl"), excluded)
+    write_json(os.path.join(out, "text_fixes.json"), {"changes": fix_log, "latex_like_text_left": latex_left})
+    stray = next(iter(variants.values()))[1]["stray_hash_lines"]
+    write_json(os.path.join(out, "stray_headings.json"),
+               {"rule": stray_hash.__doc__.split("\n")[0], "count": len(stray), "lines": stray})
 
     # ---- section report: TOC, start pages, mapping of the stage-2 labels
     assigned = {}
@@ -344,20 +506,73 @@ def run(cfg, log):
     stats = {name: vs for name, (_, vs) in variants.items()}
     stats["excluded"] = dict(collections.Counter(e["reason"] for e in excluded))
     stats["excluded_records"] = len(excluded)
+    stats["printed_pages"] = printed_check
+    stats["text_fixes"] = {"changes": len(fix_log), "latex_like_text_left": len(latex_left)}
     write_json(os.path.join(out, "chunk_stats.json"), stats)
     for name, (chunks, vs) in variants.items():
-        log(f"variant {name}: {len(chunks)} chunks {vs['per_source_type']} tokens {vs['tokens']}")
+        log(f"variant {name}: {len(chunks)} chunks {vs['per_source_type']} tokens {vs['tokens']}; "
+            f"tiny merged {vs['tiny_merged']}, left {len(vs['tiny_left'])}")
     log(f"TOC: {len(sections)} sections in {len(chapters)} chapters; excluded {stats['excluded']}")
+    log(f"text fixes {len(fix_log)} (LaTeX-like left {len(latex_left)}); stray '#' lines {len(stray)}; "
+        f"errata {[(e['id'], {n: len(v) for n, v in e['chunks'].items()}) for e in errata]}; printed pages: "
+        f"no footer {printed_check['pages_without_footer_number']}, footer disagrees {printed_check['pages_footer_disagrees']}")
+    skip = {"flowchart_pairs", "stray_hash_lines"}
     return {"toc_sections": len(sections), "chapters": len(chapters), "excluded": stats["excluded"],
-            "variants": {n: {"chunks": len(c), **{k: v for k, v in vs.items() if k != "flowchart_pairs"}}
+            "text_fixes": stats["text_fixes"], "stray_hash_lines": len(stray), "printed_pages": printed_check,
+            "errata": {e["id"]: e["chunks"] for e in errata},
+            "variants": {n: {"chunks": len(c), **{k: v for k, v in vs.items() if k not in skip}}
                          for n, (c, vs) in variants.items()}, "seconds": round(time.time() - t0, 1)}
+
+
+def citation(ch, num, title, pages, offset):
+    """'Ch. I §3 Early Warning Score in Hospital, p. 30': the PRINTED page (PDF page - offset), the page number a
+    reader of the printed guideline sees. The chunk's `pages` keep the PDF page (for the page image)."""
+    pr = [pg - offset for pg in pages]
+    return f"Ch. {ch} §{num} {title}, " + (f"p. {pr[0]}" if len(pr) == 1 else f"pp. {pr[0]}–{pr[-1]}")
+
+
+def merge_tiny(chunks, cc, tok, stats):
+    """Each chunk under min_tokens_flag (and a run of them) goes in front of the next chunk of the same section.
+    The merged chunk keeps the next chunk's id and type; metadata.merged_from lists what was merged in."""
+    mn, out, pending, left = cc["min_tokens_flag"], [], [], []
+
+    def merge(small, c):
+        sep = "\n" if c["source_type"] == "body_text" else "\n\n"
+        text = sep.join([x["text_en"] for x in small] + [c["text_en"]])
+        assert c["embed_text_en"].endswith(c["text_en"])
+        emb = c["embed_text_en"][:len(c["embed_text_en"]) - len(c["text_en"])] + text
+        pages = sorted({pg for x in small + [c] for pg in x["pages"]})
+        m = dict(c["metadata"])
+        alts = [x["metadata"]["alt_description"] for x in small + [c] if x["metadata"].get("alt_description")]
+        if alts:                                                 # a paired Qwen3 description of a merged flowchart
+            m["alt_description"] = "\n\n".join(alts)
+        m.update(printed_pages=[pg - cc["page_offset"] for pg in pages], embed_tokens=tok(emb),
+                 merged_from=[{"chunk_id": x["chunk_id"], "source_type": x["source_type"], "tokens": x["tokens"],
+                               "pages": x["pages"]} for x in small])
+        return {**c, "pages": pages, "text_en": text, "embed_text_en": emb, "tokens": tok(text),
+                "citation": citation(c["chapter"], c["section_number"], c["section_title"], pages, cc["page_offset"]),
+                "source": "+".join(sorted({s for x in small + [c] for s in x["source"].split("+")})),
+                "block_ids": list(dict.fromkeys(b for x in small + [c] for b in x["block_ids"])),
+                "numbers_verified": all(x["numbers_verified"] for x in small + [c]), "metadata": m}
+
+    for c in chunks:
+        if pending and pending[0]["section_number"] != c["section_number"]:
+            out += pending; left += pending; pending = []        # never merge across a section
+        if c["tokens"] < mn:
+            pending.append(c); continue
+        if pending:
+            stats["tiny_merged"] += len(pending)
+            c = merge(pending, c); pending = []
+        out.append(c)
+    out += pending; left += pending
+    return out, [{"chunk_id": x["chunk_id"], "tokens": x["tokens"], "reason": "last chunk of its section"} for x in left]
 
 
 def build_variant(var, cc, streams, info, chap_title, tok, verified):
     target, mx = var["target"], var["max"]
     ovl_budget = cc["overlap"] * target
     chunks, stats = [], collections.Counter()
-    pairs = []
+    pairs, stray = [], []
 
     for num, items in streams.items():
         s = info[num]
@@ -372,7 +587,7 @@ def build_variant(var, cc, streams, info, chap_title, tok, verified):
             sub = "; ".join(subs) if subs else None
             seq[0] += 1
             crumb = f"Chapter {ch} {chap_title.get(ch, '')} > {num}. {s['title']}" + (f" > {sub}" if sub else "")
-            cite = f"Ch. {ch} §{num} {s['title']}, " + (f"p. {pages[0]}" if len(pages) == 1 else f"pp. {pages[0]}–{pages[-1]}")
+            cite = citation(ch, num, s["title"], pages, cc["page_offset"])
             emb = crumb + "\n" + (extra.pop("_embed_prefix", "") or "") + text
             srcs = sorted(sources)
             nv = verified(text, pages, set(srcs)) if verified_flag is None else verified_flag
@@ -411,6 +626,16 @@ def build_variant(var, cc, streams, info, chap_title, tok, verified):
                 for li, line in enumerate(text.split("\n")):
                     if not line.strip():
                         continue
+                    sk = stray_hash(prev_text_line, line) if line.lstrip().startswith("#") else None
+                    if sk:
+                        stray.append({"page": b["page"], "block": b["id"], "section": num, "fixed_as": sk,
+                                      "previous_line": prev_text_line.strip()[-80:], "line": line.strip()})
+                        rest = re.sub(r"^\s*#+\s*", "", line)
+                        if sk == "heading" and last_unit is not None and last_unit["kind"] == "heading":
+                            last_unit["text"] += " " + rest                 # second line of a wrapped heading
+                            prev_text_line = line
+                            continue
+                        line = rest                                     # text, joined to the sentence it continues
                     if line.lstrip().startswith("#"):
                         m = ROMAN_HEAD.match(line.strip())
                         if m:
@@ -518,6 +743,8 @@ def build_variant(var, cc, streams, info, chap_title, tok, verified):
             cur.append(u)
         flush(carry=False)
 
+    under = sum(1 for c in chunks if c["tokens"] < cc["min_tokens_flag"])
+    chunks, tiny_left = merge_tiny(chunks, cc, tok, stats)
     toks = [c["tokens"] for c in chunks]
     per_type = collections.Counter(c["source_type"] for c in chunks)
     tk = {t: [c["tokens"] for c in chunks if c["source_type"] == t] for t in per_type}
@@ -530,7 +757,8 @@ def build_variant(var, cc, streams, info, chap_title, tok, verified):
                     "over_max_by_type": dict(collections.Counter(c["source_type"] for c in chunks if c["tokens"] > mx)),
                     "mean_overlap_fraction": round(statistics.mean(ov), 3) if ov else 0,
                     "text_chunks_with_overlap": f"{len(ov)}/{text_n}",
-                    "flowchart_pairs": pairs, "counters": dict(stats)}
+                    "tiny_before_merge": under, "tiny_merged": stats["tiny_merged"], "tiny_left": tiny_left,
+                    "flowchart_pairs": pairs, "stray_hash_lines": stray, "counters": dict(stats)}
 
 
 def cut_sentence(text, tok, target):
@@ -604,6 +832,11 @@ def emit_atom(a, emit, tok, target, mx, stats):
         emit("figure", a["text"], um, meta, {b["source"]})
         return
     # table
+    renamed = rename_score_header(a["text"])
+    if renamed:
+        a = dict(a, text=renamed[0])
+        meta["original_header"] = renamed[1]
+        stats["score_headers_renamed"] += 1
     lines = a["text"].split("\n")
     if tok(a["text"]) <= mx or len(lines) < 4 or not re.fullmatch(r"\|[\s|:-]*\|", lines[1].strip()):
         emit("table", a["text"], um, meta, {b["source"]})

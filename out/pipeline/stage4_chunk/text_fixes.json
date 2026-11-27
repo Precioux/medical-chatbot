@@ -1,0 +1,74 @@
+{
+ "changes": [
+  {
+   "block": "chunk_00085",
+   "page": 34,
+   "kind": "latex",
+   "before": "$0.34  \\text{m}^3$",
+   "after": "0.34 m³"
+  },
+  {
+   "block": "chunk_00085",
+   "page": 34,
+   "kind": "latex",
+   "before": "$1.36  \\mathrm{m}^3$",
+   "after": "1.36 m³"
+  },
+  {
+   "block": "chunk_00085",
+   "page": 34,
+   "kind": "latex",
+   "before": "$3.4  \\mathrm{m}^3$",
+   "after": "3.4 m³"
+  },
+  {
+   "block": "chunk_00085",
+   "page": 34,
+   "kind": "latex",
+   "before": "$6.8  \\text{m}^3$",
+   "after": "6.8 m³"
+  },
+  {
+   "block": "chunk_01158",
+   "page": 412,
+   "kind": "manual (page image)",
+   "before": "combined with $\\nu$ be considered",
+   "after": "combined with be considered",
+   "count": 1,
+   "why": "the image reads '... daptomycin combined with ceftaroline or fosfomycin may be considered'; the OCR put 'ceftaroline or fosfomycin may' in the first cell of the row and read the end of 'may' as $\nu$"
+  },
+  {
+   "block": "chunk_01158",
+   "page": 412,
+   "kind": "latex",
+   "before": "$^{322-327}$",
+   "after": "<sup>322–327</sup>"
+  },
+  {
+   "block": "chunk_01159",
+   "page": 413,
+   "kind": "latex",
+   "before": "$4\\!-\\!6$",
+   "after": "4-6"
+  },
+  {
+   "block": "chunk_01188",
+   "page": 422,
+   "kind": "manual (page image)",
+   "before": "combined with\\ne considered",
+   "after": "combined with be considered",
+   "count": 9,
+   "why": "same table as p412 (printed again); the image reads '... may be considered'; '\n' is an escaped line break left by the OCR inside the word 'be'"
+  },
+  {
+   "block": "chunk_01243",
+   "page": 443,
+   "kind": "manual (page image)",
+   "before": "\\$4",
+   "after": "S4",
+   "count": 1,
+   "why": "Table 1, Heart / STOP column: the image reads 'Loud systolic murmur, diastolic murmur, S4' (4th heart sound)"
+  }
+ ],
+ "latex_like_text_left": []
+}
